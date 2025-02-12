@@ -1,0 +1,26 @@
+[
+	{
+		"index": 1,
+		"title": "Requirements",
+		"desc": "Checking product requirements",
+		"template": "requirements"
+	},
+	{
+		"index": 2,
+		"title": "Product License",
+		"desc": "Associate licence for this installation",
+		"template": "license"
+	},
+	{
+		"index": 3,
+		"title": "Installation",
+		"desc": "Setting up necessary dependencies for EasySocial",
+		"template": "installing"
+	},
+	{
+		"index": 4,
+		"title": "Maintenance",
+		"desc": "Performing necessary maintenance tasks",
+		"template": "maintenance"
+	}
+]

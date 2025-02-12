@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+	<name>com_easysocial</name>
+	<creationDate>16th January 2024</creationDate>
+	<author>Stack Ideas Sdn Bhd</author>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>http://stackideas.com</authorUrl>
+	<copyright>Copyright 2009 - 2017 Stack Ideas Sdn Bhd. All Rights Reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>4.0.14</version>
+	<description><![CDATA[]]></description>
+	<scriptfile>script.php</scriptfile>
+	<administration>
+		<menu link="option=com_easysocial">COM_EASYSOCIAL</menu>
+		<submenu>
+			<menu link="option=com_easysocial">COM_EASYSOCIAL_MENU_DASHBOARD</menu>
+			<menu view="settings">COM_EASYSOCIAL_MENU_SETTINGS</menu>
+			<menu view="users">COM_EASYSOCIAL_MENU_USERS</menu>
+			<menu view="groups">COM_EASYSOCIAL_MENU_GROUPS</menu>
+			<menu view="events">COM_EASYSOCIAL_MENU_EVENTS</menu>
+			<menu view="pages">COM_EASYSOCIAL_MENU_PAGES</menu>
+			<menu view="marketplaces">COM_EASYSOCIAL_MENU_MARKETPLACE</menu>
+			<menu view="themes">COM_EASYSOCIAL_MENU_THEMES</menu>
+			<menu view="comments">COM_EASYSOCIAL_MENU_COMMENTS</menu>
+			<menu view="albums">COM_EASYSOCIAL_MENU_ALBUMS</menu>
+			<menu view="profiles">COM_EASYSOCIAL_MENU_PROFILES</menu>
+			<menu view="videos">COM_EASYSOCIAL_MENU_VIDEOS</menu>
+			<menu view="audios">COM_EASYSOCIAL_MENU_AUDIOS</menu>
+			<menu view="privacy">COM_EASYSOCIAL_MENU_PRIVACY</menu>
+			<menu view="points">COM_EASYSOCIAL_MENU_POINTS</menu>
+			<menu view="polls">COM_EASYSOCIAL_MENU_POLLS</menu>
+			<menu view="alerts">COM_EASYSOCIAL_MENU_ALERTS</menu>
+			<menu view="badges">COM_EASYSOCIAL_MENU_BADGES</menu>
+			<menu view="apps">COM_EASYSOCIAL_MENU_APPS</menu>
+			<menu view="reports">COM_EASYSOCIAL_MENU_REPORTS</menu>
+			<menu view="stream">COM_EASYSOCIAL_MENU_STREAM</menu>
+			<menu view="mailer">COM_EASYSOCIAL_MENU_EMAIL_ACTIVITIES</menu>
+			<menu view="languages">COM_EASYSOCIAL_MENU_LANGUAGES</menu>
+			<menu view="migrators">COM_EASYSOCIAL_MENU_MIGRATORS</menu>
+		</submenu>
+		<files folder="admin">
+			<folder>setup</folder>
+			<file>easysocial.php</file>
+			<file>script.php</file>
+			<file>setup.html</file>
+			<file>config.xml</file>
+			<file>easysocial.xml</file>
+			<file>access.xml</file>
+		</files>
+		<languages>
+			<language tag="en-GB">languages/admin/en-GB.com_easysocial.ini</language>
+			<language tag="en-GB">languages/admin/en-GB.com_easysocial.sys.ini</language>
+		</languages>
+	</administration>
+	<languages>
+		<language tag="en-GB">languages/site/en-GB.com_easysocial.ini</language>
+	</languages>
+	<updateservers>
+		<server type="extension" name="EasySocial Update Site">https://stackideas.com/jupdates/manifest/easysocial</server>
+	</updateservers>
+</extension>
