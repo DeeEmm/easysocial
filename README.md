@@ -38,6 +38,7 @@ Contributing to the project is easy. You do not need to be a programmer or tech-
 If you are a StackIdeas user then the following components may also be of interest. These projects are also supported by the Open Source community.
 
 https://github.com/DeeEmm/easyblog
+
 https://github.com/DeeEmm/easydiscuss
 
 (Please consider contributing to these projects too)
