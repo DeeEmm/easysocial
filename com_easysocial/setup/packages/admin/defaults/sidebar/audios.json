@@ -1,0 +1,30 @@
+{
+	"title" : "COM_EASYSOCIAL_MENU_GROUP_AUDIOS",
+	"link"  : "index.php?option=com_easysocial&view=audios",
+	"class" : "fa fa-music",
+	"access": "easysocial.access.audios",
+	"view"  : "audios",
+	"active": "layout",
+	"childs": [
+		{
+			"title": "COM_EASYSOCIAL_MENU_ITEM_AUDIOS",
+			"url": {
+				"view": "audios",
+				"layout": ""
+			},
+			"activeLayouts": [
+				"form"
+			]
+		},
+		{
+			"title": "COM_EASYSOCIAL_MENU_ITEM_AUDIO_GENRES",
+			"url": {
+				"view": "audiogenres",
+				"layout": ""
+			},
+			"activeLayouts": [
+				"form"
+			]
+		}
+	]
+}

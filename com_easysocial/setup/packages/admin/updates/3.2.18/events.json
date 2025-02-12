@@ -1,0 +1,12 @@
+[
+	{
+		"table": "#__social_events_meta",
+		"index": "idx_groupid",
+		"query": "ALTER TABLE `#__social_events_meta` ADD INDEX `idx_groupid` (`group_id`)"
+	},
+	{
+		"table": "#__social_events_meta",
+		"index": "idx_pageid",
+		"query": "ALTER TABLE `#__social_events_meta` ADD INDEX `idx_pageid` (`page_id`)"
+	}
+]

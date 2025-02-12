@@ -1,0 +1,15 @@
+{
+	"name"		: "Dark",
+	"element"	: "dark",
+	"desc"		: "This theme is suitable for websites that uses a Joomla template which is dark. Most of the theme files on this theme are inherited from the main wireframe theme.",
+	"author"	: "Stack Ideas Sdn Bhd",
+	"email"		: "support@stackideas.com",
+	"website"	: "http://stackideas.com",
+	"created"	: "26th May 2013",
+	"version"	: "1.0.1",
+	"servers"	: 
+	{
+		"update"	: "http://stackideas.com/",
+		"version"	: "http://stackideas.com"
+	}
+}

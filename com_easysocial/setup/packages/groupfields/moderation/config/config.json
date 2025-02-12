@@ -1,0 +1,19 @@
+{
+	"title": {
+		"default": "COM_EASYSOCIAL_APP_GROUP_MODERATION_TITLE"
+	},
+	"description": {
+		"default": "COM_EASYSOCIAL_APP_GROUP_MODERATION_DESC"
+	},
+	"visible_display": false,
+	"searchable": false,
+	"default": false,
+
+	"notification":
+	{
+		"label"		: "PLG_FIELDS_MODERATION_CONFIG_NOTIFICATION",
+		"tooltip"	: "PLG_FIELDS_MODERATION_CONFIG_NOTIFICATION_DESC",
+		"type"		: "boolean",
+		"default"	: false
+	}
+}

@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__social_regions",
+        "column"    : "ordering",
+        "query"     : "ALTER TABLE  `#__social_regions` ADD `ordering` int(11) NOT NULL DEFAULT 0"
+    }
+]

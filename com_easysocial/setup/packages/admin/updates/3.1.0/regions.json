@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_regions",
+		"index": "idx_country",
+		"query": "ALTER TABLE `#__social_regions` ADD INDEX `idx_country` (`type` (64), `state`, `ordering`);"
+	}
+]

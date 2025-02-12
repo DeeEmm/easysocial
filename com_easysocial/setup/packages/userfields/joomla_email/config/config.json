@@ -1,0 +1,67 @@
+{
+	"title": {
+		"default": "PLG_FIELDS_JOOMLA_EMAIL_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_JOOMLA_EMAIL_DEFAULT_DESCRIPTION"
+	},
+
+
+	"allowed":
+	{
+		"label"		: "PLG_FIELDS_JOOMLA_EMAIL_CONFIG_ALLOWED_DOMAINS",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_EMAIL_CONFIG_ALLOWED_DOMAINS_DESC",
+		"info"		: "PLG_FIELDS_JOOMLA_EMAIL_CONFIG_ALLOWED_DOMAINS_INFO",
+		"type"		: "textarea"
+	},
+
+
+	"disallowed":
+	{
+		"label"		: "PLG_FIELDS_JOOMLA_EMAIL_CONFIG_DISALLOWED_DOMAINS",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_EMAIL_CONFIG_DISALLOWED_DOMAINS_DESC",
+		"info"		: "PLG_FIELDS_JOOMLA_EMAIL_CONFIG_DISALLOWED_DOMAINS_INFO",
+		"type"		: "textarea",
+		"default"	: "mailinator.com,devnullmail.com,binkmail.com,chogmail.com,frapmail.com"
+	},
+
+
+	"forbidden":
+	{
+		"label"		: "PLG_FIELDS_JOOMLA_EMAIL_CONFIG_FORBIDDEN_WORDS",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_EMAIL_CONFIG_FORBIDDEN_WORDS_DESC",
+		"type"		: "textarea",
+		"default"	: ""
+	},
+
+	"visible_display":
+	{
+		"default": false
+	},
+
+	"default": false,
+
+	"required":
+	{
+		"default"	: true
+	},
+
+	"regex_validate": {
+		"label"		: "PLG_FIELDS_JOOMLA_EMAIL_CONFIG_REGEX_VALIDATE",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_EMAIL_CONFIG_REGEX_VALIDATE_DESC",
+		"default"	: false
+	},
+
+	"regex_format": {
+		"label"		: "PLG_FIELDS_JOOMLA_EMAIL_CONFIG_REGEX_FORMAT",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_EMAIL_CONFIG_REGEX_FORMAT_DESC",
+		"type"		: "text"
+	},
+
+	"regex_modifier": {
+		"label"		: "PLG_FIELDS_JOOMLA_EMAIL_CONFIG_REGEX_MODIFIER",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_EMAIL_CONFIG_REGEX_MODIFIER_DESC",
+		"type"		: "text"
+	}
+}

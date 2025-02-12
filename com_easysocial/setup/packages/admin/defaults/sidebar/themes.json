@@ -1,0 +1,36 @@
+{
+	"title": "COM_EASYSOCIAL_MENU_GROUP_THEMES",
+	"link": "index.php?option=com_easysocial&view=themes",
+	"access": "easysocial.access.themes",
+	"class": "fa fa-code",
+	"view": "themes",
+	"active": "layout",
+	"childs":
+	[
+		{
+			"title": "COM_EASYSOCIAL_MENU_GROUP_THEMES",
+			"url": {
+				"view": "themes",
+				"layout": ""
+			}
+		},
+		{
+			"title": "COM_EASYSOCIAL_MENU_ITEM_THEMES_INSTALL",
+			"url":
+			{
+				"view": "themes",
+				"layout": "install"
+			},
+			"childs": []
+		},
+		{
+			"title": "COM_ES_MENU_ITEM_THEMES_CUSTOM_CSS",
+			"url":
+			{
+				"view": "themes",
+				"layout": "custom"
+			},
+			"childs": []
+		}
+	]
+}

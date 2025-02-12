@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_profiles",
+		"index": "idx_exclude",
+		"query": "ALTER TABLE `#__social_profiles` ADD INDEX `idx_exclude` (`exclude_userlisting`)"
+	}
+]

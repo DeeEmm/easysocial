@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_files",
+		"index": "idx_utypes",
+		"query": "ALTER TABLE `#__social_files` ADD INDEX `idx_utypes` (`type` (64), `uid`)"
+	}
+]

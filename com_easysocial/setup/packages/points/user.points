@@ -1,0 +1,12 @@
+
+[
+	{
+		"title" 		: "COM_EASYSOCIAL_POINTS_USER_REGISTER",
+		"alias"			: "registration",
+		"description"	: "COM_EASYSOCIAL_POINTS_USER_REGISTER_DESC",
+		"command"		: "user.registration",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 20
+	}
+]

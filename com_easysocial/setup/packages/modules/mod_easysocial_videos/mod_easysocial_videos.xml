@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="module" client="site" method="upgrade">
+	<name>EasySocial Videos Module</name>
+	<author>Stack Ideas Sdn Bhd</author>
+	<creationDate>16th January 2024</creationDate>
+	<copyright>Copyright (C) 2009 - 2016 Stack Ideas Sdn Bhd. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>http://stackideas.com</authorUrl>
+	<version>2.0.291</version>
+	<description><![CDATA[MOD_EASYSOCIAL_VIDEOS_DESC]]></description>
+	<files>
+		<folder>tmpl</folder>
+		<filename module="mod_easysocial_videos">mod_easysocial_videos.php</filename>
+		<filename>mod_easysocial_videos.xml</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_easysocial_videos.ini</language>
+		<language tag="en-GB">en-GB.mod_easysocial_videos.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/administrator/components/com_easysocial/models/fields">
+				<field name="filter" type="list" default="created" label="MOD_EASYSOCIAL_VIDEOS_FILTER" description="MOD_EASYSOCIAL_VIDEOS_FILTER_DESC">
+					<option value="all">MOD_EASYSOCIAL_VIDEOS_FILTER_ALL</option>
+					<option value="mine">MOD_EASYSOCIAL_VIDEOS_FILTER_MINE</option>
+					<option value="featured">MOD_EASYSOCIAL_VIDEOS_FILTER_FEATURED</option>
+				</field>
+				<field name="category" type="easysocial_videocategory" default="" label="MOD_EASYSOCIAL_VIDEOS_CATEGORY" description="MOD_EASYSOCIAL_VIDEOS_CATEGORY_DESC" />
+				<field name="source" type="list" default="created" label="MOD_EASYSOCIAL_VIDEOS_SOURCE_TYPE" description="MOD_EASYSOCIAL_VIDEOS_SOURCE_TYPE_DESC">
+					<option value="all">MOD_EASYSOCIAL_VIDEOS_FILTER_ALL</option>
+					<option value="upload">MOD_EASYSOCIAL_VIDEOS_SOURCE_UPLOADS</option>
+					<option value="link">MOD_EASYSOCIAL_VIDEOS_SOURCE_LINKS</option>
+				</field>
+				<field name="sorting" type="list" default="created" label="MOD_EASYSOCIAL_VIDEOS_SORTING" description="MOD_EASYSOCIAL_VIDEOS_SORTING_DESC">
+					<option value="latest">MOD_EASYSOCIAL_VIDEOS_SORT_RECENT</option>
+					<option value="alphabetical">MOD_EASYSOCIAL_VIDEOS_SORT_ALPHABETICALLY</option>
+					<option value="random">MOD_EASYSOCIAL_VIDEOS_SORT_RANDOM</option>
+					<option value="popular">MOD_EASYSOCIAL_VIDEOS_SORT_POPULAR</option>
+				</field>
+				<field name="limit" type="text" default="20" class="input-mini text-center" label="MOD_EASYSOCIAL_VIDEOS_LIMIT" description="MOD_EASYSOCIAL_VIDEOS_LIMIT_DESC" />
+				<field name="display_alllink" type="radio" class="btn-group" default="1" label="MOD_ES_VIDEOS_DISPLAY_ALL_LINK" description="MOD_ES_VIDEOS_DISPLAY_ALL_LINK_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="display_hits" type="radio" class="btn-group" default="1" label="MOD_ES_VIDEOS_DISPLAY_HITS" description="MOD_ES_VIDEOS_DISPLAY_HITS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="display_comments" type="radio" class="btn-group" default="1" label="MOD_ES_VIDEOS_DISPLAY_COMMENTS" description="MOD_ES_VIDEOS_DISPLAY_COMMENTS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="display_likes" type="radio" class="btn-group" default="1" label="MOD_ES_VIDEOS_DISPLAY_LIKES" description="MOD_ES_VIDEOS_DISPLAY_LIKES_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field name="columns_number" type="text" label="MOD_ES_VIDEOS_COLUMNS" description="MOD_ES_VIDEOS_COLUMNS_DESC" default="3" />
+				<field name="moduleclass_sfx" type="textarea" rows="3" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="cache" type="list" default="0" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

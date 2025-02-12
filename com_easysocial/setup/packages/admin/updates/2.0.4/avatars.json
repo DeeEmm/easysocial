@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_avatars",
+		"index": "idx_type",
+		"query": "ALTER TABLE `#__social_avatars` ADD INDEX `idx_type` (`type` (190));"
+	}
+]

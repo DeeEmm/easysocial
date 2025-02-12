@@ -1,0 +1,86 @@
+[
+	{
+		"title" : "APP_GROUP_TASKS_SETTINGS_NOTIFICATIONS",
+		"desc" : "APP_GROUP_TASKS_SETTINGS_NOTIFICATIONS_DESC",
+		"fields"	:
+		[
+			{
+				"label" : "APP_GROUP_TASKS_SETTINGS_NOTIFICATIONS_NEW_MILESTONE",
+				"tooltip" : "APP_GROUP_TASKS_SETTINGS_NOTIFICATIONS_NEW_MILESTONE_DESC",
+				"name" : "notify_milestones",
+				"type" : "boolean",
+				"default" : true
+			},
+			{
+				"label" : "APP_GROUP_TASKS_SETTINGS_NOTIFICATIONS_NEW_TASK",
+				"tooltip" : "APP_GROUP_TASKS_SETTINGS_NOTIFICATIONS_NEW_TASK_DESC",
+				"name" : "notify_new_task",
+				"type" : "boolean",
+				"default" : true
+			},
+			{
+				"label" : "APP_GROUP_TASKS_SETTINGS_NOTIFICATIONS_COMPLETED",
+				"tooltip" : "APP_GROUP_TASKS_SETTINGS_NOTIFICATIONS_COMPLETED_DESC",
+				"name" : "notify_complete_task",
+				"type" : "boolean",
+				"default" : true
+			},
+			{
+				"label" : "APP_GROUP_TASKS_SETTINGS_NOTIFICATIONS_UNCOMPLETED",
+				"tooltip" : "APP_GROUP_TASKS_SETTINGS_NOTIFICATIONS_UNCOMPLETED_DESC",
+				"name" : "notify_uncomplete_task",
+				"type" : "boolean",
+				"default" : true
+			}
+		]
+	},
+	{
+		"title" : "APP_GROUP_TASKS_SETTINGS_STREAM",
+		"desc" : "APP_GROUP_TASKS_SETTINGS_STREAM_DESC",
+		"fields"	:
+		[
+			{
+				"label" : "APP_GROUP_TASKS_SETTINGS_ALLOW_TASKS_CREATION",
+				"tooltip" : "APP_GROUP_TASKS_SETTINGS_ALLOW_TASKS_CREATION_DESC",
+				"name" : "story_form",
+				"type" : "boolean",
+				"default" : true
+			},
+			{
+				"label" : "APP_GROUP_TASKS_SETTINGS_STREAM_NEW_MILESTONE",
+				"tooltip" : "APP_GROUP_TASKS_SETTINGS_STREAM_NEW_MILESTONE_DESC",
+				"name" : "stream_milestone",
+				"type" : "boolean",
+				"default" : true
+			},
+			{
+				"label": "APP_GROUP_TASKS_SETTINGS_STREAM_NEW_TASK",
+				"tooltip": "APP_GROUP_TASKS_SETTINGS_STREAM_NEW_TASK_DESC",
+				"name": "stream_task",
+				"type": "boolean",
+				"default": true
+			}
+		]
+	},
+	{
+		"title" : "APP_GROUP_TASKS_SETTINGS_APP",
+		"desc" : "APP_GROUP_TASKS_SETTINGS_APP_DESC",
+		"fields"	:
+		[
+			{
+				"label" : "APP_GROUP_TASKS_DISPLAY_COMPLETED_MILESTONES",
+				"tooltip" : "APP_GROUP_TASKS_DISPLAY_COMPLETED_MILESTONES_DESC",
+				"name" : "display_completed_milestones",
+				"type" : "boolean",
+				"default" : true
+			},
+			{
+				"label" : "APP_GROUP_TASKS_DISPLAY_CHART",
+				"tooltip" : "APP_GROUP_TASKS_DISPLAY_CHART_DESC",
+				"name" : "display_chart",
+				"type" : "boolean",
+				"default" : true
+			}
+		]
+	}
+]

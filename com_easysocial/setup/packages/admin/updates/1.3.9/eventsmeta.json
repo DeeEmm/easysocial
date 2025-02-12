@@ -1,0 +1,7 @@
+[
+    {
+        "table": "#__social_events_meta",
+        "column": "group_id",
+        "query": "ALTER TABLE `#__social_events_meta` ADD `group_id` int(11) NOT NULL"
+    }
+]

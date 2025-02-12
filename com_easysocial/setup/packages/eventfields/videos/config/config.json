@@ -1,0 +1,14 @@
+{
+	"privacy": false,
+    "searchable": false,
+	"title": {
+		"default": "PLG_FIELDS_EVENT_VIDEOS_DEFAULT_TITLE"
+	},
+	"description": {
+		"default": "PLG_FIELDS_EVENT_VIDEOS_DEFAULT_DESC"
+	},
+	"default": {
+		"type": "boolean",
+		"default": true
+	}
+}

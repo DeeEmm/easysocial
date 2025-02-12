@@ -1,0 +1,12 @@
+[
+    {
+        "table"     : "#__social_bookmarks",
+        "index"    : "idx_uid",
+        "query"     : "alter table `#__social_bookmarks` add index `idx_uid` (`uid`)"
+    },
+    {
+        "table"     : "#__social_bookmarks",
+        "index"    : "idx_user_utype",
+        "query"     : "alter table `#__social_bookmarks` add index `idx_user_utype` (`uid`, `type`, `user_id`)"
+    }
+]

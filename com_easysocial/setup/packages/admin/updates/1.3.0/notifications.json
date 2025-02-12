@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__social_notifications",
+        "index"    : "idx_target_created",
+        "query"     : "alter table `#__social_notifications` add index `idx_target_created` (`target_id`,`target_type`, `created`)"
+    }
+]

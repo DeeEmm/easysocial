@@ -1,0 +1,37 @@
+{
+    "extends": "fields/user/textbox",
+
+    "title":
+    {
+        "default": "FIELDS_EVENT_TITLE_DEFAULT_TITLE"
+    },
+
+    "description":
+    {
+        "default": "FIELDS_EVENT_TITLE_DEFAULT_DESCRIPTION"
+    },
+    "title_date_format": {
+        "label": "FIELDS_EVENT_TITLE_CONFIG_DATE_FORMAT",
+        "tooltip": "FIELDS_EVENT_TITLE_CONFIG_DATE_FORMAT_DESC",
+        "type": "select",
+        "default": "d.m.Y",
+        "option": [{
+            "label": "YYYY-MM-DD",
+            "value": "Y-m-d"
+        }, {
+            "label": "YYYY-DD-MM",
+            "value": "Y-d-m"
+        }, {
+            "label": "DD-MM-YYYY",
+            "value": "d-m-Y"
+
+        }, {
+            "label": "MM-DD-YYYY",
+            "value": "m-d-Y"
+        }]
+    },
+
+    "required": true,
+
+    "visible_registration": true
+}

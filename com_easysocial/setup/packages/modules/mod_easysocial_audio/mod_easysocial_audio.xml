@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="module" client="site" method="upgrade">
+	<name>EasySocial Audio Module</name>
+	<author>Stack Ideas Sdn Bhd</author>
+	<creationDate>16th January 2024</creationDate>
+	<copyright>Copyright (C) 2009 - 2018 Stack Ideas Sdn Bhd. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>http://stackideas.com</authorUrl>
+	<version>3.0.109</version>
+	<description><![CDATA[MOD_ES_AUDIO_DESC]]></description>
+	<files>
+		<folder>scripts</folder>
+		<folder>tmpl</folder>
+		<filename module="mod_easysocial_audio">mod_easysocial_audio.php</filename>
+		<filename>mod_easysocial_audio.xml</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_easysocial_audio.ini</language>
+		<language tag="en-GB">en-GB.mod_easysocial_audio.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/administrator/components/com_easysocial/models/fields">
+				<field name="filter" type="list" default="created" label="MOD_ES_AUDIO_FILTER" description="MOD_ES_AUDIO_FILTER_DESC">
+					<option value="all">MOD_ES_AUDIO_FILTER_ALL</option>
+					<option value="mine">MOD_ES_AUDIO_FILTER_MINE</option>
+					<option value="featured">MOD_ES_AUDIO_FILTER_FEATURED</option>
+				</field>
+				<field name="genre" type="easysocial_audiogenre" default="" label="MOD_ES_AUDIO_GENRE" description="MOD_ES_AUDIO_GENRE_DESC" />
+				<field name="source" type="list" default="created" label="MOD_ES_AUDIO_SOURCE_TYPE" description="MOD_ES_AUDIO_SOURCE_TYPE_DESC">
+					<option value="all">MOD_ES_AUDIO_FILTER_ALL</option>
+					<option value="upload">MOD_ES_AUDIO_SOURCE_UPLOADS</option>
+					<option value="link">MOD_ES_AUDIO_SOURCE_LINKS</option>
+				</field>
+				<field name="sorting" type="list" default="created" label="MOD_ES_AUDIO_SORTING" description="MOD_ES_AUDIO_SORTING_DESC">
+					<option value="latest">MOD_ES_AUDIO_SORT_RECENT</option>
+					<option value="alphabetical">MOD_ES_AUDIO_SORT_ALPHABETICALLY</option>
+					<option value="random">MOD_ES_AUDIO_SORT_RANDOM</option>
+					<option value="popular">MOD_ES_AUDIO_SORT_POPULAR</option>
+				</field>
+				<field name="limit" type="text" default="20" class="input-mini text-center" label="MOD_ES_AUDIO_LIMIT" description="MOD_ES_AUDIO_LIMIT_DESC" />
+			</fieldset>
+
+			<fieldset name="advanced">
+				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field name="column_numbers" type="text" label="MOD_ES_AUDIOS_COLUMNS" description="MOD_ES_AUDIOS_COLUMNS_DESC" default="3" />
+				<field name="moduleclass_sfx" type="textarea" rows="3" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="cache" type="list" default="0" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

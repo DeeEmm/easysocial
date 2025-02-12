@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<access component="com_easysocial">
+	<section name="component">
+		<action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC" />
+		<action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC" />
+		<action name="easysocial.access.easysocial" title="COM_EASYSOCIAL_JOOMLA_ACCESS_DASHBOARD" description="COM_EASYSOCIAL_JOOMLA_ACCESS_DASHBOARD_DESC" />
+		<action name="easysocial.access.settings" title="COM_EASYSOCIAL_JOOMLA_ACCESS_SETTINGS" description="COM_EASYSOCIAL_JOOMLA_ACCESS_SETTINGS_DESC" />
+		<action name="easysocial.access.workflows" title="COM_ES_ACCESS_CUSTOM_FIELDS" description="COM_ES_ACCESS_CUSTOM_FIELDS_DESC" />
+		<action name="easysocial.access.users" title="COM_EASYSOCIAL_JOOMLA_ACCESS_USERS_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_USERS_AREA_DESC" />
+		<action name="easysocial.access.themes" title="COM_EASYSOCIAL_JOOMLA_ACCESS_THEMES_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_THEMES_AREA_DESC" />
+		<action name="easysocial.access.languages" title="COM_ES_JOOMLA_ACCESS_LANGUAGES_AREA" description="COM_ES_JOOMLA_ACCESS_LANGUAGES_AREA_DESC" />
+		<action name="easysocial.access.profiles" title="COM_EASYSOCIAL_JOOMLA_ACCESS_PROFILES_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_PROFILES_AREA_DESC" />
+		<action name="easysocial.access.albums" title="COM_EASYSOCIAL_JOOMLA_ACCESS_ALBUMS_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_ALBUMS_AREA_DESC" />
+		<action name="easysocial.access.points" title="COM_EASYSOCIAL_JOOMLA_ACCESS_POINTS_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_POINTS_AREA_DESC" />
+		<action name="easysocial.access.privacy" title="COM_EASYSOCIAL_JOOMLA_ACCESS_PRIVACY_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_PRIVACY_AREA_DESC" />
+		<action name="easysocial.access.badges" title="COM_EASYSOCIAL_JOOMLA_ACCESS_BADGES_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_BADGES_AREA_DESC" />
+		<action name="easysocial.access.apps" title="COM_EASYSOCIAL_JOOMLA_ACCESS_APPS_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_APPS_AREA_DESC" />
+		<action name="easysocial.access.reports" title="COM_EASYSOCIAL_JOOMLA_ACCESS_REPORTS_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_REPORTS_AREA_DESC" />
+		<action name="easysocial.access.mailer" title="COM_EASYSOCIAL_JOOMLA_ACCESS_MAILER_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_MAILER_AREA_DESC" />
+		<action name="easysocial.access.alerts" title="COM_EASYSOCIAL_JOOMLA_ACCESS_ALERTS_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_ALERTS_AREA_DESC" />
+		<action name="easysocial.access.comments" title="COM_EASYSOCIAL_JOOMLA_ACCESS_ACCESS_COMMENTS" description="COM_EASYSOCIAL_JOOMLA_ACCESS_ACCESS_COMMENTS_AREA_DESC" />
+		<action name="easysocial.access.access" title="COM_EASYSOCIAL_JOOMLA_ACCESS_ACCESS_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_ACCESS_AREA_DESC" />
+		<action name="easysocial.access.maintenance" title="COM_EASYSOCIAL_JOOMLA_ACCESS_MAINTENANCE_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_MAINTENANCE_AREA_DESC" />
+		<action name="easysocial.access.events" title="COM_EASYSOCIAL_JOOMLA_ACCESS_EVENTS_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_EVENTS_AREA_DESC" />
+		<action name="easysocial.access.groups" title="COM_EASYSOCIAL_JOOMLA_ACCESS_GROUPS_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_GROUPS_AREA_DESC" />
+		<action name="easysocial.access.pages" title="COM_EASYSOCIAL_JOOMLA_ACCESS_PAGES_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_PAGES_AREA_DESC" />
+		<action name="easysocial.access.marketplaces" title="COM_EASYSOCIAL_JOOMLA_ACCESS_MARKETPLACES_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_MARKETPLACES_AREA_DESC" />
+		<action name="easysocial.access.videos" title="COM_EASYSOCIAL_JOOMLA_ACCESS_VIDEOS_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_VIDEOS_AREA_DESC" />
+		<action name="easysocial.access.audios" title="COM_EASYSOCIAL_JOOMLA_ACCESS_AUDIO_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_AUDIO_AREA_DESC" />
+		<action name="easysocial.access.polls" title="COM_EASYSOCIAL_JOOMLA_ACCESS_POLLS_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_POLLS_AREA_DESC" />
+		<action name="easysocial.access.honeypot" title="COM_ES_JOOMLA_ACCESS_HONEYPOT_AREA" description="COM_ES_JOOMLA_ACCESS_HONEYPOT_AREA_DESC" />
+		<action name="easysocial.access.regions" title="COM_EASYSOCIAL_JOOMLA_ACCESS_REGIONS_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_REGIONS_AREA_DESC" />
+		<action name="easysocial.access.stream" title="COM_EASYSOCIAL_JOOMLA_ACCESS_STREAM_AREA" description="COM_EASYSOCIAL_JOOMLA_ACCESS_STREAM_AREA_DESC" />
+		<action name="easysocial.access.reactions" title="COM_ES_ACCESS_REACTIONS" description="COM_ES_ACCESS_REACTIONS_DESC" />
+		<action name="easysocial.access.audiogenres" title="COM_ES_ACCESS_AUDIOGENRES" description="COM_ES_ACCESS_AUDIOGENRES_DESC" />
+		<action name="easysocial.access.emoticons" title="COM_ES_ACCESS_EMOTICONS" description="COM_ES_ACCESS_EMOTICONS_DESC" />
+		<action name="easysocial.access.currencies" title="COM_ES_ACCESS_CURRENCIES" description="COM_ES_ACCESS_CURRENCIES_DESC" />
+	</section>
+</access>

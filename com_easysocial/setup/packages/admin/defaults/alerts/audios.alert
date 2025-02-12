@@ -1,0 +1,17 @@
+[
+	{
+		"element": "audios",
+		"rule": "comment.add",
+		"core": true
+	},
+	{
+		"element": "audios",
+		"rule": "tagged",
+		"core": true
+	},
+	{
+		"element": "audios",
+		"rule": "likes",
+		"core": true
+	}
+]

@@ -1,0 +1,50 @@
+[
+	{
+		"title" : "COM_ES_FIELDS_MARKETPLACE_INFO",
+		"description" : "COM_ES_FIELDS_MARKETPLACE_INFO_DESC",
+		"fields" :
+		[
+			{
+				"element" : "header",
+				"title" : "COM_ES_FIELDS_MARKETPLACE_ITEM_INFO",
+				"description" : "COM_ES_FIELDS_MARKETPLACE_ITEM_INFO_DESC",
+				"visible_display" : false,
+				"display_title" : true,
+				"display_description" : false
+			},
+			{
+				"element" : "image",
+				"title" : "COM_ES_FIELDS_MARKETPLACE_ITEM_PHOTOS",
+				"description" : "COM_ES_FIELDS_MARKETPLACE_ITEM_PHOTOS_DESC",
+				"required" : true
+			},
+			{
+				"element" : "title",
+				"title" : "COM_ES_FIELDS_MARKETPLACE_ITEM_TITLE",
+				"description" : "COM_ES_FIELDS_MARKETPLACE_ITEM_TITLE_DESC",
+				"required" : true
+			},
+			{
+				"element" : "description",
+				"title" : "COM_ES_FIELDS_MARKETPLACE_ITEM_DESCRIPTION",
+				"description" : "COM_ES_FIELDS_MARKETPLACE_ITEM_DESCRIPTION_DESC"
+			},
+			{
+				"element" : "price",
+				"title" : "COM_ES_FIELDS_MARKETPLACE_ITEM_PRICE",
+				"description" : "COM_ES_FIELDS_MARKETPLACE_ITEM_PRICE_DESC",
+				"required" : true
+			},
+			{
+				"element" : "condition",
+				"title" : "COM_ES_FIELDS_MARKETPLACE_ITEM_CONDITION",
+				"description" : "COM_ES_FIELDS_MARKETPLACE_ITEM_CONDITION_DESC"
+			},
+			{
+				"element" : "stock",
+				"title" : "COM_ES_FIELDS_MARKETPLACE_ITEM_STOCK",
+				"description" : "COM_ES_FIELDS_MARKETPLACE_ITEM_STOCK_DESC"
+			}
+		]
+	}
+]

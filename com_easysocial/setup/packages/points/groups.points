@@ -1,0 +1,228 @@
+
+[
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_CREATE_GROUP",
+		"alias" : "create-group",
+		"description" : "COM_EASYSOCIAL_POINTS_CREATE_GROUP_DESC",
+		"command" : "groups.create",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 5
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_REMOVED_GROUP",
+		"alias" : "removed-group",
+		"description" : "COM_EASYSOCIAL_POINTS_REMOVED_GROUP_DESC",
+		"command" : "groups.remove",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : -5
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_JOIN_GROUP",
+		"alias" : "join-group",
+		"description" : "COM_EASYSOCIAL_POINTS_JOIN_GROUP_DESC",
+		"command" : "groups.join",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points": 2
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_LEAVE_GROUP",
+		"alias" : "leave-group",
+		"description" : "COM_EASYSOCIAL_POINTS_LEAVE_GROUP_DESC",
+		"command": "groups.leave",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": -2
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_GROUP_INVITE_FRIENDS",
+		"alias" : "invite-friends-group",
+		"description" : "COM_EASYSOCIAL_POINTS_GROUP_INVITE_FRIENDS_DESC",
+		"command": "groups.invite",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_UPDATE_GROUP",
+		"alias" : "updated-group",
+		"description" : "COM_EASYSOCIAL_POINTS_UPDATE_GROUP_DESC",
+		"command": "groups.update",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": 2
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_GROUP_CREATE_DISCUSSION",
+		"alias" : "create-discussion-group",
+		"description" : "COM_EASYSOCIAL_POINTS_GROUP_CREATE_DISCUSSION_DESC",
+		"command": "groups.discussion.create",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_GROUP_DELETE_DISCUSSION",
+		"alias" : "delete-discussion-group",
+		"description" : "COM_EASYSOCIAL_POINTS_GROUP_DELETE_DISCUSSION_DESC",
+		"command": "groups.discussion.delete",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": -1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_GROUP_REPLY_DISCUSSION",
+		"alias" : "reply-discussion-group",
+		"description" : "COM_EASYSOCIAL_POINTS_GROUP_REPLY_DISCUSSION_DESC",
+		"command": "groups.discussion.reply",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": 1
+	},
+	{
+		"title" : "COM_ES_POINTS_GROUP_DELETE_REPLY_DISCUSSION",
+		"alias" : "deletereply-discussion-group",
+		"description" : "COM_ES_POINTS_GROUP_DELETE_REPLY_DISCUSSION_DESC",
+		"command": "groups.discussion.deletereply",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": -1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_GROUP_ANSWER_DISCUSSION",
+		"alias" : "answer-discussion-group",
+		"description" : "COM_EASYSOCIAL_POINTS_GROUP_ANSWER_DISCUSSION_DESC",
+		"command": "groups.discussion.answer",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_GROUP_ANSWER_REJECT_DISCUSSION",
+		"alias" : "answer-reject-discussion-group",
+		"description" : "COM_EASYSOCIAL_POINTS_GROUP_ANSWER_REJECT_DISCUSSION_DESC",
+		"command" : "groups.discussion.rejectanswer",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : -1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_GROUP_DISCUSSION_POST_LIKED",
+		"alias" : "group-discussion-liked",
+		"description" : "COM_EASYSOCIAL_POINTS_GROUP_DISCUSSION_POST_LIKED_DESC",
+		"command": "group.discussion.liked",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_GROUP_DISCUSSION_POST_UNLIKED",
+		"alias" : "group-discussion-unliked",
+		"description" : "COM_EASYSOCIAL_POINTS_GROUP_DISCUSSION_POST_UNLIKED_DESC",
+		"command": "group.discussion.unliked",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": -1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_GROUP_DISCUSSION_REPLY_LIKED",
+		"alias" : "group-discussion-reply-liked",
+		"description" : "COM_EASYSOCIAL_POINTS_GROUP_DISCUSSION_REPLY_LIKED_DESC",
+		"command": "groups.discussion.reply.liked",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_GROUP_DISCUSSION_REPLY_UNLIKED",
+		"alias" : "group-discussion-reply-unliked",
+		"description" : "COM_EASYSOCIAL_POINTS_GROUP_DISCUSSION_REPLY_UNLIKED_DESC",
+		"command": "groups.discussion.reply.unliked",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": -1
+	},				
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_GROUP_CREATE_NEWS",
+		"alias" : "create-news-group",
+		"description" : "COM_EASYSOCIAL_POINTS_GROUP_CREATE_NEWS_DESC",
+		"command": "groups.news.create",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_GROUP_DELETE_NEWS",
+		"alias" : "delete-news-group",
+		"description" : "COM_EASYSOCIAL_POINTS_GROUP_DELETE_NEWS_DESC",
+		"command": "groups.news.delete",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": -1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_GROUP_CREATE_MILESTONE",
+		"alias" : "create-milestone-group",
+		"description" : "COM_EASYSOCIAL_POINTS_GROUP_CREATE_MILESTONE_DESC",
+		"command": "groups.milestone.create",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_GROUP_DELETE_MILESTONE",
+		"alias" : "delete-milestone-group",
+		"description" : "COM_EASYSOCIAL_POINTS_GROUP_DELETE_MILESTONE_DESC",
+		"command": "groups.milestone.delete",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": -1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_GROUP_CREATE_TASK",
+		"alias" : "create-task-group",
+		"description" : "COM_EASYSOCIAL_POINTS_GROUP_CREATE_TASK_DESC",
+		"command": "groups.task.create",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_GROUP_RESOLVE_TASK",
+		"alias" : "resolve-task-group",
+		"description" : "COM_EASYSOCIAL_POINTS_GROUP_RESOLVE_TASK_DESC",
+		"command": "groups.task.resolve",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_GROUP_UNRESOLVE_TASK",
+		"alias" : "unresolve-task-group",
+		"description" : "COM_EASYSOCIAL_POINTS_GROUP_UNRESOLVE_TASK_DESC",
+		"command": "groups.task.resolve",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": -1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_GROUP_DELETE_TASK",
+		"alias" : "delete-task-group",
+		"description" : "COM_EASYSOCIAL_POINTS_GROUP_DELETE_TASK_DESC",
+		"command": "groups.task.delete",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": -1
+	},
+	{
+		"title" : "COM_ES_POINTS_REVIEW_ADDED_GROUPS",
+		"alias" : "groups-review-added",
+		"description" : "COM_ES_POINTS_REVIEW_ADDED_DESC",
+		"command": "groups.review.added",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": 1
+	}
+]

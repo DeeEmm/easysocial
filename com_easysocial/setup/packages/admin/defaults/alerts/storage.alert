@@ -1,0 +1,7 @@
+[
+	{
+		"element": "storage",
+		"rule": "size.warning",
+		"core": true
+	}
+]

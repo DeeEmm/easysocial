@@ -1,0 +1,54 @@
+[
+	{
+		"table": "#__social_audios",
+		"column": "access",
+		"query": "ALTER TABLE `#__social_audios` ADD COLUMN `access` int(11) default 0 NOT NULL;"
+	},
+	{
+		"table": "#__social_audios",
+		"column": "custom_access",
+		"query": "ALTER TABLE `#__social_audios` ADD COLUMN `custom_access` text NULL;"
+	},
+	{
+		"table": "#__social_audios",
+		"column": "field_access",
+		"query": "ALTER TABLE `#__social_audios` ADD COLUMN `field_access` tinyint(3) default 0;"
+	},
+	{
+		"table": "#__social_audios",
+		"column": "chk_access",
+		"query": "ALTER TABLE `#__social_audios` ADD COLUMN `chk_access` tinyint(1) default 0;"
+	},
+	{
+		"table": "#__social_audios",
+		"index": "idx_access",
+		"query": "ALTER TABLE `#__social_audios` ADD INDEX `idx_access` (`access`);"
+	},
+	{
+		"table": "#__social_audios",
+		"index": "idx_custom_access",
+		"query": "ALTER TABLE `#__social_audios` ADD INDEX `idx_custom_access` (`access`, `custom_access` (200));"
+	},
+	{
+		"table": "#__social_audios",
+		"index": "idx_field_access",
+		"query": "ALTER TABLE `#__social_audios` ADD INDEX `idx_field_access` (`access`, `field_access`);"
+	},
+
+	{
+		"table": "#__social_audios",
+		"index": "idx_utypes",
+		"query": "ALTER TABLE `#__social_audios` ADD INDEX `idx_utypes` (`uid`, `type` (64));"
+	},
+
+	{
+		"table": "#__social_audios",
+		"index": "idx_userid",
+		"query": "ALTER TABLE `#__social_audios` ADD INDEX `idx_userid` (`user_id`);"
+	},
+	{
+		"table": "#__social_audios",
+		"index": "idx_type_chkaccess",
+		"query": "ALTER TABLE `#__social_audios` ADD INDEX `idx_type_chkaccess` (`type` (64), `chk_access`);"
+	}
+]

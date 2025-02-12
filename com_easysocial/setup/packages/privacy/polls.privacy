@@ -1,0 +1,54 @@
+
+{
+	"type": "polls",
+	"rules":
+		[
+			{
+				"core"			: true,
+				"command" 		: "view",
+				"description"	: "COM_EASYSOCIAL_PRIVACY_DESC_POLLS_VIEW",
+				"default"		: "public",
+				"options"		:
+				[
+					{
+						"name"	: "public"
+					},
+					{
+						"name"	: "member"
+					},
+					{
+						"name"	: "friend"
+					},
+					{
+						"name"	: "only_me"
+					},
+					{
+						"name" : "custom"
+					},
+					{
+						"name" : "field"
+					}
+				]
+			},
+
+			{
+				"core"			: true,
+				"command" 		: "vote",
+				"description"	: "COM_EASYSOCIAL_PRIVACY_DESC_POLLS_VOTE",
+				"default"		: "member",
+				"options"		:
+				[
+					{
+						"name"	: "member"
+					},
+					{
+						"name"	: "friend"
+					},
+					{
+						"name"	: "custom"
+					}
+				]
+			}
+
+		]
+}

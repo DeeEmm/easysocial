@@ -1,0 +1,12 @@
+[
+	{
+		"table": "#__social_shares",
+		"column": "share_as",
+		"query": "ALTER TABLE `#__social_shares` ADD `share_as` VARCHAR(64) DEFAULT 'user';"
+	},
+	{
+		"table": "#__social_shares",
+		"column": "params",
+		"query": "ALTER TABLE `#__social_shares` ADD `params` text NOT NULL;"
+	}
+]

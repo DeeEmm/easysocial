@@ -1,0 +1,52 @@
+{
+	"title": {
+		"default": "PLG_FIELDS_PAGE_TYPE_DEFAULT_TITLE"
+	},
+	"description": {
+		"default": "PLG_FIELDS_PAGE_TYPE_DEFAULT_DESCRIPTION"
+	},
+	"privacy"	: false,
+	"searchable": false,
+	"default": {
+		"type": "select",
+		"default": 1,
+		"option": [{
+			"label": "PLG_FIELDS_PAGE_TYPE_PUBLIC",
+			"value": 1
+		},{
+			"label": "PLG_FIELDS_PAGE_TYPE_PRIVATE",
+			"value": 2
+		},{
+			"label": "PLG_FIELDS_PAGE_TYPE_INVITE_ONLY",
+			"value": 3
+		}]
+	},
+
+	"dropdown_options": {
+		"label" : "PLG_FIELDS_PAGE_TYPE_DROPDOWN_SELECTION",
+		"tooltip" : "PLG_FIELDS_PAGE_TYPE_DROPDOWN_SELECTION_DESC",
+		"type" : "checkbox",
+		"option" : [
+			{
+				"value": "1",
+				"label": "PLG_FIELDS_PAGE_TYPE_PUBLIC",
+				"default": true,
+				"connect": false
+			},
+			{
+				"value": "2",
+				"label": "PLG_FIELDS_PAGE_TYPE_PRIVATE",
+				"default": true,
+				"connect": false
+			},
+			{
+				"value": "3",
+				"label": "PLG_FIELDS_PAGE_TYPE_INVITE_ONLY",
+				"default": true,
+				"connect": false
+			}
+		]
+	},
+
+	"visible_registration": true
+}

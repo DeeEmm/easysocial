@@ -1,0 +1,39 @@
+{
+	"placeholder":
+	{
+		"label"		: "PLG_FIELDS_TEXTAREA_CONFIG_PLACEHOLDER",
+		"tooltip"	: "PLG_FIELDS_TEXTAREA_CONFIG_PLACEHOLDER_DESC",
+
+		"type"		: "text",
+		"default"	: ""
+	},
+
+	"min":
+	{
+		"label"		: "PLG_FIELDS_TEXTAREA_CONFIG_MIN",
+		"tooltip"	: "PLG_FIELDS_TEXTAREA_CONFIG_MIN_DESC",
+		"type"		: "text",
+		"default"	: ""
+	},
+
+	"max":
+	{
+		"label"		: "PLG_FIELDS_TEXTAREA_CONFIG_MAX",
+		"tooltip"	: "PLG_FIELDS_TEXTAREA_CONFIG_MAX_DESC",
+		"type"		: "text",
+		"default"	: ""
+	},
+
+	"readonly":
+	{
+		"label"		: "PLG_FIELDS_TEXTAREA_CONFIG_READONLY",
+		"tooltip"	: "PLG_FIELDS_TEXTAREA_CONFIG_READONLY_DESC",
+		"type"		: "boolean",
+		"default"	: false
+	},
+
+	"default":
+	{
+		"type"		: "textarea"
+	}
+}

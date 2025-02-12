@@ -1,0 +1,30 @@
+{
+	"privacy": false,
+	"searchable": false,
+	"default": false,
+	"title": {
+		"default": "FIELD_EVENT_RECURRING_DEFAULT_TITLE"
+	},
+	"description": {
+		"default": "FIELD_EVENT_RECURRING_DEFAULT_DESCRIPTION"
+	},
+	"date_format": {
+		"label": "FIELDS_EVENT_STARTEND_CONFIG_DATE_FORMAT",
+		"tooltip": "FIELDS_EVENT_STARTEND_CONFIG_DATE_FORMAT_DESC",
+		"type": "select",
+		"default": "DD-MM-YYYY",
+		"option": [{
+			"label": "YYYY-MM-DD",
+			"value": "YYYY-MM-DD"
+		}, {
+			"label": "YYYY-DD-MM",
+			"value": "YYYY-DD-MM"
+		}, {
+			"label": "DD-MM-YYYY",
+			"value": "DD-MM-YYYY"
+		}, {
+			"label": "MM-DD-YYYY",
+			"value": "MM-DD-YYYY"
+		}]
+	}
+}

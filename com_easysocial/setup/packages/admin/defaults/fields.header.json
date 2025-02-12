@@ -1,0 +1,36 @@
+{
+	"title": {
+		"label"		: "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_TITLE",
+		"tooltip"	: "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_TITLE_DESC",
+		"type"		: "input",
+		"default"	: "COM_ES_WORKFLOW_STEP_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"label"		: "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_DESCRIPTION",
+		"tooltip"	: "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_DESCRIPTION_DESC",
+		"type"		: "input",
+		"default"	: "COM_ES_WORKFLOW_STEP_DEFAULT_TITLE_DESC"
+	},
+
+	"visible_registration": {
+		"label"		: "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_VIEW_REGISTRATION",
+		"tooltip"	: "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_VIEW_REGISTRATION_DESC",
+		"type"		: "boolean",
+		"default"	: true
+	},
+
+	"visible_edit": {
+		"label"		: "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_VIEW_EDIT",
+		"tooltip"	: "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_VIEW_EDIT_DESC",
+		"type"		: "boolean",
+		"default"	: true
+	},
+
+	"visible_display": {
+		"label"		: "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_VIEW_DISPLAY",
+		"tooltip"	: "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_VIEW_DISPLAY_DESC",
+		"type"		: "boolean",
+		"default"	: true
+	}
+}

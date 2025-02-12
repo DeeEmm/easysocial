@@ -1,0 +1,22 @@
+[
+	{
+		"table": "#__social_stream_history",
+		"column": "anywhere_id",
+		"query": "ALTER TABLE `#__social_stream_history` ADD `anywhere_id` varchar(255) DEFAULT NULL AFTER `sticky_id`;"
+	},
+	{
+		"table": "#__social_stream_history",
+		"column": "last_action_date",
+		"query": "ALTER TABLE `#__social_stream_history` ADD `last_action_date` datetime NULL DEFAULT '0000-00-00 00:00:00' AFTER `last_userid`;"
+	},
+	{
+		"table": "#__social_stream_history",
+		"column": "post_as",
+		"query": "ALTER TABLE `#__social_stream_history` ADD `post_as` VARCHAR(64) DEFAULT 'user' AFTER `actor_type`;"
+	},
+	{
+		"table": "#__social_stream_history",
+		"column": "datafix",
+		"query": "ALTER TABLE `#__social_stream_history` ADD `datafix` tinyint(1) default 1;"
+	}
+]

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="finder" method="upgrade">
+	<name>plg_finder_easysocialaudios</name>
+	<author>Stack Ideas Sdn Bhd</author>
+	<creationDate>25th September 2017</creationDate>
+	<copyright>Copyright (C) 2010 - 2017 Stack Ideas Sdn Bhd</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>http://www.stackideas.com</authorUrl>
+	<version>2.1.0</version>
+	<description>This plugin indexes EasySocial Audios.</description>
+	<files>
+		<filename plugin="easysocialaudios">easysocialaudios.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_finder_easysocialaudios.ini</language>
+		<language tag="en-GB">en-GB.plg_finder_easysocialaudios.sys.ini</language>
+	</languages>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

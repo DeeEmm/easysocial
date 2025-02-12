@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="module" client="administrator" method="upgrade">
+	<name>EasySocial Info (Admin)</name>
+	<author>Stack Ideas Sdn Bhd</author>
+	<creationDate>16th January 2024</creationDate>
+	<copyright>Copyright (C) 2009 - 2016 Stack Ideas Sdn Bhd. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>http://stackideas.com</authorUrl>
+	<version>2.0.291</version>
+	<description><![CDATA[MOD_ES_INFO_DESC]]></description>
+	<files>
+		<folder>scripts</folder>
+		<folder>tmpl</folder>
+		<filename module="mod_easysocial_info">mod_easysocial_info.php</filename>
+		<filename>mod_easysocial_info.xml</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_easysocial_info.ini</language>
+		<language tag="en-GB">en-GB.mod_easysocial_info.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/administrator/components/com_easysocial/models/fields">
+				<field name="show_total_users" type="radio" class="btn-group radio" default="1" label="MOD_ES_INFO_SHOW_TOTAL_USERS" description="MOD_ES_INFO_SHOW_TOTAL_USERS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="show_total_pages" type="radio" class="btn-group radio" default="1" label="MOD_ES_INFO_SHOW_TOTAL_PAGES" description="MOD_ES_INFO_SHOW_TOTAL_PAGES_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="show_total_groups" type="radio" class="btn-group radio" default="1" label="MOD_ES_INFO_SHOW_TOTAL_GROUPS" description="MOD_ES_INFO_SHOW_TOTAL_GROUPS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="show_total_events" type="radio" class="btn-group radio" default="1" label="MOD_ES_INFO_SHOW_TOTAL_EVENTS" description="MOD_ES_INFO_SHOW_TOTAL_EVENTS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="show_total_albums" type="radio" class="btn-group radio" default="1" label="MOD_ES_INFO_SHOW_TOTAL_ALBUMS" description="MOD_ES_INFO_SHOW_TOTAL_ALBUMS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="show_total_videos" type="radio" class="btn-group radio" default="1" label="MOD_ES_INFO_SHOW_TOTAL_VIDEOS" description="MOD_ES_INFO_SHOW_TOTAL_VIDEOS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="show_total_audios" type="radio" class="btn-group radio" default="1" label="MOD_ES_INFO_SHOW_TOTAL_AUDIOS" description="MOD_ES_INFO_SHOW_TOTAL_AUDIOS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="show_total_pending" type="radio" class="btn-group radio" default="0" label="MOD_ES_INFO_SHOW_TOTAL_PENDING_USERS" description="MOD_ES_INFO_SHOW_TOTAL_PENDING_USERS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="pendingLimit" type="text" class="input-mini text-center" default="5" label="MOD_ES_INFO_LIMIT_TOTAL_PENDING_USERS" description="MOD_ES_INFO_LIMIT_TOTAL_PENDING_USERS_DESC" />
+				<field name="show_total_reports" type="radio" class="btn-group radio" default="0" label="MOD_ES_INFO_SHOW_TOTAL_USER_REPORTS" description="MOD_ES_INFO_SHOW_TOTAL_USER_REPORTS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="show_recent_users_statistic" type="radio" class="btn-group radio" default="1" label="MOD_ES_INFO_SHOW_RECENT_USERS_STATISTIC" description="MOD_ES_INFO_SHOW_RECENT_USERS_STATISTIC_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="show_pending_users_statistic" type="radio" class="btn-group radio" default="1" label="MOD_ES_INFO_SHOW_PENDING_USERS_STATISTIC" description="MOD_ES_INFO_SHOW_PENDING_USERS_STATISTIC_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

@@ -1,0 +1,12 @@
+[
+	{
+		"table"		: "#__social_privacy",
+		"column"	: "state",
+		"query"		: "ALTER TABLE `#__social_privacy` ADD `state` TINYINT( 3 ) NOT NULL DEFAULT '1';"
+	},
+	{
+		"table"		: "#__social_privacy",
+		"column"	: "core",
+		"query"		: "ALTER TABLE `#__social_privacy` ADD `core` TINYINT( 3 ) NOT NULL DEFAULT '1';"
+	}
+]

@@ -1,0 +1,7 @@
+[
+    {
+        "element"   : "repost",
+        "rule"      : "item",
+        "core"      : true
+    }
+]

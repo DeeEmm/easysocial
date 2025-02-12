@@ -1,0 +1,13 @@
+
+[
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_STORY_TELLER_TITLE",
+		"alias"			: "story-teller",
+		"description"	: "COM_EASYSOCIAL_BADGES_STORY_TELLER_DESC",
+		"howto" 		: "COM_EASYSOCIAL_BADGES_STORY_TELLER_HOWTO",
+		"command"		: "story.create",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/story-teller.png",
+		"frequency"		: 30
+	}
+]

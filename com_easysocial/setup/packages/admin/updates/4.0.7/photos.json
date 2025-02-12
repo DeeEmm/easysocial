@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_photos",
+		"alter": "ordering",
+		"query": "ALTER TABLE `#__social_photos` MODIFY COLUMN `ordering` INT(11) NOT NULL DEFAULT 0;"
+	}
+]

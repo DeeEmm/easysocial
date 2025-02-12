@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="marketplace">
+	<name>Checkboxes</name>
+	<element>checkbox</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>23/08/2013</created>
+	<version>3.3.33</version>
+	<copyright>Copyright (c) 2009 - 2020 Stack Ideas Sdn. Bhd.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description><![CDATA[This custom field allows you to embed a group of checkbox field in EasySocial.]]></description>
+	<core>false</core>
+	<unique>false</unique>
+	<files>
+		<folder>config</folder>
+		<file>checkbox.php</file>
+		<file>checkbox.xml</file>
+	</files>
+</social>

@@ -1,0 +1,26 @@
+{
+	"custom": {
+		"label"		: "PLG_FIELDS_GENDER_CONFIG_CUSTOM",
+		"tooltip"	: "PLG_FIELDS_GENDER_CONFIG_CUSTOM_DESC",
+		"type"		: "boolean",
+		"default"	: false
+	},
+
+	"items": {
+		"label"		: "PLG_FIELDS_GENDER_ITEMS",
+		"tooltip"	: "PLG_FIELDS_GENDER_ITEMS_DESC",
+		"type"		: "choices",
+		"unique"	: true,
+		"hasDefault": false
+	},
+
+	"title": {
+		"default": "PLG_FIELDS_GENDER_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_GENDER_DEFAULT_DESCRIPTION"
+	},
+
+	"default": false
+}

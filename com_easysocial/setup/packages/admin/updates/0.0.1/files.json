@@ -1,0 +1,7 @@
+[
+	{
+		"table"		: "#__social_files",
+		"column"	: "storage",
+		"query"		: "ALTER TABLE  `#__social_files` ADD  `storage` VARCHAR( 255 ) NOT NULL DEFAULT 'joomla'"
+	}
+]

@@ -1,0 +1,268 @@
+[
+	{
+		"title" : "COM_EASYSOCIAL_ACCESS_PAGES_CREATE_PAGE",
+		"description" : "COM_EASYSOCIAL_ACCESS_PAGES_CREATE_PAGE_TOOLTIP",
+		"group" : "user",
+		"name" : "pages.create"
+	},
+	{
+		"title" : "COM_EASYSOCIAL_ACCESS_PAGES_CREATE_PAGE_TOTAL",
+		"description" : "COM_EASYSOCIAL_ACCESS_PAGES_CREATE_PAGE_TOTAL_TOOLTIP",
+		"name" : "pages.limit",
+		"type" : "limitinterval",
+		"group" : "user",
+		"default" : {
+			"value": 0,
+			"interval": 0
+		}
+	},
+	{
+		"title" : "COM_EASYSOCIAL_ACCESS_PAGES_ALLOW_LIKE_PAGE",
+		"description" : "COM_EASYSOCIAL_ACCESS_PAGES_ALLOW_LIKE_PAGE_TOOLTIP",
+		"name" : "pages.allow.like",
+		"group" : "user"
+	},
+	{
+		"title" : "COM_EASYSOCIAL_ACCESS_PAGES_LIKE_PAGE_TOTAL",
+		"description" : "COM_EASYSOCIAL_ACCESS_PAGES_LIKE_PAGE_TOTAL_TOOLTIP",
+		"name" : "pages.like",
+		"type" : "limit",
+		"group" : "user",
+		"default" : 0
+	},
+	{
+		"title" : "COM_EASYSOCIAL_ACCESS_PAGES_CREATE_PAGE_MODERATION",
+		"description" : "COM_EASYSOCIAL_ACCESS_PAGES_CREATE_PAGE_MODERATION_TOOLTIP",
+		"group" : "user",
+		"name" : "pages.moderate"
+	},
+	{
+		"title": "COM_EASYSOCIAL_ACCESS_PAGES_VIDEOS_ENABLED",
+		"description": "COM_EASYSOCIAL_ACCESS_PAGES_VIDEOS_ENABLED_DESC",
+		"group": "page",
+		"name": "videos.create",
+		"type": "boolean",
+		"default": 1
+	},
+	{
+		"title": "COM_ES_ACCESS_PAGES_VIDEO_LINK",
+		"description": "COM_ES_ACCESS_PAGES_VIDEO_LINK_DESC",
+		"group": "page",
+		"name": "videos.link",
+		"type": "boolean",
+		"default": 1
+	},
+	{
+		"title": "COM_EASYSOCIAL_CLUSTER_ACCESS_VIDEO_UPLOADS",
+		"group": "page",
+		"name": "videos.upload",
+		"type": "clusteraccess",
+		"default": "members"
+	},
+	{
+		"title": "COM_EASYSOCIAL_ACCESS_PAGES_VIDEOS_TOTAL_VIDEOS_ALLOWED",
+		"group": "page",
+		"name": "videos.total",
+		"type": "limit",
+		"default": 0
+	},
+	{
+		"title": "COM_EASYSOCIAL_ACCESS_VIDEOS_MAX_SIZE",
+		"group": "page",
+		"name": "videos.maxsize",
+		"type": "limit",
+		"suffix": "MB",
+		"default": 0
+	},
+	{
+		"title": "COM_ES_CLUSTER_ACCESS_AUDIO_ENABLED",
+		"group": "page",
+		"name": "audios.create",
+		"type": "boolean",
+		"default": 1
+	},
+	{
+		"title": "COM_ES_CLUSTER_ACCESS_AUDIO_UPLOADS",
+		"group": "page",
+		"name": "audios.upload",
+		"type": "clusteraccess",
+		"default": "members"
+	},
+	{
+		"title": "COM_ES_CLUSTER_ACCESS_AUDIO_LINKS",
+		"group": "page",
+		"name": "audios.link",
+		"type": "clusteraccess",
+		"default": "members"
+	},
+	{
+		"title": "COM_ES_CLUSTER_ACCESS_AUDIO_TOTAL_ALLOWED",
+		"group": "page",
+		"name": "audios.total",
+		"type": "limit",
+		"default": 0
+	},
+	{
+		"title": "COM_ES_CLUSTER_ACCESS_AUDIO_MAX_SIZE",
+		"group": "page",
+		"name": "audios.maxsize",
+		"type": "limit",
+		"suffix": "MB",
+		"default": 0
+	},
+	{
+		"title" : "COM_EASYSOCIAL_ACCESS_PAGES_PHOTOS_ENABLED",
+		"description" : "COM_EASYSOCIAL_ACCESS_PAGES_PHOTOS_ENABLED_TOOLTIP",
+		"group" : "page",
+		"name" : "photos.enabled",
+		"default": 1
+	},
+	{
+		"title": "COM_EASYSOCIAL_CLUSTER_ACCESS_PHOTO_UPLOADS",
+		"group": "page",
+		"name": "photos.upload",
+		"type": "clusteraccess",
+		"default": "admins"
+	},
+	{
+		"title" : "COM_EASYSOCIAL_ACCESS_PAGES_PHOTOS_TOTAL_PHOTOS_ALLOWED",
+		"description" : "COM_EASYSOCIAL_ACCESS_PAGES_PHOTOS_TOTAL_PHOTOS_ALLOWED_TOOLTIP",
+		"group" : "page",
+		"name" : "photos.max",
+		"type" : "limit",
+		"suffix" : "COM_EASYSOCIAL_ACCESS_PAGES_PHOTOS_TOTAL_PHOTOS_SUFFIX",
+		"default" : 0
+	},
+	{
+		"title" : "COM_EASYSOCIAL_ACCESS_PAGES_PHOTOS_TOTAL_PHOTOS_DAILY_ALLOWED",
+		"description" : "COM_EASYSOCIAL_ACCESS_PAGES_PHOTOS_TOTAL_PHOTOS_DAILY_ALLOWED_TOOLTIP",
+		"group" : "page",
+		"name" : "photos.maxdaily",
+		"type" : "limit",
+		"suffix" : "COM_EASYSOCIAL_ACCESS_PAGES_PHOTOS_TOTAL_PHOTOS_SUFFIX",
+		"default" : 0
+	},
+	{
+		"title" : "COM_EASYSOCIAL_ACCESS_PAGES_PHOTOS_PHOTO_MAXSIZE_ALLOWED",
+		"description" : "COM_EASYSOCIAL_ACCESS_PAGES_PHOTOS_PHOTO_MAXSIZE_ALLOWED_TOOLTIP",
+		"group" : "page",
+		"name" : "photos.maxsize",
+		"type" : "text",
+		"class" : "form-control input-sm input-short text-center",
+		"suffix" : "MB",
+		"default" : "8"
+	},
+	{
+		"title" : "COM_EASYSOCIAL_ACCESS_PAGES_FILES_ALLOWED",
+		"description" : "COM_EASYSOCIAL_ACCESS_PAGES_FILES_ALLOWED_TOOLTIP",
+		"group" : "page",
+		"name" : "files.enabled",
+		"type" : "boolean",
+		"default" : 1
+	},
+	{
+		"title": "COM_EASYSOCIAL_CLUSTER_ACCESS_FILE_UPLOADS",
+		"group": "page",
+		"name": "files.upload",
+		"type": "clusteraccess",
+		"default": "admins"
+	},
+	{
+		"title" : "COM_EASYSOCIAL_ACCESS_PAGES_FILES_TOTAL_FILES_ALLOWED",
+		"description" : "COM_EASYSOCIAL_ACCESS_PAGES_FILES_TOTAL_FILES_ALLOWED_TOOLTIP",
+		"group" : "page",
+		"name" : "files.max",
+		"type" : "limit",
+		"suffix" : "COM_EASYSOCIAL_ACCESS_PAGES_FILES_TOTAL_FILES_SUFFIX",
+		"default" : 0
+	},
+	{
+		"title" : "COM_EASYSOCIAL_ACCESS_PAGES_FILES_MAXSIZE_ALLOWED",
+		"description" : "COM_EASYSOCIAL_ACCESS_PAGES_FILES_MAXSIZE_ALLOWED_TOOLTIP",
+		"group" : "page",
+		"name" : "files.maxsize",
+		"type" : "text",
+		"class" : "form-control input-sm input-short text-center",
+		"suffix" : "MB",
+		"default" : "8"
+	},
+	{
+		"title": "COM_EASYSOCIAL_CLUSTER_DISCUSSIONS",
+		"group": "page",
+		"name": "discussions.enabled",
+		"type": "boolean",
+		"default": 1
+	},
+	{
+		"title": "COM_EASYSOCIAL_ACCESS_PAGES_DISCUSSION_POSTINGS",
+		"description": "COM_EASYSOCIAL_ACCESS_PAGES_DISCUSSION_POSTINGS_TOOLTIP",
+		"group": "page",
+		"name": "discussions.access",
+		"type": "select",
+		"class": "form-control",
+		"default": "members",
+		"options": [
+			{
+				"title": "COM_EASYSOCIAL_ACCESS_PAGE_ADMINS_ONLY",
+				"value": "admins"
+			},
+			{
+				"title": "COM_EASYSOCIAL_ACCESS_PAGE_ALL_MEMBERS",
+				"value": "members"
+			}
+		]
+	},
+	{
+		"title": "COM_EASYSOCIAL_CLUSTER_POLLS",
+		"group": "page",
+		"name": "polls.enabled",
+		"type": "boolean",
+		"default": 1
+	},
+	{
+		"title": "COM_EASYSOCIAL_CLUSTER_ACCESS_POLLS_CREATE",
+		"group": "page",
+		"name": "polls.create",
+		"type": "clusteraccess",
+		"default": "members"
+	},
+	{
+		"title": "COM_EASYSOCIAL_CLUSTER_ANNOUNCEMENTS",
+		"group": "page",
+		"name": "announcements.enabled",
+		"type": "boolean",
+		"default": true
+	},
+	{
+		"title": "COM_EASYSOCIAL_CLUSTER_ACCESS_ANNOUNCEMENTS_CREATE",
+		"group": "page",
+		"name": "announcements.create",
+		"type": "clusteraccess",
+		"default": "admins"
+	},
+	{
+		"title": "COM_EASYSOCIAL_PAGES_CREATION_USERPOINTS_LIMIT",
+		"description" : "COM_EASYSOCIAL_PAGES_CREATION_USERPOINTS_LIMIT_TOOLTIP",
+		"group": "page",
+		"name": "userpoints.limit",
+		"type": "boolean",
+		"default": "0"
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_PAGES_USERPOINTS_THRESHOLD",
+		"description"	: "COM_EASYSOCIAL_ACCESS_PAGES_USERPOINTS_THRESHOLD_TOOLTIP",
+		"group"			: "page",
+		"name"			: "userpoints.threshold",
+		"type"			: "text",
+		"class"			: "form-control input-sm input-short text-center",
+		"suffix"		: "COM_EASYSOCIAL_ACCESS_PAGES_USERPOINTS_THRESHOLD_SUFFIX",
+		"default"		: 50
+	},
+	{
+		"title": "COM_EASYSOCIAL_ACCESS_CLUSTER_EDIT_STREAM",
+		"group": "page",
+		"name": "stream.edit",
+		"type": "clusteraccess",
+		"default": "admins"
+	}
+]

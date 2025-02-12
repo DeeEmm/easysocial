@@ -1,0 +1,17 @@
+[
+    {
+        "table"     : "#__social_fields_data",
+        "index"    : "idx_type_raw",
+        "query"     : "alter table `#__social_fields_data` add index `idx_type_raw` (`type` (25), `raw` (255))"
+    },
+    {
+        "table"     : "#__social_fields_data",
+        "index"    : "idx_type_key_raw",
+        "query"     : "alter table `#__social_fields_data` add index `idx_type_key_raw` (`type` (25), `datakey` (50), `raw` (255))"
+    },
+    {
+        "table"     : "#__social_fields",
+        "index"    : "idx_unique_key",
+        "query"     : "alter table `#__social_fields` add index `idx_unique_key` (`unique_key` (64))"
+    }
+]

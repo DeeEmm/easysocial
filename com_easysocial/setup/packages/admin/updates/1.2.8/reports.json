@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__social_reports",
+        "index"     : "idx_created_by",
+        "query"     : "ALTER TABLE `#__social_reports` ADD INDEX `idx_created_by` (`created_by`);"
+    }
+]

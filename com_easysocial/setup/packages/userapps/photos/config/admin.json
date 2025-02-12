@@ -1,0 +1,88 @@
+[
+	{
+		"title"		: "COM_EASYSOCIAL_APPS_SETTINGS_STREAM",
+		"desc"		: "COM_EASYSOCIAL_APPS_SETTINGS_STREAM_DESC",
+		"fields"	:
+		[
+			{
+				"label"		: "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER",
+				"tooltip"		: "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER_DESC",
+				"name"		: "stream_filter",
+				"type" 		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_PHOTOS_USER_STREAM_UPDATE_AVATAR",
+				"tooltip"	: "APP_PHOTOS_USER_STREAM_UPDATE_AVATAR_DESC",
+				"name"		: "uploadAvatar",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_PHOTOS_USER_STREAM_UPDATE_COVER",
+				"tooltip"	: "APP_PHOTOS_USER_STREAM_UPDATE_COVER_DESC",
+				"name"		: "uploadCover",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_PHOTOS_USER_STREAM_UPLOAD_PHOTOS",
+				"tooltip"	: "APP_PHOTOS_USER_STREAM_UPLOAD_PHOTOS_DESC",
+				"name"		: "uploadPhotos",
+				"type"		: "boolean",
+				"default"	: true
+			}
+		]
+	},
+	{
+		"title"		: "APP_USER_PHOTOS_SETTINGS_WIDGETS",
+		"desc"		: "APP_USER_PHOTOS_SETTINGS_WIDGETS_DESC",
+		"fields"	:
+		[
+			{
+				"label"		: "APP_USER_PHOTOS_SETTINGS_WIDGETS_PROFILE",
+				"tooltip"	: "APP_USER_PHOTOS_SETTINGS_WIDGETS_PROFILE_DESC",
+				"name"		: "showphotos",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_USER_PHOTOS_SETTINGS_WIDGETS_PROFILE_COUNTER",
+				"tooltip"	: "APP_USER_PHOTOS_SETTINGS_WIDGETS_PROFILE_COUNTER_DESC",
+				"name"		: "showcount",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_USER_PHOTOS_SETTINGS_WIDGETS_PHOTOS_LISTING_TOTAL",
+				"tooltip"	: "APP_USER_PHOTOS_SETTINGS_WIDGETS_PHOTOS_LISTING_TOTAL_DESC",
+				"name"		: "photo_widget_listing_total",
+				"type"		: "text",
+				"default"	: 20,
+				"class"		: "input-mini text-center"
+			},			
+			{
+				"label"		: "APP_USER_PHOTOS_SETTINGS_WIDGETS_PROFILE_ORDERING",
+				"tooltip"	: "APP_USER_PHOTOS_SETTINGS_WIDGETS_PROFILE_ORDERING_DESC",
+				"name"		: "ordering",
+				"type"		: "select",
+				"default"	: "latest",
+				"options"	:
+				[
+					{
+						"title"	: "APP_USER_PHOTOS_SETTINGS_WIDGETS_PROFILE_ORDERING_LATEST",
+						"value"	: "latest"
+					},
+					{
+						"title"	: "APP_USER_PHOTOS_SETTINGS_WIDGETS_PROFILE_ORDERING_RANDOM",
+						"value"	: "random"
+					},
+					{
+						"title"	: "APP_USER_PHOTOS_SETTINGS_WIDGETS_PROFILE_ORDERING_OLDEST",
+						"value"	: "oldest"
+					}
+				]
+			}
+		]
+	}
+]

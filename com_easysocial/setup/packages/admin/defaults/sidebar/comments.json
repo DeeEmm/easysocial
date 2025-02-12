@@ -1,0 +1,11 @@
+{
+	"title": "COM_ES_MENU_COMMENTS",
+	"link": "index.php?option=com_easysocial&view=comments",
+	"access": "easysocial.access.comments",
+	"class": "fa fa-comments",
+	"view": "comments",
+	"active": "layout",
+	"childs":
+	[
+	]
+}

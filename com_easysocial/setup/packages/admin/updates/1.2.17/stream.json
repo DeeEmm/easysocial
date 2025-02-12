@@ -1,0 +1,32 @@
+[
+    {
+        "table"     : "#__social_stream",
+        "column"    : "state",
+        "query"     : "ALTER TABLE `#__social_stream` ADD COLUMN `state` tinyint(3) default 1 NOT NULL;"
+    },
+    {
+        "table"     : "#__social_stream",
+        "column"    : "privacy_id",
+        "query"     : "ALTER TABLE `#__social_stream` ADD COLUMN `privacy_id` int(11) default 0 NOT NULL;"
+    },
+    {
+        "table"     : "#__social_stream",
+        "column"    : "access",
+        "query"     : "ALTER TABLE `#__social_stream` ADD COLUMN `access` int(11) default 0 NOT NULL;"
+    },
+    {
+        "table"     : "#__social_stream",
+        "column"    : "custom_access",
+        "query"     : "ALTER TABLE `#__social_stream` ADD COLUMN `custom_access` text NULL;"
+    },
+    {
+        "table"     : "#__social_stream",
+        "index"    : "idx_access",
+        "query"     : "ALTER TABLE `#__social_stream` ADD INDEX `idx_access` (`access`);"
+    },
+    {
+        "table"     : "#__social_stream",
+        "index"    : "idx_custom_access",
+        "query"     : "ALTER TABLE `#__social_stream` ADD INDEX `idx_custom_access` (`access`, `custom_access` (255));"
+    }
+]

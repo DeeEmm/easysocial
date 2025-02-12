@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="apps" group="group">
+	<name>Feeds</name>
+	<element>feeds</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>19/08/2013</created>
+	<version>2.0.291</version>
+	<copyright>Copyright (C) 2010 - 2014 Stack Ideas Sdn Bhd</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<installable>true</installable>
+	<core>false</core>
+	<widget>false</widget>
+	<views>
+		<view type="embed">groups</view>
+	</views>
+	<description><![CDATA[APP_FEEDS_APP_DESCRIPTION]]></description>
+	<files>
+		<folder>assets</folder>
+		<folder>config</folder>
+		<folder>hooks</folder>
+		<folder>tables</folder>
+		<folder>themes</folder>
+		<folder>views</folder>
+		<file>feeds.php</file>
+		<file>feeds.xml</file>
+	</files>
+</social>

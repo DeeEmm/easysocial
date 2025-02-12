@@ -1,0 +1,22 @@
+[
+    {
+        "table": "#__social_stream",
+        "column": "sticky_id",
+        "query": "ALTER TABLE `#__social_stream` ADD `sticky_id` bigint(20) unsigned default 0;"
+    },
+    {
+        "table": "#__social_stream",
+        "index": "idx_stickyid",
+        "query": "ALTER TABLE `#__social_stream` ADD INDEX `idx_stickyid` (`sticky_id`)"
+    },
+    {
+        "table": "#__social_stream_history",
+        "column": "sticky_id",
+        "query": "ALTER TABLE `#__social_stream_history` ADD `sticky_id` bigint(20) unsigned default 0;"
+    },
+    {
+        "table": "#__social_stream",
+        "column": "datafix",
+        "query": "ALTER TABLE `#__social_stream` modify `params` LONGTEXT, add column `datafix` tinyint(1) default 1;"
+    }
+]

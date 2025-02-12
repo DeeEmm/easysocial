@@ -1,0 +1,7 @@
+[
+	{
+		"table"		: "#__social_points",
+		"column"	: "params",
+		"query"		: "ALTER TABLE  `#__social_points` ADD  `params` TEXT NOT NULL"
+	}
+]

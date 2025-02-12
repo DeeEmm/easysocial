@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="user">
+	<name>Telegram</name>
+	<element>telegram</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>https://stackideas.com</url>
+	<created>2nd August 2020</created>
+	<version>3.3.33</version>
+	<copyright>Copyright (c) Stack Ideas Sdn Bhd.</copyright>
+	<description><![CDATA[Telegram custom field for EasySocial allows users to add their telegram handle]]></description>
+	<core>false</core>
+	<unique>true</unique>
+	<files>
+		<folder>themes</folder>
+		<file>telegram.php</file>
+		<file>telegram.xml</file>
+	</files>
+
+</social>

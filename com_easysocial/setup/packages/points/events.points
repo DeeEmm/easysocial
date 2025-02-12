@@ -1,0 +1,227 @@
+[
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_EVENTS_CREATE",
+		"description" : "COM_EASYSOCIAL_POINTS_EVENTS_CREATE_DESC",
+		"alias" : "events-create",
+		"command" : "events.create",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 5
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_EVENTS_UPDATE",
+		"description" : "COM_EASYSOCIAL_POINTS_EVENTS_UPDATE_DESC",
+		"alias" : "events-update",
+		"command" : "events.update",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 2
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_EVENTS_REMOVED",
+		"description" : "COM_EASYSOCIAL_POINTS_EVENTS_REMOVED_DESC",
+		"alias" : "events-remove",
+		"command" : "events.remove",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : -5
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_EVENTS_INVITE",
+		"description" : "COM_EASYSOCIAL_POINTS_EVENTS_INVITE_DESC",
+		"alias" : "events-invite",
+		"command" : "events.invite",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_EVENTS_GOING",
+		"description" : "COM_EASYSOCIAL_POINTS_EVENTS_GOING_DESC",
+		"alias" : "events-going",
+		"command" : "events.going",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 2
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_EVENTS_NOTGOING",
+		"description" : "COM_EASYSOCIAL_POINTS_EVENTS_NOTGOING_DESC",
+		"alias" : "events-notgoing",
+		"command" : "events.notgoing",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : -2
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_EVENTS_DISCUSSION_CREATE",
+		"description" : "COM_EASYSOCIAL_POINTS_EVENTS_DISCUSSION_CREATE_DESC",
+		"alias" : "events-discussion-create",
+		"command" : "events.discussion.create",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_EVENTS_DISCUSSION_DELETE",
+		"description" : "COM_EASYSOCIAL_POINTS_EVENTS_DISCUSSION_DELETE_DESC",
+		"alias" : "events-discussion-delete",
+		"command" : "events.discussion.delete",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : -1
+	},
+	{
+		"title" : "COM_ES_POINTS_EVENTS_DELETE_REPLY_DISCUSSION",
+		"alias" : "events-discussion-deletereply",
+		"description" : "COM_ES_POINTS_EVENTS_DELETE_REPLY_DISCUSSION_DESC",
+		"command": "events.discussion.deletereply",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": -1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_EVENTS_DISCUSSION_ANSWER",
+		"description" : "COM_EASYSOCIAL_POINTS_EVENTS_DISCUSSION_ANSWER_DESC",
+		"alias" : "events-discussion-answer",
+		"command" : "events.discussion.answer",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_EVENTS_ANSWER_REJECT_DISCUSSION",
+		"alias" : "answer-reject-discussion-event",
+		"description" : "COM_EASYSOCIAL_POINTS_EVENTS_ANSWER_REJECT_DISCUSSION_DESC",
+		"command" : "events.discussion.rejectanswer",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : -1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_EVENTS_DISCUSSION_REPLY",
+		"description" : "COM_EASYSOCIAL_POINTS_EVENTS_DISCUSSION_REPLY_DESC",
+		"alias" : "events-discussion-reply",
+		"command" : "events.discussion.reply",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_EVENTS_NEWS_CREATE",
+		"description" : "COM_EASYSOCIAL_POINTS_EVENTS_NEWS_CREATE_DESC",
+		"alias" : "events-news-create",
+		"command" : "events.news.create",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_EVENTS_NEWS_DELETE",
+		"description" : "COM_EASYSOCIAL_POINTS_EVENTS_NEWS_DELETE_DESC",
+		"alias" : "events-news-delete",
+		"command" : "events.news.delete",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : -1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_EVENTS_MILESTONE_CREATE",
+		"description" : "COM_EASYSOCIAL_POINTS_EVENTS_MILESTONE_CREATE_DESC",
+		"alias" : "events-milestone-create",
+		"command" : "events.milestone.create",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_EVENTS_MILESTONE_DELETE",
+		"description" : "COM_EASYSOCIAL_POINTS_EVENTS_MILESTONE_DELETE_DESC",
+		"alias" : "events-milestone-delete",
+		"command" : "events.milestone.delete",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : -1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_EVENTS_TASK_CREATE",
+		"description" : "COM_EASYSOCIAL_POINTS_EVENTS_TASK_CREATE_DESC",
+		"alias" : "events-task-create",
+		"command" : "events.task.create",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_EVENTS_TASK_DELETE",
+		"description" : "COM_EASYSOCIAL_POINTS_EVENTS_TASK_DELETE_DESC",
+		"alias" : "events-task-delete",
+		"command" : "events.task.delete",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : -1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_EVENTS_TASK_RESOLVE",
+		"description" : "COM_EASYSOCIAL_POINTS_EVENTS_TASK_RESOLVE_DESC",
+		"alias" : "events-task-resolve",
+		"command" : "events.task.resolve",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_EVENTS_TASK_UNRESOLVE",
+		"description" : "COM_EASYSOCIAL_POINTS_EVENTS_TASK_UNRESOLVE_DESC",
+		"alias" : "events-task-unresolve",
+		"command" : "events.task.unresolve",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : -1
+	},
+	{
+		"title" : "COM_ES_POINTS_EVENTS_DISCUSSION_POST_LIKED",
+		"alias" : "events-discussion-liked",
+		"description" : "COM_ES_POINTS_EVENTS_DISCUSSION_POST_LIKED_DESC",
+		"command": "event.discussion.liked",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": 1
+	},
+	{
+		"title" : "COM_ES_POINTS_EVENTS_DISCUSSION_POST_UNLIKED",
+		"alias" : "events-discussion-unliked",
+		"description" : "COM_ES_POINTS_EVENTS_DISCUSSION_POST_UNLIKED_DESC",
+		"command": "event.discussion.unliked",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": -1
+	},
+	{
+		"title" : "COM_ES_POINTS_REVIEW_ADDED_EVENTS",
+		"alias" : "events-review-added",
+		"description" : "COM_ES_POINTS_REVIEW_ADDED_DESC",
+		"command": "events.review.added",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": 1
+	},
+	{
+		"title" : "COM_ES_POINTS_EVENT_DISCUSSION_REPLY_LIKED",
+		"alias" : "event-discussion-reply-liked",
+		"description" : "COM_ES_POINTS_EVENT_DISCUSSION_REPLY_LIKED_DESC",
+		"command": "event.discussion.reply.liked",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": 1
+	},
+	{
+		"title" : "COM_ES_POINTS_EVENT_DISCUSSION_REPLY_UNLIKED",
+		"alias" : "event-discussion-reply-unliked",
+		"description" : "COM_ES_POINTS_EVENT_DISCUSSION_REPLY_UNLIKED_DESC",
+		"command": "event.discussion.reply.unliked",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": -1
+	}	
+]

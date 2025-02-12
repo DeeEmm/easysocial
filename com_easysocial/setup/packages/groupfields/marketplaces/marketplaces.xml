@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="group">
+	<name>Marketplaces</name>
+	<element>marketplaces</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>17 Jan 2021</created>
+	<version>4.0.27</version>
+	<copyright>Copyright Stack Ideas Sdn Bhd. All Rights Reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description><![CDATA[COM_ES_GROUP_FIELDS_MARKETPLACES_INFO]]></description>
+	<core>true</core>
+	<unique>true</unique>
+	<files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<file>marketplaces.php</file>
+		<file>marketplaces.xml</file>
+	</files>
+
+</social>

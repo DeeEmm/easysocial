@@ -1,0 +1,313 @@
+[
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_GROUPS_CREATE_GROUP",
+		"description"	: "COM_EASYSOCIAL_ACCESS_GROUPS_CREATE_GROUP_TOOLTIP",
+		"group"			: "user",
+		"name"			: "groups.create"
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_GROUPS_CREATE_GROUP_TOTAL",
+		"description"	: "COM_EASYSOCIAL_ACCESS_GROUPS_CREATE_GROUP_TOTAL_TOOLTIP",
+		"name"			: "groups.limit",
+		"type"			: "limitinterval",
+		"group"			: "user",
+		"default"		: {
+			"value": 0,
+			"interval": 0
+		}
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_GROUPS_ALLOW_JOIN_GROUP",
+		"description"	: "COM_EASYSOCIAL_ACCESS_GROUPS_ALLOW_JOIN_GROUP_TOOLTIP",
+		"name"			: "groups.allow.join",
+		"group"			: "user"
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_GROUPS_JOIN_GROUP_TOTAL",
+		"description"	: "COM_EASYSOCIAL_ACCESS_GROUPS_JOIN_GROUP_TOTAL_TOOLTIP",
+		"name"			: "groups.join",
+		"type"			: "limit",
+		"group"			: "user",
+		"default"		: 0
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_GROUPS_CREATE_GROUP_MODERATION",
+		"description"	: "COM_EASYSOCIAL_ACCESS_GROUPS_CREATE_GROUP_MODERATION_TOOLTIP",
+		"group"			: "user",
+		"name"			: "groups.moderate"
+	},
+	{
+		"title": "COM_EASYSOCIAL_ACCESS_GROUPS_VIDEOS_ENABLED",
+		"description": "COM_EASYSOCIAL_ACCESS_GROUPS_VIDEOS_ENABLED_DESC",
+		"group": "group",
+		"name": "videos.create",
+		"type": "boolean",
+		"default": 1
+	},
+	{
+		"title": "COM_ES_ACCESS_GROUPS_VIDEO_LINK",
+		"description": "COM_ES_ACCESS_GROUPS_VIDEO_LINK_DESC",
+		"group": "group",
+		"name": "videos.link",
+		"type": "boolean",
+		"default": 1
+	},
+	{
+		"title": "COM_EASYSOCIAL_CLUSTER_ACCESS_VIDEO_UPLOADS",
+		"group": "group",
+		"name": "videos.upload",
+		"type": "clusteraccess",
+		"default": "members"
+	},
+	{
+		"title": "COM_EASYSOCIAL_ACCESS_GROUPS_VIDEOS_TOTAL_VIDEOS_ALLOWED",
+		"group": "group",
+		"name": "videos.total",
+		"type": "limit",
+		"default": 0
+	},
+	{
+		"title": "COM_EASYSOCIAL_ACCESS_VIDEOS_MAX_SIZE",
+		"group": "group",
+		"name": "videos.maxsize",
+		"type": "limit",
+		"suffix": "MB",
+		"default": 0
+	},
+	{
+		"title": "COM_ES_CLUSTER_ACCESS_AUDIO_ENABLED",
+		"group": "group",
+		"name": "audios.create",
+		"type": "boolean",
+		"default": 1
+	},
+	{
+		"title": "COM_ES_CLUSTER_ACCESS_AUDIO_UPLOADS",
+		"group": "group",
+		"name": "audios.upload",
+		"type": "clusteraccess",
+		"default": "members"
+	},
+	{
+		"title": "COM_ES_CLUSTER_ACCESS_AUDIO_LINKS",
+		"group": "group",
+		"name": "audios.link",
+		"type": "clusteraccess",
+		"default": "members"
+	},
+	{
+		"title": "COM_ES_CLUSTER_ACCESS_AUDIO_TOTAL_ALLOWED",
+		"group": "group",
+		"name": "audios.total",
+		"type": "limit",
+		"default": 0
+	},
+	{
+		"title": "COM_ES_CLUSTER_ACCESS_AUDIO_MAX_SIZE",
+		"group": "group",
+		"name": "audios.maxsize",
+		"type": "limit",
+		"suffix": "MB",
+		"default": 0
+	},
+	{
+		"title": "COM_EASYSOCIAL_ACCESS_GROUPS_PHOTOS_ENABLED",
+		"description": "COM_EASYSOCIAL_ACCESS_GROUPS_PHOTOS_ENABLED_TOOLTIP",
+		"group": "group",
+		"name": "photos.enabled",
+		"default": 1
+	},
+	{
+		"title": "COM_EASYSOCIAL_CLUSTER_ACCESS_PHOTO_UPLOADS",
+		"group": "group",
+		"name": "photos.upload",
+		"type": "clusteraccess",
+		"default": "members"
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_GROUPS_PHOTOS_TOTAL_PHOTOS_ALLOWED",
+		"description"	: "COM_EASYSOCIAL_ACCESS_GROUPS_PHOTOS_TOTAL_PHOTOS_ALLOWED_TOOLTIP",
+		"group"			: "group",
+		"name"			: "photos.max",
+		"type"			: "limit",
+		"suffix"		: "COM_EASYSOCIAL_ACCESS_GROUPS_PHOTOS_TOTAL_PHOTOS_SUFFIX",
+		"default"		: 0
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_GROUPS_PHOTOS_TOTAL_PHOTOS_DAILY_ALLOWED",
+		"description"	: "COM_EASYSOCIAL_ACCESS_GROUPS_PHOTOS_TOTAL_PHOTOS_DAILY_ALLOWED_TOOLTIP",
+		"group"			: "group",
+		"name"			: "photos.maxdaily",
+		"type"			: "limit",
+		"suffix"		: "COM_EASYSOCIAL_ACCESS_GROUPS_PHOTOS_TOTAL_PHOTOS_SUFFIX",
+		"default"		: 0
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_GROUPS_PHOTOS_PHOTO_MAXSIZE_ALLOWED",
+		"description"	: "COM_EASYSOCIAL_ACCESS_GROUPS_PHOTOS_PHOTO_MAXSIZE_ALLOWED_TOOLTIP",
+		"group"			: "group",
+		"name"			: "photos.maxsize",
+		"type"			: "text",
+		"class"			: "form-control input-sm input-short text-center",
+		"suffix"		: "MB",
+		"default"		: "8"
+	},
+	{
+		"title": "COM_EASYSOCIAL_ACCESS_GROUPS_FILES_ALLOWED",
+		"description": "COM_EASYSOCIAL_ACCESS_GROUPS_FILES_ALLOWED_TOOLTIP",
+		"group": "group",
+		"name": "files.enabled",
+		"type": "boolean",
+		"default": 1
+	},
+	{
+		"title": "COM_EASYSOCIAL_CLUSTER_ACCESS_FILE_UPLOADS",
+		"group": "group",
+		"name": "files.upload",
+		"type": "clusteraccess",
+		"default": "members"
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_GROUPS_FILES_TOTAL_FILES_ALLOWED",
+		"description"	: "COM_EASYSOCIAL_ACCESS_GROUPS_FILES_TOTAL_FILES_ALLOWED_TOOLTIP",
+		"group"			: "group",
+		"name"			: "files.max",
+		"type"			: "limit",
+		"suffix"		: "COM_EASYSOCIAL_ACCESS_GROUPS_FILES_TOTAL_FILES_SUFFIX",
+		"default"		: 0
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_GROUPS_FILES_MAXSIZE_ALLOWED",
+		"description"	: "COM_EASYSOCIAL_ACCESS_GROUPS_FILES_MAXSIZE_ALLOWED_TOOLTIP",
+		"group"			: "group",
+		"name"			: "files.maxsize",
+		"type"			: "text",
+		"class"			: "form-control input-sm input-short text-center",
+		"suffix"		: "MB",
+		"default"		: "8"
+	},
+	{
+		"title": "COM_EASYSOCIAL_CLUSTER_DISCUSSIONS",
+		"group": "group",
+		"name": "discussions.enabled",
+		"type": "boolean",
+		"default": 1
+	},
+	{
+		"title": "COM_EASYSOCIAL_ACCESS_GROUPS_DISCUSSION_POSTINGS",
+		"description": "COM_EASYSOCIAL_ACCESS_GROUPS_DISCUSSION_POSTINGS_TOOLTIP",
+		"group": "group",
+		"name": "discussions.access",
+		"type": "select",
+		"class": "form-control",
+		"default": "members",
+		"options": [
+			{
+				"title": "COM_EASYSOCIAL_ACCESS_GROUPS_ADMINS_ONLY",
+				"value": "admins"
+			},
+			{
+				"title": "COM_EASYSOCIAL_ACCESS_GROUPS_ALL_MEMBERS",
+				"value": "members"
+			}
+		]
+	},
+	{
+		"title": "COM_EASYSOCIAL_CLUSTER_TASKS",
+		"group": "group",
+		"name": "tasks.enabled",
+		"type": "boolean",
+		"default": 1
+	},
+	{
+		"title": "COM_EASYSOCIAL_ACCESS_GROUPS_TASKS_CREATION",
+		"description": "COM_EASYSOCIAL_ACCESS_GROUPS_TASKS_CREATION_TOOLTIP",
+		"group": "group",
+		"name": "tasks.access",
+		"type": "select",
+		"class": "form-control",
+		"default": "members",
+		"options": [
+			{
+				"title": "COM_EASYSOCIAL_ACCESS_GROUPS_ADMINS_ONLY",
+				"value": "admins"
+			},
+			{
+				"title": "COM_EASYSOCIAL_ACCESS_GROUPS_ALL_MEMBERS",
+				"value": "members"
+			}
+		]
+	},
+	{
+		"title": "COM_ES_ACCESS_GROUPS_TASKS_EDITION",
+		"description": "COM_ES_ACCESS_GROUPS_TASKS_EDITION_TOOLTIP",
+		"group": "group",
+		"name": "tasks.edit",
+		"type": "select",
+		"class": "form-control",
+		"default": "admins",
+		"options": [
+			{
+				"title": "COM_EASYSOCIAL_ACCESS_GROUPS_ADMINS_ONLY",
+				"value": "admins"
+			},
+			{
+				"title": "COM_EASYSOCIAL_ACCESS_GROUPS_ALL_MEMBERS",
+				"value": "members"
+			}
+		]
+	},
+	{
+		"title": "COM_EASYSOCIAL_CLUSTER_POLLS",
+		"group": "group",
+		"name": "polls.enabled",
+		"type": "boolean",
+		"default": 1
+	},
+	{
+		"title": "COM_EASYSOCIAL_CLUSTER_ACCESS_POLLS_CREATE",
+		"group": "group",
+		"name": "polls.create",
+		"type": "clusteraccess",
+		"default": "members"
+	},
+	{
+		"title": "COM_EASYSOCIAL_CLUSTER_ANNOUNCEMENTS",
+		"group": "group",
+		"name": "announcements.enabled",
+		"type": "boolean",
+		"default": 1
+	},
+	{
+		"title": "COM_EASYSOCIAL_CLUSTER_ACCESS_ANNOUNCEMENTS_CREATE",
+		"group": "group",
+		"name": "announcements.create",
+		"type": "clusteraccess",
+		"default": "admins"
+	},
+	{
+		"title": "COM_EASYSOCIAL_GROUPS_CREATION_USERPOINTS_LIMIT",
+		"description" : "COM_EASYSOCIAL_GROUPS_CREATION_USERPOINTS_LIMIT_TOOLTIP",
+		"group": "group",
+		"name": "userpoints.limit",
+		"type": "boolean",
+		"default": "0"
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_GROUPS_USERPOINTS_THRESHOLD",
+		"description"	: "COM_EASYSOCIAL_ACCESS_GROUPS_USERPOINTS_THRESHOLD_TOOLTIP",
+		"group"			: "group",
+		"name"			: "userpoints.threshold",
+		"type"			: "text",
+		"class"			: "form-control input-sm input-short text-center",
+		"suffix"		: "COM_EASYSOCIAL_ACCESS_GROUPS_USERPOINTS_THRESHOLD_SUFFIX",
+		"default"		: 50
+	},
+	{
+		"title": "COM_EASYSOCIAL_ACCESS_CLUSTER_EDIT_STREAM",
+		"group": "group",
+		"name": "stream.edit",
+		"type": "clusteraccess",
+		"default": "admins"
+	}
+]

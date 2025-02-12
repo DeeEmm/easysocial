@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__social_photos",
+        "column"    : "total_size",
+        "query"     : "ALTER TABLE  `#__social_photos` ADD `total_size` bigint(20) NULL DEFAULT 0"
+    }
+]

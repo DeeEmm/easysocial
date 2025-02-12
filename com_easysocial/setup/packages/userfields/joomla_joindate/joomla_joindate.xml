@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="user">
+	<name>Joomla Joined Date</name>
+	<element>joomla_joindate</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>30/01/2015</created>
+	<version>2.0.291</version>
+	<copyright>Copyright (c) 2009 - 2013 Stack Ideas Sdn. Bhd.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description><![CDATA[PLG_FIELDS_JOOMLA_JOINDATE_INFO]]></description>
+	<core>false</core>
+	<unique>true</unique>
+	<files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<folder>widgets</folder>
+		<file>joomla_joindate.php</file>
+		<file>joomla_joindate.xml</file>
+	</files>
+	
+</social>

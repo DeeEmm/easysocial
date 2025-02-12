@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_ACCOUNT_LAYOUT_CONFIRMRESETPASSWORD">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_ACCOUNT_LAYOUT_CONFIRMRESETPASSWORD_DESC]]>
+		</message>
+		<view>account</view>
+		<layout>confirmreset</layout>
+	</layout>
+</metadata>

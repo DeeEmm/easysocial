@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="apps" group="group">
+	<name>Groups</name>
+	<element>groups</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>09/01/2014</created>
+	<version>2.0.291</version>
+	<copyright>Copyright (C) 2010 - 2014 Stack Ideas Sdn Bhd</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<installable>true</installable>
+	<system>true</system>
+	<core>true</core>
+	<widget>false</widget>
+	<description><![CDATA[APP_GROUPS_APP_DESCRIPTION]]></description>
+	<files>
+		<folder>config</folder>
+		<folder>hooks</folder>
+		<folder>themes</folder>
+		<folder>widgets</folder>
+		<file>groups.php</file>
+		<file>groups.xml</file>
+	</files>
+</social>

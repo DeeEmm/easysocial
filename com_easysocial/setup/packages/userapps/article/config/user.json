@@ -1,0 +1,17 @@
+[
+	{
+		"title"		: "Profile",
+		"desc"		: "Configure application related settings for the blog app on your profile.",
+		"fields"	:
+		[
+			{
+				"label"		: "Total blog posts to display",
+				"tooltip"	: "Specify the number of feed items to display in the profile",
+				"name"		: "total",
+				"class"		: "input-mini center",
+				"type"		: "text",
+				"default"	: 5
+			}
+		]
+	}
+]

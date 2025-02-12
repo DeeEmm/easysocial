@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="page">
+    <name>Datetime</name>
+    <element>datetime</element>
+    <author>Stack Ideas Sdn Bhd</author>
+    <url>http://stackideas.com</url>
+    <created>18th May 2016</created>
+    <version>2.0.291</version>
+    <copyright>Copyright (c) 2009 - 2016 Stack Ideas Sdn. Bhd.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <description><![CDATA[FIEDLS_PAGE_DATETIME_INFO]]></description>
+    <core>false</core>
+    <unique>false</unique>
+    <files>
+		<folder>config</folder>
+		<file>datetime.php</file>
+		<file>datetime.xml</file>
+	</files>
+    
+</social>

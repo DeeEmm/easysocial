@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="user">
+	<name>Email</name>
+	<element>email</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>23/08/2013</created>
+	<version>2.0.291</version>
+	<copyright>Copyright (c) 2009 - 2013 Stack Ideas Sdn. Bhd.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description><![CDATA[PLG_FIELDS_EMAIL_INFO]]></description>
+	<multiple>false</multiple>
+	<validations>
+		<validate title="Alphabets only"><![CDATA[[a-zA-Z]]]></validate>
+		<validate title="Numeric only"><![CDATA[[0-9]]]></validate>
+		<validate title="Alphanumeric only"><![CDATA[[0-9a-zA-Z]]]></validate>
+	</validations>
+	<files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<file>email.php</file>
+		<file>email.xml</file>
+		<file>helper.php</file>
+	</files>
+	
+</social>

@@ -1,0 +1,8 @@
+[
+	{
+		"title": "COM_ES_ACCESS_CREATE_ADVERTS",
+		"group": "user",
+		"name": "ads.create",
+		"default": 0
+	}
+]

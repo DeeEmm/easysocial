@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="user">
+	<name>Recaptcha</name>
+	<element>recaptcha</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<creationDate>16th January 2024</creationDate>
+	<version>2.1.119</version>
+	<copyright>Copyright (c) 2009 - 2013 Stack Ideas Sdn. Bhd.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description><![CDATA[PLG_FIELDS_RECAPTCHA_INFO]]></description>
+	<core>false</core>
+	<unique>true</unique>
+	<files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<file>recaptcha.php</file>
+		<file>recaptcha.xml</file>
+	</files>
+	
+</social>

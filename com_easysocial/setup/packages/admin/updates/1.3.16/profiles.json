@@ -1,0 +1,7 @@
+[
+    {
+        "table": "#__social_profiles",
+        "column": "site_id",
+        "query": "ALTER TABLE `#__social_profiles` ADD `site_id` VARCHAR(255) NULL ;"
+    }
+]

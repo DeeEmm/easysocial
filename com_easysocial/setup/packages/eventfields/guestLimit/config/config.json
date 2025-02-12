@@ -1,0 +1,21 @@
+{
+	"extends": "fields/user/textbox",
+	"privacy": false,
+	"searchable": false,
+	"title": {
+		"default": "FIELDS_EVENT_GUESTLIMIT_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "FIELDS_EVENT_GUESTLIMIT_DEFAULT_DESCRIPTION"
+	},
+
+	"default":
+	{
+		"label": "COM_ES_EVENTS_FORM_GUESTLIMIT_FIELD_PARAMS_DEFAULT_VALUE",
+		"tooltip": "COM_ES_EVENTS_FORM_GUESTLIMIT_FIELD_PARAMS_DEFAULT_VALUE_DESC",
+		"type": "text",
+		"default": "",
+		"group": "core"
+	}
+}

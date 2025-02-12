@@ -1,0 +1,7 @@
+[
+    {
+        "table": "#__social_albums",
+        "column": "notified",
+        "query": "ALTER TABLE `#__social_albums` ADD `notified` TINYINT(1) NOT NULL;"
+    }
+]

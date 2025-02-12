@@ -1,0 +1,7 @@
+[
+	{
+		"table"		: "#__social_likes",
+		"column"	: "stream_id",
+		"query"		: "ALTER TABLE `#__social_likes` ADD COLUMN `stream_id` BIGINT(20) NULL DEFAULT 0;"
+	}
+]

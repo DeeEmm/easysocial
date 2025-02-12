@@ -1,0 +1,59 @@
+[
+	{
+		"title"		: "COM_EASYSOCIAL_APPS_SETTINGS_STREAM",
+		"desc"		: "COM_EASYSOCIAL_APPS_SETTINGS_STREAM_DESC",
+		"fields"	:
+		[
+			{
+				"label"		: "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER",
+				"tooltip"		: "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER_DESC",
+				"name"		: "stream_filter",
+				"type" 		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_USER_MEMBERS_STREAM_DISPLAY_JOIN",
+				"tooltip"	: "APP_USER_MEMBERS_STREAM_DISPLAY_JOIN_DESC",
+				"name"		: "stream_join",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_USER_STREAM_CREATE_GROUP",
+				"tooltip"	: "APP_USER_STREAM_CREATE_GROUP_DESC",
+				"name"		: "stream_create",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_USER_STREAM_GROUP_DISCUSSSION_CONTENT_MAXLENGTH",
+				"tooltip"	: "APP_USER_STREAM_GROUP_DISCUSSSION_CONTENT_MAXLENGTH_DESC",
+				"name"		: "stream_discussion_maxlength",
+				"type"		: "text",
+				"default"	: 0
+			}
+		]
+	},
+	{
+		"title"		: "APP_USER_GROUPS_SETTINGS_WIDGETS",
+		"desc"		: "APP_USER_GROUPS_SETTINGS_WIDGETS_DESC",
+		"fields"	:
+		[
+			{
+				"label"	: "APP_USER_GROUPS_SETTINGS_WIDGETS_DISPLAY_PROFILE",
+				"tooltip"	: "APP_USER_GROUPS_SETTINGS_WIDGETS_DISPLAY_PROFILE_DESC",
+				"name"	: "widget_profile",
+				"type"	: "boolean",
+				"default"	: true
+			},
+            {
+                "label": "APP_USER_GROUPS_SETTINGS_WIDGETS_PROFILE_TOTAL",
+                "tooltip": "APP_USER_GROUPS_SETTINGS_WIDGETS_PROFILE_TOTAL_DESC",
+                "name": "widget_profile_total",
+                "type": "text",
+                "default": 5,
+                "class": "input-mini text-center"
+            }
+		]
+	}
+]

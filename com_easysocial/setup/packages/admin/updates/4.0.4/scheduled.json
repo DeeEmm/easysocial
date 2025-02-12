@@ -1,0 +1,12 @@
+[
+	{
+		"table": "#__social_marketplaces",
+		"column": "scheduled",
+		"query": "ALTER TABLE `#__social_marketplaces` ADD COLUMN `scheduled` tinyint(3) NOT NULL DEFAULT 0 AFTER `isnew`"
+	},
+	{
+		"table": "#__social_marketplaces",
+		"index": "idx_scheduled",
+		"query": "ALTER TABLE `#__social_marketplaces` ADD INDEX `idx_scheduled` (`scheduled`)"
+	}
+]

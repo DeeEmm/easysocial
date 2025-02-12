@@ -1,0 +1,12 @@
+[
+	{
+		"table": "#__social_videos",
+		"column": "assigned_date",
+		"query": "ALTER TABLE `#__social_videos` ADD `assigned_date` DATETIME NULL AFTER `created`"
+	},
+	{
+		"table": "#__social_audios",
+		"column": "assigned_date",
+		"query": "ALTER TABLE `#__social_audios` ADD `assigned_date` DATETIME NULL AFTER `created`"
+	}
+]

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_ES_MARKETPLACES_LAYOUT_ITEM">
+		<message>
+			<![CDATA[COM_ES_MARKETPLACES_LAYOUT_ITEM_DESC]]>
+		</message>
+		<view>marketplaces</view>
+		<layout>item</layout>
+	</layout>
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			<field name="id" type="easysocial_marketplace" label="COM_ES_SELECT_LISTING" description="COM_ES_SELECT_LISTING_DESC" required="true" />
+		</fieldset>
+	</fields>
+</metadata>

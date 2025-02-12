@@ -1,0 +1,14 @@
+{
+	"title": {
+		"default": "PLG_FIELDS_COVER_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_COVER_DEFAULT_DESCRIPTION"
+	},
+
+	"default": false,
+	"searchable": false,
+	"privacy": false,
+	"visible_display": false
+}

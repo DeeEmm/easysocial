@@ -1,0 +1,11 @@
+{
+	"title": "",
+	"description": {},
+	"default": false,
+	"icon": {
+		"label": "APP_FIELDS_DISPLAY_ICON",
+		"tooltip": "APP_FIELDS_DISPLAY_ICON_DESC",
+		"type": "boolean",
+		"default": true
+	}
+}

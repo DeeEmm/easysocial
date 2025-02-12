@@ -1,0 +1,22 @@
+[
+	{
+		"table": "#__social_badges",
+		"column": "achieve_type",
+		"query": "ALTER TABLE `#__social_badges` ADD COLUMN `achieve_type` varchar(65) NOT NULL DEFAULT 'frequency' AFTER `frequency`;"
+	},
+	{
+		"table": "#__social_badges",
+		"column": "points_increase_rule",
+		"query": "ALTER TABLE `#__social_badges` ADD COLUMN `points_increase_rule` int(11) NULL DEFAULT '0' AFTER `achieve_type`;"
+	},
+	{
+		"table": "#__social_badges",
+		"column": "points_decrease_rule",
+		"query": "ALTER TABLE `#__social_badges` ADD COLUMN `points_decrease_rule` int(11) NULL DEFAULT '0' AFTER `points_increase_rule`;"
+	},
+	{
+		"table": "#__social_badges",
+		"column": "points_threshold",
+		"query": "ALTER TABLE `#__social_badges` ADD COLUMN `points_threshold` int(11) NOT NULL AFTER `points_decrease_rule`;"
+	}
+]

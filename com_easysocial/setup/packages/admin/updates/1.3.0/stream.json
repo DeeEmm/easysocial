@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__social_stream_item",
+        "column"    : "state",
+        "query"     : "ALTER TABLE  `#__social_stream_item` ADD `state` tinyint(3) default 1 NOT NULL"
+    }
+]

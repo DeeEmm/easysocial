@@ -1,0 +1,7 @@
+[
+    {
+        "table": "#__social_broadcasts",
+        "column": "expiry_date",
+        "query": "ALTER TABLE `#__social_broadcasts` ADD `expiry_date` DATETIME NOT NULL;"
+    }
+]

@@ -1,0 +1,29 @@
+{
+	"privacy": false,
+	"searchable": false,
+	"required": false,
+	"default": false,
+
+    "title":
+    {
+        "default": "FIELDS_USER_HTML_DEFAULT_TITLE"
+    },
+
+    "description":
+    {
+        "default": "FIELDS_USER_HTML_DEFAULT_DESCRIPTION"
+    },
+
+	"html": {
+		"label": "FIELDS_USER_HTML_CONFIG_CONTENT",
+		"tooltip": "FIELDS_USER_HTML_CONFIG_CONTENT_DESC",
+		"type": "textarea"
+	},
+
+	"fullcolumn": {
+		"label": "FIELDS_USER_HTML_CONFIG_USE_FULL_COLUMN",
+		"tooltip": "FIELDS_USER_HTML_CONFIG_USE_FULL_COLUMN_DESC",
+		"type": "boolean",
+		"default": false
+	}
+}

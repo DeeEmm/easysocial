@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content" method="upgrade">
+	<name>PLG_CONTENT_EASYSOCIAL</name>
+	<author>Stack Ideas Sdn Bhd</author>
+	<creationDate>23rd January 2019</creationDate>
+	<copyright>Copyright (C) 2010 - 2014 Stack Ideas Sdn Bhd</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>http://stackideas.com</authorUrl>
+	<version>2.0.2</version>
+	<description>PLG_CONTENT_EASYSOCIAL_XML_DESCRIPTION</description>
+	<files>
+		<folder>themes</folder>
+		<filename plugin="easysocial">easysocial.php</filename>
+		<filename>easysocial.xml</filename>
+		<filename>en-GB.plg_content_easysocial.ini</filename>
+		<filename>en-GB.plg_content_easysocial.sys.ini</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_easysocial.ini</language>
+		<language tag="en-GB">en-GB.plg_content_easysocial.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="category_exclusion" type="category" extension="com_content" multiple="true" label="PLG_CONTENT_EASYSOCIAL_SELECT_CATEGORY_EXCLUSION" description="PLG_CONTENT_EASYSOCIAL_SELECT_CATEGORY_EXCLUSION_DESC" />
+
+				<field name="display_share_button" type="radio" class="btn-group" default="0" label="Display Share Button" description="This option determines if the plugin should render a share button on articles">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="share_placement" type="list" default="default" label="Share Button Placement" description="Determines where should the button be placed in the article">
+					<option value="default">PLG_CONTENT_EASYSOCIAL_METADATA_DEFAULT</option>
+					<option value="after_title">PLG_CONTENT_EASYSOCIAL_METADATA_AFTER_TITLE</option>
+					<option value="after_content">PLG_CONTENT_EASYSOCIAL_METADATA_BEFORE_AFTER_CONTENT</option>
+				</field>				
+				
+				<field name="display_info" type="radio" class="btn-group" default="0" label="PLG_CONTENT_EASYSOCIAL_DISPLAY_INFO" description="PLG_CONTENT_EASYSOCIAL_DISPLAY_INFO_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="placement" type="list" default="1" label="PLG_CONTENT_EASYSOCIAL_METADATA_PLACEMENT" description="PLG_CONTENT_EASYSOCIAL_METADATA_PLACEMENT_DESC">
+					<option value="1">PLG_CONTENT_EASYSOCIAL_METADATA_DEFAULT</option>
+					<option value="2">PLG_CONTENT_EASYSOCIAL_METADATA_AFTER_TITLE</option>
+					<option value="3">PLG_CONTENT_EASYSOCIAL_METADATA_BEFORE_DISPLAY_CONTENT</option>
+					<option value="4">PLG_CONTENT_EASYSOCIAL_METADATA_BEFORE_AFTER_CONTENT</option>
+				</field>
+				
+				<field name="modify_contact_link" type="radio" class="btn-group" default="1" label="PLG_CONTENT_EASYSOCIAL_MODIFY_CONTACT_LINK" description="PLG_CONTENT_EASYSOCIAL_MODIFY_CONTACT_LINK_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="load_reactions" type="radio" class="btn-group" default="0" label="PLG_CONTENT_EASYSOCIAL_LOAD_REACTIONS" description="PLG_CONTENT_EASYSOCIAL_LOAD_REACTIONS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="load_comments" type="radio" class="btn-group" default="0" label="PLG_CONTENT_EASYSOCIAL_LOAD_COMMENTS" description="PLG_CONTENT_EASYSOCIAL_LOAD_COMMENTS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="guest_viewcomments" type="radio" class="btn-group" default="1" label="PLG_CONTENT_EASYSOCIAL_GUEST_VIEWCOMMENTS" description="PLG_CONTENT_EASYSOCIAL_GUEST_VIEWCOMMENTS">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

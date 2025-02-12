@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="marketplace">
+	<name>Condition</name>
+	<element>condition</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>04/12/2020</created>
+	<version>3.3.33</version>
+	<copyright>Copyright (c) Stack Ideas Sdn. Bhd.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description><![CDATA[This custom field allows user to state a condition of their item.]]></description>
+	<core>false</core>
+	<unique>true</unique>
+	<files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<file>condition.php</file>
+		<file>condition.xml</file>
+	</files>
+</social>

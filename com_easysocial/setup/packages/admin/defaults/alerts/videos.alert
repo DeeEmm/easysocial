@@ -1,0 +1,17 @@
+[
+	{
+		"element": "videos",
+		"rule": "comment.add",
+		"core": true
+	},
+	{
+		"element": "videos",
+		"rule": "tagged",
+		"core": true
+	},
+	{
+		"element": "videos",
+		"rule": "likes",
+		"core": true
+	}
+]

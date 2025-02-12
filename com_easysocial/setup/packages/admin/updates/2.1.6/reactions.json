@@ -1,0 +1,12 @@
+[
+	{
+		"table": "#__social_likes",
+		"index": "idx_reaction",
+		"query": "ALTER TABLE `#__social_likes` ADD INDEX `idx_reaction` (`reaction` (25));"
+	},
+	{
+		"table": "#__social_likes",
+		"index": "idx_usermood",
+		"query": "ALTER TABLE `#__social_likes` ADD INDEX `idx_usermood` (`created_by`, `created`, `reaction` (25));"
+	}
+]

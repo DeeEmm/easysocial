@@ -1,0 +1,23 @@
+
+[
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_FOLLOWER_TITLE",
+		"alias"			: "follower",
+		"description"	: "COM_EASYSOCIAL_BADGES_FOLLOWER_DESC",
+		"howto"			: "COM_EASYSOCIAL_BADGES_FOLLOWER_HOWTO",
+		"command"		: "followers.follow",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/follower.png",
+		"frequency"		: 60
+	},
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_THOUGHT_LEADER_TITLE",
+		"alias"			: "thought-leader",
+		"description"	: "COM_EASYSOCIAL_BADGES_THOUGHT_LEADER_DESC",
+		"howto"			: "COM_EASYSOCIAL_BADGES_THOUGHT_LEADER_HOWTO",
+		"command"		: "followers.followed",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/thought-leader.png",
+		"frequency"		: 60
+	}
+]

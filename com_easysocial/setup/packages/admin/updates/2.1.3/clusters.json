@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_clusters_categories",
+		"column": "container",
+		"query": "ALTER TABLE `#__social_clusters_categories` ADD `container` tinyint(3) NOT NULL DEFAULT 0"
+	}
+]

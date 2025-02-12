@@ -1,0 +1,92 @@
+[
+    {
+        "title": "COM_EASYSOCIAL_APPS_SETTINGS_STREAM",
+        "desc": "COM_EASYSOCIAL_APPS_SETTINGS_STREAM_DESC",
+        "fields":
+        [
+            {
+                "label": "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER",
+                "tooltip": "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER_DESC",
+                "name": "stream_filter",
+                "type": "boolean",
+                "default": true
+            },
+            {
+                "label": "APP_USER_ARTICLE_SETTINGS_STREAM_CREATE",
+                "tooltip": "APP_USER_ARTICLE_SETTINGS_STREAM_CREATE_DESC",
+                "name": "stream_create",
+                "type": "boolean",
+                "default": true
+            },
+            {
+                "label": "APP_USER_ARTICLE_SETTINGS_STREAM_READ",
+                "tooltip": "APP_USER_ARTICLE_SETTINGS_STREAM_READ_DESC",
+                "name": "stream_read",
+                "type": "boolean",
+                "default": false
+            },
+            {
+                "label": "APP_USER_ARTICLE_SETTINGS_STREAM_UPDATE",
+                "tooltip": "APP_USER_ARTICLE_SETTINGS_STREAM_UPDATE_DESC",
+                "name": "stream_update",
+                "type": "boolean",
+                "default": false
+            },
+			{
+				"label": "APP_USER_ARTICLE_SETTINGS_CONTENT_STREAM_UPDATE_BEHAVIOR",
+				"tooltip": "APP_USER_ARTICLE_SETTINGS_CONTENT_STREAM_UPDATE_BEHAVIOR_DESC",
+				"name": "stream_update_behavior",
+				"type": "select",
+				"default": "createdby",
+				"options":
+				[
+					{
+						"title": "APP_USER_ARTICLE_SETTINGS_CONTENT_STREAM_UPDATE_BEHAVIOR_CREATEDBY",
+						"value": "createdby"
+					},
+					{
+						"title": "APP_USER_ARTICLE_SETTINGS_CONTENT_STREAM_UPDATE_BEHAVIOR_MODIFIEDBY",
+						"value": "modifiedby"
+					}
+				]
+			},
+            {
+                "label": "APP_USER_ARTICLE_SETTINGS_CONTENT_LENGTH",
+                "tooltip": "APP_USER_ARTICLE_SETTINGS_CONTENT_LENGTH_DESC",
+                "name": "stream_content_length",
+                "type": "limit",
+                "default": 250
+            }
+        ]
+    },
+    {
+        "title": "APP_USER_ARTICLE_SETTINGS_PROFILE",
+        "desc": "APP_USER_ARTICLE_SETTINGS_PROFILE_DESC",
+        "fields":
+        [
+            {
+                "label": "APP_USER_ARTICLE_SETTINGS_TOTAL_ARTICLES",
+                "tooltip": "APP_USER_ARTICLE_SETTINGS_TOTAL_ARTICLES_DESC",
+                "name": "total",
+                "class": "input-short text-center",
+                "type": "text",
+                "default": 5
+            },
+            {
+                "label": "APP_USER_ARTICLE_SETTINGS_TITLE_LENGTH",
+                "tooltip": "APP_USER_ARTICLE_SETTINGS_TITLE_LENGTH_DESC",
+                "name": "title_length",
+                "type": "limit",
+                "default": 0
+            },
+            {
+                "label": "APP_USER_ARTICLE_SETTINGS_CONTENT_LENGTH",
+                "tooltip": "APP_USER_ARTICLE_SETTINGS_CONTENT_LENGTH_DESC",
+                "name": "content_length",
+                "type": "limit",
+                "default": 0
+            }
+        ]
+    }
+]
+

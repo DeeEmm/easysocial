@@ -1,0 +1,16 @@
+{
+    "require": {
+        "nahid/jsonq": "^5.2",
+        "guzzlehttp/guzzle": "~6.0",
+        "intervention/image": "^2.5",
+        "google/apiclient": "^2.7"
+    },
+    "scripts": {
+        "post-update-cmd": "Google\\Task\\Composer::cleanup"
+    },
+    "extra": {
+        "google/apiclient-services": [
+            "Oauth2"
+        ]
+    }
+}

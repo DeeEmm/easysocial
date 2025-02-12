@@ -1,0 +1,11 @@
+{
+	"title": {
+		"default": "PLG_FIELDS_JOOMLA_TIMEZONE_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_JOOMLA_TIMEZONE_DEFAULT_DESCRIPTION"
+	},
+
+	"searchable"	: false
+}

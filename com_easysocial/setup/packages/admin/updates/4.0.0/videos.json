@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_videos",
+		"column": "thumbnail_custom",
+		"query": "ALTER TABLE `#__social_videos` ADD COLUMN `thumbnail_custom` TEXT AFTER `thumbnail`"
+	}
+]

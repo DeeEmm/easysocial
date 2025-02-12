@@ -1,0 +1,25 @@
+{
+	"searchable"	: false,
+
+	"privacy"		: false,
+
+	"visible_display": false,
+
+	"title": {
+		"default": "PLG_FIELDS_USER_JOOMLA_LANGUAGE_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_USER_JOOMLA_LANGUAGE_DEFAULT_DESCRIPTION"
+	},
+
+	"show_subname":
+	{
+		"label"		: "PLG_FIELDS_USER_JOOMLA_LANGUAGE_CONFIG_SHOW_SUBNAME",
+		"tooltip"	: "PLG_FIELDS_USER_JOOMLA_LANGUAGE_CONFIG_SHOW_SUBNAME_DESC",
+		"type"		: "boolean",
+		"default"	: true
+	},
+	
+	"default": false
+}

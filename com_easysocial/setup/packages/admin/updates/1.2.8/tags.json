@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__social_tags",
+        "index"     : "idx_targets",
+        "query"     : "ALTER TABLE `#__social_tags` ADD INDEX `idx_targets` (`target_id`, `target_type`);"
+    }
+]

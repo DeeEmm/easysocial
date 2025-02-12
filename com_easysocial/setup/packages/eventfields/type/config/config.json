@@ -1,0 +1,55 @@
+{
+	"title": {
+		"default": "FIELDS_EVENT_TYPE_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "FIELDS_EVENT_TYPE_DEFAULT_DESCRIPTION"
+	},
+
+	"privacy"   : false,
+	"searchable": false,
+
+	"default": {
+		"type": "select",
+		"default": 1,
+		"option": [{
+			"label": "FIELDS_EVENT_TYPE_PUBLIC",
+			"value": 1
+		},{
+			"label": "FIELDS_EVENT_TYPE_PRIVATE",
+			"value": 2
+		},{
+			"label": "FIELDS_EVENT_TYPE_INVITE_ONLY",
+			"value": 3
+		}]
+	},
+
+	"dropdown_options": {
+		"label" : "FIELDS_EVENT_TYPE_DROPDOWN_SELECTION",
+		"tooltip" : "FIELDS_EVENT_TYPE_DROPDOWN_SELECTION_DESC",
+		"type" : "checkbox",
+		"option" : [
+			{
+				"value": "1",
+				"label": "FIELDS_EVENT_TYPE_PUBLIC",
+				"default": true,
+				"connect": false
+			},
+			{
+				"value": "2",
+				"label": "FIELDS_EVENT_TYPE_PRIVATE",
+				"default": true,
+				"connect": false
+			},
+			{
+				"value": "3",
+				"label": "FIELDS_EVENT_TYPE_INVITE_ONLY",
+				"default": true,
+				"connect": false
+			}
+		]
+	},
+
+	"visible_registration": true
+}

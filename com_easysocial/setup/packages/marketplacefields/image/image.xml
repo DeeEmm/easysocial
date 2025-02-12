@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="marketplace">
+	<name>Image</name>
+	<element>image</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>8th January 2021</created>
+	<version>4.0.33</version>
+	<copyright>Copyright (c) Stack Ideas Sdn. Bhd.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description><![CDATA[PLG_FIELDS_IMAGE_INFO]]></description>
+	<core>true</core>
+	<unique>true</unique>
+	<files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<file>ajax.php</file>
+		<file>image.php</file>
+		<file>image.xml</file>
+	</files>
+</social>

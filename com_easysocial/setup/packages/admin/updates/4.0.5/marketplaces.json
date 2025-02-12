@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_marketplaces",
+		"alter": "stock",
+		"query": "ALTER TABLE `#__social_marketplaces` MODIFY COLUMN `stock` INT(11) NULL;"
+	}
+]

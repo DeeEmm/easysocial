@@ -1,0 +1,22 @@
+{
+	"privacy": false,
+	"searchable": false,
+	"title": {
+		"default": "COM_ES_CLUSTER_FIELDS_ENABLE_MARKETPLACES"
+	},
+	"description": {
+		"default": "COM_ES_CLUSTER_FIELDS_ENABLE_MARKETPLACES_DESC"
+	},
+	"default": {
+		"type": "boolean",
+		"default": true
+	},
+
+	"allow_modification": {
+		"label": "PLG_FIELDS_GROUP_ALLOW_MODIFICATION_DESCRIPTION",
+		"tooltip": "PLG_FIELDS_GROUP_ALLOW_MODIFICATION_DESCRIPTION_DESC",
+		"type": "boolean",
+		"default": true,
+		"group": "view"
+	}
+}

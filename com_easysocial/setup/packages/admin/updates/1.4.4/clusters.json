@@ -1,0 +1,7 @@
+[
+    {
+        "table": "#__social_clusters",
+        "index": "idx_clustertype",
+        "query": "ALTER TABLE `#__social_clusters` ADD INDEX `idx_clustertype` (`cluster_type`);"
+    }
+]

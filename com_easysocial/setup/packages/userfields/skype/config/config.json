@@ -1,0 +1,37 @@
+{
+	"title"			: "",
+	"description"	: {},
+	"default"		: false,
+	"theme":
+	{
+		"label"		: "APP_FIELDS_USER_SKYPE_SETTINGS_THEME",
+		"tooltip"	: "APP_FIELDS_USER_SKYPE_SETTINGS_THEME_DESC",
+		"type"		: "select",
+		"option"   : 
+		[
+			{
+				"label": "APP_FIELDS_USER_SKYPE_SETTINGS_THEME_BLUE",
+				"value": "blue"
+			},
+			{
+				"label": "APP_FIELDS_USER_SKYPE_SETTINGS_THEME_WHITE",
+				"value": "white"
+			}
+		],
+		"default"	: "blue"
+	},
+	"chat":
+	{
+		"label"		: "APP_FIELDS_USER_SKYPE_SETTINGS_DISPLAY_CHAT",
+		"tooltip"	: "APP_FIELDS_USER_SKYPE_SETTINGS_DISPLAY_CHAT_DESC",
+		"type"		: "boolean",
+		"default"	: true
+	},
+	"call":
+	{
+		"label"		: "APP_FIELDS_USER_SKYPE_SETTINGS_DISPLAY_CALL",
+		"tooltip"	: "APP_FIELDS_USER_SKYPE_SETTINGS_DISPLAY_CALL_DESC",
+		"type"		: "boolean",
+		"default"	: true
+	}
+}

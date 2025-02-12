@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_AUDIOS_LAYOUT_MINE">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_AUDIOS_LAYOUT_MINE_DESC]]>
+		</message>
+		<view>audios</view>
+		<layout>mine</layout>
+	</layout>
+</metadata>

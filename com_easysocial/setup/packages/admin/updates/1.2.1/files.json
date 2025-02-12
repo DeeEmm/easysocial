@@ -1,0 +1,7 @@
+[
+	{
+		"table"		: "#__social_files",
+		"index"		: "collection_id",
+		"query"		: "ALTER TABLE  `#__social_files` ADD  `collection_id` INT( 11 ) NOT NULL AFTER  `id`, ADD INDEX (  `collection_id` ) ;"
+	}
+]

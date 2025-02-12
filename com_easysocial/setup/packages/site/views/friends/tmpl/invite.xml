@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_FRIENDS_LAYOUT_INVITE">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_FRIENDS_LAYOUT_INVITE_DESC]]>
+		</message>
+		<view>friends</view>
+	</layout>
+</metadata>

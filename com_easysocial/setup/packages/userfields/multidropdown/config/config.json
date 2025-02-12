@@ -1,0 +1,31 @@
+{
+    "items": {
+        "label"     : "PLG_FIELDS_MULTIDROPDOWN_CONFIG_CHOICE",
+        "tooltip"   : "PLG_FIELDS_MULTIDROPDOWN_CONFIG_CHOICE_DESC",
+        "type"      : "choices",
+        "unique"    : true
+    },
+
+    "max": {
+        "label"     : "PLG_FIELDS_MULTIDROPDOWN_CONFIG_MAX",
+        "tooltip"   : "PLG_FIELDS_MULTIDROPDOWN_CONFIG_MAX_DESC",
+        "type"      : "text",
+        "default"   : 0
+    },
+
+    "add_button_text": {
+        "label"     : "PLG_FIELDS_MULTIDROPDOWN_CONFIG_ADD_BUTTON_TEXT",
+        "tooltip"   : "PLG_FIELDS_MULTIDROPDOWN_CONFIG_ADD_BUTTON_TEXT_DESC",
+        "type"      : "text",
+        "default"   : "PLG_FIELDS_MULTIDROPDOWN_CONFIG_ADD_BUTTON_TEXT_DEFAULT"
+    },
+
+    "placeholder": {
+        "label"     : "PLG_FIELDS_MULTIDROPDOWN_CONFIG_PLACEHOLDER",
+        "tooltip"   : "PLG_FIELDS_MULTIDROPDOWN_CONFIG_PLACEHOLDER_DESC",
+        "type"      : "text",
+        "default"   : "PLG_FIELDS_MULTIDROPDOWN_SELECT_A_VALUE"
+    },
+
+    "default": false
+}

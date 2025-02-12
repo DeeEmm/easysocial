@@ -1,0 +1,22 @@
+[
+	{
+		"table": "#__social_conversations",
+		"index": "idx_type",
+		"query": "ALTER TABLE `#__social_conversations` ADD INDEX `idx_type` (`type`);"
+	},
+	{
+		"table": "#__social_conversations",
+		"index": "idx_created_by",
+		"query": "ALTER TABLE `#__social_conversations` ADD INDEX `idx_created_by` (`created_by`);"
+	},
+	{
+		"table": "#__social_conversations",
+		"index": "idx_created_by_type",
+		"query": "ALTER TABLE `#__social_conversations` ADD INDEX `idx_created_by_type` (`created_by`, `type`);"
+	},
+	{
+		"table": "#__social_conversations_participants",
+		"index": "idx_userid",
+		"query": "ALTER TABLE `#__social_conversations_participants` ADD INDEX `idx_userid` (`user_id`);"
+	}
+]

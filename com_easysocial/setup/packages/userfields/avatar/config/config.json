@@ -1,0 +1,35 @@
+{
+	"title": {
+		"default": "PLG_FIELDS_AVATAR_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_AVATAR_DEFAULT_DESCRIPTION"
+	},
+
+	"upload": {
+		"label": "PLG_FIELDS_AVATAR_CONFIG_ALLOW_UPLOAD",
+		"tooltip": "PLG_FIELDS_AVATAR_CONFIG_ALLOW_UPLOAD_DESC",
+		"type": "boolean",
+		"default": true
+	},
+
+	"gallery": {
+		"label": "PLG_FIELDS_AVATAR_CONFIG_ALLOW_GALLERY",
+		"tooltip": "PLG_FIELDS_AVATAR_CONFIG_ALLOW_GALLERY_DESC",
+		"type": "boolean",
+		"default": true
+	},
+
+	"use_gallery_button": {
+		"label": "PLG_FIELDS_AVATAR_CONFIG_USE_GALLERY_BUTTON",
+		"tooltip": "PLG_FIELDS_AVATAR_CONFIG_USE_GALLERY_BUTTON_DESC",
+		"type": "boolean",
+		"default": true
+	},
+
+	"default": false,
+	"searchable": false,
+	"privacy": false,
+	"visible_display": false
+}

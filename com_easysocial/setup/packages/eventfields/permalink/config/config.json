@@ -1,0 +1,42 @@
+{
+	"check_permalink":
+	{
+		"label"		: "FIELDS_EVENT_PERMALINK_CONFIG_CHECK_PERMALINK",
+		"tooltip"	: "FIELDS_EVENT_PERMALINK_CONFIG_CHECK_PERMALINK_DESC",
+		"default"	: true,
+		"type"		: "boolean"
+	},
+
+	"max": {
+		"label"		: "FIELDS_EVENT_PERMALINK_CONFIG_MAX_CHARACTER",
+		"tooltip"	: "FIELDS_EVENT_PERMALINK_CONFIG_MAX_CHARACTER_DESC",
+		"default"	: "100",
+		"type"		: "text"
+	},
+
+	"forbidden": {
+		"label"		: "FIELDS_EVENT_PERMALINK_CONFIG_FORBIDDEN_WORDS",
+		"tooltip"	: "FIELDS_EVENT_PERMALINK_CONFIG_FORBIDDEN_WORDS_DESC",
+		"type"		: "textarea"
+	},
+
+	"title": {
+		"default": "FIELDS_EVENT_PERMALINK_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "FIELDS_EVENT_PERMALINK_DEFAULT_DESCRIPTION"
+	},
+
+	"searchable"	: false,
+
+	"privacy"		: false,
+
+	"default"		: false,
+
+	"visible_display": false,
+
+	"required": {
+		"default": false
+	}
+}

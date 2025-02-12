@@ -24,6 +24,7 @@ https://github.com/DeeEmm/easysocial/CONTRIBUTING.md
 
 Build Number    | Description of Change
 -- | --
+2502120002      | Created DEV branch
 2502120001      | Added contribution guidelines
 .               | Create CHANGELOG + README
 .               | V4.0.14 Release

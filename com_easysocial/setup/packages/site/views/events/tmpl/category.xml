@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="COM_EASYSOCIAL_EVENTS_LAYOUT_EVENT_CATEGORY">
+        <message>
+            <![CDATA[COM_EASYSOCIAL_EVENTS_LAYOUT_EVENT_CATEGORY_DESC]]>
+        </message>
+        <view>events</view>
+        <layout>category</layout>
+    </layout>
+
+    <fields name="request">
+        <fieldset name="request" addfieldpath="/administrator/components/com_easysocial/models/fields">
+            <field name="id" type="easysocial_eventcategory" label="COM_EASYSOCIAL_EVENTS_LAYOUT_EVENT_CATEGORY_SELECT_EVENT_CATEGORY" description="COM_EASYSOCIAL_EVENTS_LAYOUT_EVENT_CATEGORY_SELECT_EVENT_CATEGORY_DESC" required="true" message="COM_EASYSOCIAL_EVENTS_LAYOUT_EVENT_CATEGORY_SELECT_EVENT_CATEGORY_REQUIRED" />
+        </fieldset>
+    </fields>
+</metadata>

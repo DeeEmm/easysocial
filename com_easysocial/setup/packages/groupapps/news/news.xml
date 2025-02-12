@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="apps" group="group">
+	<name>Announcements</name>
+	<element>news</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>05/11/2013</created>
+	<version>2.0.291</version>
+	<copyright>Copyright (C) 2010 - 2016 Stack Ideas Sdn Bhd</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<core>true</core>
+	<widget>true</widget>
+	<installable>false</installable>
+	<views>
+		<view type="embed">groups</view>
+	</views>
+	<description><![CDATA[APP_GROUP_NEWS_APP_DESCRIPTION]]></description>
+	<files>
+		<folder>assets</folder>
+		<folder>config</folder>
+		<folder>hooks</folder>
+		<folder>themes</folder>
+		<folder>views</folder>
+		<folder>widgets</folder>
+		<file>news.php</file>
+		<file>news.xml</file>
+	</files>
+</social>

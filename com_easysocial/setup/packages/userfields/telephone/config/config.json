@@ -1,0 +1,17 @@
+{
+	"title": "",
+	"description": {},
+	"default": false,
+	"icons": {
+		"label": "APP_FIELDS_USER_TELEPHONE_DISPLAY_ICONS",
+		"tooltip": "APP_FIELDS_USER_TELEPHONE_DISPLAY_ICONS_DESC",
+		"type": "boolean",
+		"default": true
+	},
+	"sms": {
+		"label": "APP_FIELDS_USER_TELEPHONE_DISPLAY_SMS",
+		"tooltip": "APP_FIELDS_USER_TELEPHONE_DISPLAY_SMS_DESC",
+		"type": "boolean",
+		"default": true
+	}
+}

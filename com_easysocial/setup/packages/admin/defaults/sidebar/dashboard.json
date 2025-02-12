@@ -1,0 +1,8 @@
+{
+	"title"	: "COM_EASYSOCIAL_MENU_GROUP_DASHBOARD",
+	"link"	: "index.php?option=com_easysocial",
+	"class"	: "fa fa-home",
+	"view"	: "easysocial",
+	"active": "view",
+	"childs": []
+}

@@ -1,0 +1,27 @@
+{
+	"default": false,
+
+	"title": {
+		"default": "PLG_FIELDS_MARKETPLACE_CONDITION_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_MARKETPLACE_CONDITION_DEFAULT_DESCRIPTION"
+	},
+
+	"items": {
+		"label" : "PLG_FIELDS_MARKETPLACE_CONDITION_LABEL",
+		"tooltip" : "PLG_FIELDS_MARKETPLACE_CONDITION_DESC",
+		"type" : "choices",
+		"unique" : true,
+		"hasDefault": false,
+		"hasDefaultItems": true,
+		"defaultItems": [
+			{"label": "New", "value": 1},
+			{"label": "Used", "value": 2}
+		]
+	},
+
+	"showConditional" : false,
+	"searchable": false
+}

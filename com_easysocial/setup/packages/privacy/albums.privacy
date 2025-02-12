@@ -1,0 +1,34 @@
+
+{
+	"type": "albums",
+	"rules":
+		[
+			{
+				"core"			: true,
+				"command" 		: "view",
+				"description"	: "COM_EASYSOCIAL_PRIVACY_DESC_ALBUMS_VIEW",
+				"default"		: "public",
+				"options"		:
+				[
+					{
+						"name"	: "public"
+					},
+					{
+						"name"	: "member"
+					},
+					{
+						"name"	: "friend"
+					},
+					{
+						"name"	: "only_me"
+					},
+					{
+						"name" : "custom"
+					},
+					{
+						"name" : "field"
+					}
+				]
+			}
+		]
+}

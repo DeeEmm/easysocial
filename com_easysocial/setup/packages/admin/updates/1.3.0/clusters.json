@@ -1,0 +1,22 @@
+[
+    {
+        "table"     : "#__social_clusters",
+        "column"    : "parent_id",
+        "query"     : "ALTER TABLE  `#__social_clusters` ADD `parent_id` int(11) NOT NULL DEFAULT 0"
+    },
+    {
+        "table"     : "#__social_clusters",
+        "column"    : "longitude",
+        "query"     : "ALTER TABLE  `#__social_clusters` ADD `longitude` varchar(255) NOT NULL"
+    },
+    {
+        "table"     : "#__social_clusters",
+        "column"    : "latitude",
+        "query"     : "ALTER TABLE  `#__social_clusters` ADD `latitude` varchar(255) NOT NULL"
+    },
+    {
+        "table"     : "#__social_clusters",
+        "column"    : "address",
+        "query"     : "ALTER TABLE  `#__social_clusters` ADD `address` text NOT NULL"
+    }
+]

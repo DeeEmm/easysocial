@@ -1,0 +1,74 @@
+[
+	{
+		"title": "COM_EASYSOCIAL_APPS_SETTINGS_STREAM",
+		"desc": "COM_EASYSOCIAL_APPS_SETTINGS_STREAM_DESC",
+		"fields":
+		[
+			{
+				"label": "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER",
+				"tooltip": "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER_DESC",
+				"name": "stream_filter",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"label": "APP_USER_AUDIO_SETTINGS_STREAM_UPLOAD_AUDIO",
+				"tooltip": "APP_USER_AUDIO_SETTINGS_STREAM_UPLOAD_AUDIO_DESC",
+				"name": "uploadAudios",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"label": "APP_USER_AUDIO_SETTINGS_STREAM_FEATURED_AUDIO",
+				"tooltip": "APP_USER_AUDIO_SETTINGS_STREAM_FEATURED_AUDIO_DESC",
+				"name": "featuredAudios",
+				"type": "boolean",
+				"default": true
+			}
+		]
+	},
+	{
+		"title": "APP_USER_AUDIO_SETTINGS_WIDGETS",
+		"desc": "APP_USER_AUDIO_SETTINGS_WIDGETS_DESC",
+		"fields":
+		[
+			{
+				"label": "APP_USER_AUDIO_SETTINGS_WIDGETS_PROFILE",
+				"tooltip": "APP_USER_AUDIO_SETTINGS_WIDGETS_PROFILE_DESC",
+				"name": "showaudios",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"label": "APP_USER_AUDIO_SETTINGS_WIDGETS_AUDIO_LISTING_TOTAL",
+				"tooltip": "APP_USER_AUDIO_SETTINGS_WIDGETS_AUDIO_LISTING_TOTAL_DESC",
+				"name": "audio_widget_listing_total",
+				"type": "text",
+				"default": 5,
+				"class": "input-mini text-center"
+			},
+			{
+				"label": "APP_USER_AUDIO_SETTINGS_WIDGETS_PROFILE_ORDERING",
+				"tooltip": "APP_USER_AUDIO_SETTINGS_WIDGETS_PROFILE_ORDERING_DESC",
+				"name": "ordering",
+				"type": "select",
+				"default": "latest",
+				"options":
+				[
+					{
+						"title": "APP_USER_AUDIO_SETTINGS_WIDGETS_PROFILE_ORDERING_LATEST",
+						"value": "latest"
+					},
+					{
+						"title": "APP_USER_AUDIO_SETTINGS_WIDGETS_PROFILE_ORDERING_POPULAR",
+						"value": "popular"
+					},
+					{
+						"title": "APP_USER_AUDIO_SETTINGS_WIDGETS_PROFILE_ORDERING_RANDOM",
+						"value": "random"
+					}
+				]
+			}
+		]
+	}
+]

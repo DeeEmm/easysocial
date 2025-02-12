@@ -1,0 +1,48 @@
+
+
+{
+
+	"title"			: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_EMAIL_ADDRESS",
+
+
+	"description"	: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_EMAIL_ADDRESS_DESC",
+
+
+	"position"		: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_EMAIL_DEFAULT",
+
+
+	"default"		: "",
+
+
+	"display_title"	: true,
+
+
+	"validation"	: "",
+
+
+	"registration"	: true,
+
+
+	"state"			: true,
+
+
+	"visibility"	: false,
+
+
+	"searchable"	: false,
+
+
+	"required"		: true,
+
+
+	"min"			: 1,
+
+
+	"max"			: 255,
+
+
+	"params"		: "",
+
+
+	"ordering"		: 2
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "table": "#__social_users",
+        "column": "reminder_sent",
+        "query": "ALTER TABLE `#__social_users` ADD `reminder_sent` tinyint(1) DEFAULT 0;"
+    },
+    {
+        "table": "#__social_users",
+        "column": "require_reset",
+        "query": "ALTER TABLE `#__social_users` ADD `require_reset` tinyint(1) default 0"
+    },
+    {
+        "table": "#__social_users",
+        "column": "block_date",
+        "query": "ALTER TABLE `#__social_users` ADD `block_date` datetime null default '0000-00-00 00:00:00'"
+    },
+    {
+        "table": "#__social_users",
+        "column": "block_period",
+        "query": "ALTER TABLE `#__social_users` ADD `block_period` int(11) default 0"
+    }
+]

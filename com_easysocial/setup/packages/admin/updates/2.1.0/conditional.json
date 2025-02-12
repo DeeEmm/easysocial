@@ -1,0 +1,12 @@
+[
+	{
+		"table": "#__social_fields",
+		"column": "is_conditional",
+		"query": "ALTER TABLE `#__social_fields` ADD COLUMN `is_conditional` tinyint(3) DEFAULT '0'"
+	},
+	{
+		"table": "#__social_fields",
+		"column": "conditions",
+		"query": "ALTER TABLE `#__social_fields` ADD COLUMN `conditions` text"
+	}
+]

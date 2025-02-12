@@ -1,0 +1,54 @@
+[
+	{
+		"name": "videos.upload",
+		"type": "boolean",
+		"title": "COM_EASYSOCIAL_ACCESS_VIDEOS_UPLOAD"
+	},
+	{
+		"name": "videos.link",
+		"type": "boolean",
+		"title": "COM_EASYSOCIAL_ACCESS_VIDEOS_LINK"
+	},
+	{
+		"name": "videos.create",
+		"type": "boolean",
+		"title": "COM_EASYSOCIAL_ACCESS_VIDEOS_UPLOAD_VIDEOS"
+	},
+	{
+		"name": "videos.total",
+		"type": "limit",
+		"default": 0,
+		"title": "COM_EASYSOCIAL_ACCESS_VIDEOS_TOTAL"
+	},
+	{
+		"name": "videos.maxsize",
+		"type": "text",
+		"class": "form-control input-sm input-short text-center",
+		"default": 8,
+		"suffix": "MB",
+		"title": "COM_EASYSOCIAL_ACCESS_VIDEOS_MAX_SIZE"
+	},
+	{
+		"name": "videos.daily",
+		"type": "limit",
+		"default": 50,
+		"suffix": "videos",
+		"title": "COM_EASYSOCIAL_ACCESS_VIDEOS_TOTAL_DAILY"
+	},
+	{
+		"name": "videos.truncate",
+		"type": "boolean",
+		"title": "COM_ES_TRUNCATE_VIDEO",
+		"description": "COM_ES_TRUNCATE_VIDEO_DESC",
+		"default": false
+	},
+	{
+		"title": "COM_ES_TRUNCATE_VIDEO_LENGTH",
+		"description": "COM_ES_TRUNCATE_VIDEO_LENGTH_DESC",
+		"name": "videos.truncatelength",
+		"type": "text",
+		"class": "form-control input-sm input-short text-center",
+		"suffix": "seconds",
+		"default": 1800
+	}
+]

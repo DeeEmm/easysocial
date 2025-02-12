@@ -1,0 +1,7 @@
+[
+	{
+		"table"		: "#__social_stream_tags",
+		"column"	: "title",
+		"query"		: "ALTER TABLE `#__social_stream_tags` ADD  `title` VARCHAR( 255 ) NULL, ADD INDEX `streamtags_title` ( `title` );"
+	}
+]

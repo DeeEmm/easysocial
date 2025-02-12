@@ -1,0 +1,17 @@
+[
+    {
+        "table"     : "#__social_stream_item",
+        "index"     : "idx_uid",
+        "query"     : "ALTER TABLE `#__social_stream_item` ADD INDEX `idx_uid` (`uid`);"
+    },
+    {
+        "table"     : "#__social_stream",
+        "column"    : "verb",
+        "query"     : "ALTER TABLE `#__social_stream` ADD COLUMN `verb` varchar(64) DEFAULT '';"
+    },
+    {
+        "table"     : "#__social_stream",
+        "column"    : "edited",
+        "query"     : "ALTER TABLE `#__social_stream` ADD COLUMN `edited` DATETIME NULL DEFAULT '0000-00-00 00:00:00';"
+    }
+]

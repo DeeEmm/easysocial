@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_storage_log",
+		"column": "message",
+		"query": "ALTER TABLE `#__social_storage_log` ADD `message` TEXT NOT NULL AFTER `created`;"
+	}
+]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_CONVERSATIONS_LAYOUT_DEFAULT">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_CONVERSATIONS_LAYOUT_DEFAULT_DESC]]>
+		</message>
+		<view>conversations</view>
+	</layout>
+</metadata>

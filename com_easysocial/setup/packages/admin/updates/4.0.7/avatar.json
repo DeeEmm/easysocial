@@ -1,0 +1,17 @@
+[
+	{
+		"table": "#__social_avatars",
+		"alter": "avatar_id",
+		"query": "ALTER TABLE `#__social_avatars` ALTER `avatar_id` SET DEFAULT 0;"
+	},
+	{
+		"table": "#__social_avatars",
+		"alter": "photo_id",
+		"query": "ALTER TABLE `#__social_avatars`ALTER `photo_id` SET DEFAULT 0;"
+	},
+	{
+		"table": "#__social_avatars",
+		"alter": "modified",
+		"query": "ALTER TABLE `#__social_avatars`ALTER `modified` SET DEFAULT '0000-00-00 00:00:00';"
+	}
+]

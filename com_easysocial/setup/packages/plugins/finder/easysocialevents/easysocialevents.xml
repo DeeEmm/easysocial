@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="finder" method="upgrade">
+	<name>plg_finder_easysocialevents</name>
+	<author>Stackideas</author>
+	<creationDate>August 2014</creationDate>
+	<copyright>Copyright 2009 - 2014 StackIdeas. All rights reserved.</copyright>
+	<license>GPL License</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>http://www.stackideas.com</authorUrl>
+	<version>2.0.0</version>
+	<description>This plugin indexes EasySocial Events.</description>
+	<files>
+		<file plugin="easysocialevents">easysocialevents.php</file>
+    	<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_finder_easysocialevents.ini</language>
+		<language tag="en-GB">en-GB.plg_finder_easysocialevents.sys.ini</language>
+	</languages>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

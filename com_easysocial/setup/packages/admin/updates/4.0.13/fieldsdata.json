@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_fields_data",
+		"alter": "datakey",
+		"query": "ALTER TABLE `#__social_fields_data` MODIFY COLUMN `datakey` varchar(255) NULL DEFAULT '';"
+	}
+]

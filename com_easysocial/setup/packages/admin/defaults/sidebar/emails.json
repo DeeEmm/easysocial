@@ -1,0 +1,26 @@
+{
+	"title"	: "COM_EASYSOCIAL_MENU_GROUP_EMAIL",
+	"link"	: "index.php?option=com_easysocial&view=mailer",
+	"class"	: "fa fa-envelope",
+	"access": "easysocial.access.mailer",
+	"view"	: "mailer",
+	"active": "layout",
+	"childs":
+	[
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_GROUP_EMAIL_ACTIVITY",
+			"class"	: "",
+			"url": {
+				"view"	: "mailer",
+				"layout": ""
+			}
+		}, {
+			"title"	: "COM_EASYSOCIAL_MENU_GROUP_EMAIL_EDITOR",
+			"class" : "",
+			"url": {
+				"view"	: "mailer",
+				"layout": "editor"
+			}
+		}
+	]
+}

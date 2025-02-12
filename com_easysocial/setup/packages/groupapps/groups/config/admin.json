@@ -1,0 +1,65 @@
+[
+	{
+		"title"		: "APP_GROUP_GROUPS_SETTINGS_WIDGETS",
+		"desc"		: "APP_GROUP_GROUPS_SETTINGS_WIDGETS_DESC",
+		"fields"	:
+		[
+			{
+				"label"		: "APP_GROUP_GROUPS_SHOW_FRIENDS_IN_GROUP",
+				"tooltip"	: "APP_GROUP_GROUPS_SHOW_FRIENDS_IN_GROUP_DESC",
+				"name"		: "show_friends",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_GROUP_GROUPS_SHOW_ONLINE_MEMBERS",
+				"tooltip"	: "APP_GROUP_GROUPS_SHOW_ONLINE_MEMBERS_DESC",
+				"name"		: "show_online",
+				"type"		: "boolean",
+				"default"	: true
+			}
+		]
+	},
+	{
+		"title"		: "APP_SETTINGS_STREAM",
+		"desc"		: "APP_SETTINGS_STREAM_DESC",
+		"fields"	:
+		[
+			{
+				"label"		: "APP_GROUP_GROUPS_STREAM_DISPLAY_JOIN",
+				"tooltip"	: "APP_GROUP_GROUPS_STREAM_DISPLAY_JOIN_DESC",
+				"name"		: "stream_join",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_GROUP_GROUPS_STREAM_DISPLAY_LEAVE",
+				"tooltip"	: "APP_GROUP_GROUPS_STREAM_DISPLAY_LEAVE_DESC",
+				"name"		: "stream_leave",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_GROUP_GROUPS_STREAM_DISPLAY_PROMOTIONS",
+				"tooltip"	: "APP_GROUP_GROUPS_STREAM_DISPLAY_PROMOTIONS_DESC",
+				"name"		: "stream_promoted",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_GROUP_GROUPS_STREAM_DISPLAY_UPDATE",
+				"tooltip"	: "APP_GROUP_GROUPS_STREAM_DISPLAY_UPDATE_DESC",
+				"name"		: "stream_update",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_GROUP_GROUPS_STREAM_DISPLAY_CREATE",
+				"tooltip"	: "APP_GROUP_GROUPS_STREAM_DISPLAY_CREATE_DESC",
+				"name"		: "stream_create",
+				"type"		: "boolean",
+				"default"	: true
+			}
+		]
+	}
+]

@@ -1,0 +1,10 @@
+{
+	"items": {
+		"label"		: "PLG_FIELDS_CHECKBOX_ITEMS",
+		"tooltip"	: "PLG_FIELDS_CHECKBOX_ITEMS_DESC",
+		"type"		: "choices",
+		"unique"	: false
+	},
+
+	"default": false
+}

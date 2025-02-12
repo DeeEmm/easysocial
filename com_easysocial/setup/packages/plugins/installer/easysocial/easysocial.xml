@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="installer" method="upgrade">
+	<name>Installer - EasySocial</name>
+	<version>3.2.11</version>
+	<creationDate>19th March 2020</creationDate>
+	<author>Stack Ideas Sdn Bhd</author>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>https://stackideas.com</authorUrl>
+	<copyright>Copyright (C) Stack Ideas Sdn Bhd. All rights reserved.</copyright>
+	<license>GPL License v2</license>
+	<description>
+		Perform updates for EasySocial.
+	</description>
+	<files folder="easysocial">
+		<filename plugin="easysocial">easysocial.php</filename>
+	</files>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

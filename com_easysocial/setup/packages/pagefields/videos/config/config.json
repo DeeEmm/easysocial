@@ -1,0 +1,23 @@
+{
+	"privacy": false,
+    "searchable": false,
+	"title": {
+		"default": "PLG_FIELDS_PAGE_VIDEOS_DEFAULT_TITLE"
+	},
+	"description": {
+		"default": "PLG_FIELDS_PAGE_VIDEOS_DEFAULT_DESC"
+	},
+	"default": {
+		"type": "boolean",
+		"default": true
+	},
+
+	"allow_modification":
+	{
+		"label": "PLG_FIELDS_PAGE_ALLOW_MODIFICATION_DESCRIPTION",
+		"tooltip": "PLG_FIELDS_PAGE_ALLOW_MODIFICATION_DESCRIPTION_DESC",
+		"type": "boolean",
+		"default": true,
+		"group": "view"
+	}
+}

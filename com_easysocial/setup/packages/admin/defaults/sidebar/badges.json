@@ -1,0 +1,42 @@
+{
+	"title"	: "COM_EASYSOCIAL_MENU_GROUP_USER_BADGES",
+	"link"	: "index.php?option=com_easysocial&view=badges",
+	"class"	: "fa fa-trophy",
+	"access": "easysocial.access.badges",
+	"view"	: "badges",
+	"active": "layout",
+	"childs":
+	[
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_GROUP_USER_BADGES",
+			"url": {
+				"view"	: "badges",
+				"layout": ""
+			},
+			"activeLayouts": [
+				"form"
+			]
+		},
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_BADGES_INSTALL",
+			"url": {
+				"view"	: "badges",
+				"layout": "install"
+			}
+		},
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_BADGES_DISCOVER",
+			"url": {
+				"view"	: "badges",
+				"layout": "discover"
+			}
+		},
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_MASS_USER_ASSIGN",
+			"url"	: {
+				"view"	: "badges",
+				"layout": "csv"
+			}
+		}
+	]
+}

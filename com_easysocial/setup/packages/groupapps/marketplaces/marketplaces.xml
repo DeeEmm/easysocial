@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="apps" group="group">
+	<name>Marketplaces</name>
+	<element>marketplaces</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>15/12/2020</created>
+	<version>4.0.27</version>
+	<copyright>Copyright (C) Stack Ideas Sdn Bhd</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<installable>false</installable>
+	<core>true</core>
+	<system>true</system>
+	<widget>true</widget>
+	<description><![CDATA[APP_GROUP_MARKETPLACES_APP_DESCRIPTION]]></description>
+	<files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<folder>widgets</folder>
+		<file>marketplaces.php</file>
+		<file>marketplaces.xml</file>
+	</files>
+</social>

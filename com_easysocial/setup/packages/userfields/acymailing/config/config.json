@@ -1,0 +1,28 @@
+{
+	"title" : "",
+	"description" : {},
+	"default" : false,
+	"searchable": false,
+	"privacy": false,
+	"list_ids": {
+		"label": "PLG_FIELDS_ACYMAILING_ENTER_LIST_IDS",
+		"tooltip": "PLG_FIELDS_ACYMAILING_ENTER_LIST_IDS_DESC",
+		"type": "text",
+		"default": "1",
+		"group": "core"
+	},
+	"option_type": {
+		"label": "PLG_FIELDS_ACYMAILING_OPTION_TYPE",
+		"tooltip": "PLG_FIELDS_ACYMAILING_OPTION_TYPE_DESC",
+		"type": "select",
+		"default": "checkbox",
+		"group": "core",
+		"option": [{
+			"label": "Checkbox",
+			"value": "checkbox"
+		}, {
+			"label": "Toggle",
+			"value": "toggler"
+		}]
+	}
+}

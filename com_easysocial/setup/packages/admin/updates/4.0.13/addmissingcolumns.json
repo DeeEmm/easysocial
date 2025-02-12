@@ -1,0 +1,27 @@
+[
+	{
+		"table": "#__social_conversations",
+		"column": "title_alias",
+		"query": "ALTER TABLE `#__social_conversations` ADD COLUMN `title_alias` varchar(64) DEFAULT '' AFTER `title`;"
+	},
+	{
+		"table": "#__social_lists",
+		"column": "type",
+		"query": "ALTER TABLE `#__social_lists` ADD `type` varchar(255) NOT NULL DEFAULT 'friends';"
+	},
+	{
+		"table": "#__social_marketplaces",
+		"column": "longitude",
+		"query": "ALTER TABLE `#__social_marketplaces` ADD COLUMN `longitude` varchar(255) NOT NULL DEFAULT '' COMMENT 'The longitude value of the marketplace listing';"
+	},
+	{
+		"table": "#__social_marketplaces",
+		"column": "latitude",
+		"query": "ALTER TABLE `#__social_marketplaces` ADD COLUMN `latitude` varchar(255) NOT NULL DEFAULT '' COMMENT 'The latitude value of the marketplace listing';"
+	},
+	{
+		"table": "#__social_marketplaces",
+		"column": "address",
+		"query": "ALTER TABLE `#__social_marketplaces` ADD COLUMN `address` text COMMENT 'The full address value of the marketplace listing';"
+	}
+]

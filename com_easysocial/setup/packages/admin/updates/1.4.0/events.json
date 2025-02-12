@@ -1,0 +1,38 @@
+[
+    {
+        "table": "#__social_events_meta",
+        "column": "reminder",
+        "query": "ALTER TABLE `#__social_events_meta` ADD `reminder` int(11) NULL default 0;"
+    },
+    {
+        "table": "#__social_events_meta",
+        "index": "idx_reminder",
+        "query": "ALTER TABLE `#__social_events_meta` ADD INDEX `idx_reminder` (`reminder`);"
+    },
+    {
+        "table": "#__social_clusters_nodes",
+        "column": "reminder_sent",
+        "query": "ALTER TABLE `#__social_clusters_nodes` ADD `reminder_sent` tinyint(1) NULL default 0;"
+    },
+    {
+        "table": "#__social_clusters_nodes",
+        "index": "idx_reminder_sent",
+        "query": "ALTER TABLE `#__social_clusters_nodes` ADD INDEX `idx_reminder_sent` (`reminder_sent`);"
+    },
+    {
+        "table": "#__social_clusters",
+        "index": "idx_state",
+        "query": "ALTER TABLE `#__social_clusters` ADD INDEX `idx_state` (`state`);"
+    },
+    {
+        "table": "#__social_events_meta",
+        "index": "idx_upcoming_reminder",
+        "query": "ALTER TABLE `#__social_events_meta` ADD INDEX `idx_upcoming_reminder` (`reminder`,`start`);"
+    },
+    {
+        "table": "#__social_events_meta",
+        "index": "idx_start",
+        "query": "ALTER TABLE `#__social_events_meta` ADD INDEX `idx_start` (`start`);"
+    }
+]
+

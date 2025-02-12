@@ -1,0 +1,6 @@
+{
+	"default": {
+		"type"		: "boolean",
+		"default"	: 1
+	}
+}

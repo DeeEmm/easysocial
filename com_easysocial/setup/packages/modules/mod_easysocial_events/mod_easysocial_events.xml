@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="module" client="site" method="upgrade">
+	<name>EasySocial Events</name>
+	<author>Stack Ideas Sdn Bhd</author>
+	<creationDate>16th January 2024</creationDate>
+	<copyright>Copyright (C) 2009 - 2016 Stack Ideas Sdn Bhd. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>http://stackideas.com</authorUrl>
+	<version>2.0.291</version>
+	<description><![CDATA[MOD_EASYSOCIAL_EVENTS_DESC]]></description>
+	<files>
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>
+		<filename module="mod_easysocial_events">mod_easysocial_events.php</filename>
+		<filename>mod_easysocial_events.xml</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_easysocial_events.ini</language>
+		<language tag="en-GB">en-GB.mod_easysocial_events.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			<fieldset name="basic">
+				<field name="filter" type="list" class="input-xxlarge" default="0" label="MOD_EASYSOCIAL_EVENTS_FILTER_TYPE" description="MOD_EASYSOCIAL_EVENTS_FILTER_TYPE_DESC">
+					<option value="0">MOD_EASYSOCIAL_EVENTS_NO_FILTERING</option>
+					<option value="2">MOD_EASYSOCIAL_EVENTS_FILTER_FEATURED</option>
+					<option value="3">MOD_EASYSOCIAL_EVENTS_FILTER_LOGGED_IN_USER</option>
+					<option value="4">MOD_ES_EVENTS_FILTER_GROUP</option>
+					<option value="5">MOD_ES_EVENTS_FILTER_PAGE</option>
+					<option value="upcoming">Upcoming Events (For currently logged in user)</option>
+				</field>
+
+				<field name="upcoming_days" type="text" default="14" class="input-mini text-center" label="Upcoming Event Days" description="Specify the number of days to check for events. This is only used in conjunction with the Upcoming Events filter" />
+
+				<field  name="category" type="sql" multiple="true" query="SELECT id AS value, title AS category FROM #__social_clusters_categories WHERE type = 'event' AND state = 1" label="MOD_EASYSOCIAL_EVENTS_CATEGORY_FILTER"
+					description="MOD_EASYSOCIAL_EVENTS_CATEGORY_FILTER_DESC"
+				/>
+				<field name="groupId" type="sql" multiple="false" default="0" query="SELECT id AS value, title AS groupId FROM #__social_clusters WHERE cluster_type = 'group' AND state = 1" label="MOD_ES_FILTER_GROUP"
+					description="MOD_ES_FILTER_GROUP_DESC">
+					<option value="0">MOD_ES_SELECT_GROUP</option>
+				</field>
+
+				<field name="pageId" type="sql" multiple="false" default="0" query="SELECT id AS value, title AS pageId FROM #__social_clusters WHERE cluster_type = 'page' AND state = 1" label="MOD_ES_FILTER_PAGE"
+					description="MOD_ES_FILTER_PAGE_DESC">
+					<option value="0">MOD_ES_SELECT_PAGE</option>
+				</field>
+				<field name="ordering" type="list" default="recent" label="MOD_EASYSOCIAL_EVENTS_ORDERING" description="MOD_EASYSOCIAL_EVENTS_ORDERING_DESC">
+					<option value="start">MOD_EASYSOCIAL_EVENTS_ORDERING_START</option>
+					<option value="recent">MOD_EASYSOCIAL_EVENTS_ORDERING_CREATED</option>
+				</field>
+				<field name="display_rsvp" type="radio" class="btn-group" default="1" label="MOD_EASYSOCIAL_EVENTS_DISPLAY_RSVP_BUTTONS" description="MOD_EASYSOCIAL_EVENTS_DISPLAY_RSVP_BUTTONS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="display_member_counter" type="radio" class="btn-group" default="1" label="MOD_EASYSOCIAL_EVENTS_DISPLAY_GUEST_COUNTER" description="MOD_EASYSOCIAL_EVENTS_DISPLAY_GUEST_COUNTER_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="display_category" type="radio" class="btn-group" default="1" label="MOD_EASYSOCIAL_EVENTS_DISPLAY_CATEGORY" description="MOD_EASYSOCIAL_EVENTS_DISPLAY_CATEGORY_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="display_alllink" type="radio" class="btn-group" default="1" label="MOD_ES_EVENTS_DISPLAY_ALL_LINK" description="MOD_ES_EVENTS_DISPLAY_ALL_LINK_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="display_pastevent" type="text" default="7" class="input-mini text-center" label="MOD_EASYSOCIAL_EVENTS_DISPLAY_UPCOMING_DAYS" description="MOD_EASYSOCIAL_EVENTS_DISPLAY_UPCOMING_DAYS_DESC" />
+				<field name="display_limit" type="text" default="5" class="input-mini text-center" label="MOD_EASYSOCIAL_EVENTS_DISPLAY_LIMIT" description="MOD_EASYSOCIAL_EVENTS_DISPLAY_LIMIT_DESC" />
+				<field name="event_inclusion" type="text" default="" label="MOD_EASYSOCIAL_EVENTS_INCLUSION" description="MOD_EASYSOCIAL_EVENTS_INCLUSION_DESC" />
+				<field name="cover_size" type="list" default="thumbnail" label="MOD_ES_COVER_SIZE" description="MOD_ES_COVER_SIZE_DESC">
+					<option value="thumbnail">MOD_ES_COVER_SIZE_THUMBNAIL</option>
+					<option value="large">MOD_ES_COVER_SIZE_LARGE</option>
+				</field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field name="total_columns" type="text" label="Columns (Horizontal Layout)" description="Set the total number of columns if you have selected a horizontal layout" default="3" />
+				<field name="moduleclass_sfx" type="textarea" rows="3" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="cache" type="list" default="0" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

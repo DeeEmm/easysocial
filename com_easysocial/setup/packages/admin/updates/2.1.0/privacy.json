@@ -1,0 +1,12 @@
+[
+	{
+		"table": "#__social_privacy_map",
+		"column": "params",
+		"query": "ALTER TABLE `#__social_privacy_map` ADD COLUMN `params` text NULL;"
+	},
+	{
+		"table": "#__social_privacy_items",
+		"column": "field_access",
+		"query": "ALTER TABLE `#__social_privacy_items` ADD COLUMN `field_access` tinyint(3) default 0 after `value`;"
+	}
+]

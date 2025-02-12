@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_discussions",
+		"column": "content_type",
+		"query": "ALTER TABLE `#__social_discussions` ADD COLUMN `content_type` varchar(65) DEFAULT 'bbcode' AFTER `content`;"
+	}
+]

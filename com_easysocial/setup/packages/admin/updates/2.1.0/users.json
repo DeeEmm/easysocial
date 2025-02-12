@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_users",
+		"column": "verified",
+		"query": "ALTER TABLE `#__social_users` ADD `verified` TINYINT(3) NOT NULL DEFAULT '0' AFTER `social_params`;"
+	}
+]

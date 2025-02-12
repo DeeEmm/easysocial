@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_clusters_categories",
+		"column": "params",
+		"query": "ALTER TABLE `#__social_clusters_categories` ADD `params` TEXT NOT NULL AFTER `rgt`;"
+	}
+]

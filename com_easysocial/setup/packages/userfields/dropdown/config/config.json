@@ -1,0 +1,17 @@
+{
+    "items": {
+        "label"     : "PLG_FIELDS_DROPDOWN_CONFIG_CHOICE",
+        "tooltip"   : "PLG_FIELDS_DROPDOWN_CONFIG_CHOICE_DESC",
+        "type"      : "choices",
+        "unique"    : true
+    },
+
+    "placeholder": {
+        "label"     : "PLG_FIELDS_DROPDOWN_CONFIG_PLACEHOLDER",
+        "tooltip"   : "PLG_FIELDS_DROPDOWN_CONFIG_PLACEHOLDER_DESC",
+        "type"      : "text",
+        "default"   : "PLG_FIELDS_DROPDOWN_SELECT_A_VALUE"
+    },
+
+    "default": false
+}

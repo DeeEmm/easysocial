@@ -1,0 +1,42 @@
+{
+	"style": [
+		"generic",
+		"objects",
+
+		"elements",
+		"layout",
+		"component",
+
+		"styleguide",
+		"blocks",
+		"hints",
+		"conversations",
+		"notifications",
+
+		"profile",
+
+		"apps",
+		"registration",
+		"create",
+		"logs",
+		"medias",
+		"photos",
+		"albums",
+
+		"story",
+		"stream",
+		"calendar",
+
+		"search",
+		"modules",
+		"videos",
+		"audios",
+		"markitup",
+		"marketplace",
+
+		"theme-patch",
+		"states",
+		"trumps",
+		"custom"
+	]
+}

@@ -1,0 +1,12 @@
+[
+	{
+		"table": "#__social_alert",
+		"column": "email_published",
+		"query": "ALTER TABLE `#__social_alert` ADD `email_published` TINYINT(3) DEFAULT NULL;"
+	},
+	{
+		"table": "#__social_alert",
+		"column": "system_published",
+		"query": "ALTER TABLE `#__social_alert` ADD `system_published` TINYINT(3) DEFAULT NULL;"
+	}
+]

@@ -1,0 +1,30 @@
+
+[
+	{
+		"title": "COM_EASYSOCIAL_POINTS_FILES_UPLOAD",
+		"alias": "file-upload",
+		"description": "COM_EASYSOCIAL_POINTS_FILES_UPLOAD_DESC",
+		"command": "files.upload",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 2
+	},
+	{
+		"title": "COM_EASYSOCIAL_POINTS_FILES_REMOVE",
+		"alias": "file-remove",
+		"description": "COM_EASYSOCIAL_POINTS_FILES_REMOVE_DESC",
+		"command": "files.remove",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -2
+	},
+	{
+		"title": "COM_EASYSOCIAL_POINTS_FILES_DOWNLOAD",
+		"alias": "file-download",
+		"description": "COM_EASYSOCIAL_POINTS_FILES_DOWNLOAD_DESC",
+		"command": "files.download",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 1
+	}
+]

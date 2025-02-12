@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_ALBUMS_LAYOUT_ALL">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_ALBUMS_LAYOUT_ALL_DESC]]>
+		</message>
+		<view>albums</view>
+		<layout>all</layout>
+	</layout>
+</metadata>

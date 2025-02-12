@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="apps" group="user">
+	<name>Links</name>
+	<element>links</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>19/08/2013</created>
+	<version>2.0.291</version>
+	<copyright>Copyright (C) 2010 - 2013 Stack Ideas Sdn Bhd</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<core>true</core>
+	<installable>false</installable>
+	<default>false</default>
+	<widget>false</widget>
+	<description><![CDATA[APP_LINKS_APP_DESCRIPTION]]></description>
+	<files>
+		<folder>assets</folder>
+		<folder>config</folder>
+		<folder>hooks</folder>
+		<folder>themes</folder>
+		<file>helper.php</file>
+		<file>links.php</file>
+		<file>links.xml</file>
+	</files>
+</social>

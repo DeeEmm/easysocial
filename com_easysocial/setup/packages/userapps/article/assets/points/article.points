@@ -1,0 +1,38 @@
+[
+	{
+		"title"			: "PLG_APP_USER_ARTICLE_CREATE_ARTICLE_POINTS_TITLE",
+		"alias"			: "create-article",
+		"description"	: "PLG_APP_USER_ARTICLE_CREATE_ARTICLE_POINTS_DESC",
+		"command"		: "create.article",
+		"extension"		: "com_content",
+		"state"			: true,
+		"points"		: 5
+	},
+	{
+		"title"			: "PLG_APP_USER_ARTICLE_DELETED_ARTICLE_POINTS_TITLE",
+		"alias"			: "deleted-article",
+		"description"	: "PLG_APP_USER_ARTICLE_DELETED_ARTICLE_POINTS_DESC",
+		"command"		: "delete.article",
+		"extension"		: "com_content",
+		"state"			: true,
+		"points"		: -5
+	},
+	{
+		"title"			: "PLG_APP_USER_ARTICLE_READ_ARTICLE_POINTS_TITLE",
+		"alias"			: "read-article",
+		"description"	: "PLG_APP_USER_ARTICLE_READ_ARTICLE_POINTS_DESC",
+		"command"		: "read.article",
+		"extension"		: "com_content",
+		"state"			: true,
+		"points"		: 1
+	},
+	{
+		"title"			: "PLG_APP_USER_ARTICLE_READ_ARTICLE_BY_USER_POINTS_TITLE",
+		"alias"			: "article-read-user",
+		"description"	: "PLG_APP_USER_ARTICLE_READ_ARTICLE_BY_USER_POINTS_DESC",
+		"command"		: "author.read.article",
+		"extension"		: "com_content",
+		"state"			: true,
+		"points"		: 1
+	}
+]

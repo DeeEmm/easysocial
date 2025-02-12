@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__social_profiles_maps",
+        "index"    : "idx_profile_users",
+        "query"     : "alter table #__social_profiles_maps add index `idx_profile_users` (`profile_id`, `user_id`)"
+    }
+]

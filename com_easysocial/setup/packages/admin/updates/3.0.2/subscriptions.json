@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_subscriptions",
+		"index": "idx_userid_type",
+		"query": "ALTER TABLE `#__social_subscriptions` ADD INDEX `idx_userid_type` (`user_id`, `type`);"
+	}
+]

@@ -1,0 +1,198 @@
+{
+	"default": false,
+
+	"required": false,
+
+	"geocode": {
+		"label"     : "PLG_FIELDS_ADDRESS_CONFIG_GEOCODE",
+		"tooltip"   : "PLG_FIELDS_ADDRESS_CONFIG_GEOCODE_DESC",
+		"type"      : "boolean",
+		"default"   : true,
+		"group"     : "advance"
+	},
+
+	"title": {
+		"default": "PLG_FIELDS_ADDRESS_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_ADDRESS_DEFAULT_DESCRIPTION"
+	},
+
+	"friend_suggest":
+	{
+		"label"     : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_FRIEND_SUGGEST",
+		"tooltip"   : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_FRIEND_SUGGEST_DESC",
+		"type"      : "boolean",
+		"default"   : true,
+		"group"     : "advance"
+	},
+
+	"required_address":
+	{
+		"label"     : "FIELDS_USER_ADDRESS_CONFIG_REQUIRED_ADDRESS_FOR_MAPS",
+		"tooltip"   : "FIELDS_USER_ADDRESS_CONFIG_REQUIRED_ADDRESS_FOR_MAPS_DESC",
+		"type"      : "boolean",
+		"default"   : false,
+		"group"     : "requirements"
+	},
+
+	"required_address1":
+	{
+		"label"     : "PLG_FIELDS_ADDRESS_CONFIG_REQUIRED_ADDRESS1",
+		"tooltip"   : "PLG_FIELDS_ADDRESS_CONFIG_REQUIRED_ADDRESS1_DESC",
+		"type"      : "boolean",
+		"default"   : true,
+		"group"     : "requirements"
+	},
+
+	"required_address2":
+	{
+		"label"     : "PLG_FIELDS_ADDRESS_CONFIG_REQUIRED_ADDRESS2",
+		"tooltip"   : "PLG_FIELDS_ADDRESS_CONFIG_REQUIRED_ADDRESS2_DESC",
+		"type"      : "boolean",
+		"default"   : true,
+		"group"     : "requirements"
+	},
+
+	"required_city":
+	{
+		"label"     : "PLG_FIELDS_ADDRESS_CONFIG_REQUIRED_CITY",
+		"tooltip"   : "PLG_FIELDS_ADDRESS_CONFIG_REQUIRED_CITY_DESC",
+		"type"      : "boolean",
+		"default"   : true,
+		"group"     : "requirements"
+	},
+
+	"required_state":
+	{
+		"label"     : "PLG_FIELDS_ADDRESS_CONFIG_REQUIRED_STATE",
+		"tooltip"   : "PLG_FIELDS_ADDRESS_CONFIG_REQUIRED_STATE_DESC",
+		"type"      : "boolean",
+		"default"   : true,
+		"group"     : "requirements"
+	},
+
+	"required_zip":
+	{
+		"label"     : "PLG_FIELDS_ADDRESS_CONFIG_REQUIRED_ZIP",
+		"tooltip"   : "PLG_FIELDS_ADDRESS_CONFIG_REQUIRED_ZIP_DESC",
+		"type"      : "boolean",
+		"default"   : true,
+		"group"     : "requirements"
+	},
+
+	"required_country":
+	{
+		"label"     : "PLG_FIELDS_ADDRESS_CONFIG_REQUIRED_COUNTRY",
+		"tooltip"   : "PLG_FIELDS_ADDRESS_CONFIG_REQUIRED_COUNTRY_DESC",
+		"type"      : "boolean",
+		"default"   : true,
+		"group"     : "requirements"
+	},
+
+	"show_address1":
+	{
+		"label"     : "PLG_FIELDS_ADDRESS_CONFIG_SHOW_ADDRESS1",
+		"tooltip"   : "PLG_FIELDS_ADDRESS_CONFIG_SHOW_ADDRESS1_DESC",
+		"type"      : "boolean",
+		"default"   : true
+	},
+
+	"show_address2":
+	{
+		"label"     : "PLG_FIELDS_ADDRESS_CONFIG_SHOW_ADDRESS2",
+		"tooltip"   : "PLG_FIELDS_ADDRESS_CONFIG_SHOW_ADDRESS2_DESC",
+		"type"      : "boolean",
+		"default"   : true
+	},
+
+	"show_city":
+	{
+		"label"     : "PLG_FIELDS_ADDRESS_CONFIG_SHOW_CITY",
+		"tooltip"   : "PLG_FIELDS_ADDRESS_CONFIG_SHOW_CITY_DESC",
+		"type"      : "boolean",
+		"default"   : true
+	},
+
+	"show_state":
+	{
+		"label"     : "PLG_FIELDS_ADDRESS_CONFIG_SHOW_STATE",
+		"tooltip"   : "PLG_FIELDS_ADDRESS_CONFIG_SHOW_STATE_DESC",
+		"type"      : "boolean",
+		"default"   : true
+	},
+
+	"show_zip":
+	{
+		"label"     : "PLG_FIELDS_ADDRESS_CONFIG_SHOW_ZIP",
+		"tooltip"   : "PLG_FIELDS_ADDRESS_CONFIG_SHOW_ZIP_DESC",
+		"type"      : "boolean",
+		"default"   : true
+	},
+
+	"show_country":
+	{
+		"label"     : "PLG_FIELDS_ADDRESS_CONFIG_SHOW_COUNTRY",
+		"tooltip"   : "PLG_FIELDS_ADDRESS_CONFIG_SHOW_COUNTRY_DESC",
+		"type"      : "boolean",
+		"default"   : true
+	},
+
+	"data_source":
+	{
+		"label"     : "FIELDS_USER_ADDRESS_CONFIG_DATA_SOURCE",
+		"tooltip"   : "FIELDS_USER_ADDRESS_CONFIG_DATA_SOURCE_DESC",
+		"type"      : "select",
+		"default"   : "regions",
+		"option"    : [
+			{
+				"label" : "FIELDS_USER_ADDRESS_CONFIG_DATA_SOURCE_REGIONS",
+				"value" : "regions"
+			},
+			{
+				"label" : "FIELDS_USER_ADDRESS_CONFIG_DATA_SOURCE_FILE",
+				"value" : "file"
+			}
+		]
+	},
+
+	"sort":
+	{
+		"label"     : "FIELDS_USER_ADDRESS_CONFIG_SORT",
+		"tooltip"   : "FIELDS_USER_ADDRESS_CONFIG_SORT_DESC",
+		"type"      : "select",
+		"default"   : "name",
+		"option"    : [
+			{
+				"label" : "FIELDS_USER_ADDRESS_CONFIG_SORT_NAME",
+				"value" : "name"
+			},
+			{
+				"label" : "FIELDS_USER_ADDRESS_CONFIG_SORT_ORDERING",
+				"value" : "ordering"
+			}
+		]
+	},
+
+	"use_maps": {
+		"label": "FIELDS_USER_ADDRESS_CONFIG_USE_MAPS",
+		"tooltip": "FIELDS_USER_ADDRESS_CONFIG_USE_MAPS_DESC",
+		"type": "boolean",
+		"default": true
+	},
+
+	"static_maps": {
+		"label": "FIELDS_USER_ADDRESS_CONFIG_STATIC_MAPS",
+		"tooltip": "FIELDS_USER_ADDRESS_CONFIG_STATIC_MAPS_DESC",
+		"type": "boolean",
+		"default": false
+	},
+
+	"zoom_maps": {
+		"label": "FIELDS_USER_ADDRESS_CONFIG_ZOOM_MAPS",
+		"tooltip": "FIELDS_USER_ADDRESS_CONFIG_ZOOM_MAPS_DESC",
+		"type": "text",
+		"default": 15
+	}
+}

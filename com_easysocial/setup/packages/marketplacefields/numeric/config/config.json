@@ -1,0 +1,29 @@
+{
+	"placeholder": {
+		"label" : "PLG_FIELDS_TEXTBOX_CONFIG_PLACEHOLDER",
+		"tooltip" : "PLG_FIELDS_TEXTBOX_CONFIG_PLACEHOLDER_DESC",
+		"default" : "",
+		"type" : "text"
+	},
+
+	"min": {
+		"label" : "COM_ES_FIELDS_MIN_VALUE",
+		"tooltip" : "COM_ES_FIELDS_MIN_VALUE_DESC",
+		"default": "",
+		"type": "text"
+	},
+
+	"max": {
+		"label" : "COM_ES_FIELDS_MAX_VALUE",
+		"tooltip" : "COM_ES_FIELDS_MAX_VALUE_DESC",
+		"default" : "",
+		"type" : "text"
+	},
+
+	"readonly": {
+		"label" : "COM_ES_FIELDS_READONLY",
+		"tooltip" : "COM_ES_FIELDS_READONLY_DESC",
+		"type" : "boolean",
+		"default" : false
+	}
+}

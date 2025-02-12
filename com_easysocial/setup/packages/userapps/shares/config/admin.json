@@ -1,0 +1,16 @@
+[
+	{
+		"title"		: "COM_EASYSOCIAL_APPS_SETTINGS_STREAM",
+		"desc"		: "COM_EASYSOCIAL_APPS_SETTINGS_STREAM_DESC",
+		"fields"	:
+		[
+			{
+				"label"		: "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER",
+				"tooltip"		: "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER_DESC",
+				"name"		: "stream_filter",
+				"type" 		: "boolean",
+				"default"	: true
+			}
+		]
+	}
+]

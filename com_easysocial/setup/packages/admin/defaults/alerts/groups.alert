@@ -1,0 +1,137 @@
+[
+	{
+		"element" : "groups",
+		"rule" : "invited",
+		"core" : true
+	},
+	{
+		"element" : "groups",
+		"rule" : "approved",
+		"core" : true
+	},
+	{
+		"element" : "groups",
+		"rule" : "joined",
+		"core" : true
+	},
+	{
+		"element" : "groups",
+		"rule" : "user.rejected",
+		"core" : true
+	},
+	{
+		"element" : "groups",
+		"rule" : "updates",
+		"core" : true
+	},
+	{
+		"element" : "groups",
+		"rule" : "promoted",
+		"core" : true
+	},
+	{
+		"element" : "groups",
+		"rule" : "requested",
+		"core" : true
+	},
+	{
+		"element" : "groups",
+		"rule" : "leave",
+		"core" : true
+	},
+	{
+		"element" : "groups",
+		"rule" : "news",
+		"core" : true
+	},
+	{
+		"element" : "groups",
+		"rule" : "discussion.create",
+		"core" : true
+	},
+	{
+		"element" : "groups",
+		"rule" : "discussion.reply",
+		"core" : true
+	},
+	{
+		"element" : "groups",
+		"rule" : "milestone.create",
+		"core" : true
+	},
+	{
+		"element" : "groups",
+		"rule" : "task.create",
+		"core" : true
+	},
+	{
+		"element" : "groups",
+		"rule" : "task.completed",
+		"core" : true
+	},
+	{
+		"element" : "groups",
+		"rule" : "user.removed",
+		"core" : true
+	},
+	{
+		"element": "groups",
+		"rule": "video.create",
+		"core": true
+	},
+	{
+		"element": "groups",
+		"rule": "audio.create",
+		"core": true
+	},
+	{
+		"element": "groups",
+		"rule": "polls.create",
+		"core": true
+	},
+	{
+		"element" : "groups",
+		"rule" : "task.uncompleted",
+		"core" : true
+	},
+	{
+		"element" : "groups",
+		"rule" : "polls.vote.item",
+		"core" : true
+	},
+	{
+		"element" : "groups",
+		"rule" : "polls.unvote.item",
+		"core" : true
+	},
+	{
+		"element" : "groups",
+		"rule" : "polls.changevote.item",
+		"core" : true
+	},
+	{
+		"element" : "groups",
+		"rule" : "album.create",
+		"core" : true
+	},
+	{
+		"element": "groups",
+		"rule": "file.upload",
+		"core": true
+	},
+	{
+		"element" : "groups",
+		"rule" : "tagged",
+		"core" : true
+	},
+	{
+		"element" : "groups",
+		"rule" : "moderate.review",
+		"core" : true
+	},
+	{
+		"element": "groups",
+		"rule": "marketplace.create",
+		"core": true
+	}
+]

@@ -1,0 +1,37 @@
+[
+	{
+		"title" : "CleanTalk Access",
+		"desc" : "Configure CleanTalk Anti-Spam App and start protects your website from spam bots and spam in. Head to <a href='http://cleantalk.org/?pid=141225' target='_blank'>https://cleantalk.org</a> to register and retrieve the access key.",
+		"fields":
+		[
+			{
+				"label" : "Access Key",
+				"tooltip" : "Set the access key that you've obtained from https://cleantalk.org",
+				"name" : "auth_key",
+				"type" : "text",
+				"default" : ""
+			},
+			{
+				"label" : "Registration",
+				"tooltip" : "Determine whether to enable CleanTalk anti-spam on user's registration.",
+				"name" : "enable_registration",
+				"type" : "boolean",
+				"default" : true
+			},
+			{
+				"label" : "Comments",
+				"tooltip" : "Determine whether to enable CleanTalk anti-spam on comments.",
+				"name" : "enable_comments",
+				"type" : "boolean",
+				"default" : true
+			},
+			{
+				"label": "Conversations",
+				"tooltip": "Determines whether Cleantalk will scan through conversation messages",
+				"name": "enable_conversations",
+				"type": "boolean",
+				"default": true
+			}
+		]
+	}
+]

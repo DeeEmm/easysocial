@@ -1,0 +1,12 @@
+[
+    {
+        "table"     : "#__social_stream",
+        "column"    : "last_action_date",
+        "query"     : "ALTER TABLE `#__social_stream` ADD `last_action_date` datetime NULL DEFAULT '0000-00-00 00:00:00' AFTER `last_userid`;"
+    },
+    {
+        "table"     : "#__social_stream_history",
+        "column"    : "last_action_date",
+        "query"     : "ALTER TABLE `#__social_stream_history` ADD `last_action_date` datetime NULL DEFAULT '0000-00-00 00:00:00' AFTER `last_userid`;"
+    }
+]

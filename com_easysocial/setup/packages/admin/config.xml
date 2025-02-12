@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="permissions" description="COM_EASYSOCIAL_JOOMLA_PERMISSIONS_DESC" label="COM_EASYSOCIAL_JOOMLA_PERMISSIONS">
+		<field name="rules" type="rules" component="com_easysocial" filter="rules" validate="rules" label="Component Permissions" section="component" />
+	</fieldset>
+</config>

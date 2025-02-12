@@ -1,0 +1,34 @@
+{
+	"privacy": false,
+	"searchable": false,
+	"required": false,
+	"display_title": false,
+	"title": false,
+	"display_description": false,
+	"description": false,
+	"default": false,
+
+	"text":
+	{
+		"label"		: "PLG_FIELDS_TEXT_CONFIG_DISPLAY_TEXT",
+		"tooltip"	: "PLG_FIELDS_TEXT_CONFIG_DISPLAY_TEXT_DESC",
+		"type"		: "textarea",
+		"default"	: "Sample text description."
+	},
+
+	"bbcode":
+	{
+		"label"		: "PLG_FIELDS_TEXT_CONFIG_PARSE_BBCODE",
+		"tooltip"	: "PLG_FIELDS_TEXT_CONFIG_PARSE_BBCODE_DESC",
+		"type"		: "boolean",
+		"default"	: true
+	},
+
+	"fullcolumn":
+	{
+		"label"		: "PLG_FIELDS_TEXT_CONFIG_USE_FULL_COLUMN",
+		"tooltip"	: "PLG_FIELDS_TEXT_CONFIG_USE_FULL_COLUMN_DESC",
+		"type"		: "boolean",
+		"default"	: false
+	}
+}

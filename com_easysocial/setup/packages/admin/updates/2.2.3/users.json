@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_block_users",
+		"index": "idx_target_user",
+		"query": "ALTER TABLE `#__social_block_users` ADD INDEX `idx_target_user` (`target_id`, `user_id`);"
+	}
+]

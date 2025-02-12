@@ -1,0 +1,106 @@
+[
+	{
+		"title": "COM_ES_POINTS_ADD_LISTING",
+		"alias": "add-listing",
+		"description": "COM_ES_POINTS_ADD_LISTING_DESC",
+		"command": "marketplace.add",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 5
+	},
+	{
+		"title": "COM_ES_POINTS_REMOVE_LISTING",
+		"alias": "remove-listing",
+		"description": "COM_ES_POINTS_REMOVE_LISTING_DESC",
+		"command": "marketplace.remove",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -5
+	},
+	{
+		"title": "COM_ES_POINTS_LIKE_LISTING",
+		"alias": "like-listing",
+		"description": "COM_ES_POINTS_LIKE_LISTING_DESC",
+		"command": "marketplace.like",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 1
+	},
+	{
+		"title": "COM_ES_POINTS_UNLIKE_LISTING",
+		"alias": "unlike-listing",
+		"description": "COM_ES_POINTS_UNLIKE_LISTING_DESC",
+		"command": "marketplace.unlike",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -1
+	},
+	{
+		"title": "COM_ES_POINTS_COMMENT_ON_LISTING",
+		"alias": "comment-listing",
+		"description": "COM_ES_POINTS_COMMENT_ON_LISTING_DESC",
+		"command": "marketplace.comment.add",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 1
+	},
+	{
+		"title": "COM_ES_POINTS_COMMENT_REMOVE_FROM_LISTING",
+		"alias": "comment-listing-removed",
+		"description": "COM_ES_POINTS_COMMENT_REMOVE_FROM_LISTING_DESC",
+		"command": "marketplace.comment.remove",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -1
+	},
+	{
+		"title": "COM_ES_POINTS_LISTING_FEATURED",
+		"alias": "listing-featured",
+		"description": "COM_ES_POINTS_LISTING_FEATURED_DESC",
+		"command": "marketplace.featured",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 2
+	},
+	{
+		"title": "COM_ES_POINTS_LISTING_UNFEATURED",
+		"alias": "listing-unfeatured",
+		"description": "COM_ES_POINTS_LISTING_UNFEATURED_DESC",
+		"command": "marketplace.unfeatured",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -2
+	},
+	{
+		"title": "COM_ES_POINTS_LISTING_REACTION_OWNER",
+		"alias": "listing-reaction-add-owner",
+		"command": "marketplace.reaction.add.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 1
+	},
+	{
+		"title": "COM_ES_POINTS_LISTING_REMOVE_REACTION_OWNER",
+		"alias": "listing-reaction-remove-owner",
+		"command": "marketplace.reaction.remove.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -1
+	},
+	{
+		"title": "COM_ES_POINTS_LISTING_COMMENT_OWNER",
+		"alias": "listing-comment-add-owner",
+		"command": "marketplace.comment.add.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 1
+	},
+	{
+		"title": "COM_ES_POINTS_LISTING_REMOVE_COMMENT_OWNER",
+		"alias": "listing-comment-remove-owner",
+		"command": "marketplace.comment.remove.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -1
+	}
+]

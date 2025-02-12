@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__social_likes",
+        "index"     : "idx_stream_id",
+        "query"     : "ALTER TABLE `#__social_likes` ADD INDEX `idx_stream_id` (`stream_id`);"
+    }
+]

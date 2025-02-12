@@ -1,0 +1,43 @@
+
+[
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_CHATTER_TITLE",
+		"alias"			: "chatter",
+		"description"	: "COM_EASYSOCIAL_BADGES_CHATTER_DESC",
+		"howto" 		: "COM_EASYSOCIAL_BADGES_CHATTER_HOWTO",
+		"command"		: "conversation.reply",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/chatter.png",
+		"frequency"		: 150
+	},
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_SOCIALIZER_TITLE",
+		"alias"			: "socializer",
+		"description"	: "COM_EASYSOCIAL_BADGES_SOCIALIZER_DESC",
+		"howto"			: "COM_EASYSOCIAL_BADGES_SOCIALIZER_HOWTO",
+		"command"		: "conversation.create",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/socializer.png",
+		"frequency"		: 15
+	},
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_GOSSIPER_TITLE",
+		"alias"			: "gossiper",
+		"description"	: "COM_EASYSOCIAL_BADGES_GOSSIPER_DESC",
+		"howto"			: "COM_EASYSOCIAL_BADGES_GOSSIPER_HOWTO",
+		"command"		: "conversation.invite",
+		"avatar"		: "media/com_easysocial/badges/gossiper.png",
+		"extension"		: "com_easysocial",
+		"frequency"		: 10
+	},
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_LEAVER_TITLE",
+		"alias"			: "leaver",
+		"description"	: "COM_EASYSOCIAL_BADGES_LEAVER_DESC",
+		"howto"			: "COM_EASYSOCIAL_BADGES_LEAVER_HOWTO",
+		"command"		: "conversation.leave",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/leaver.png",
+		"frequency"		: 20
+	}
+]

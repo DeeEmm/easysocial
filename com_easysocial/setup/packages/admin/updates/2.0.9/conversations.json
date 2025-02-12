@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_conversations",
+		"column": "title",
+		"query": "ALTER TABLE `#__social_conversations` ADD COLUMN `title` varchar(255) NULL default '' AFTER `id`;"
+	}
+]

@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_clusters",
+		"column": "isnew",
+		"query": "ALTER TABLE `#__social_clusters` ADD COLUMN `isnew` tinyint(1) NOT NULL DEFAULT 0 AFTER `state`"
+	}
+]

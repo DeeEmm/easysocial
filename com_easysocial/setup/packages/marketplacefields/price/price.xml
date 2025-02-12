@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="marketplace">
+	<name>Price</name>
+	<element>price</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>02/12/2020</created>
+	<version>3.3.34</version>
+	<copyright>Copyright (c) Stack Ideas Sdn. Bhd.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description><![CDATA[PLG_FIELDS_PRICE_INFO]]></description>
+	<core>true</core>
+	<unique>true</unique>
+	<files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<file>price.php</file>
+		<file>price.xml</file>
+	</files>
+</social>

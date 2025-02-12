@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_albums",
+		"column": "finalized",
+		"query": "ALTER TABLE `#__social_albums` ADD `finalized` tinyint(1) NOT NULL default 1;"
+	}
+]

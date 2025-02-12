@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="user">
+	<name>Boolean</name>
+	<element>boolean</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>23/08/2013</created>
+	<version>2.0.291</version>
+	<copyright>Copyright (c) 2009 - 2013 Stack Ideas Sdn. Bhd.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description><![CDATA[PLG_FIELDS_BOOLEAN_INFO]]></description>
+	<core>false</core>
+	<unique>false</unique>
+	<files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<file>boolean.php</file>
+		<file>boolean.xml</file>
+	</files>
+	
+</social>

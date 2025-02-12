@@ -1,0 +1,12 @@
+[
+	{
+		"table": "#__social_friends_invitations",
+		"column": "utype",
+		"query": "ALTER TABLE `#__social_friends_invitations` ADD `utype` varchar(255) NOT NULL DEFAULT 'site'"
+	},
+	{
+		"table": "#__social_friends_invitations",
+		"column": "uid",
+		"query": "ALTER TABLE `#__social_friends_invitations` ADD `uid` int(11) NOT NULL DEFAULT 0"
+	}
+]

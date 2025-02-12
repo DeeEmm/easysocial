@@ -1,0 +1,13 @@
+
+[
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_POINTS_ACHIEVER",
+		"alias"			: "points-achiever",
+		"description"	: "COM_EASYSOCIAL_BADGES_POINTS_ACHIEVER_DESC",
+		"howto" 		: "COM_EASYSOCIAL_BADGES_POINTS_ACHIEVER_HOWTO",
+		"command"		: "points.achieve",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/points-achiever.png",
+		"frequency"		: 100
+	}
+]

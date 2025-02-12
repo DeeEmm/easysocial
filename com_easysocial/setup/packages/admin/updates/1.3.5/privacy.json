@@ -1,0 +1,12 @@
+[
+    {
+        "table"     : "#__social_privacy_items",
+        "index"    : "idx_user_type",
+        "query"     : "ALTER TABLE `#__social_privacy_items` ADD INDEX `idx_user_type` (`user_id`, `type`)"
+    },
+    {
+        "table"     : "#__social_privacy_items",
+        "index"    : "idx_value_user",
+        "query"     : "ALTER TABLE `#__social_privacy_items` ADD INDEX `idx_value_user` (`value`, `user_id`)"
+    }
+]

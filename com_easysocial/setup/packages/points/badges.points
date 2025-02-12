@@ -1,0 +1,12 @@
+
+[
+	{
+		"title" 		: "COM_EASYSOCIAL_POINTS_BADGES_ACHIEVE",
+		"alias"			: "badges-achieve",
+		"description"	: "COM_EASYSOCIAL_POINTS_BADGES_ACHIEVE_DESC",
+		"command"		: "badges.achieve",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 5
+	}
+]

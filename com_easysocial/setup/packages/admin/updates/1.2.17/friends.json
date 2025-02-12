@@ -1,0 +1,12 @@
+[
+    {
+        "table"     : "#__social_friends",
+        "index"    : "idx_actor_target",
+        "query"     : "ALTER TABLE `#__social_friends` ADD INDEX `idx_actor_target` (`actor_id`, `target_id`, `state`);"
+    },
+    {
+        "table"     : "#__social_friends",
+        "index"    : "idx_target_actor",
+        "query"     : "ALTER TABLE `#__social_friends` ADD INDEX `idx_target_actor` (`target_id`, `actor_id`, `state`);"
+    }
+]

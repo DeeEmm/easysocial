@@ -1,0 +1,12 @@
+[
+    {
+        "table": "#__social_clusters",
+        "column": "notification",
+        "query": "ALTER TABLE `#__social_clusters` ADD `notification` tinyint(3) NOT NULL DEFAULT 1;"
+    },
+    {
+        "table": "#__social_clusters",
+        "index": "idx_user_cluster",
+        "query": "ALTER TABLE `#__social_clusters` ADD INDEX `idx_user_cluster` (`creator_uid`, `creator_type` (64), `cluster_type` (64));"
+    }
+]

@@ -1,0 +1,56 @@
+
+
+{
+
+	"title"			: "COM_EASYSOCIAL_CORE_FIELD_PASSWORD",
+
+
+	"display_title"	: true,
+
+
+	"description"	: "COM_EASYSOCIAL_CORE_FIELD_PASSWORD_DESC",
+
+
+	"display_description"	: true,
+
+
+	"default"		: "",
+
+
+	"registration"	: true,
+
+
+	"state"			: true,
+
+
+	"searchable"	: false,
+
+
+	"required"		: true,
+
+
+	"min"			: 4,
+
+
+	"max"			: 255,
+
+
+	"visible_edit"	: true,
+
+
+	"visible_registration" : true,
+
+
+	"visible_display"		: false,
+
+
+	"params"		:
+	{
+		"reconfirm_password" 	: true,
+		"mini_reconfirm_password": false,
+		"password_strength"		: true
+	},
+
+
+	"ordering"		: 2
+}

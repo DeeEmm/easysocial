@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="COM_ES_AUDIO_LAYOUT_CREATE">
+        <message>
+            <![CDATA[COM_ES_AUDIO_LAYOUT_CREATE_DESC]]>
+        </message>
+        <view>audios</view>
+        <layout>create</layout>
+    </layout>
+    <fields name="request">
+        <fieldset name="request" addfieldpath="/administrator/components/com_easysocial/models/fields">
+            <field name="genreId" type="easysocial_audiogenre" label="COM_EASYSOCIAL_MENU_FILTER_GENRE" description="COM_EASYSOCIAL_MENU_FILTER_GENRE_DESC" required="false" message="COM_EASYSOCIAL_GROUPS_ITEM_SELECT_GENRE_REQUIRED" />
+        </fieldset>
+    </fields>
+</metadata>

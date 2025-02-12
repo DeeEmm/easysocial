@@ -1,0 +1,8 @@
+{
+	"title"	: "COM_EASYSOCIAL_MENU_POLLS",
+	"link"	: "index.php?option=com_easysocial&view=polls",
+	"class"	: "fa fa-chart-pie",
+	"access": "easysocial.access.polls",
+	"view"	: "polls",
+	"active": "layout"
+}

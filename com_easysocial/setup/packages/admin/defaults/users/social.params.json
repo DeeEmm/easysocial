@@ -1,0 +1,44 @@
+{
+	"socialgoals" : {
+		"updateavatar":
+		{
+			"value" : false,
+			"label" : "COM_EASYSOCIAL_GOALS_UPDATE_AVATAR",
+			"description" : "COM_EASYSOCIAL_GOALS_UPDATE_AVATAR_DESC"
+		},
+		"completeprofile":
+		{
+			"value" : false,
+			"label" : "COM_EASYSOCIAL_GOALS_COMPLETE_PROFILE",
+			"description" : "COM_EASYSOCIAL_GOALS_COMPLETE_PROFILE_DESC"
+		},
+		"poststatus":
+		{
+			"value" : false,
+			"label" : "COM_EASYSOCIAL_GOALS_POST_STATUS",
+			"description" : "COM_EASYSOCIAL_GOALS_POST_STATUS_DESC"
+		},
+		"addfriend":
+		{
+			"value" : false,
+			"label" : "COM_EASYSOCIAL_GOALS_ADD_FRIEND",
+			"description" : "COM_EASYSOCIAL_GOALS_ADD_FRIEND_DESC"
+		},
+		"postcomment":
+		{
+			"value" : false,
+			"label" : "COM_EASYSOCIAL_GOALS_POST_COMMENT",
+			"description" : "COM_EASYSOCIAL_GOALS_POST_COMMENT_DESC"
+		},
+		"joincluster":
+		{
+			"value" : false,
+			"label" : "COM_EASYSOCIAL_GOALS_JOIN_CLUSTER",
+			"description" : "COM_EASYSOCIAL_GOALS_JOIN_CLUSTER_DESC"
+		},
+		"percentagecomplete" : 0,
+		"initialized" : 0
+	},
+
+	"showwelcome" : 0
+}

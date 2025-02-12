@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="marketplace">
+	<name>Address</name>
+	<element>address</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>09/12/2020</created>
+	<version>3.3.33</version>
+	<copyright>Copyright (c) Stack Ideas Sdn. Bhd.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description><![CDATA[FIELDS_EVENT_ADDRESS_INFO]]></description>
+	<core>false</core>
+	<unique>true</unique>
+	<files>
+		<folder>config</folder>
+		<file>address.php</file>
+		<file>address.xml</file>
+	</files>
+</social>

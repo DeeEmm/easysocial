@@ -1,0 +1,16 @@
+{
+	"title": "Modules",
+	"link": "index.php?option=com_easysocial&view=modules",
+	"access": "easysocial.access.modules",
+	"class"	: "fa fa-th-large",
+	"view": "modules",
+	"url": {
+		"view": "modules",
+		"layout": "default",
+		"page": ""
+	},
+	"active": "layout",
+	"childs":
+	[
+	]
+}

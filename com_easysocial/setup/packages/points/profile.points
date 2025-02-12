@@ -1,0 +1,58 @@
+
+[
+	{
+		"title" 		: "COM_EASYSOCIAL_POINTS_UPDATE_PROFILE",
+		"alias"			: "profile-update",
+		"description"	: "COM_EASYSOCIAL_POINTS_UPDATE_PROFILE_DESC",
+		"command"		: "profile.update",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 15
+	},
+	{
+		"title" 		: "COM_EASYSOCIAL_POINTS_UPDATE_PROFILE_AVATAR",
+		"alias"			: "profile-avatar-update",
+		"description"	: "COM_EASYSOCIAL_POINTS_UPDATE_PROFILE_AVATAR_DESC",
+		"command"		: "profile.avatar.update",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 5,
+		"interval"		: 1
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_FOLLOW_USER",
+		"alias"			: "profile-follow",
+		"description"	: "COM_EASYSOCIAL_POINTS_FOLLOW_USER_DESC",
+		"command"		: "profile.follow",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 2
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_UNFOLLOW_USER",
+		"alias"			: "profile-unfollow",
+		"description"	: "COM_EASYSOCIAL_POINTS_UNFOLLOW_USER_DESC",
+		"command"		: "profile.unfollow",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: -2
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_BEING_FOLLOWED",
+		"alias"			: "profile-followed",
+		"description"	: "COM_EASYSOCIAL_POINTS_BEING_FOLLOWED_DESC",
+		"command"		: "profile.followed",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 2
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_UNFOLLOWED_BY_USER",
+		"alias"			: "profile-unfollowed",
+		"description"	: "COM_EASYSOCIAL_POINTS_UNFOLLOWED_BY_USER_DESC",
+		"command"		: "profile.unfollowed",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: -2
+	}
+]

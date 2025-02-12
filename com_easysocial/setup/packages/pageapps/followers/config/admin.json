@@ -1,0 +1,76 @@
+[
+    {
+        "title"     : "APP_PAGE_FOLLOWERS_PAGES_VIEW",
+        "desc"      : "APP_PAGE_FOLLOWERS_PAGES_VIEW_DESC",
+        "fields"    :
+        [
+            {
+                "label"     : "APP_PAGE_FOLLOWERS_LIMIT_COUNT",
+                "tooltip"   : "APP_PAGE_FOLLOWERS_LIMIT_COUNT_DESC",
+                "name"      : "follower.limit",
+                "class"     : "input-mini center",
+                "type"      : "text",
+                "default"   : 10
+            },
+            {
+                "label"     : "APP_PAGE_FOLLOWERS_SORTING",
+                "tooltip"   : "APP_PAGE_FOLLOWERS_SORTING_DESC",
+                "name"      : "follower.sorting",
+                "class"     : "input-mini center",
+                "type"      : "select",
+                "default"   : "name",
+                "options"    : [
+                    {
+                        "title" : "APP_PAGE_FOLLOWERS_SORTING_REALNAME",
+                        "value" : "name"
+                    },
+                    {
+                        "title" : "APP_PAGE_FOLLOWERS_SORTING_USERNAME",
+                        "value" : "username"
+                    }
+                ]
+            },
+            {
+                "label"     : "APP_PAGE_FOLLOWERS_ORDERING",
+                "tooltip"   : "APP_PAGE_FOLLOWERS_ORDERING_DESC",
+                "name"      : "follower.ordering",
+                "class"     : "input-mini center",
+                "type"      : "select",
+                "default"   : "asc",
+                "options"    : [
+                    {
+                        "title" : "APP_PAGE_FOLLOWERS_ORDERING_ASCEND",
+                        "value" : "asc"
+                    },
+                    {
+                        "title" : "APP_PAGE_FOLLOWERS_ORDERING_DESCEND",
+                        "value" : "desc"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "title": "APP_PAGE_FOLLOWERS_SETTINGS_WIDGETS",
+        "desc": "APP_PAGE_FOLLOWERS_SETTINGS_WIDGETS_DESC",
+        "fields":
+        [
+            {
+                "label": "APP_PAGE_FOLLOWERS_SETTINGS_WIDGETS_SHOW_FOLLOWERS",
+                "tooltip": "APP_PAGE_FOLLOWERS_SETTINGS_WIDGETS_SHOW_FOLLOWERS_DESC",
+                "name": "show_followers",
+                "type": "boolean",
+                "default": true
+            },
+            {
+                "label": "APP_PAGE_FOLLOWERS_SETTINGS_WIDGETS_LIMIT",
+                "tooltip": "APP_PAGE_FOLLOWERS_SETTINGS_WIDGETS_LIMIT_DESC",
+                "name": "limit",
+                "type": "text",
+                "class": "input-mini text-center",
+                "default"   : 10
+            }
+        ]
+    }
+]

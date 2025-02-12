@@ -1,0 +1,9 @@
+[
+    {
+        "title": "COM_EASYSOCIAL_ACCESS_MANAGE_PENDING_ITEMS",
+        "description": "COM_EASYSOCIAL_ACCESS_MANAGE_PENDING_ITEMS_TOOLTIP",
+        "group": "user",
+        "name": "pendings.manage",
+        "default": false
+    }
+]

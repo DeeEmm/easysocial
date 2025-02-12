@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_EXPORTS_LAYOUT_DEFAULT">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_EXPORTS_LAYOUT_DEFAULT_DESC]]>
+		</message>
+		<view>exports</view>
+	</layout>
+
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			<field name="id" type="easysocial_profileexport" label="COM_EASYSOCIAL_EXPORTS_LAYOUT_DEFAULT_SELECT_PROFILE" description="COM_EASYSOCIAL_EXPORTS_LAYOUT_DEFAULT_SELECT_PROFILE_DESC"/>
+		</fieldset>
+	</fields>
+
+	<fields name="params" addfieldpath="/administrator/components/com_easysocial/models/fields">
+		<fieldset name="COM_EASYSOCIAL_EXPORTS_LAYOUT_DEFAULT_CUSTOMFIELDS" label="COM_EASYSOCIAL_EXPORTS_LAYOUT_DEFAULT_CUSTOMFIELDS" info="COM_EASYSOCIAL_EXPORTS_LAYOUT_DEFAULT_CUSTOMFIELDS_INFO" id="customfields">
+			<field name="fields" type="easysocial_profilefields" label="COM_EASYSOCIAL_EXPORTS_LAYOUT_DEFAULT_CUSTOMFIELDS" description="COM_EASYSOCIAL_EXPORTS_LAYOUT_DEFAULT_CUSTOMFIELDS_DESC" />
+		</fieldset>
+	</fields>
+</metadata>

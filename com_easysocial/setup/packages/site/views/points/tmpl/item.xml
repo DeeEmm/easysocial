@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_POINTS_LAYOUT_ITEM">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_POINTS_LAYOUT_ITEM_DESC]]>
+		</message>
+		<view>points</view>
+		<layout>item</layout>
+	</layout>
+
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			<field name="id" type="easysocial_points" label="COM_EASYSOCIAL_POINTS_ITEM_SELECT_POINTS" description="COM_EASYSOCIAL_POINTS_ITEM_SELECT_POINTS_DESC" required="true" message="COM_EASYSOCIAL_POINTS_ITEM_SELECT_POINTS_REQUIRED" />
+		</fieldset>
+	</fields>
+
+</metadata>

@@ -1,0 +1,42 @@
+{
+	"message": {
+		"label": "PLG_FIELDS_TERMS_CONFIG_CONDITION_MESSAGE",
+		"tooltip": "PLG_FIELDS_TERMS_CONFIG_CONDITION_MESSAGE_DESC",
+		"type": "textarea",
+		"default": "PLG_FIELDS_TERMS_CONFIG_CONDITION_MESSAGE_TEXT"
+	},
+	"labeltext": {
+		"label": "PLG_FIELDS_TERMS_CONFIG_CONDITION_LABELTEXT",
+		"tooltip": "PLG_FIELDS_TERMS_CONFIG_CONDITION_LABELTEXT_DESC",
+		"type": "textarea",
+		"default": "PLG_FIELDS_TERMS_ACCEPT_TERMS"
+	},
+	"dialog": {
+		"label": "PLG_FIELDS_TERMS_CONFIG_DISPLAY_IN_DIALOG",
+		"tooltip": "PLG_FIELDS_TERMS_CONFIG_DISPLAY_IN_DIALOG_DESC",
+		"type": "boolean",
+		"default": false
+	},
+
+	"article": {
+		"label": "PLG_FIELDS_TERMS_CONFIG_USE_ARTICLE_IN_DIALOG",
+		"tooltip": "PLG_FIELDS_TERMS_CONFIG_USE_ARTICLE_IN_DIALOG_HELP",
+		"type": "boolean",
+		"default": false
+	},
+
+	"article_id": {
+		"label": "PLG_FIELDS_TERMS_CONFIG_SELECT_ARTICLE",
+		"tooltip": "PLG_FIELDS_TERMS_CONFIG_SELECT_ARTICLE_HELP",
+		"type": "article",
+		"default": ""
+	},
+
+	"required": true,
+	"searchable": false,
+	"default": false,
+	"privacy": false,
+	"visible_display": false,
+	"description": false,
+	"display_description": false
+}

@@ -1,0 +1,96 @@
+{
+	"title": {
+		"default": "PLG_FIELDS_RELATIONSHIP_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_RELATIONSHIP_DEFAULT_DESCRIPTION"
+	},
+
+	"relationshiptype": {
+		"label"		: "PLG_FIELDS_RELATIONSHIP_CONFIG_RELATIONSHIP_TYPE",
+		"tooltip"	: "PLG_FIELDS_RELATIONSHIP_CONFIG_RELATIONSHIP_TYPE_TOOLTIP",
+		"type"		: "checkbox",
+		"option"	: [
+			{
+				"value": "na",
+				"label": "PLG_FIELDS_RELATIONSHIP_NA",
+				"default": true,
+				"connect": false
+			},
+			{
+				"value": "single",
+				"label": "PLG_FIELDS_RELATIONSHIP_SINGLE",
+				"disable": true,
+				"default": true,
+				"connect": false
+			},
+			{
+				"value": "relationshipnotarget",
+				"label": "PLG_FIELDS_RELATIONSHIP_RELATIONSHIP_EMPTY_TARGET",
+				"connect": false
+			},
+			{
+				"value": "relationship",
+				"label": "PLG_FIELDS_RELATIONSHIP_RELATIONSHIP",
+				"default": true,
+				"connect": true
+			},
+			{
+				"value": "engagednotarget",
+				"label": "PLG_FIELDS_RELATIONSHIP_ENGAGED_EMPTY_TARGET",
+				"connect": false
+			},
+			{
+				"value": "engaged",
+				"label": "PLG_FIELDS_RELATIONSHIP_ENGAGED",
+				"default": true,
+				"connect": true
+			},
+			{
+				"value": "marriednotarget",
+				"label": "PLG_FIELDS_RELATIONSHIP_MARRIED_EMPTY_TARGET",
+				"connect": false
+			},
+			{
+				"value": "married",
+				"label": "PLG_FIELDS_RELATIONSHIP_MARRIED",
+				"default": true,
+				"connect": true
+			},
+			{
+				"value": "complicatednotarget",
+				"label": "PLG_FIELDS_RELATIONSHIP_COMPLICATED_EMPTY_TARGET",
+				"connect": false
+			},
+			{
+				"value": "complicated",
+				"label": "PLG_FIELDS_RELATIONSHIP_COMPLICATED",
+				"default": true,
+				"connect": true
+			},
+			{
+				"value": "open",
+				"label": "PLG_FIELDS_RELATIONSHIP_OPEN",
+				"connect": true
+			},
+			{
+				"value": "widowed",
+				"label": "PLG_FIELDS_RELATIONSHIP_WIDOWED",
+				"connect": false
+			},
+			{
+				"value": "separated",
+				"label": "PLG_FIELDS_RELATIONSHIP_SEPARATED",
+				"connect": false
+			},
+			{
+				"value": "divorced",
+				"label": "PLG_FIELDS_RELATIONSHIP_DIVORCED",
+				"connect": false
+			}
+		]
+	},
+
+	"visible_registration": false
+}

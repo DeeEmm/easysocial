@@ -1,0 +1,2 @@
+EasySocial.ready(function($) {
+});

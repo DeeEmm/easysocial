@@ -1,0 +1,14 @@
+{
+	"privacy": false,
+	"searchable": false,
+	"title": {
+		"default": "COM_ES_CLUSTER_FIELDS_ENABLE_AUDIO"
+	},
+	"description": {
+		"default": "COM_ES_CLUSTER_FIELDS_ENABLE_AUDIO_DESC"
+	},
+	"default": {
+		"type": "boolean",
+		"default": true
+	}
+}

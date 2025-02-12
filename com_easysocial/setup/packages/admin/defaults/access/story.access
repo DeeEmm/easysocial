@@ -1,0 +1,28 @@
+[
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_STORY_ALLOW_POSTING_USER_STORY",
+		"description"	: "COM_EASYSOCIAL_ACCESS_STORY_ALLOW_POSTING_USER_STORY_TIPS",
+		"name"			: "story.user.post"
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_STORY_ALLOW_POSTING_GROUP_STORY",
+		"description"	: "COM_EASYSOCIAL_ACCESS_STORY_ALLOW_POSTING_GROUP_STORY_TIPS",
+		"name"			: "story.group.post"
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_STORY_FLOOD_CONTROL",
+		"description"	: "COM_EASYSOCIAL_ACCESS_STORY_FLOOD_CONTROL_TIPS",
+		"name"			: "story.flood.user",
+		"type"			: "boolean",
+		"default"		: false
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_STORY_FLOOD_INTERVAL",
+		"description"	: "COM_EASYSOCIAL_ACCESS_STORY_FLOOD_INTERVAL_TIPS",
+		"name"			: "story.flood.interval",
+		"type"			: "text",
+		"class"			: "form-control input-sm input-short text-center",
+		"suffix"		: "seconds",
+		"default"		: 90
+	}
+]

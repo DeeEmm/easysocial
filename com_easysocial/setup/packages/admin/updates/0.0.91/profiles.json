@@ -1,0 +1,7 @@
+[
+	{
+		"table"		: "#__social_profiles",
+		"column"	: "registration",
+		"query"		: "ALTER TABLE  `#__social_profiles` ADD `registration` tinyint(4) NOT NULL DEFAULT 1"
+	}
+]

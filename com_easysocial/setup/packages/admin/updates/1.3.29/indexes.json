@@ -1,0 +1,52 @@
+[
+    {
+        "table": "#__social_broadcasts",
+        "index": "idx_broadcast",
+        "query": "ALTER TABLE `#__social_broadcasts` ADD INDEX `idx_broadcast` (`target_id`, `target_type`, `state`, `created`);"
+    },
+    {
+        "table": "#__social_broadcasts",
+        "index": "idx_created",
+        "query": "ALTER TABLE `#__social_broadcasts` ADD INDEX `idx_created` (`created`);"
+    },
+    {
+        "table": "#__social_photos",
+        "index": "idx_storage_cron",
+        "query": "ALTER TABLE `#__social_photos` ADD INDEX `idx_storage_cron` (`state`, `storage`, `created`);"
+    },
+    {
+        "table": "#__social_photos",
+        "index": "idx_created",
+        "query": "ALTER TABLE `#__social_photos` ADD INDEX `idx_created` (`created`);"
+    },
+    {
+        "table": "#__social_files",
+        "index": "idx_storage_cron",
+        "query": "ALTER TABLE `#__social_files` ADD INDEX `idx_storage_cron` (`storage`, `created`);"
+    },
+    {
+        "table": "#__social_files",
+        "index": "idx_created",
+        "query": "ALTER TABLE `#__social_files` ADD INDEX `idx_created` (`created`);"
+    },
+    {
+        "table": "#__social_avatars",
+        "index": "idx_storage_cron",
+        "query": "ALTER TABLE `#__social_avatars` ADD INDEX `idx_storage_cron` (`storage`, `avatar_id`, `small` (64));"
+    },
+    {
+        "table": "#__social_links_images",
+        "index": "idx_storage_cron",
+        "query": "ALTER TABLE `#__social_links_images` ADD INDEX `idx_storage_cron` (`storage`);"
+    },
+    {
+        "table": "#__social_photos_meta",
+        "index": "idx_sql1",
+        "query": "ALTER TABLE `#__social_photos_meta` ADD INDEX `idx_sql1` (`photo_id`, `group` (64), `property`);"
+    },
+    {
+        "table": "#__social_photos_meta",
+        "index": "idx_sql2",
+        "query": "ALTER TABLE `#__social_photos_meta` ADD INDEX `idx_sql2` (`photo_id`, `group` (64));"
+    }
+]

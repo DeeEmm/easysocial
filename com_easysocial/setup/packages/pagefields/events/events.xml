@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="page">
+	<name>Events</name>
+	<element>events</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>02/08/2015</created>
+	<version>2.1.144</version>
+	<copyright>Copyright 2009 - 2017 Stack Ideas Sdn Bhd. All Rights Reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description><![CDATA[COM_ES_PAGE_FIELDS_EVENTS_INFO]]></description>
+	<core>true</core>
+	<unique>true</unique>
+	<files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<file>events.php</file>
+		<file>events.xml</file>
+	</files>
+</social>

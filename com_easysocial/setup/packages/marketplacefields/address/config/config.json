@@ -1,0 +1,4 @@
+{
+	"extends": "fields/user/address",
+	"friend_suggest": false
+}

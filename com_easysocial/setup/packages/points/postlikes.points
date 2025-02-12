@@ -1,0 +1,20 @@
+[
+    {
+        "title"         : "COM_EASYSOCIAL_POINTS_LIKE_POSTS",
+        "alias"         : "like-posts",
+        "description"   : "COM_EASYSOCIAL_POINTS_LIKE_POSTS_DESC",
+        "command"       : "post.like",
+        "extension"     : "com_easysocial",
+        "state"         : true,
+        "points"        : 5
+    },
+    {
+        "title"         : "COM_EASYSOCIAL_POINTS_UNLIKE_POSTS",
+        "alias"         : "unlike-posts",
+        "description"   : "COM_EASYSOCIAL_POINTS_UNLIKE_POSTS_DESC",
+        "command"       : "post.unlike",
+        "extension"     : "com_easysocial",
+        "state"         : true,
+        "points"        : -5
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "title": "COM_EASYSOCIAL_APPS_SETTINGS_STREAM",
+        "desc": "COM_EASYSOCIAL_APPS_SETTINGS_STREAM_DESC",
+        "fields":
+        [
+            {
+                "label": "APP_EVENT_EVENTS_SETTINGS_STREAM_CREATE_EVENT",
+                "tooltip": "APP_EVENT_EVENTS_SETTINGS_STREAM_CREATE_EVENT_DESC",
+                "name": "stream_create",
+                "type": "boolean",
+                "default": true
+            },
+            {
+                "label": "APP_EVENT_EVENTS_SETTINGS_STREAM_UPDATE_EVENT",
+                "tooltip": "APP_EVENT_EVENTS_SETTINGS_STREAM_UPDATE_EVENT_DESC",
+                "name": "stream_update",
+                "type": "boolean",
+                "default": true
+            },
+            {
+                "label": "APP_EVENT_EVENTS_SETTINGS_STREAM_FEATURED_EVENT",
+                "tooltip": "APP_EVENT_EVENTS_SETTINGS_STREAM_FEATURED_EVENT_DESC",
+                "name": "stream_feature",
+                "type": "boolean",
+                "default": true
+            }
+        ]
+    }
+]

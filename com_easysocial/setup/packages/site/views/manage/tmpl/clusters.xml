@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_ES_MANAGE_LAYOUT_MODERATION">
+		<message>
+			<![CDATA[COM_ES_MANAGE_LAYOUT_MODERATION_DESC]]>
+		</message>
+		<view>manage</view>
+		<layout>clusters</layout>
+	</layout>
+
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			<field name="filter" type="list" default="event" label="COM_EASYSOCIAL_REGISTRATIONS_SELECT_PROFILE" description="COM_EASYSOCIAL_REGISTRATIONS_SELECT_PROFILE_DESC" required="true">
+				<option value="event">Events</option>
+				<option value="group">Groups</option>
+				<option value="page">Pages</option>
+			</field>
+		</fieldset>
+	</fields>
+</metadata>

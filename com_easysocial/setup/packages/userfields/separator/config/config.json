@@ -1,0 +1,30 @@
+
+{
+	"type" :
+	{
+		"label"		: "PLG_FIELDS_SEPARATOR_SEPARATOR_TYPE",
+		"tooltip"	: "PLG_FIELDS_SEPARATOR_SEPARATOR_TYPE_DESC",
+		"type"		: "select",
+		"default"	: "hr",
+		"option"	:
+		[
+			{
+				"label"		: "PLG_FIELDS_SEPARATOR_TYPE_HORIZONTAL",
+				"value"		: "hr"
+			},
+			{
+				"label"		: "PLG_FIELDS_SEPARATOR_TYPE_LINE_SPACE",
+				"value"		: "space"
+			}
+		]
+	},
+
+	"privacy": false,
+	"searchable": false,
+	"required": false,
+	"display_title": false,
+	"title": false,
+	"display_description": false,
+	"description": false,
+	"default": false
+}

@@ -1,0 +1,125 @@
+
+[
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_UPLOAD_PHOTO",
+		"alias"			: "upload-photo",
+		"description"	: "COM_EASYSOCIAL_POINTS_UPLOAD_PHOTO_DESC",
+		"command"		: "photos.upload",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 5
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_REMOVE_PHOTO",
+		"alias"			: "remove-photo",
+		"description"	: "COM_EASYSOCIAL_POINTS_REMOVE_PHOTO_DESC",
+		"command"		: "photos.remove",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: -5
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_CREATE_PHOTO_ALBUM",
+		"alias"			: "create-photo-album",
+		"description"	: "COM_EASYSOCIAL_POINTS_CREATE_PHOTO_ALBUM_DESC",
+		"command"		: "photos.albums.create",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 5
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_REMOVE_PHOTO_ALBUM",
+		"alias"			: "remove-photo-album",
+		"description"	: "COM_EASYSOCIAL_POINTS_REMOVE_PHOTO_ALBUM_DESC",
+		"command"		: "photos.albums.remove",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: -5
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_TAG_ON_PHOTO",
+		"alias"			: "tag-photo",
+		"description"	: "COM_EASYSOCIAL_POINTS_TAG_ON_PHOTO_DESC",
+		"command"		: "photos.tag",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 1
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_REMOVE_TAG_ON_PHOTO",
+		"alias"			: "remove-tag-photo",
+		"description"	: "COM_EASYSOCIAL_POINTS_REMOVE_TAG_ON_PHOTO_DESC",
+		"command"		: "photos.untag",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: -1
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_LIKE_PHOTO",
+		"alias"			: "like-photo",
+		"description"	: "COM_EASYSOCIAL_POINTS_LIKE_PHOTO_DESC",
+		"command"		: "photos.like",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 1
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_UNLIKE_PHOTO",
+		"alias"			: "unlike-photo",
+		"description"	: "COM_EASYSOCIAL_POINTS_UNLIKE_PHOTO_DESC",
+		"command"		: "photos.unlike",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: -1
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_COMMENT_ON_PHOTO",
+		"alias"			: "comment-photo",
+		"description"	: "COM_EASYSOCIAL_POINTS_COMMENT_ON_PHOTO_DESC",
+		"command"		: "photos.comment.add",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 1
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_COMMENT_REMOVE_FROM_PHOTO",
+		"alias"			: "comment-photo-removed",
+		"description"	: "COM_EASYSOCIAL_POINTS_COMMENT_REMOVE_FROM_PHOTO_DESC",
+		"command"		: "photos.comment.remove",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: -1
+	},
+	{
+		"title": "COM_ES_POINTS_PHOTO_REACTION_OWNER",
+		"alias": "photo-reaction-add-owner",
+		"command": "photo.reaction.add.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 1
+	},
+	{
+		"title": "COM_ES_POINTS_PHOTO_REMOVE_REACTION_OWNER",
+		"alias": "photo-reaction-remove-owner",
+		"command": "photo.reaction.remove.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -1
+	},
+	{
+		"title": "COM_ES_POINTS_PHOTO_COMMENT_OWNER",
+		"alias": "photo-comment-add-owner",
+		"command": "photo.comment.add.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 1
+	},
+	{
+		"title": "COM_ES_POINTS_PHOTO_REMOVE_COMMENT_OWNER",
+		"alias": "photo-comment-remove-owner",
+		"command": "photo.comment.remove.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -1
+	}
+]

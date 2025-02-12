@@ -1,0 +1,27 @@
+[
+	{
+		"table": "#__social_videos",
+		"index": "idx_userid",
+		"query": "ALTER TABLE `#__social_videos` ADD INDEX `idx_userid` (`user_id`);"
+	},
+	{
+		"table": "#__social_videos",
+		"index": "idx_type_featured",
+		"query": "ALTER TABLE `#__social_videos` ADD INDEX `idx_type_featured` (`state`, `type` (64), `featured`);"
+	},
+	{
+		"table": "#__social_videos",
+		"index": "idx_type_userid",
+		"query": "ALTER TABLE `#__social_videos` ADD INDEX `idx_type_userid` (`state`, `type` (64), `user_id`);"
+	},
+	{
+		"table": "#__social_videos",
+		"index": "idx_type_userid_featured",
+		"query": "ALTER TABLE `#__social_videos` ADD INDEX `idx_type_userid_featured` (`state`, `type` (64), `user_id`, `featured`);"
+	},
+	{
+		"table": "#__social_videos",
+		"index": "idx_categoryid",
+		"query": "ALTER TABLE `#__social_videos` ADD INDEX `idx_categoryid` (`category_id`);"
+	}
+]

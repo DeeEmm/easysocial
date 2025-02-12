@@ -1,0 +1,17 @@
+[
+    {
+    	"table"		: "#__social_stream",
+    	"column"	: "post_as",
+    	"query"		: "ALTER TABLE `#__social_stream` ADD `post_as` VARCHAR(64) DEFAULT 'user' AFTER `actor_type`;"
+    },
+    {
+        "table"     : "#__social_stream_history",
+        "column"    : "post_as",
+        "query"     : "ALTER TABLE `#__social_stream_history` ADD `post_as` VARCHAR(64) DEFAULT 'user' AFTER `actor_type`;"
+    },
+    {
+        "table": "#__social_stream_history",
+        "column": "datafix",
+        "query": "ALTER TABLE `#__social_stream_history` modify `params` LONGTEXT, add column `datafix` tinyint(1) default 1;"
+    }
+]

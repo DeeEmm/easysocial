@@ -1,0 +1,162 @@
+[
+	{
+		"element" : "events",
+		"rule" : "discussion.create",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "discussion.reply",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "discussion.answered",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "discussion.locked",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "guest.makeadmin",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "guest.revokeadmin",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "guest.reject",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "guest.approve",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "guest.remove",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "guest.going",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "guest.maybe",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "guest.notgoing",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "guest.request",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "guest.withdraw",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "guest.invited",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "news",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "task.created",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "task.completed",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "task.uncompleted",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "milestone.created",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "updates",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "video.create",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "audio.create",
+		"core" : true
+	},
+	{
+		"element": "events",
+		"rule": "polls.create",
+		"core": true
+	},
+	{
+		"element" : "events",
+		"rule" : "polls.vote.item",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "polls.unvote.item",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "polls.changevote.item",
+		"core" : true
+	},
+	{
+		"element": "events",
+		"rule": "reminder",
+		"core": true
+	},
+	{
+		"element" : "events",
+		"rule" : "tagged",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "moderate.review",
+		"core" : true
+	},
+	{
+		"element" : "events",
+		"rule" : "album.create",
+		"core" : true
+	},
+	{
+		"element": "events",
+		"rule": "file.upload",
+		"core": true
+	}
+]

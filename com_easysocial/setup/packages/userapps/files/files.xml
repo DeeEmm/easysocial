@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="apps" group="user">
+	<name>Files</name>
+	<element>files</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>05/11/2013</created>
+	<version>2.0.291</version>
+	<copyright>Copyright (C) 2010 - 2013 Stack Ideas Sdn Bhd</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<installable>true</installable>
+	<core>false</core>
+	<description><![CDATA[APP_USER_FILES_APP_DESCRIPTION]]></description>
+	<widget>false</widget>
+	<views>
+		<view type="embed">dashboard</view>
+	</views>
+	<files>
+		<folder>config</folder>
+		<folder>hooks</folder>
+		<folder>themes</folder>
+		<folder>views</folder>
+		<file>files.php</file>
+		<file>files.xml</file>
+	</files>
+</social>

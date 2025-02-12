@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_ES_MARKETPLACES_LAYOUT_DEFAULT">
+		<message>
+			<![CDATA[COM_ES_MARKETPLACES_LAYOUT_DEFAULT_DESC]]>
+		</message>
+		<view>marketplaces</view>
+	</layout>
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			<field name="filter" type="list" default="browse" label="COM_EASYSOCIAL_GROUPS_LAYOUT_SELECT_FILTER" description="COM_EASYSOCIAL_GROUPS_LAYOUT_SELECT_FILTER_DESC">
+				<option value="all">COM_ES_MARKETPLACES_FILTER_ALL</option>
+				<option value="featured">COM_ES_MARKETPLACES_FILTER_FEATURED</option>
+				<option value="created">COM_ES_MARKETPLACES_FILTER_CREATED</option>
+			</field>
+
+			<field name="categoryId" type="easysocial_marketplacecategory" label="COM_EASYSOCIAL_MENU_FILTER_CATEGORY" description="COM_EASYSOCIAL_MENU_FILTER_CATEGORY_DESC" required="false" message="COM_EASYSOCIAL_GROUPS_ITEM_SELECT_CATEGORY_REQUIRED" />
+		</fieldset>
+	</fields>
+</metadata>

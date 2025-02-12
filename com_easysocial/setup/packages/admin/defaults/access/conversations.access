@@ -1,0 +1,26 @@
+[
+	{
+		"title": "COM_EASYSOCIAL_ACCESS_CONVERSATIONS_START_CONVERSATION",
+		"description": "COM_EASYSOCIAL_ACCESS_CONVERSATIONS_START_CONVERSATION_TOOLTIP",
+		"name": "conversations.create"
+	},
+	{
+		"title": "COM_EASYSOCIAL_ACCESS_CONVERSATIONS_INVITE_TO_GROUP_CONVERSATION",
+		"description": "COM_EASYSOCIAL_ACCESS_CONVERSATIONS_INVITE_TO_GROUP_CONVERSATION_TOOLTIP",
+		"name": "conversations.invite"
+	},
+	{
+		"title": "COM_ES_ACCESS_CONVERSATIONS_DELETE_MESSAGE",
+		"description": "COM_ES_ACCESS_CONVERSATIONS_DELETE_MESSAGE_TOOLTIP",
+		"name": "conversations.message.delete",
+		"default": 0
+	},
+	{
+		"title": "COM_EASYSOCIAL_ACCESS_CONVERSATIONS_DAILY_LIMIT",
+		"description": "COM_EASYSOCIAL_ACCESS_CONVERSATIONS_DAILY_LIMIT_TOOLTIP",
+		"name": "conversations.send.daily",
+		"type": "limit",
+		"suffix": "messages",
+		"default": 0
+	}
+]

@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__social_search_filter",
+        "column"    : "sitewide",
+        "query"     : "ALTER TABLE `#__social_search_filter` ADD COLUMN `sitewide` tinyint(1) default 0"
+    }
+]

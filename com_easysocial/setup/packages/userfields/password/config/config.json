@@ -1,0 +1,26 @@
+{
+	"placeholder": {
+		"label"		: "PLG_FIELDS_PASSWORD_CONFIG_PLACEHOLDER",
+		"tooltip"	: "PLG_FIELDS_PASSWORD_CONFIG_PLACEHOLDER_DESC",
+		"default"	: "",
+		"type"		: "text"
+	},
+
+	"min": {
+		"label"		: "PLG_FIELDS_PASSWORD_CONFIG_MIN",
+		"tooltip"	: "PLG_FIELDS_PASSWORD_CONFIG_MIN_DESC",
+		"default"	: 0,
+		"type"		: "text"
+	},
+
+	"max": {
+		"label"		: "PLG_FIELDS_PASSWORD_CONFIG_MAX",
+		"tooltip"	: "PLG_FIELDS_PASSWORD_CONFIG_MAX_DESC",
+		"default"	: 0,
+		"type"		: "text"
+	},
+
+	"searchable"	: false,
+
+	"visible_display": false
+}

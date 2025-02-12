@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_DASHBOARD_LAYOUT_DEFAULT">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_DASHBOARD_LAYOUT_DEFAULT_DESC]]>
+		</message>
+		<view>dashboard</view>
+	</layout>
+
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="request">
+		<fieldset name="request">
+			<field name="filter_type" type="list" default="" label="COM_EASYSOCIAL_DASHBOARD_LAYOUT_SELECT_FILTER" description="COM_EASYSOCIAL_DASHBOARD_LAYOUT_SELECT_FILTER_DESC">
+				<option value="">COM_EASYSOCIAL_DASHBOARD_LAYOUT_FILTER_INHERIT_FROM_SETTINGS</option>
+				<option value="all">COM_EASYSOCIAL_DASHBOARD_LAYOUT_FILTER_ALL</option>
+				<option value="everyone">COM_EASYSOCIAL_DASHBOARD_LAYOUT_FILTER_EVERYONE</option>
+				<option value="following">COM_EASYSOCIAL_DASHBOARD_LAYOUT_FILTER_FOLLOWING</option>
+				<option value="bookmarks">My Favourites</option>
+			</field>
+		</fieldset>
+	</fields>
+
+</metadata>

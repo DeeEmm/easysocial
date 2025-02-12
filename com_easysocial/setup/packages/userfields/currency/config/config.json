@@ -1,0 +1,89 @@
+{
+	"title": {
+		"default": "PLG_FIELDS_CURRENCY_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_CURRENCY_DEFAULT_DESCRIPTION"
+	},
+
+	"default": false,
+
+	"default_dollar": {
+		"label"		: "PLG_FIELDS_CURRENCY_CONFIG_DEFAULT_DOLLAR",
+		"tooltip"	: "PLG_FIELDS_CURRENCY_CONFIG_DEFAULT_DOLLAR_DESC",
+		"type"		: "input",
+		"default"	: "",
+		"group"		: "core"
+	},
+
+	"default_cent": {
+		"label"		: "PLG_FIELDS_CURRENCY_CONFIG_DEFAULT_CENT",
+		"tooltip"	: "PLG_FIELDS_CURRENCY_CONFIG_DEFAULT_CENT_DESC",
+		"type"		: "input",
+		"default"	: "",
+		"group"		: "core"
+	},
+
+
+	"format": {
+		"label"		: "PLG_FIELDS_CURRENCY_CONFIG_FORMAT",
+		"tooltip"	: "PLG_FIELDS_CURRENCY_CONFIG_FORMAT_DESC",
+		"type"		: "select",
+		"default"	: "usd",
+		"option"	: [
+			{
+				"label"	: "PLG_FIELDS_CURRENCY_USD",
+				"value"	: "usd"
+			},
+			{
+				"label"	: "PLG_FIELDS_CURRENCY_BAHT",
+				"value"	: "baht"
+			},
+			{
+				"label"	: "PLG_FIELDS_CURRENCY_EURO",
+				"value"	: "euro"
+			},
+			{
+				"label"	: "PLG_FIELDS_CURRENCY_FORINT",
+				"value"	: "forint"
+			},
+			{
+				"label"	: "PLG_FIELDS_CURRENCY_FRANC",
+				"value"	: "franc"
+			},
+			{
+				"label"	: "PLG_FIELDS_CURRENCY_KORUNA",
+				"value"	: "koruna"
+			},
+			{
+				"label"	: "PLG_FIELDS_CURRENCY_KRONA",
+				"value"	: "krona"
+			},
+			{
+				"label"	: "PLG_FIELDS_CURRENCY_PESOS",
+				"value"	: "pesos"
+			},
+			{
+				"label"	: "PLG_FIELDS_CURRENCY_POUND",
+				"value"	: "pound"
+			},
+			{
+				"label"	: "PLG_FIELDS_CURRENCY_RINGGIT",
+				"value"	: "ringgit"
+			},
+			{
+				"label"	: "PLG_FIELDS_CURRENCY_SHEKEL",
+				"value"	: "shekel"
+			},
+			{
+				"label"	: "PLG_FIELDS_CURRENCY_YEN",
+				"value"	: "yen"
+			},
+			{
+				"label"	: "PLG_FIELDS_CURRENCY_ZLOTY",
+				"value"	: "zloty"
+			}
+		]
+	}
+}

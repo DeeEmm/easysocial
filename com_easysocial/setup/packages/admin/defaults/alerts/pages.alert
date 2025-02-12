@@ -1,0 +1,112 @@
+[
+	{
+		"element" : "pages",
+		"rule" : "invited",
+		"core" : true
+	},
+	{
+		"element" : "pages",
+		"rule" : "approved",
+		"core" : true
+	},
+	{
+		"element" : "pages",
+		"rule" : "liked",
+		"core" : true
+	},
+	{
+		"element" : "pages",
+		"rule" : "user.rejected",
+		"core" : true
+	},
+	{
+		"element" : "pages",
+		"rule" : "updates",
+		"core" : true
+	},
+	{
+		"element" : "pages",
+		"rule" : "promoted",
+		"core" : true
+	},
+	{
+		"element" : "pages",
+		"rule" : "requested",
+		"core" : true
+	},
+	{
+		"element" : "pages",
+		"rule" : "news",
+		"core" : true
+	},
+	{
+		"element" : "pages",
+		"rule" : "discussion.create",
+		"core" : true
+	},
+	{
+		"element" : "pages",
+		"rule" : "discussion.reply",
+		"core" : true
+	},
+	{
+		"element" : "pages",
+		"rule" : "user.removed",
+		"core" : true
+	},
+	{
+		"element": "pages",
+		"rule": "video.create",
+		"core": true
+	},
+	{
+		"element": "pages",
+		"rule": "audio.create",
+		"core": true
+	},
+	{
+		"element": "pages",
+		"rule": "polls.create",
+		"core": true
+	},
+	{
+		"element" : "pages",
+		"rule" : "polls.vote.item",
+		"core" : true
+	},
+	{
+		"element" : "pages",
+		"rule" : "polls.unvote.item",
+		"core" : true
+	},
+	{
+		"element" : "pages",
+		"rule" : "polls.changevote.item",
+		"core" : true
+	},
+	{
+		"element" : "pages",
+		"rule" : "tagged",
+		"core" : true
+	},
+	{
+		"element" : "pages",
+		"rule" : "moderate.review",
+		"core" : true
+	},
+	{
+		"element" : "pages",
+		"rule" : "album.create",
+		"core" : true
+	},
+	{
+		"element": "pages",
+		"rule": "file.upload",
+		"core": true
+	},
+	{
+		"element": "pages",
+		"rule": "marketplace.create",
+		"core": true
+	}
+]

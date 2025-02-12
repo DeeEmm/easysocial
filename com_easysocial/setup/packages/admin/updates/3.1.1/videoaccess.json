@@ -1,0 +1,42 @@
+[
+	{
+		"table": "#__social_videos",
+		"column": "access",
+		"query": "ALTER TABLE `#__social_videos` ADD COLUMN `access` int(11) default 0 NOT NULL;"
+	},
+	{
+		"table": "#__social_videos",
+		"column": "custom_access",
+		"query": "ALTER TABLE `#__social_videos` ADD COLUMN `custom_access` text NULL;"
+	},
+	{
+		"table": "#__social_videos",
+		"column": "field_access",
+		"query": "ALTER TABLE `#__social_videos` ADD COLUMN `field_access` tinyint(3) default 0;"
+	},
+	{
+		"table": "#__social_videos",
+		"column": "chk_access",
+		"query": "ALTER TABLE `#__social_videos` ADD COLUMN `chk_access` tinyint(1) default 0;"
+	},
+	{
+		"table": "#__social_videos",
+		"index": "idx_access",
+		"query": "ALTER TABLE `#__social_videos` ADD INDEX `idx_access` (`access`);"
+	},
+	{
+		"table": "#__social_videos",
+		"index": "idx_custom_access",
+		"query": "ALTER TABLE `#__social_videos` ADD INDEX `idx_custom_access` (`access`, `custom_access` (200));"
+	},
+	{
+		"table": "#__social_videos",
+		"index": "idx_field_access",
+		"query": "ALTER TABLE `#__social_videos` ADD INDEX `idx_field_access` (`access`, `field_access`);"
+	},
+	{
+		"table": "#__social_videos",
+		"index": "idx_type_chkaccess",
+		"query": "ALTER TABLE `#__social_videos` ADD INDEX `idx_type_chkaccess` (`type` (64), `chk_access`);"
+	}
+]

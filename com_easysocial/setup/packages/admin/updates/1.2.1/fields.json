@@ -1,0 +1,12 @@
+[
+	{
+		"table"		: "#__social_fields",
+		"index"		: "idx_advanced_search1",
+		"query"		: "ALTER TABLE `#__social_fields` ADD INDEX `idx_advanced_search1` ( `searchable`, `state`, `ordering` );"
+	},
+	{
+		"table"		: "#__social_fields",
+		"column"	: "visible_mini_registration",
+		"query"		: "ALTER TABLE `#__social_fields` ADD COLUMN `visible_mini_registration` tinyint(3) NOT NULL DEFAULT '0';"
+	}
+]

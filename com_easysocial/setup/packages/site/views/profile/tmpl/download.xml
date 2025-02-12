@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_PROFILE_LAYOUT_DOWNLOAD">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_PROFILE_LAYOUT_DOWNLOAD_DESC]]>
+		</message>
+		<view>profile</view>
+		<layout>download</layout>
+	</layout>
+</metadata>

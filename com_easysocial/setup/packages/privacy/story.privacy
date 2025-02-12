@@ -1,0 +1,57 @@
+
+{
+	"type": "story",
+	"rules":
+		[
+			{
+				"core"			: true,
+				"command" 		: "view",
+				"description"	: "COM_EASYSOCIAL_PRIVACY_DESC_STORY_VIEW",
+				"default"		: "public",
+				"options"		:
+				[
+					{
+						"name"	: "public"
+					},
+					{
+						"name"	: "member"
+					},
+					{
+						"name"	: "friend"
+					},
+					{
+						"name"	: "only_me"
+					},
+					{
+						"name" : "custom"
+					},
+					{
+						"name" : "field"
+					}
+				]
+			},
+
+			{
+				"core"			: true,
+				"command" 		: "post.comment",
+				"description"	: "COM_EASYSOCIAL_PRIVACY_DESC_STORY_POST_COMMENT",
+				"default"		: "member",
+				"options"		:
+				[
+					{
+						"name"	: "member"
+					},
+					{
+						"name"	: "friend"
+					},
+					{
+						"name"	: "only_me"
+					},
+					{
+						"name"	: "custom"
+					}
+				]
+			}
+
+		]
+}

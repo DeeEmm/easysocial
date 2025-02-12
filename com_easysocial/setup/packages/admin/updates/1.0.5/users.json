@@ -1,0 +1,7 @@
+[
+	{
+		"table"		: "#__social_users",
+		"column"	: "alias",
+		"query"		: "ALTER TABLE `#__social_users` ADD  `alias` VARCHAR( 255 ) NOT NULL AFTER  `user_id`, ADD INDEX (  `alias` );"
+	}
+]

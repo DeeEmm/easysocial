@@ -1,0 +1,49 @@
+[
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_COMMENTS_ADD",
+		"description"	: "COM_EASYSOCIAL_ACCESS_COMMENTS_ADD_TOOLTIP",
+		"name"			: "comments.add"
+	},
+
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_COMMENTS_READ",
+		"description"	: "COM_EASYSOCIAL_ACCESS_COMMENTS_READ_TOOLTIP",
+		"name"			: "comments.read"
+	},
+
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_COMMENTS_REPORT",
+		"description"	: "COM_EASYSOCIAL_ACCESS_COMMENTS_REPORT_TOOLTIP",
+		"name"			: "comments.report"
+	},
+
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_COMMENTS_EDIT",
+		"description"	: "COM_EASYSOCIAL_ACCESS_COMMENTS_EDIT_TOOLTIP",
+		"name"			: "comments.edit",
+		"default"		: false
+	},
+
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_COMMENTS_EDITOWN",
+		"description"	: "COM_EASYSOCIAL_ACCESS_COMMENTS_EDITOWN_TOOLTIP",
+		"name"			: "comments.editown"
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_COMMENTS_DELETE",
+		"description"	: "COM_EASYSOCIAL_ACCESS_COMMENTS_DELETE_TOOLTIP",
+		"name"			: "comments.delete",
+		"default"		: false
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_COMMENTS_DELETEOWN",
+		"description"	: "COM_EASYSOCIAL_ACCESS_COMMENTS_DELETEOWN_TOOLTIP",
+		"name"			: "comments.deleteown"
+	},
+	{
+		"title"			: "COM_ES_ACCESS_COMMENTS_DELETEOWNSTREAM",
+		"description"	: "COM_ES_ACCESS_COMMENTS_DELETEOWNSTREAM_TOOLTIP",
+		"name"			: "comments.deleteownstream",
+		"default"		: false
+	}
+]

@@ -1,0 +1,9 @@
+{
+	"title" : "COM_ES_MENU_GROUP_HONEYPOT",
+	"link" : "index.php?option=com_easysocial&view=honeypot",
+	"access" : "easysocial.access.honeypot",
+	"class" : "fa fa-user-md",
+	"view" : "honeypot",
+	"active" : "layout",
+	"childs":[]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_PAGES_LAYOUT_ITEM">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_PAGES_LAYOUT_ITEM_DESC]]>
+		</message>
+		<view>pages</view>
+		<layout>item</layout>
+	</layout>
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			<field name="id" type="easysocial_page" label="COM_EASYSOCIAL_PAGES_LAYOUT_SELECT_PAGE" description="COM_EASYSOCIAL_PAGES_LAYOUT_SELECT_PAGE_DESC" required="true" message="COM_EASYSOCIAL_EVENTS_ITEM_SELECT_CATEGORY_REQUIRED"/>
+		</fieldset>
+	</fields>
+</metadata>

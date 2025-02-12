@@ -1,0 +1,16 @@
+{
+	"searchable": false,
+	"privacy": false,
+	"title": {
+		"default": "COM_ES_CLUSTER_FIELDS_ENABLE_PHOTOS"
+	},
+
+	"description": {
+		"default": "COM_ES_CLUSTER_FIELDS_ENABLE_PHOTOS_DESC"
+	},
+
+	"default": {
+		"type": "boolean",
+		"default": true
+	}
+}

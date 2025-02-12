@@ -1,0 +1,41 @@
+[
+	{
+		"title" : "COM_EASYSOCIAL_APPS_SETTINGS_STORY",
+		"desc" : "COM_EASYSOCIAL_APPS_SETTINGS_STORY_DESC",
+		"fields" :
+		[
+			{
+				"label" : "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STORY_DATETIME_FORMAT",
+				"tooltip" : "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STORY_DATETIME_FORMAT_DESC",
+				"name" : "datetime_format",
+				"type" : "select",
+				"default" : 12,
+				"options" :
+				[
+					{
+						"title" : "COM_ES_SETTINGS_DISPLAY_TIME_FORMAT_12H",
+						"value" : 12
+					},
+					{
+						"title" : "COM_ES_SETTINGS_DISPLAY_TIME_FORMAT_24H",
+						"value" : 24
+					}
+				]
+			}
+		]
+	},	
+	{
+		"title" : "COM_EASYSOCIAL_APPS_SETTINGS_STREAM",
+		"desc" : "COM_EASYSOCIAL_APPS_SETTINGS_STREAM_DESC",
+		"fields" :
+		[
+			{
+				"label" : "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER",
+				"tooltip" : "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER_DESC",
+				"name" : "stream_filter",
+				"type" : "boolean",
+				"default" : true
+			}
+		]
+	}
+]

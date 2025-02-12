@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_clusters_news",
+		"column": "content_type",
+		"query": "ALTER TABLE `#__social_clusters_news` ADD `content_type` varchar(65) NOT NULL default 'tinymce' AFTER `content`;"
+	}
+]

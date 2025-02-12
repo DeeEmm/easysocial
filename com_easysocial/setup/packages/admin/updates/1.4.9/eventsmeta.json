@@ -1,0 +1,12 @@
+[
+    {
+        "table": "#__social_events_meta",
+        "column": "start_gmt",
+        "query": "ALTER TABLE `#__social_events_meta` ADD `start_gmt` datetime NOT NULL;"
+    },
+    {
+        "table": "#__social_events_meta",
+        "column": "end_gmt",
+        "query": "ALTER TABLE `#__social_events_meta` ADD `end_gmt` datetime NOT NULL;"
+    }
+]

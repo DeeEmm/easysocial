@@ -1,0 +1,7 @@
+[
+	{
+		"table"		: "#__social_stream",
+		"column"	: "ispublic",
+		"query"		: "alter table `#__social_stream` add column `ispublic` tinyint(3) default 0 not null"
+	}
+]

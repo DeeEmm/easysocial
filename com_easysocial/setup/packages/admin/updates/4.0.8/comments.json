@@ -1,0 +1,17 @@
+[
+	{
+		"table": "#__social_comments",
+		"index": "idx_parents",
+		"query": "ALTER TABLE `#__social_comments` ADD INDEX `idx_parents` (`parent`, `lft`);"
+	},
+	{
+		"table": "#__social_comments",
+		"index": "idx_rgt",
+		"query": "ALTER TABLE `#__social_comments` ADD INDEX `idx_rgt` (`rgt`);"
+	},
+	{
+		"table": "#__social_comments",
+		"index": "idx_lft",
+		"query": "ALTER TABLE `#__social_comments` ADD INDEX `idx_lft` (`lft`);"
+	}
+]

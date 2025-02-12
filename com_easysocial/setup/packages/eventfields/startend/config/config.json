@@ -1,0 +1,136 @@
+{
+    "date_format": {
+        "label": "FIELDS_EVENT_STARTEND_CONFIG_DATE_FORMAT",
+        "tooltip": "FIELDS_EVENT_STARTEND_CONFIG_DATE_FORMAT_DESC",
+        "type": "select",
+        "default": "DD-MM-YYYY",
+        "option": [{
+            "label": "YYYY-MM-DD",
+            "value": "YYYY-MM-DD"
+        }, {
+            "label": "YYYY-DD-MM",
+            "value": "YYYY-DD-MM"
+        }, {
+            "label": "DD-MM-YYYY",
+            "value": "DD-MM-YYYY"
+        }, {
+            "label": "MM-DD-YYYY",
+            "value": "MM-DD-YYYY"
+        }]
+    },
+
+    "allow_time": {
+        "label": "FIELDS_USER_DATETIME_CONFIG_ALLOW_TIME",
+        "tooltip": "FIELDS_USER_DATETIME_CONFIG_ALLOW_TIME_DESC",
+        "type": "boolean",
+        "default": true 
+    },
+
+    "time_format": {
+        "label": "FIELDS_EVENT_STARTEND_CONFIG_TIME_FORMAT",
+        "tooltip": "FIELDS_EVENT_STARTEND_CONFIG_TIME_FORMAT_DESC",
+        "type": "select",
+        "default": "hh:mm A",
+        "option": [{
+            "label": "FIELDS_EVENT_STARTEND_CONFIG_TIME_FORMAT_12HOUR",
+            "value": "hh:mm A"
+        }, {
+            "label": "FIELDS_EVENT_STARTEND_CONFIG_TIME_FORMAT_24HOUR",
+            "value": "HH:mm"
+        }]
+    },
+
+    "allow_timezone": {
+        "label": "FIELDS_USER_DATETIME_CONFIG_ALLOW_TIMEZONE",
+        "tooltip": "FIELDS_USER_DATETIME_CONFIG_ALLOW_TIMEZONE_DESC",
+        "type": "boolean",
+        "default": false 
+    },
+
+    "yearfrom": {
+        "label": "PLG_FILEDS_DATETIME_CONFIG_YEAR_RANGE_FROM",
+        "tooltip": "PLG_FILEDS_DATETIME_CONFIG_YEAR_RANGE_FROM_DESC",
+        "type": "text",
+        "default": "1930"
+    },
+
+    "yearto": {
+        "label": "PLG_FILEDS_DATETIME_CONFIG_YEAR_RANGE_TO",
+        "tooltip": "PLG_FILEDS_DATETIME_CONFIG_YEAR_RANGE_TO_DESC",
+        "type": "text",
+        "default": ""
+    },
+
+    "title": {
+        "default": "FIELDS_EVENT_STARTEND_DEFAULT_TITLE"
+    },
+
+    "description": {
+        "default": "FIELDS_EVENT_STARTEND_DEFAULT_DESCRIPTION"
+    },
+
+    "required": true,
+
+    "disallow_past": {
+        "label": "FIELDS_EVENT_STARTEND_CONFIG_DISALLOW_PAST",
+        "tooltip": "FIELDS_EVENT_STARTEND_CONFIG_DISALLOW_PAST_DESC",
+        "type": "boolean",
+        "default": false
+    },
+
+    "minute_stepping": {
+        "label": "FIELDS_EVENT_STARTEND_CONFIG_MINUTE_STEPPING",
+        "tooltip": "FIELDS_EVENT_STARTEND_CONFIG_MINUTE_STEPPING_DESC",
+        "type": "text",
+        "default": 15
+    },
+
+    "require_end": {
+        "label": "FIELDS_EVENT_STARTEND_CONFIG_REQUIRE_ENDDATE",
+        "tooltip": "FIELDS_EVENT_STARTEND_CONFIG_REQUIRE_ENDDATE_DESC",
+        "type": "boolean",
+        "default": false
+    },
+
+    "default": false,
+
+    "default_start": {
+        "label": "FIELDS_EVENT_STARTEND_CONFIG_DEFAULT_START",
+        "tooltip": "FIELDS_EVENT_STARTEND_CONFIG_DEFAULT_START_DESC",
+        "type": "select",
+        "default": "nexthour",
+        "option": [{
+            "label": "FIELDS_EVENT_STARTEND_CONFIG_DEFAULT_START_NEXTHOUR",
+            "value": "nexthour"
+        }, {
+            "label": "FIELDS_EVENT_STARTEND_CONFIG_DEFAULT_START_CUSTOM",
+            "value": "custom"
+        }, {
+            "label": "FIELDS_EVENT_STARTEND_CONFIG_DEFAULT_START_EMPTY",
+            "value": "empty"
+        }]
+    },
+
+    "default_start_format": {
+        "label": "FIELDS_EVENT_STARTEND_CONFIG_DEFAULT_START_FORMAT",
+        "tooltip": "FIELDS_EVENT_STARTEND_CONFIG_DEFAULT_START_FORMAT_DESC",
+        "type": "text",
+        "default": "Y-m-d H:i"
+    },
+
+    "visible_registration": true,
+
+    "calendar_language": {
+        "label": "FIELDS_EVENT_STARTEND_CONFIG_CALENDAR_LANGUAGE",
+        "tooltip": "FIELDS_EVENT_STARTEND_CONFIG_CALENDAR_LANGUAGE_DESC",
+        "type": "select",
+        "default": "english",
+        "option": [{
+            "label": "FIELDS_EVENT_STARTEND_CONFIG_CALENDAR_LANGAUGE_ENGLISH",
+            "value": "english"
+        }, {
+            "label": "FIELDS_EVENT_STARTEND_CONFIG_CALENDAR_LANGUAGE_SITE",
+            "value": "site"
+        }]
+    }
+}

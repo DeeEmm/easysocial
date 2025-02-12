@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="finder" method="upgrade">
+	<name>plg_finder_easysocialmarketplaces</name>
+	<author>Stackideas</author>
+	<creationDate>February 2021</creationDate>
+	<copyright>Copyright StackIdeas. All rights reserved.</copyright>
+	<license>GPL License</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>http://www.stackideas.com</authorUrl>
+	<version>4.0.0</version>
+	<description>This plugin indexes EasySocial Marketplaces.</description>
+	<files>
+		<file plugin="easysocialmarketplaces">easysocialmarketplaces.php</file>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_finder_easysocialmarketplaces.ini</language>
+		<language tag="en-GB">en-GB.plg_finder_easysocialmarketplaces.sys.ini</language>
+	</languages>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

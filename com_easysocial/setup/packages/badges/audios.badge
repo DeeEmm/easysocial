@@ -1,0 +1,32 @@
+[
+	{
+		"title" 		: "COM_ES_BADGES_AUDIO_REACT_TITLE",
+		"alias"			: "audio-react",
+		"description"	: "COM_ES_BADGES_AUDIO_REACT_DESC",
+		"howto"			: "COM_ES_BADGES_AUDIO_REACT_HOWTO",
+		"command"		: "audios.react",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/Audio-React.png",
+		"frequency"		: 30
+	},
+	{
+		"title" 		: "COM_ES_BADGES_AUDIO_COMMENT_TITLE",
+		"alias"			: "audio-comment",
+		"description"	: "COM_ES_BADGES_AUDIO_COMMENT_DESC",
+		"howto"			: "COM_ES_BADGES_AUDIO_COMMENT_HOWTO",
+		"command"		: "audios.comment",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/Audio-Comment.png",
+		"frequency"		: 30
+	},
+	{
+		"title" 		: "COM_ES_BADGES_AUDIO_CREATE_TITLE",
+		"alias"			: "audio-create",
+		"description"	: "COM_ES_BADGES_AUDIO_CREATE_DESC",
+		"howto"			: "COM_ES_BADGES_AUDIO_CREATE_HOWTO",
+		"command"		: "audios.create",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/Audio-Create.png",
+		"frequency"		: 30
+	}
+]

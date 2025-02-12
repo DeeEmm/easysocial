@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="marketplace">
+	<name>Numeric</name>
+	<element>numeric</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>15/01/2014</created>
+	<version>3.3.33</version>
+	<copyright>Copyright (c) 2009 - 2020 Stack Ideas Sdn. Bhd.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description><![CDATA[Numeric custom field allows users to enter numeric values into the field]]></description>
+	<core>false</core>
+	<unique>false</unique>
+	<files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<file>numeric.php</file>
+		<file>numeric.xml</file>
+	</files>
+</social>

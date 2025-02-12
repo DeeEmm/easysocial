@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_USERS_LAYOUT_DEFAULT">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_USERS_LAYOUT_DEFAULT_DESC]]>
+		</message>
+		<view>users</view>
+	</layout>
+
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			<field name="filter" type="list" default="browse" label="COM_EASYSOCIAL_USERS_LAYOUT_SELECT_FILTER" description="COM_EASYSOCIAL_USERS_LAYOUT_SELECT_FILTER_DESC">
+				<option value="all">COM_EASYSOCIAL_USERS_LAYOUT_SELECT_FILTER_ALL</option>
+				<option value="photos">COM_EASYSOCIAL_USERS_LAYOUT_SELECT_FILTER_USERS_WITH_PHOTOS</option>
+				<option value="online">COM_EASYSOCIAL_USERS_LAYOUT_SELECT_FILTER_ONLINE</option>
+				<option value="profiletype">COM_EASYSOCIAL_USERS_LAYOUT_SELECT_FILTER_PROFILETYPE</option>
+			</field>
+			<field name="id" type="easysocial_profile" label="COM_EASYSOCIAL_LAYOUT_SELECT_PROFILE" description="COM_EASYSOCIAL_LAYOUT_SELECT_PROFILE_DESC"/>
+		</fieldset>
+	</fields>
+</metadata>

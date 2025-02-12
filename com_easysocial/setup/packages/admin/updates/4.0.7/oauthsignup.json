@@ -1,0 +1,27 @@
+[
+	{
+		"table": "#__social_apps_map",
+		"alter": "position",
+		"query": "ALTER TABLE `#__social_apps_map` MODIFY `position` VARCHAR(50) NOT NULL DEFAULT '';"
+	},
+	{
+		"table": "#__social_apps_map",
+		"alter": "params",
+		"query": "ALTER TABLE `#__social_apps_map` MODIFY `params` text NULL;"
+	},
+	{
+		"table": "#__social_oauth",
+		"alter": "permissions",
+		"query": "ALTER TABLE `#__social_oauth` MODIFY `permissions` text NULL;"
+	},
+	{
+		"table": "#__social_oauth",
+		"alter": "last_pulled",
+		"query": "ALTER TABLE `#__social_oauth` MODIFY `last_pulled` datetime NOT NULL DEFAULT '0000-00-00 00:00:00';"
+	},
+	{
+		"table": "#__social_oauth",
+		"alter": "last_pushed",
+		"query": "ALTER TABLE `#__social_oauth` MODIFY `last_pushed` datetime NOT NULL DEFAULT '0000-00-00 00:00:00';"
+	}
+]

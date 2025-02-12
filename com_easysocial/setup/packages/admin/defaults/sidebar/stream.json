@@ -1,0 +1,35 @@
+{
+	"title": "COM_EASYSOCIAL_MENU_GROUP_STREAMS",
+	"link": "index.php?option=com_easysocial&view=stream",
+	"class": "fa fa-stream",
+	"access": "easysocial.access.stream",
+	"view": "stream",
+	"active": "layout",
+	"childs":
+	[
+		{
+			"title": "COM_EASYSOCIAL_MENU_GROUP_STREAMS",
+			"url": {
+				"view": "stream",
+				"layout": ""
+			}
+		},
+		{
+			"title": "COM_ES_MENU_BACKGROUND",
+			"url": {
+				"view": "stream",
+				"layout": "background"
+			},
+			"activeLayouts": [
+				"backgroundForm"
+			]
+		},
+		{
+			"title": "COM_ES_MENU_SCHEDULED_STREAM",
+			"url": {
+				"view": "stream",
+				"layout": "scheduled"
+			}
+		}
+	]
+}

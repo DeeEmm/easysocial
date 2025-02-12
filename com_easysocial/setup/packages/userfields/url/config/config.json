@@ -1,0 +1,52 @@
+
+{
+	"title": {
+		"default": "PLG_FIELDS_URL_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_URL_DEFAULT_DESCRIPTION"
+	},
+
+
+	"placeholder": {
+		"label"		: "PLG_FIELDS_URL_CONFIG_PLACEHOLDER",
+		"tooltip"	: "PLG_FIELDS_URL_CONFIG_PLACEHOLDER_DESC",
+		"type"		: "text",
+		"default"	: "http://yoursite.com"
+	},
+
+	"linkable": {
+		"label"		: "PLG_FIELDS_URL_CONFIG_LINKABLE",
+		"tooltip"	: "PLG_FIELDS_URL_CONFIG_LINKABLE_DESC",
+		"type"		: "boolean",
+		"default"	: true
+	},
+
+
+	"nofollow": {
+		"name"		: "nofollow",
+		"label"		: "PLG_FIELDS_URL_CONFIG_ADD_NOFOLLOW",
+		"tooltip"	: "PLG_FIELDS_URL_CONFIG_ADD_NOFOLLOW_DESC",
+		"type"		: "boolean",
+		"default"	: true
+	},
+
+
+	"target": {
+		"label"		: "PLG_FIELDS_URL_CONFIG_HYPERLINK_TARGET",
+		"tooltip"	: "PLG_FIELDS_URL_CONFIG_HYPERLINK_TARGET_DESC",
+		"type"		: "select",
+		"default"	: "_blank",
+		"option"	: [
+			{
+				"label"		: "PLG_FIELDS_URL_CONFIG_HYPERLINK_TARGET_NEW_WINDOW",
+				"value"		: "_blank"
+			},
+			{
+				"label"		: "PLG_FIELDS_URL_CONFIG_HYPERLINK_TARGET_SAME_WINDOW",
+				"value"		: "_self"
+			}
+		]
+	}
+}

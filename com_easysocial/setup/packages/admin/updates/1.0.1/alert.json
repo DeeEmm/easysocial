@@ -1,0 +1,7 @@
+[
+	{
+		"table"		: "#__social_alert",
+		"column"	: "extension",
+		"query"		: "ALTER TABLE `#__social_alert` ADD  `extension` VARCHAR( 255 ) NOT NULL AFTER  `id`"
+	}
+]

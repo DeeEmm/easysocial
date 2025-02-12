@@ -1,0 +1,59 @@
+[
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_PHOTOS_CREATE_ALBUMS",
+		"description"	: "COM_EASYSOCIAL_ACCESS_PHOTOS_CREATE_ALBUMS_TIPS",
+		"name"			: "albums.create"
+	},
+	{
+		"title"			: "COM_ES_ACCESS_ALBUM_SET_PASSWORD",
+		"description"	: "COM_ES_ACCESS_ALBUM_SET_PASSWORD_TIPS",
+		"name"			: "albums.set.password",
+		"default"		: 0
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_PHOTOS_TOTAL_ALBUMS",
+		"description"	: "COM_EASYSOCIAL_ACCESS_PHOTOS_TOTAL_ALBUMS_TIPS",
+		"name"			: "albums.total",
+		"type"			: "limit",
+		"default"		: 0
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_PHOTOS_CREATE_PHOTOS",
+		"description"	: "COM_EASYSOCIAL_ACCESS_PHOTOS_CREATE_PHOTOS_TIPS",
+		"name"			: "photos.create"
+	},	
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_PHOTOS_MAXIMUM_FILE_SIZE",
+		"description"	: "COM_EASYSOCIAL_ACCESS_PHOTOS_MAXIMUM_FILE_SIZE_TIPS",
+		"name"			: "photos.uploader.maxsize",
+		"type"			: "text",
+		"class"			: "form-control input-sm input-short text-center",
+		"default"		: 5,
+		"suffix"		: "MB"
+	},
+
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_PHOTOS_MAXIMUM_PHOTOS_UPLOAD",
+		"description"	: "COM_EASYSOCIAL_ACCESS_PHOTOS_MAXIMUM_PHOTOS_UPLOAD_TIPS",
+		"name"			: "photos.uploader.max",
+		"type"			: "limit",
+		"suffix"		: "photos",
+		"default"		: 500
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_PHOTOS_MAXIMUM_PHOTOS_UPLOAD_PER_DAY",
+		"description"	: "COM_EASYSOCIAL_ACCESS_PHOTOS_MAXIMUM_PHOTOS_UPLOAD_PER_DAY_TIPS",
+		"name"			: "photos.uploader.maxdaily",
+		"type"			: "limit",
+		"suffix"		: "photos",
+		"default"		: 20
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_PHOTOS_TOTAL_SIZE_ALLOWED",
+		"description"	: "COM_EASYSOCIAL_ACCESS_PHOTOS_TOTAL_SIZE_ALLOWED_TIPS",
+		"name"			: "photos.totalfiles.limit",
+		"type"			: "limit",
+		"suffix"		: "MB",
+		"default"		: 0
+	}
+]

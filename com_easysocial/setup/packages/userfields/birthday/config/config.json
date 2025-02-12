@@ -1,0 +1,45 @@
+{
+	"extends": "fields/user/datetime",
+
+	"title": {
+		"default": "PLG_FIELDS_BIRTHDAY_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_BIRTHDAY_DEFAULT_DESCRIPTION"
+	},
+
+	"age_limit": {
+		"label"		: "PLG_FIELDS_BIRTHDAY_CONFIG_AGE_LIMIT",
+		"tooltip"	: "PLG_FIELDS_BIRTHDAY_CONFIG_AGE_LIMIT_DESC",
+		"type"		: "input",
+		"default"	: 0
+	},
+
+	"show_age": {
+		"label"		: "PLG_FIELDS_BIRTHDAY_DISPLAY_SHOW_AGE",
+		"tooltip"	: "PLG_FIELDS_BIRTHDAY_DISPLAY_SHOW_AGE_DESC",
+		"group"		: "view",
+		"type"		: "boolean",
+		"default"	: true
+	},
+
+	"calendar" 		: false,
+
+    "birthday_calendar": {
+        "label"     : "FIELDS_USER_DATETIME_CONFIG_CALENDAR",
+        "tooltip"   : "FIELDS_USER_DATETIME_CONFIG_CALENDAR_DESC",
+        "type"      : "boolean",
+        "default"   : false
+    },
+
+	"allow_time": false,
+
+	"time_format": false,
+
+	"allow_timezone": false,
+
+	"placeholder": {
+		"default": "FIELDS_USER_BIRTHDAY_DEFAULT_PLACEHOLDER"
+	}
+}

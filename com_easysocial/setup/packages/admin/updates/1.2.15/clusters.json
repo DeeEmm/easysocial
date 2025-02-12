@@ -1,0 +1,12 @@
+[
+    {
+        "table"     : "#__social_clusters_nodes",
+        "index"    : "idx_clusters_nodes_uid",
+        "query"     : "ALTER TABLE `#__social_clusters_nodes` ADD INDEX `idx_clusters_nodes_uid` (`uid`);"
+    },
+    {
+        "table"     : "#__social_clusters_nodes",
+        "index"    : "idx_clusters_nodes_user",
+        "query"     : "ALTER TABLE `#__social_clusters_nodes` ADD INDEX `idx_clusters_nodes_user` (`uid`,`state`, `created`);"
+    }
+]

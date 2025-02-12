@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="module" client="site" method="upgrade">
+	<name>EasySocial Custom Field Search</name>
+	<author>Stack Ideas Sdn Bhd</author>
+	<creationDate>16th January 2024</creationDate>
+	<copyright>Copyright (C) 2009 - 2020 Stack Ideas Sdn Bhd. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>http://stackideas.com</authorUrl>
+	<version>3.0.109</version>
+	<description><![CDATA[MOD_ES_CUSTOM_FIELD_SEARCH_DESC]]></description>
+	<files>
+		<folder>scripts</folder>
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>
+		<filename module="mod_easysocial_custom_field_search">mod_easysocial_custom_field_search.php</filename>
+		<filename>mod_easysocial_custom_field_search.xml</filename>
+		<filename>validatetype.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_easysocial_custom_field_search.ini</language>
+		<language tag="en-GB">en-GB.mod_easysocial_custom_field_search.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			<fieldset name="basic" addrulepath="modules/mod_easysocial_custom_field_search">
+				<field name="searchtype" type="list" default="1" label="MOD_ES_CUSTOM_FIELD_SEARCH_TYPE" description="MOD_ES_CUSTOM_FIELD_SEARCH_TYPE_DESC">
+					<option value="user">MOD_ES_CUSTOM_FIELD_SEARCH_USER</option>
+					<option value="group">MOD_ES_CUSTOM_FIELD_SEARCH_GROUP</option>
+					<option value="page">MOD_ES_CUSTOM_FIELD_SEARCH_PAGE</option>
+					<option value="event">MOD_ES_CUSTOM_FIELD_SEARCH_EVENT</option>
+				</field>
+
+				<field name="profile_id" validate="validatetype" type="easysocial_profile" showon="searchtype:user" label="MOD_ES_CUSTOM_FIELD_PROFILE" description="MOD_ES_CUSTOM_FIELD_PROFILE_DESC" />
+
+				<field name="group_category" validate="validatetype" type="easysocial_groupcategory" showon="searchtype:group" label="MOD_ES_CUSTOM_FIELD_CATEGORY_GROUP" description="MOD_ES_CUSTOM_FIELD_CATEGORY_DESC" />
+
+				<field name="page_category" validate="validatetype" type="easysocial_pagecategory" showon="searchtype:page" label="MOD_ES_CUSTOM_FIELD_CATEGORY_PAGE" description="MOD_ES_CUSTOM_FIELD_CATEGORY_DESC" />
+
+				<field name="event_category" validate="validatetype" type="easysocial_eventcategory" showon="searchtype:event" label="MOD_ES_CUSTOM_FIELD_CATEGORY_EVENT" description="MOD_ES_CUSTOM_FIELD_CATEGORY_DESC" />
+
+				<field name="filtermode" type="list" default="0" label="MOD_ES_FIELDS_FILTER_MODE" description="MOD_ES_FIELDS_FILTER_MODE_DESC">
+					<option value="equal">MOD_ES_INCLUDE</option>
+					<option value="notequal">MOD_ES_EXCLUDE</option>
+				</field>
+
+				<field name="submitonclick" type="radio" class="btn-group radio" default="0" label="MOD_ES_ENABLESUBMIT_ON_CLICK" description="MOD_ES_ENABLESUBMIT_ON_CLICK_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field name="moduleclass_sfx" type="textarea" rows="3" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="cache" type="list" default="0" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

@@ -1,0 +1,12 @@
+[
+	{
+		"table": "#__social_clusters",
+		"index": "idx_repetitive_clusters",
+		"query": "ALTER TABLE `#__social_clusters` ADD INDEX `idx_repetitive_clusters` (`cluster_type` (15), `parent_id`, `state`, `type`, `featured`);"
+	},
+	{
+		"table": "#__social_events_meta",
+		"index": "idx_startend",
+		"query": "ALTER TABLE `#__social_events_meta` ADD INDEX `idx_startend` (`start`, `end`);"
+	}
+]

@@ -1,0 +1,142 @@
+{
+
+	"format": {
+		"label"		: "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_FORMAT",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_FORMAT_DESC",
+		"type"		: "select",
+		"default"	: 1,
+		"option"	: [
+			{
+				"label"		: "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_FORMAT_FIRST_MIDDLE_LAST",
+				"value"		: 1
+			},
+			{
+				"label"		: "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_FORMAT_LAST_MIDDLE_FIRST",
+				"value"		: 2
+			},
+			{
+				"label"		: "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_FORMAT_NAME",
+				"value"		: 3
+			},
+			{
+				"label"		: "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_FORMAT_FIRST_LAST",
+				"value"		: 4
+			},
+			{
+				"label"		: "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_FORMAT_LAST_FIRST",
+				"value"		: 5
+			}
+		]
+	},
+
+	"disallowed":
+	{
+		"label"		: "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_DISALLOWED",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_DISALLOWED_DESC",
+		"default"	: "administrator,admin",
+		"type"		: "textarea"
+	},
+
+	"disallowed_type": {
+		"label": "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_DISALLOWED_TYPE",
+		"tooltip": "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_DISALLOWED_TYPE_DESC",
+		"type": "select",
+		"default": "equal",
+		"option": [{
+			"label": "Exact Word",
+			"value": "equal"
+		}, {
+			"label": "Contain Word",
+			"value": "contain"
+		}]
+	},
+
+	"store_format": {
+		"label"		: "FIELDS_USER_JOOMLA_FULLNAME_CONFIG_STORE_FORMAT",
+		"tooltip"	: "FIELDS_USER_JOOMLA_FULLNAME_CONFIG_STORE_FORMAT_DESC",
+		"type"		: "select",
+		"default"	: 1,
+		"option"	: [
+			{
+				"label"		: "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_FORMAT_FIRST_MIDDLE_LAST",
+				"value"		: 1
+			},
+			{
+				"label"		: "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_FORMAT_LAST_MIDDLE_FIRST",
+				"value"		: 2
+			}
+		]
+	},
+
+	"max": {
+		"label"		: "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_MAX_LENGTH",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_MAX_LENGTH_DESC",
+		"type"		: "text",
+		"default"	: 0
+	},
+
+	"regex_validate": {
+		"label"		: "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_REGEX_VALIDATE",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_REGEX_VALIDATE_DESC",
+		"default"	: false
+	},
+
+	"regex_format": {
+		"label"		: "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_REGEX_FORMAT",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_REGEX_FORMAT_DESC",
+		"type"		: "text",
+		"default"	: "[A-Za-z0-9_]"
+	},
+
+	"regex_modifier": {
+		"label"		: "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_REGEX_MODIFIER",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_FULLNAME_CONFIG_REGEX_MODIFIER_DESC",
+		"type"		: "text"
+	},
+
+	"title": {
+		"default": "PLG_FIELDS_JOOMLA_FULLNAME_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_JOOMLA_FULLNAME_DEFAULT_DESCRIPTION"
+	},
+
+	"default": false,
+
+	"required": {
+		"default": true
+	},
+
+	"singlename_placeholder": {
+		"label": "PLG_FIELDS_JOOMLA_FULLNAME_SINGLENAME_PLACEHOLDER",
+		"tooltip": "PLG_FIELDS_JOOMLA_FULLNAME_SINGLENAME_PLACEHOLDER_DESC",
+		"type": "text"
+	},
+
+	"firstname_placeholder": {
+		"label": "PLG_FIELDS_JOOMLA_FULLNAME_FIRSTNAME_PLACEHOLDER",
+		"tooltip": "PLG_FIELDS_JOOMLA_FULLNAME_FIRSTNAME_PLACEHOLDER_DESC",
+		"type": "text"
+	},
+
+	"middlename_placeholder": {
+		"label": "PLG_FIELDS_JOOMLA_FULLNAME_MIDDLENAME_PLACEHOLDER",
+		"tooltip": "PLG_FIELDS_JOOMLA_FULLNAME_MIDDLENAME_PLACEHOLDER_DESC",
+		"type": "text"
+	},
+
+	"lastname_placeholder": {
+		"label": "PLG_FIELDS_JOOMLA_FULLNAME_LASTNAME_PLACEHOLDER",
+		"tooltip": "PLG_FIELDS_JOOMLA_FULLNAME_LASTNAME_PLACEHOLDER_DESC",
+		"type": "text"
+	},
+
+	"username_fallback": {
+		"label": "FIELDS_USER_JOOMLA_FULLNAME_USERNAME_FALLBACK",
+		"tooltip": "FIELDS_USER_JOOMLA_FULLNAME_USERNAME_FALLBACK_DESC",
+		"default": true
+	},
+
+	"privacy": false
+}

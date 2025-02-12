@@ -1,0 +1,15 @@
+{
+	"name"		: "Elegant",
+	"element"	: "elegant",
+	"desc"		: "This is an elegant theme for EasySocial demonstrating different ways to render the toolbar on the site. Works well with the rest of our products.",
+	"author"	: "Stack Ideas Sdn Bhd",
+	"email"		: "support@stackideas.com",
+	"website"	: "http://stackideas.com",
+	"created"	: "6th August 2015",
+	"version"	: "1.0.0",
+	"servers"	: 
+	{
+		"update"	: "http://stackideas.com/",
+		"version"	: "http://stackideas.com"
+	}
+}

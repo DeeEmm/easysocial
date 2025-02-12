@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="event">
+    <name>Permalink</name>
+    <element>permalink</element>
+    <author>Stack Ideas Sdn Bhd</author>
+    <url>http://stackideas.com</url>
+    <created>1/5/2014</created>
+    <version>2.0.291</version>
+    <copyright>Copyright (c) 2009 - 2014 Stack Ideas Sdn. Bhd.</copyright>
+    <description><![CDATA[FIELDS_EVENT_PERMALINK_INFO]]></description>
+    <core>false</core>
+    <unique>true</unique>
+    <files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<file>ajax.php</file>
+		<file>helper.php</file>
+		<file>permalink.php</file>
+		<file>permalink.xml</file>
+	</files>
+    
+</social>

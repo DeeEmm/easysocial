@@ -1,0 +1,11 @@
+{
+	"title"	: "COM_EASYSOCIAL_MENU_GROUP_MIGRATORS",
+	"link"	: "index.php?option=com_easysocial&view=migrators",
+	"class"	: "fa fa-sync-alt",
+	"access": "easysocial.access.migrators",
+	"view"	: "migrators",
+	"active": "layout",
+	"childs":
+	[
+	]
+}

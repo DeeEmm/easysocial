@@ -1,0 +1,30 @@
+[
+	{
+		"title"		: "APP_USER_POLLS_SETTINGS_STORY",
+		"desc"		: "APP_USER_POLLS_SETTINGS_STORY_DESC",
+		"fields"	:
+		[
+			{
+				"label"		: "APP_USER_POLLS_SETTINGS_STORY_CREATE_POLLS",
+				"tooltip"	: "APP_USER_POLLS_SETTINGS_STORY_CREATE_POLLS_DESC",
+				"name"		: "story_polls",
+				"type"		: "boolean",
+				"default"	: true
+			}
+		]
+	},
+	{
+		"title"		: "COM_EASYSOCIAL_APPS_SETTINGS_STREAM",
+		"desc"		: "COM_EASYSOCIAL_APPS_SETTINGS_STREAM_DESC",
+		"fields"	:
+		[
+            {
+                "label": "APP_USER_POLLS_SETTINGS_STREAM_CREATE_POLLS",
+                "tooltip": "APP_USER_POLLS_SETTINGS_STREAM_CREATE_POLLS_DESC",
+                "name": "stream_create",
+                "type": "boolean",
+                "default": true
+            }
+		]
+	}
+]

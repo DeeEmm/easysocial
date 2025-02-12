@@ -1,0 +1,17 @@
+[
+	{
+		"table": "#__social_users",
+		"column": "activation_reminder_sent",
+		"query": "ALTER TABLE `#__social_users` ADD COLUMN `activation_reminder_sent` TINYINT(1) NOT NULL DEFAULT 0 AFTER `robots`"
+	},
+	{
+		"table": "#__social_users",
+		"index": "idx_activation_reminder",
+		"query": "ALTER TABLE `#__social_users` ADD INDEX `idx_activation_reminder` (`activation_reminder_sent`);"
+	},
+	{
+		"table": "#__social_users",
+		"index": "idx_reminder",
+		"query": "ALTER TABLE `#__social_users` ADD INDEX `idx_reminder` (`reminder_sent`);"
+	}
+]

@@ -1,0 +1,14 @@
+[
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_GENERAL_SUBMIT_REPORTS",
+		"description"	: "COM_EASYSOCIAL_ACCESS_GENERAL_SUBMIT_REPORTS_TOOLTIP",
+		"name"			: "reports.submit"
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_GENERAL_TOTAL_REPORTS",
+		"description"	: "COM_EASYSOCIAL_ACCESS_GENERAL_TOTAL_REPORTS_TOOLTIP",
+		"name"			: "reports.limit",
+		"type"			: "limit",
+		"default"		: 0
+	}
+]

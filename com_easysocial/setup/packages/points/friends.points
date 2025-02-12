@@ -1,0 +1,75 @@
+
+[
+	{
+		"title" 		: "COM_EASYSOCIAL_POINTS_FRIENDS_ADD",
+		"alias"			: "friends-add",
+		"description"	: "COM_EASYSOCIAL_POINTS_FRIENDS_ADD_DESC",
+		"command"		: "friends.add",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 5
+	},
+	{
+		"title" 		: "COM_EASYSOCIAL_POINTS_FRIENDS_REMOVE",
+		"alias"			: "friends-remove",
+		"description"	: "COM_EASYSOCIAL_POINTS_FRIENDS_REMOVE_DESC",
+		"command"		: "friends.remove",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: -5
+	},
+	{
+		"title" 		: "COM_EASYSOCIAL_POINTS_FRIENDS_APPROVE",
+		"alias"			: "friends-approve",
+		"description"	: "COM_EASYSOCIAL_POINTS_FRIENDS_APPROVE_DESC",
+		"command"		: "friends.approve",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 2
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_CREATE_FRIEND_LIST",
+		"alias"			: "friends-list-create",
+		"description"	: "COM_EASYSOCIAL_POINTS_CREATE_FRIEND_LIST_DESC",
+		"command"		: "friends.list.create",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 2
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_REMOVE_FRIEND_LIST",
+		"alias"			: "friends-list-delete",
+		"description"	: "COM_EASYSOCIAL_POINTS_REMOVE_FRIEND_LIST_DESC",
+		"command"		: "friends.list.delete",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: -2
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_ASSIGN_FRIEND_TO_LIST",
+		"alias"			: "friends-list-add",
+		"description"	: "COM_EASYSOCIAL_POINTS_ASSIGN_FRIEND_TO_LIST_DESC",
+		"command"		: "friends.list.add",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 1
+	},
+	{
+		"title" 		: "COM_EASYSOCIAL_POINTS_FRIENDS_INVITE",
+		"alias"			: "friends-invite",
+		"description"	: "COM_EASYSOCIAL_POINTS_FRIENDS_INVITE_DESC",
+		"command"		: "friends.invite",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 1
+	},
+	{
+		"title" 		: "COM_EASYSOCIAL_POINTS_FRIENDS_INVITE_REGISTERED",
+		"alias"			: "friends-invite-registered",
+		"description"	: "COM_EASYSOCIAL_POINTS_FRIENDS_INVITE_REGISTERED_DESC",
+		"command"		: "friends.registered",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 5
+	}
+]

@@ -1,0 +1,7 @@
+[
+	{
+		"table"		: "#__social_users",
+		"column"	: "permalink",
+		"query"		: "ALTER TABLE  `#__social_users` ADD  `permalink` VARCHAR( 255 ) NOT NULL"
+	}
+]

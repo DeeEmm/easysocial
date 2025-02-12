@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="(Events) Calendar Layout">
+		<message>
+			<![CDATA[Renders a calendar layout to display events]]>
+		</message>
+		<view>events</view>
+	</layout>
+	<fields name="request">
+		<fieldset name="request">
+			<field name="filter" type="list" default="all" label="COM_EASYSOCIAL_EVENTS_LAYOUT_SELECT_FILTER" description="COM_EASYSOCIAL_EVENTS_LAYOUT_SELECT_FILTER_DESC">
+				<option value="all">COM_EASYSOCIAL_EVENTS_LAYOUT_SELECT_FILTER_ALL</option>
+				<option value="featured">COM_EASYSOCIAL_EVENTS_LAYOUT_SELECT_FILTER_FEATURED</option>
+				<option value="mine">COM_EASYSOCIAL_EVENTS_LAYOUT_SELECT_FILTER_MYEVENTS</option>
+				<option value="invited">COM_EASYSOCIAL_EVENTS_LAYOUT_SELECT_FILTER_INVITED</option>
+				<option value="past">COM_EASYSOCIAL_EVENTS_LAYOUT_SELECT_FILTER_PAST</option>
+				<option value="createdbyme">COM_EASYSOCIAL_EVENTS_LAYOUT_SELECT_FILTER_CREATED_BY_ME</option>
+			</field>
+		</fieldset>
+	</fields>
+</metadata>

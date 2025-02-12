@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_profiles",
+		"column": "exclude_userlisting",
+		"query": "ALTER TABLE `#__social_profiles` ADD `exclude_userlisting` TINYINT(1) NOT NULL DEFAULT '0' AFTER `moderator_access`;"
+	}
+]

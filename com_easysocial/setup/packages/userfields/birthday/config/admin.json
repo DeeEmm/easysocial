@@ -1,0 +1,16 @@
+[
+	{
+		"title"		: "Configuration",
+		"fields"	:
+		[
+			{
+				"label": "Main unique key",
+				"tooltip": "Define which unique key of this field to act as the main field to retrieve data from.",
+				"name": "mainUniqueKey",
+				"type": "select",
+				"default": "",
+				"callback": "admin/models/fields/getFieldUniqueKeys"
+			}
+		]
+	}
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "element"   : "polls",
+        "rule"      : "vote.item",
+        "core"      : true
+    },
+    {
+        "element"   : "polls",
+        "rule"      : "unvote.item",
+        "core"      : true
+    },
+    {
+        "element"   : "polls",
+        "rule"      : "changevote.item",
+        "core"      : true
+    }        
+]

@@ -1,0 +1,50 @@
+{
+	"title"	: "COM_EASYSOCIAL_MENU_GROUP_USER_POINTS",
+	"link"	: "index.php?option=com_easysocial&view=points",
+	"class"	: "fa fa-award",
+	"access": "easysocial.access.points",
+	"view"	: "points",
+	"active": "layout",
+	"childs":
+	[
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_GROUP_USER_POINTS",
+			"url": {
+				"view"	: "points",
+				"layout": ""
+			},
+			"activeLayouts": [
+				"form"
+			]
+		},
+		{
+			"title": "COM_EASYSOCIAL_MENU_ITEM_POINTS_ACHIEVERS",
+			"url": {
+				"view": "points",
+				"layout": "achievers"
+			}
+		},
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_POINTS_INSTALL",
+			"url"	:
+			{
+				"view"	: "points",
+				"layout": "install"
+			}
+		}, {
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_POINTS_DISCOVER",
+			"url"	:
+			{
+				"view"	: "points",
+				"layout": "discover"
+			}
+		},
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_MASS_USER_ASSIGN",
+			"url": {
+				"view"	: "points",
+				"layout": "csv"
+			}
+		}
+	]
+}

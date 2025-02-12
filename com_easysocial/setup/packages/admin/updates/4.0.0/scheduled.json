@@ -1,0 +1,72 @@
+[
+	{
+		"table": "#__social_audios",
+		"column": "scheduled",
+		"query": "ALTER TABLE `#__social_audios` ADD COLUMN `scheduled` tinyint(3) NOT NULL DEFAULT 0 AFTER `isnew`"
+	},
+	{
+		"table": "#__social_audios",
+		"index": "idx_scheduled",
+		"query": "ALTER TABLE `#__social_audios` ADD INDEX `idx_scheduled` (`scheduled`)"
+	},
+	{
+		"table": "#__social_videos",
+		"column": "scheduled",
+		"query": "ALTER TABLE `#__social_videos` ADD COLUMN `scheduled` tinyint(3) NOT NULL DEFAULT 0 AFTER `isnew`"
+	},
+	{
+		"table": "#__social_videos",
+		"index": "idx_scheduled",
+		"query": "ALTER TABLE `#__social_videos` ADD INDEX `idx_scheduled` (`scheduled`)"
+	},
+	{
+		"table": "#__social_stream_tags",
+		"column": "state",
+		"query": "ALTER TABLE `#__social_stream_tags` ADD COLUMN `state` int(11) NOT NULL DEFAULT 1 AFTER `title`"
+	},
+	{
+		"table": "#__social_stream_tags",
+		"index": "streamtags_state",
+		"query": "ALTER TABLE `#__social_stream_tags` ADD INDEX `streamtags_state` (`state`)"
+	},
+	{
+		"table": "#__social_polls",
+		"column": "state",
+		"query": "ALTER TABLE `#__social_polls` ADD COLUMN `state` int(11) NOT NULL DEFAULT 1 AFTER `expiry_date`"
+	},
+	{
+		"table": "#__social_polls",
+		"index": "idx_state",
+		"query": "ALTER TABLE `#__social_polls` ADD INDEX `idx_state` (`state`)"
+	},
+	{
+		"table": "#__social_mailer",
+		"column": "sid",
+		"query": "ALTER TABLE `#__social_mailer` ADD COLUMN `sid` int(11) NOT NULL DEFAULT 0 AFTER `id`"
+	},
+	{
+		"table": "#__social_mailer",
+		"index": "idx_sid",
+		"query": "ALTER TABLE `#__social_mailer` ADD INDEX `idx_sid` (`sid`)"
+	},
+	{
+		"table": "#__social_notifications",
+		"column": "sid",
+		"query": "ALTER TABLE `#__social_notifications` ADD COLUMN `sid` int(11) NOT NULL DEFAULT 0 AFTER `uid`"
+	},
+	{
+		"table": "#__social_notifications",
+		"index": "idx_sid",
+		"query": "ALTER TABLE `#__social_notifications` ADD INDEX `idx_sid` (`sid`)"
+	},
+	{
+		"table": "#__social_broadcasts",
+		"column": "stream_id",
+		"query": "ALTER TABLE `#__social_broadcasts` ADD COLUMN `stream_id` int(11) NOT NULL DEFAULT 0 AFTER `id`"
+	},
+	{
+		"table": "#__social_broadcasts",
+		"index": "idx_stream_id",
+		"query": "ALTER TABLE `#__social_broadcasts` ADD INDEX `idx_stream_id` (`stream_id`)"
+	}
+]

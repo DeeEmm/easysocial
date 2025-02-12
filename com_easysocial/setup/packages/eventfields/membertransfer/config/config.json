@@ -1,0 +1,55 @@
+{
+	"visible_edit": false,
+	"visible_display": false,
+	"visible_registration": true,
+	"searchable": false,
+	"default": {
+		"type": "select",
+		"default": "invite",
+		"option": [
+			{
+				"label": "FIELDS_EVENT_MEMBERTRANSFER_CONFIG_TRANSFER_TYPE_NONE",
+				"value": "none"
+			},
+			{
+				"label": "FIELDS_EVENT_MEMBERTRANSFER_CONFIG_TRANSFER_TYPE_INVITE",
+				"value": "invite"
+			},
+			{
+				"label": "FIELDS_EVENT_MEMBERTRANSFER_CONFIG_TRANSFER_TYPE_ATTEND",
+				"value": "attend"
+			}
+		]
+	},
+
+	"allowed": {
+		"label": "FIELDS_EVENT_MEMBERTRANSFER_CONFIG_ALLOWED",
+		"tooltip": "FIELDS_EVENT_MEMBERTRANSFER_CONFIG_ALLOWED_DESC",
+		"type": "checkbox",
+		"option": [
+			{
+				"value": "none",
+				"label": "FIELDS_EVENT_MEMBERTRANSFER_CONFIG_TRANSFER_TYPE_NONE",
+				"default": true
+			},
+			{
+				"value": "invite",
+				"label": "FIELDS_EVENT_MEMBERTRANSFER_CONFIG_TRANSFER_TYPE_INVITE",
+				"default": true
+			},
+			{
+				"value": "attend",
+				"label": "FIELDS_EVENT_MEMBERTRANSFER_CONFIG_TRANSFER_TYPE_ATTEND",
+				"default": true
+			}
+		]
+	},
+
+	"title": {
+		"default": "FIELDS_EVENT_MEMBERTRANSFER_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "FIELDS_EVENT_MEMBERTRANSFER_DEFAULT_DESCRIPTION"
+	}
+}

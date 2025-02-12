@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_lists",
+		"column": "type",
+		"query": "ALTER TABLE `#__social_lists` ADD `type` varchar(255) NOT NULL DEFAULT 'friends';"
+	}
+]

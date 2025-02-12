@@ -1,0 +1,172 @@
+[
+	{
+		"title"			: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_STEP_BASIC_INFORMATION",
+
+		"description"	: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_STEP_BASIC_INFORMATION_DESC",
+
+		"sequence"		: 1,
+
+		"state"			: 1,
+
+		"visible_registration"	: true,
+
+		"visible_edit"			: true,
+
+		"visible_display"		: true,
+
+		"fields"		:
+		[
+			{
+				"element"		: "header",
+				"title"			: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_ACCOUNT_INFORMATION",
+				"description"	: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_ACCOUNT_INFORMATION_DESC",
+				"display_title"	: true,
+				"display_description"	: true,
+				"ordering"		: 0,
+				"visible_registration"	: true,
+				"visible_edit"			: true,
+				"visible_display"		: false
+			},
+			{
+				"element"		: "joomla_fullname",
+				"title"			: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_YOUR_NAME",
+				"description"	: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_YOUR_NAME_DESC",
+				"display_title"	: true,
+				"display_description"	: true,
+				"required"		: true,
+				"ordering"		: 1,
+				"core"		: 1,
+				"visible_registration"	: true,
+				"visible_edit"			: true,
+				"visible_display"		: true
+			},
+			{
+				"element"		: "joomla_username",
+				"title"			: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_DESIRED_USERNAME",
+				"description"	: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_DESIRED_USERNAME_DESC",
+				"default"		: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_DESIRED_USERNAME_DEFAULT",
+				"display_title"	: true,
+				"display_description"	: true,
+				"required"		: true,
+				"searchable"	: false,
+				"visibility"	: false,
+				"ordering"		: 2,
+				"core"		: 1,
+				"visible_registration"	: true,
+				"visible_edit"			: true,
+				"visible_display"		: false
+			},
+			{
+				"element"		: "joomla_password",
+				"title"			: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_PASSWORD",
+				"description"	: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_PASSWORD_DESC",
+				"display_title"	: true,
+				"display_description"	: true,
+				"required"		: true,
+				"searchable"	: false,
+				"visibility"	: false,
+				"ordering"		: 3,
+				"core"		: 1,
+				"visible_registration"	: true,
+				"visible_edit"			: true,
+				"visible_display"		: false,
+				"params"		:
+				{
+					"reconfirm_password"	: true,
+					"password_strength"		: true
+				}
+			},
+			{
+				"element"		: "joomla_email",
+				"title"			: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_EMAIL_ADDRESS",
+				"description"	: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_EMAIL_ADDRESS_DESC",
+				"default"		: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_EMAIL_DEFAULT",
+				"display_title"	: true,
+				"display_description"	: true,
+				"required"		: true,
+				"ordering"		: 4,
+				"core"		: 1,
+				"visible_registration"	: true,
+				"visible_edit"			: true,
+				"visible_display"		: false
+			},
+			{
+				"element"		: "joomla_user_editor",
+				"title"			: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_EDITOR",
+				"description"	: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_EDITOR_DESC",
+				"default"		: "",
+				"display_title"	: true,
+				"display_description"	: true,
+				"required"		: false,
+				"ordering"		: 5,
+				"core"		: 1,
+				"visible_registration"	: false,
+				"visible_edit"			: true,
+				"visible_display"		: false
+			},
+			{
+				"element"		: "joomla_timezone",
+				"title"			: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_TIMEZONE",
+				"description"	: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_TIMEZONE_DESC",
+				"default"		: "",
+				"display_title"	: true,
+				"display_description"	: true,
+				"required"		: false,
+				"ordering"		: 6,
+				"core"		: 1,
+				"visible_registration"	: true,
+				"visible_edit"			: true,
+				"visible_display"		: true
+			}
+		]
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_STEP_APPEARANCE",
+		"description"	: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_STEP_APPEARANCE_DESC",
+		"sequence"		: 2,
+		"state"			: 1,
+		"visible_registration"	: true,
+		"visible_edit"			: true,
+		"visible_display"		: false,
+		"fields"		:
+		[
+			{
+				"element"		: "header",
+				"title"			: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_APPEARANCE",
+				"description"	: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_APPEARANCE_DESC",
+				"display_title"	: true,
+				"display_description"	: true,
+				"ordering"		: 0,
+				"visible_registration"	: true,
+				"visible_edit"			: true,
+				"visible_display"		: true
+			},
+			{
+				"element"		: "avatar",
+				"title"			: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_PROFILE_PICTURE",
+				"description"	: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_PROFILE_PICTURE_DESC",
+				"display_title"	: true,
+				"display_description"	: true,
+				"required"		: false,
+				"ordering"		: 1,
+				"core"		: 1,
+				"visible_registration"	: true,
+				"visible_edit"			: true,
+				"visible_display"		: false
+			},
+			{
+				"element"		: "cover",
+				"title"			: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_PROFILE_COVER",
+				"description"	: "COM_EASYSOCIAL_FIELDS_PROFILE_DEFAULT_PROFILE_COVER_DESC",
+				"display_title"	: true,
+				"display_description"	: true,
+				"required"		: false,
+				"ordering"		: 2,
+				"core"		: 1,
+				"visible_registration"	: true,
+				"visible_edit"			: true,
+				"visible_display"		: false
+			}
+		]
+	}
+]

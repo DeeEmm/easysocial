@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_ES_AUDIO_LAYOUT_DEFAULT">
+		<message>
+			<![CDATA[COM_ES_AUDIO_LAYOUT_DEFAULT_DESC]]>
+		</message>
+		<view>audios</view>
+	</layout>
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			<field name="filter" type="list" default="browse" label="COM_EASYSOCIAL_GROUPS_LAYOUT_SELECT_FILTER" description="COM_EASYSOCIAL_GROUPS_LAYOUT_SELECT_FILTER_DESC">
+				<option value="all">COM_ES_AUDIO_FILTER_ALL</option>
+				<option value="featured">COM_ES_AUDIO_FILTER_FEATURED</option>
+				<option value="mine">COM_ES_AUDIO_FILTER_MINE</option>
+				<option value="pending">COM_ES_AUDIO_FILTER_PENDING</option>
+			</field>
+
+			<field name="genreId" type="easysocial_audiogenre" label="COM_EASYSOCIAL_MENU_FILTER_GENRE" description="COM_EASYSOCIAL_MENU_FILTER_GENRE_DESC" required="false" message="COM_ES_AUDIO_ITEM_SELECT_GENRE_REQUIRED" />
+		</fieldset>
+	</fields>
+</metadata>

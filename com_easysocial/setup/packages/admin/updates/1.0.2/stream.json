@@ -1,0 +1,7 @@
+[
+	{
+		"table"		: "#__social_stream",
+		"column"	: "params",
+		"query"		: "alter table `#__social_stream` add column `params` text null"
+	}
+]

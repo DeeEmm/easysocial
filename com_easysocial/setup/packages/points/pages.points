@@ -1,0 +1,174 @@
+
+[
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_CREATE_PAGE",
+		"alias" : "create-page",
+		"description" : "COM_EASYSOCIAL_POINTS_CREATE_PAGE_DESC",
+		"command" : "pages.create",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 5
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_REMOVED_PAGE",
+		"alias" : "removed-page",
+		"description" : "COM_EASYSOCIAL_POINTS_REMOVED_PAGE_DESC",
+		"command" : "pages.remove",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : -5
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_LIKE_PAGE",
+		"alias" : "like-page",
+		"description" : "COM_EASYSOCIAL_POINTS_LIKE_PAGE_DESC",
+		"command" : "pages.like",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 2
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_UNLIKE_PAGE",
+		"alias" : "unlike-page",
+		"description" : "COM_EASYSOCIAL_POINTS_UNLIKE_PAGE_DESC",
+		"command" : "pages.unlike",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : -2
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_PAGE_INVITE_FRIENDS",
+		"alias" : "invite-friends-page",
+		"description" : "COM_EASYSOCIAL_POINTS_PAGE_INVITE_FRIENDS_DESC",
+		"command" : "pages.invite",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_UPDATE_PAGE",
+		"alias" : "updated-page",
+		"description" : "COM_EASYSOCIAL_POINTS_UPDATE_PAGE_DESC",
+		"command" : "pages.update",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 2
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_PAGE_CREATE_NEWS",
+		"alias" : "create-news-page",
+		"description" : "COM_EASYSOCIAL_POINTS_PAGE_CREATE_NEWS_DESC",
+		"command" : "pages.news.create",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_PAGE_DELETE_NEWS",
+		"alias" : "delete-news-page",
+		"description" : "COM_EASYSOCIAL_POINTS_PAGE_DELETE_NEWS_DESC",
+		"command" : "pages.news.delete",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : -1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_PAGE_CREATE_DISCUSSION",
+		"alias" : "create-discussion-page",
+		"description" : "COM_EASYSOCIAL_POINTS_PAGE_CREATE_DISCUSSION_DESC",
+		"command" : "pages.discussion.create",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_PAGE_DELETE_DISCUSSION",
+		"alias" : "delete-discussion-page",
+		"description" : "COM_EASYSOCIAL_POINTS_PAGE_DELETE_DISCUSSION_DESC",
+		"command" : "pages.discussion.delete",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : -1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_PAGE_REPLY_DISCUSSION",
+		"alias" : "reply-discussion-page",
+		"description" : "COM_EASYSOCIAL_POINTS_PAGE_REPLY_DISCUSSION_DESC",
+		"command" : "pages.discussion.reply",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 1
+	},
+	{
+		"title" : "COM_ES_POINTS_PAGE_DELETE_REPLY_DISCUSSION",
+		"alias" : "deletereply-discussion-page",
+		"description" : "COM_ES_POINTS_PAGE_DELETE_REPLY_DISCUSSION_DESC",
+		"command": "pages.discussion.deletereply",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": -1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_PAGE_ANSWER_DISCUSSION",
+		"alias" : "answer-discussion-page",
+		"description" : "COM_EASYSOCIAL_POINTS_PAGE_ANSWER_DISCUSSION_DESC",
+		"command" : "pages.discussion.answer",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : 1
+	},
+	{
+		"title" : "COM_EASYSOCIAL_POINTS_PAGE_ANSWER_REJECT_DISCUSSION",
+		"alias" : "answer-reject-discussion-page",
+		"description" : "COM_EASYSOCIAL_POINTS_PAGE_ANSWER_REJECT_DISCUSSION_DESC",
+		"command" : "pages.discussion.rejectanswer",
+		"extension" : "com_easysocial",
+		"state" : true,
+		"points" : -1
+	},
+	{
+		"title" : "COM_ES_POINTS_PAGE_DISCUSSION_POST_LIKED",
+		"alias" : "page-discussion-liked",
+		"description" : "COM_ES_POINTS_PAGE_DISCUSSION_POST_LIKED_DESC",
+		"command": "page.discussion.liked",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": 1
+	},
+	{
+		"title" : "COM_ES_POINTS_PAGE_DISCUSSION_POST_UNLIKED",
+		"alias" : "page-discussion-unliked",
+		"description" : "COM_ES_POINTS_PAGE_DISCUSSION_POST_UNLIKED_DESC",
+		"command": "page.discussion.unliked",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": -1
+	},
+	{
+		"title" : "COM_ES_POINTS_REVIEW_ADDED_PAGES",
+		"alias" : "pages-review-added",
+		"description" : "COM_ES_POINTS_REVIEW_ADDED_DESC",
+		"command": "pages.review.added",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": 1
+	},
+	{
+		"title" : "COM_ES_POINTS_PAGE_DISCUSSION_REPLY_LIKED",
+		"alias" : "page-discussion-reply-liked",
+		"description" : "COM_ES_POINTS_PAGE_DISCUSSION_REPLY_LIKED_DESC",
+		"command": "page.discussion.reply.liked",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": 1
+	},
+	{
+		"title" : "COM_ES_POINTS_PAGE_DISCUSSION_REPLY_UNLIKED",
+		"alias" : "page-discussion-reply-unliked",
+		"description" : "COM_ES_POINTS_PAGE_DISCUSSION_REPLY_UNLIKED_DESC",
+		"command": "page.discussion.reply.unliked",
+		"extension": "com_easysocial",
+		"state" : true,
+		"points": -1
+	}
+]

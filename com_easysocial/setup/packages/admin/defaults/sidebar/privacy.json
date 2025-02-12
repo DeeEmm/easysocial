@@ -1,0 +1,39 @@
+{
+	"title"	: "COM_EASYSOCIAL_MENU_GROUP_PRIVACY",
+	"link"	: "index.php?option=com_easysocial&view=privacy",
+	"class"	: "fa fa-lock",
+	"access": "easysocial.access.privacy",
+	"view"	: "privacy",
+	"active": "layout",
+	"childs":
+	[
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_GROUP_PRIVACY",
+			"class"	: "",
+			"url"	:
+			{
+				"view": "privacy",
+				"layout": ""
+			},
+			"activeLayouts": [
+				"form"
+			]
+		},
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_PRIVACY_INSTALL",
+			"class"	: "",
+			"url": {
+				"view"	: "privacy",
+				"layout": "install"
+			}
+		},
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_PRIVACY_DISCOVER",
+			"class"	: "",
+			"url": {
+				"view"	: "privacy",
+				"layout": "discover"
+			}
+		}
+	]
+}

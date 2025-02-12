@@ -1,0 +1,29 @@
+{
+	"title": {
+		"default": "PLG_FIELDS_PAGE_NOTIFICATION_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_PAGE_NOTIFICATION_DEFAULT_DESCRIPTION"
+	},
+
+	"privacy"	: false,
+    "searchable": false,
+	"default": {
+        "type": "select",
+        "default": 1,
+        "option": [{
+            "label": "PLG_FIELDS_PAGE_NOTIFICATION_BOTH",
+            "value": 1
+        },{
+            "label": "PLG_FIELDS_PAGE_NOTIFICATION_EMAIL",
+            "value": 2
+        },{
+            "label": "PLG_FIELDS_PAGE_NOTIFICATION_INTERNAL",
+            "value": 3
+        },{
+            "label": "PLG_FIELDS_PAGE_NOTIFICATION_NONE",
+            "value": 4
+        }]
+    }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="user" method="upgrade">
+	<name>User - EasySocial</name>
+	<author>Mark Lee</author>
+	<creationDate>30/03/2013</creationDate>
+	<copyright>Copyright (C) 2009 - 2013 Stack Ideas Sdn Bhd. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>stackideas.com</authorUrl>
+	<version>2.0.0</version>
+	<description><![CDATA[User plugin for EasySocial. This plugin is necessary to perform maintenance cleanup when a user is deleted from Joomla]]></description>
+	<files>
+		<filename plugin="easysocial">easysocial.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_user_easysocial.ini</language>
+	</languages>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

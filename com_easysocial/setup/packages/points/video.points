@@ -1,0 +1,107 @@
+
+[
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_UPLOAD_VIDEO",
+		"alias"			: "upload-video",
+		"description"	: "COM_EASYSOCIAL_POINTS_UPLOAD_VIDEO_DESC",
+		"command"		: "video.upload",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 5
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_REMOVE_VIDEO",
+		"alias"			: "remove-video",
+		"description"	: "COM_EASYSOCIAL_POINTS_REMOVE_VIDEO_DESC",
+		"command"		: "video.remove",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: -5
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_LIKE_VIDEO",
+		"alias"			: "like-video",
+		"description"	: "COM_EASYSOCIAL_POINTS_LIKE_VIDEO_DESC",
+		"command"		: "video.like",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 1
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_UNLIKE_VIDEO",
+		"alias"			: "unlike-video",
+		"description"	: "COM_EASYSOCIAL_POINTS_UNLIKE_VIDEO_DESC",
+		"command"		: "video.unlike",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: -1
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_COMMENT_ON_VIDEO",
+		"alias"			: "comment-video",
+		"description"	: "COM_EASYSOCIAL_POINTS_COMMENT_ON_VIDEO_DESC",
+		"command"		: "video.comment.add",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 1
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_COMMENT_REMOVE_FROM_VIDEO",
+		"alias"			: "comment-video-removed",
+		"description"	: "COM_EASYSOCIAL_POINTS_COMMENT_REMOVE_FROM_VIDEO_DESC",
+		"command"		: "video.comment.remove",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: -1
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_VIDEO_FEATURED",
+		"alias"			: "video-featured",
+		"description"	: "COM_EASYSOCIAL_POINTS_VIDEO_FEATURED_DESC",
+		"command"		: "video.featured",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 2
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_VIDEO_UNFEATURED",
+		"alias"			: "video-unfeatured",
+		"description"	: "COM_EASYSOCIAL_POINTS_VIDEO_UNFEATURED_DESC",
+		"command"		: "video.unfeatured",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: -2
+	},
+	{
+		"title": "COM_ES_POINTS_VIDEO_REACTION_OWNER",
+		"alias": "video-reaction-add-owner",
+		"command": "video.reaction.add.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 1
+	},
+	{
+		"title": "COM_ES_POINTS_VIDEO_REMOVE_REACTION_OWNER",
+		"alias": "video-reaction-remove-owner",
+		"command": "video.reaction.remove.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -1
+	},
+	{
+		"title": "COM_ES_POINTS_VIDEO_COMMENT_OWNER",
+		"alias": "video-comment-add-owner",
+		"command": "video.comment.add.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 1
+	},
+	{
+		"title": "COM_ES_POINTS_VIDEO_REMOVE_COMMENT_OWNER",
+		"alias": "video-comment-remove-owner",
+		"command": "video.comment.remove.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -1
+	}
+]

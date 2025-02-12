@@ -1,0 +1,12 @@
+[
+	{
+		"table": "#__social_fields_data",
+		"index": "idx_fields_data",
+		"query": "ALTER TABLE `#__social_fields_data` ADD INDEX `idx_fields_data` (`uid`, `type` (64), `field_id`, `datakey` (128));"
+	},
+	{
+		"table": "#__social_fields_data",
+		"index": "idx_data_load",
+		"query": "ALTER TABLE `#__social_fields_data` ADD INDEX `idx_data_load` (`field_id`, `uid`, `type` (64), `datakey` (128));"
+	}
+]

@@ -1,0 +1,27 @@
+{
+    "type": "field",
+    "rules":
+    [
+        {
+            "core": false,
+            "command": "birthday.year",
+            "description": "FIELDS_USER_BIRTHDAY_YEAR_PRIVACY_FIELD_DESC",
+            "default": "only_me",
+            "options":
+            [
+                {
+                    "name": "public"
+                },
+                {
+                    "name": "member"
+                },
+                {
+                    "name": "friend"
+                },
+                {
+                    "name": "only_me"
+                }
+            ]
+        }
+    ]
+}

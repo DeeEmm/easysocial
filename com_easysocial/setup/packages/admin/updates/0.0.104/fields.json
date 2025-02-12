@@ -1,0 +1,7 @@
+[
+	{
+		"table"		: "#__social_fields_options",
+		"column"	: "ordering",
+		"query"		: "ALTER TABLE `#__social_fields_options` ADD `ordering` TINYINT(3) NOT NULL DEFAULT '0'"
+	}
+]

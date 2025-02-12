@@ -1,0 +1,47 @@
+{
+	"title"	: "COM_EASYSOCIAL_MENU_GROUP_APPS",
+	"link"	: "index.php?option=com_easysocial&view=apps",
+	"class"	: "fa fa-download",
+	"access": "easysocial.access.apps",
+	"view"	: "apps",
+	"active": "layout",
+	"childSorting": true,
+	"childs":
+	[
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_APPS_APPS",
+			"url": {
+				"view": "apps",
+				"layout": ""
+			},
+			"activeLayouts": [
+				"form"
+			]
+		},
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_APPS_DIRECTORY",
+			"url": {
+				"view": "apps",
+				"layout": "store"
+			},
+			"activeLayouts": [
+				"item"
+			]
+		},
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_APPS_INSTALL",
+			"url": {
+				"view": "apps",
+				"layout": "install"
+			}
+		},
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_APPS_DISCOVER",
+			"url"	:
+			{
+				"view"	: "apps",
+				"layout": "discover"
+			}
+		}
+	]
+}

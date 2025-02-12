@@ -1,0 +1,164 @@
+[
+	{
+		"title"		: "APP_GROUPS_SETTINGS_GROUPS_VIEW",
+		"desc"		: "APP_GROUPS_SETTINGS_GROUPS_VIEW_DESC",
+		"fields"	:
+		[
+			{
+				"label"		: "APP_GROUPS_SETTINGS_TOTAL_DISCUSSIONS",
+				"tooltip"	: "APP_GROUPS_SETTINGS_TOTAL_DISCUSSIONS_DESC",
+				"name"		: "total",
+				"class"		: "input-mini center",
+				"type"		: "text",
+				"default"	: 10
+			},
+			{
+				"label"		: "APP_GROUPS_SETTINGS_DISPLAY_HITS",
+				"tooltip"	: "APP_GROUPS_SETTINGS_DISPLAY_HITS_DESC",
+				"name"		: "display_total_hits",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_GROUPS_SETTINGS_DISPLAY_REPLIES",
+				"tooltip"	: "APP_GROUPS_SETTINGS_DISPLAY_REPLIES_DESC",
+				"name"		: "display_total_replies",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_GROUPS_SETTINGS_DISPLAY_STARTED_BY",
+				"tooltip"	: "APP_GROUPS_SETTINGS_DISPLAY_STARTED_BY_DESC",
+				"name"		: "display_started_by",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_GROUPS_SETTINGS_DISPLAY_LAST_REPLIED",
+				"tooltip"	: "APP_GROUPS_SETTINGS_DISPLAY_LAST_REPLIED_DESC",
+				"name"		: "display_last_replied",
+				"type"		: "boolean",
+				"default"	: true
+			}
+		]
+	},
+	{
+		"title"		: "APP_GROUPS_SETTINGS_GROUPS_DISCUSSION_STREAM_VIEW",
+		"desc"		: "APP_GROUPS_SETTINGS_GROUPS_DISCUSSION_STREAM_VIEW_DESC",
+		"fields"	:
+		[
+			{
+				"label"		: "APP_GROUP_DISCUSSIONS_STREAM_CONTENT_LENGTH",
+				"tooltip"	: "APP_GROUP_DISCUSSIONS_STREAM_CONTENT_LENGTH_DESC",
+				"name"		: "stream_length",
+				"class"		: "input-mini center",
+				"type"		: "text",
+				"default"	: 250
+			},
+			{
+				"label"		: "APP_GROUP_DISCUSSIONS_STREAM_CREATE_DISCUSSION",
+				"tooltip"	: "APP_GROUP_DISCUSSIONS_STREAM_CREATE_DISCUSSION_DESC",
+				"name"		: "stream_create",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_GROUP_DISCUSSIONS_STREAM_REPLY_DISCUSSION",
+				"tooltip"	: "APP_GROUP_DISCUSSIONS_STREAM_REPLY_DISCUSSION_DESC",
+				"name"		: "stream_reply",
+				"type"		: "boolean",
+				"default"	: false
+			},
+			{
+				"label"		: "APP_GROUP_DISCUSSIONS_STREAM_ANSWERED_DISCUSSION",
+				"tooltip"	: "APP_GROUP_DISCUSSIONS_STREAM_ANSWERED_DISCUSSION_DESC",
+				"name"		: "stream_answered",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_GROUP_DISCUSSIONS_STREAM_LOCK_DISCUSSION",
+				"tooltip"	: "APP_GROUP_DISCUSSIONS_STREAM_LOCK_DISCUSSION_DESC",
+				"name"		: "stream_lock",
+				"type"		: "boolean",
+				"default"	: false
+			},
+			{
+				"label": "Allow Comments on Stream",
+				"tooltip": "You may also disallow commenting on the activity stream item by disabling this option here. By default it is enabled",
+				"name": "stream_comments",
+				"type": "boolean",
+				"default": true
+			}
+		]
+	},
+	{
+		"title"		: "APP_GROUPS_DISCUSSIONS_COMPOSING",
+		"desc"		: "APP_GROUPS_DISCUSSIONS_COMPOSING_DESC",
+		"fields"	:
+		[
+			{
+				"label"		: "APP_GROUPS_DISCUSSIONS_COMPOSING_EDITOR",
+				"tooltip"	: "APP_GROUPS_DISCUSSIONS_COMPOSING_EDITOR_DESC",
+				"name"		: "editor",
+				"type"		: "editors",
+				"default"	: "bbcode"
+			}
+		]
+	},
+	{
+		"title": "APP_DISCUSSIONS_ENTRY",
+		"desc": "APP_DISCUSSIONS_ENTRY_DESC",
+		"fields":
+		[
+			{
+				"label": "APP_DISCUSSIONS_REPLIES_SORTING",
+				"tooltip": "APP_DISCUSSIONS_REPLIES_SORTING_DESC",
+				"name": "sorting",
+				"type": "select",
+				"default": "asc",
+				"options":
+				[
+					{
+						"title": "APP_DISCUSSIONS_LATEST_FIRST",
+						"value": "desc"
+					},
+					{
+						"title": "APP_DISCUSSIONS_OLDEST_FIRST",
+						"value": "asc"
+					}
+				]
+			},
+			{
+				"label": "Replies Per Page",
+				"tooltip": "Determines the total number of replies shown per page",
+				"name": "replies_limit",
+				"class": "input-mini center",
+				"type": "text",
+				"default": 20
+			}
+		]
+	},
+	{
+		"title": "APP_GROUP_NEWS_GROUPS_WIDGETS_VIEW",
+		"desc": "APP_GROUP_NEWS_GROUPS_WIDGETS_VIEW_DESC",
+		"fields":
+		[
+			{
+				"label": "APP_DISCUSSIONS_DISPLAY_WIDGET",
+				"tooltip": "APP_DISCUSSIONS_DISPLAY_WIDGET_DESC",
+				"name": "widget",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"label": "APP_DISCUSSIONS_WIDGET_TOTAL_ITEMS",
+				"tooltip": "APP_DISCUSSIONS_WIDGET_TOTAL_ITEMS_DESC",
+				"name": "widgets_total",
+				"class": "input-mini text-center",
+				"type": "text",
+				"default": 5
+			}
+		]
+	}
+]

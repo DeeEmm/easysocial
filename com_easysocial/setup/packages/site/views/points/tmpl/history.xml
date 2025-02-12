@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_POINTS_LAYOUT_HISTORY">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_POINTS_LAYOUT_HISTORY_DESC]]>
+		</message>
+		<view>points</view>
+		<layout>history</layout>
+	</layout>
+
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			<field name="userid" type="easysocial_user" label="COM_EASYSOCIAL_POINTS_HISTORY_SELECT_USER" description="COM_EASYSOCIAL_POINTS_HISTORY_SELECT_USER_DESC" />
+		</fieldset>
+	</fields>
+
+</metadata>

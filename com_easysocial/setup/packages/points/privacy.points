@@ -1,0 +1,12 @@
+
+[
+	{
+		"title" 		: "COM_EASYSOCIAL_POINTS_PRIVACY_UPDATE",
+		"alias"			: "privacy-update",
+		"description"	: "COM_EASYSOCIAL_POINTS_PRIVACY_UPDATE_DESC",
+		"command"		: "privacy.update",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 5
+	}
+]

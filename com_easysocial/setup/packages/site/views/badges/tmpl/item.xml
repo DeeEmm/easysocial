@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_BADGES_LAYOUT_ITEM">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_BADGES_LAYOUT_ITEM_DESC]]>
+		</message>
+		<view>badges</view>
+		<layout>item</layout>
+	</layout>
+
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			<field name="id" type="easysocial_badge" label="COM_EASYSOCIAL_BADGES_SELECT_BADGE" required="true" description="COM_EASYSOCIAL_BADGES_SELECT_BADGE_DESC" message="COM_EASYSOCIAL_BADGES_SELECT_BADGE_REQUIRED" />
+		</fieldset>
+	</fields>
+
+</metadata>

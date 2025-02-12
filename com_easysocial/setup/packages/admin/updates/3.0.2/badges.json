@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_badges_history",
+		"index": "idx_user_badges",
+		"query": "ALTER TABLE `#__social_badges_history` ADD INDEX `idx_user_badges` (`badge_id`, `user_id`);"
+	}
+]

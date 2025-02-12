@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_points",
+		"column": "daily_interval",
+		"query": "ALTER TABLE `#__social_points` ADD `daily_interval` int(11) NULL DEFAULT '0' COMMENT 'daily achievement limit. 0 = no limit.' AFTER `interval`;"
+	}
+]

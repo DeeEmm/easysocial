@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="apps" group="event">
+    <name>Story</name>
+    <element>story</element>
+    <author>Stack Ideas Sdn Bhd</author>
+    <url>http://stackideas.com</url>
+    <created>29/05/2014</created>
+    <version>2.0.291</version>
+    <copyright>Copyright (C) 2010 - 2014 Stack Ideas Sdn Bhd</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <installable>false</installable>
+    <core>true</core>
+    <system>true</system>
+    <widget>false</widget>
+    <description><![CDATA[APP_EVENT_STORY_APP_DESCRIPTION]]></description>
+    <widget>true</widget>
+    <files>
+		<folder>assets</folder>
+		<folder>hooks</folder>
+		<folder>themes</folder>
+		<file>story.php</file>
+		<file>story.xml</file>
+	</files>
+</social>

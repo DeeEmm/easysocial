@@ -1,0 +1,11 @@
+{
+	"title"	: "COM_EASYSOCIAL_MENU_GROUP_LANGUAGES",
+	"link"	: "index.php?option=com_easysocial&view=languages",
+	"access": "easysocial.access.languages",
+	"class"	: "fa fa-language",
+	"view"	: "languages",
+	"active": "layout",
+	"childs":
+	[
+	]
+}

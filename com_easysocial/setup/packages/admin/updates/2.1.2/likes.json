@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_likes",
+		"column": "uri",
+		"query": "ALTER TABLE `#__social_likes` ADD `uri` TEXT NOT NULL AFTER `stream_id`;"
+	}
+]

@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_profiles",
+		"column": "switchable_in",
+		"query": "ALTER TABLE `#__social_profiles` ADD COLUMN `switchable_in` TINYINT(3) NOT NULL DEFAULT 1 AFTER `switchable`"
+	}
+]

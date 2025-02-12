@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_marketplaces",
+		"column": "post_as",
+		"query": "ALTER TABLE `#__social_marketplaces` ADD `post_as` VARCHAR(64) DEFAULT 'user' AFTER `type`;"
+	}
+]

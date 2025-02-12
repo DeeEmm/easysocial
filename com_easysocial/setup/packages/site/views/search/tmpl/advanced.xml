@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_SEARCH_LAYOUT_ADVANCED">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_SEARCH_LAYOUT_ADVANCED_DESC]]>
+		</message>
+		<view>search</view>
+		<layout>advanced</layout>
+	</layout>
+
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			<field name="fid" type="easysocial_globalfilter" label="COM_ES_MENU_PRESELECT_FILTER" description="COM_ES_MENU_PRESELECT_FILTER_DESC" required="false" />
+		</fieldset>
+	</fields>
+</metadata>

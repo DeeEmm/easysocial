@@ -1,0 +1,37 @@
+[
+	{
+		"table"		: "#__social_apps",
+		"index"		: "idx_group",
+		"query"		: "ALTER TABLE `#__social_apps` ADD INDEX `idx_group` ( `group` );"
+	},
+	{
+		"table"		: "#__social_tasks",
+		"column"	: "milestone_id",
+		"query"		: "ALTER TABLE  `#__social_tasks` ADD  `milestone_id` INT( 11 ) NOT NULL;"
+	},
+	{
+		"table"		: "#__social_tasks",
+		"column"	: "uid",
+		"query"		: "ALTER TABLE  `#__social_tasks` ADD  `uid` INT( 11 ) NOT NULL;"
+	},
+	{
+		"table"		: "#__social_tasks",
+		"column"	: "type",
+		"query"		: "ALTER TABLE  `#__social_tasks` ADD  `type` VARCHAR( 255 ) NOT NULL;"
+	},
+	{
+		"table"		: "#__social_tasks",
+		"column"	: "description",
+		"query"		: "ALTER TABLE  `#__social_tasks` ADD  `description` TEXT NOT NULL;"
+	},
+	{
+		"table"		: "#__social_tasks",
+		"column"	: "due",
+		"query"		: "ALTER TABLE  `#__social_tasks` ADD  `due` DATETIME NOT NULL;"
+	},
+	{
+		"table"		: "#__social_feeds",
+		"column"	: "description",
+		"query"		: "ALTER TABLE  `#__social_feeds` ADD  `description` TEXT NOT NULL AFTER  `title`;"
+	}
+]

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="apps" group="group">
+	<name>Shares</name>
+	<element>shares</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>19/08/2013</created>
+	<version>2.0.291</version>
+	<copyright>Copyright (C) 2010 - 2014 Stack Ideas Sdn Bhd</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description><![CDATA[APP_SHARES_APP_DESCRIPTION]]></description>
+	<core>true</core>
+	<system>true</system>
+	<installable>false</installable>
+	<widget>false</widget>
+	<files>
+		<folder>assets</folder>
+		<folder>config</folder>
+		<folder>helpers</folder>
+		<folder>hooks</folder>
+		<folder>themes</folder>
+		<file>shares.php</file>
+		<file>shares.xml</file>
+	</files>
+</social>

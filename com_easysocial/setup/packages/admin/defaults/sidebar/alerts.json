@@ -1,0 +1,41 @@
+{
+	"title"	: "COM_EASYSOCIAL_MENU_GROUP_ALERTS",
+	"link"	: "index.php?option=com_easysocial&view=alerts",
+	"class"	: "fa fa-at",
+	"access": "easysocial.access.alerts",
+	"view"	: "alerts",
+	"active": "layout",
+	"childs":
+	[
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_GROUP_ALERTS",
+			"class"	: "",
+			"url"	:
+			{
+				"view": "alerts",
+				"layout": ""
+			},
+			"childs": []
+		},
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_ALERTS_INSTALL",
+			"class"	: "",
+			"url"	:
+			{
+				"view"	: "alerts",
+				"layout": "install"
+			},
+			"childs": []
+		},
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_ALERTS_DISCOVER",
+			"class"	: "",
+			"url"	:
+			{
+				"view"	: "alerts",
+				"layout": "discover"
+			},
+			"childs": []
+		}
+	]
+}

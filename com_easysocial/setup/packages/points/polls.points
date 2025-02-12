@@ -1,0 +1,75 @@
+
+[
+	{
+		"title": "COM_EASYSOCIAL_POINTS_POLLS_ADD",
+		"alias": "add-polls",
+		"description": "COM_EASYSOCIAL_POINTS_POLLS_ADD_DESC",
+		"command": "polls.add",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 3
+	},
+	{
+		"title": "COM_EASYSOCIAL_POINTS_POLLS_REMOVE",
+		"alias": "remove-polls",
+		"description": "COM_EASYSOCIAL_POINTS_POLLS_REMOVE_DESC",
+		"command": "polls.remove",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -3
+	},
+	{
+		"title": "COM_EASYSOCIAL_POINTS_POLLS_VOTE",
+		"alias": "vote-polls",
+		"description": "COM_EASYSOCIAL_POINTS_POLLS_VOTE_DESC",
+		"command": "polls.vote",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 1
+	},
+	{
+		"title": "COM_EASYSOCIAL_POINTS_POLLS_UNVOTE",
+		"alias": "unvote-polls",
+		"description": "COM_EASYSOCIAL_POINTS_POLLS_UNVOTE_DESC",
+		"command": "polls.unvote",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -1
+	},
+	{
+		"title": "COM_ES_POINTS_POLLS_VOTED",
+		"alias": "polls-voted",
+		"description": "COM_ES_POINTS_POLLS_VOTED_DESC",
+		"command": "polls.voted",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 1
+	},
+	{
+		"title": "COM_ES_POINTS_POLLS_UNVOTED",
+		"alias": "polls-unvoted",
+		"description": "COM_ES_POINTS_POLLS_UNVOTED_DESC",
+		"command": "polls.unvoted",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -1
+	},
+	{
+		"title" : "COM_ES_POINTS_POLLS_COMMENT_ADD",
+		"alias": "comment-polls",
+		"description": "COM_ES_POINTS_POLLS_COMMENT_ADD_DESC",
+		"command": "polls.comment.add",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 1
+	},
+	{
+		"title" : "COM_ES_POINTS_POLLS_COMMENT_REMOVE",
+		"alias": "comment-polls",
+		"description": "COM_ES_POINTS_POLLS_COMMENT_REMOVE_DESC",
+		"command": "polls.comment.remove",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -1
+	}
+]

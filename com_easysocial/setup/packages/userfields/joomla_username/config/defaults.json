@@ -1,0 +1,46 @@
+{
+
+	"title"			: "COM_EASYSOCIAL_CORE_FIELD_USERNAME",
+
+
+	"description"	: "COM_EASYSOCIAL_CORE_FIELD_USERNAME_DESC",
+
+
+	"position"		: "",
+
+
+	"default"		: "COM_EASYSOCIAL_CORE_FIELD_USERNAME_DEFAULT",
+
+
+	"display_title"	: true,
+
+
+	"validation"	: "",
+
+
+	"registration"	: true,
+
+
+	"state"			: true,
+
+
+	"visibility"	: false,
+
+
+	"searchable"	: false,
+
+
+	"required"		: true,
+
+
+	"min"			: 1,
+
+
+	"max"			: 255,
+
+
+	"params"		: "",
+
+
+	"ordering"		: 1
+}

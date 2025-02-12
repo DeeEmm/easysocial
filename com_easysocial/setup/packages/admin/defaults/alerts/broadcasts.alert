@@ -1,0 +1,12 @@
+[
+    {
+        "element"   : "broadcast",
+        "rule"      : "notify",
+        "core"      : true,
+        "value"     :
+        {
+            "email"     : true,
+            "system"    : true
+        }
+    }
+]

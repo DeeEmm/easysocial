@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="module" client="site" method="upgrade">
+	<name>EasySocial Users</name>
+	<author>Stack Ideas Sdn Bhd</author>
+	<creationDate>16th January 2024</creationDate>
+	<copyright>Copyright (C) 2009 - 2016 Stack Ideas Sdn Bhd. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>http://stackideas.com</authorUrl>
+	<version>2.0.291</version>
+	<description><![CDATA[MOD_EASYSOCIAL_USERS_DESC]]></description>
+	<files>
+		<folder>tmpl</folder>
+		<filename module="mod_easysocial_users">mod_easysocial_users.php</filename>
+		<filename>mod_easysocial_users.xml</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_easysocial_users.ini</language>
+		<language tag="en-GB">en-GB.mod_easysocial_users.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/administrator/components/com_easysocial/models/fields">
+				<field name="filter" type="list" default="recent" label="MOD_EASYSOCIAL_USERS_FILTER" description="MOD_EASYSOCIAL_USERS_FILTER_DESC">
+					<option value="recent">MOD_EASYSOCIAL_USERS_FILTER_RECENT</option>
+					<option value="online">MOD_EASYSOCIAL_USERS_FILTER_ONLINE</option>
+					<option value="onlinefriends">MOD_EASYSOCIAL_USERS_FILTER_ONLINE_FRIENDS</option>
+				</field>
+				<field name="profileId" type="sql" multiple="true" query="SELECT id AS value, title AS profileId FROM #__social_profiles WHERE state = 1" label="MOD_EASYSOCIAL_USERS_PROFILE_TYPE_FILTER" description="MOD_EASYSOCIAL_USERS_PROFILE_TYPE_FILTER_DESC" />
+				<field name="user_inclusion" type="text" default="" label="MOD_EASYSOCIAL_USERS_INCLUSION" description="MOD_EASYSOCIAL_USERS_INCLUSION_DESC" />
+				<field name="total" type="text" class="input-mini text-center" default="10" label="MOD_EASYSOCIAL_USERS_TOTAL_USERS" description="MOD_EASYSOCIAL_USERS_TOTAL_USERS_DESC" />
+				<field name="hasavatar" type="radio" class="btn-group" default="0" label="MOD_EASYSOCIAL_USERS_WITH_AVATAR" description="MOD_EASYSOCIAL_USERS_WITH_AVATAR_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="online_state" type="radio" class="btn-group" default="1" label="MOD_EASYSOCIAL_USERS_SHOW_ONLINE_STATE" description="MOD_EASYSOCIAL_USERS_SHOW_ONLINE_STATE_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="popover" type="radio" class="btn-group" default="1" label="MOD_EASYSOCIAL_USERS_SHOW_PROFILE_HOVER" description="MOD_EASYSOCIAL_USERS_SHOW_PROFILE_HOVER_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="popover_position" type="list" default="top-left" label="MOD_EASYSOCIAL_USERS_TOOLTIP_POSITION" description="MOD_EASYSOCIAL_USERS_TOOLTIP_POSITION_DESC">
+					<option value="top">top</option>
+					<option value="top-left">top-left</option>
+					<option value="top-right">top-right</option>
+					<option value="bottom">bottom</option>
+					<option value="bottom-left">bottom-left</option>
+					<option value="bottom-right">bottom-right</option>
+					<option value="left">left</option>
+					<option value="left-top">left-top</option>
+					<option value="left-bottom">left-bottom</option>
+					<option value="right">right</option>
+					<option value="right-top">right-top</option>
+					<option value="right-bottom">right-bottom</option>
+				</field>
+				<field name="showall_link" type="radio" class="btn-group" default="1" label="MOD_EASYSOCIAL_USERS_SHOW_ALL_LINK" description="MOD_EASYSOCIAL_USERS_SHOW_ALL_LINK_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="ordering" type="list" default="registerDate" label="MOD_EASYSOCIAL_USERS_ORDERING" description="MOD_EASYSOCIAL_USERS_ORDERING_DESC">
+					<option value="registerDate">MOD_EASYSOCIAL_USERS_ORDERING_REGISTERED_DATE</option>
+					<option value="id">MOD_EASYSOCIAL_USERS_ORDERING_ID</option>
+					<option value="username">MOD_EASYSOCIAL_USERS_ORDERING_USERNAME</option>
+					<option value="name">MOD_EASYSOCIAL_USERS_ORDERING_NAME</option>
+					<option value="lastvisitDate">MOD_EASYSOCIAL_USERS_ORDERING_LASTVISITED</option>
+					<option value="connectionDate">MOD_EASYSOCIAL_USERS_ORDERING_LASTCONNECTED</option>
+
+				</field>
+				<field name="direction" type="list" default="desc" label="MOD_EASYSOCIAL_USERS_ORDERING_DIRECTION" description="MOD_EASYSOCIAL_USERS_ORDERING_DIRECTION_DESC">
+					<option value="asc">MOD_EASYSOCIAL_USERS_ORDERING_DIRECTION_OPTIONS_ASC</option>
+					<option value="desc">MOD_EASYSOCIAL_USERS_ORDERING_DIRECTION_OPTIONS_DESC</option>
+				</field>
+				<field name="avatar_size" type="list" default="default" label="MOD_EASYSOCIAL_USERS_AVATAR_SIZE" description="MOD_EASYSOCIAL_USERS_AVATAR_SIZE_DESC">
+					<option value="default">MOD_EASYSOCIAL_USERS_AVATAR_DEFAULT</option>
+					<option value="xs">MOD_EASYSOCIAL_USERS_AVATAR_SMALL</option>
+					<option value="md">MOD_EASYSOCIAL_USERS_AVATAR_MEDIUM</option>
+					<option value="lg">MOD_EASYSOCIAL_USERS_AVATAR_LARGE</option>
+					<option value="xl">MOD_EASYSOCIAL_USERS_AVATAR_EXTRA_LARGE</option>
+				</field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field name="moduleclass_sfx" type="textarea" rows="3" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="cache" type="list" default="0" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

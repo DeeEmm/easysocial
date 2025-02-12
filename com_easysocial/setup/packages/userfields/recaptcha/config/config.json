@@ -1,0 +1,9 @@
+{
+	"searchable": false,
+	"privacy": false,
+	"default": false,
+	"visible_display": false,
+    "required": {
+        "default": true
+    }
+}

@@ -1,0 +1,149 @@
+[
+	{
+		"title": "COM_EASYSOCIAL_FIELDS_PAGE_INFO",
+		"description": "COM_EASYSOCIAL_FIELDS_PAGE_INFO_DESC",
+		"fields":
+		[
+			{
+				"element": "header",
+				"title": "COM_EASYSOCIAL_FIELDS_PAGE_ACCOUNT_INFO",
+				"description": "COM_EASYSOCIAL_FIELDS_PAGE_ACCOUNT_INFO_DESC",
+				"visible_display": false
+			},
+			{
+				"element": "title",
+				"title": "COM_EASYSOCIAL_FIELDS_PAGE_TITLE",
+				"description": "COM_EASYSOCIAL_FIELDS_PAGE_TITLE_DESC",
+				"required": true
+			},
+			{
+				"element": "description",
+				"title": "COM_EASYSOCIAL_FIELDS_PAGE_DESCRIPTION",
+				"description": "COM_EASYSOCIAL_FIELDS_PAGE_DESCRIPTION_DESC"
+			},
+			{
+				"element": "notification",
+				"title": "COM_EASYSOCIAL_FIELDS_PAGE_NOTIFICATION",
+				"description": "COM_EASYSOCIAL_FIELDS_PAGE_NOTIFICATION_DESC",
+				"required": true,
+				"searchable": false,
+				"visible_display": false
+			},
+			{
+				"element": "type",
+				"title": "COM_EASYSOCIAL_FIELDS_PAGE_TYPE",
+				"description": "COM_EASYSOCIAL_FIELDS_PAGE_TYPE_DESC",
+				"required": true,
+				"searchable": false,
+				"visible_display": false
+			},
+			{
+				"element": "url",
+				"title": "COM_EASYSOCIAL_FIELDS_PAGE_WEBSITE",
+				"description": "COM_EASYSOCIAL_FIELDS_PAGE_WEBSITE_DESC",
+				"required": false
+			},
+			{
+				"element": "header",
+				"title": "COM_ES_FEATURE",
+				"description": "COM_ES_FIELDS_PAGE_FEATURE_DESC",
+				"visible_display": false,
+				"display_title": true,
+				"display_description": true
+			},
+			{
+				"element": "photos",
+				"title": "COM_EASYSOCIAL_FIELDS_PAGE_PHOTO",
+				"description": "COM_EASYSOCIAL_FIELDS_PAGE_PHOTO_DESC",
+				"required": false
+			},
+			{
+				"element": "videos",
+				"title": "COM_EASYSOCIAL_FIELDS_PAGE_VIDEO",
+				"description": "COM_EASYSOCIAL_FIELDS_PAGE_VIDEO_DESC",
+				"required": false
+			},
+			{
+				"element" : "audios",
+				"title" : "COM_ES_CLUSTER_FIELDS_ENABLE_AUDIO",
+				"description" : "COM_ES_CLUSTER_FIELDS_ENABLE_AUDIO_DESC",
+				"required" : false
+			},
+			{
+				"element": "news",
+				"title": "COM_EASYSOCIAL_FIELDS_PAGE_NEWS",
+				"description": "COM_EASYSOCIAL_FIELDS_PAGE_NEWS_DESC",
+				"required": false
+			},
+			{
+				"element" : "feeds",
+				"title" : "COM_ES_FIELDS_PAGE_FEEDS",
+				"description" : "COM_ES_FIELDS_PAGE_FEEDS_DESC",
+				"required" : false,
+				"default" : true,
+				"display_title" : true,
+				"display_description" : true
+			},
+			{
+				"element" : "events",
+				"title" : "COM_ES_CLUSTER_FIELDS_ENABLE_EVENTS",
+				"description" : "COM_ES_CLUSTER_FIELDS_ENABLE_EVENTS_DESC",
+				"required" : false,
+				"default" : true,
+				"display_title" : true,
+				"display_description" : true
+			},
+			{
+				"element" : "marketplaces",
+				"title" : "COM_ES_CLUSTER_FIELDS_ENABLE_MARKETPLACES",
+				"description" : "COM_ES_CLUSTER_FIELDS_ENABLE_MARKETPLACES_DESC",
+				"required" : false,
+				"default" : true,
+				"display_title" : true,
+				"display_description" : true
+			},
+			{
+				"element" : "files",
+				"title" : "COM_ES_FIELDS_PAGE_FILES",
+				"description" : "COM_ES_FIELDS_PAGE_FILES_DESC",
+				"required" : false,
+				"default" : true,
+				"display_title" : true,
+				"display_description" : true
+			},
+			{
+				"element" : "polls",
+				"title" : "COM_ES_FIELDS_PAGE_POLLS",
+				"description" : "COM_ES_FIELDS_PAGE_POLLS_DESC",
+				"required" : false,
+				"default" : true,
+				"display_title" : true,
+				"display_description" : true
+			},
+			{
+				"element": "discussions",
+				"title": "COM_EASYSOCIAL_FIELDS_PAGE_DISCUSSIONS",
+				"description": "COM_EASYSOCIAL_FIELDS_PAGE_DISCUSSIONS_DESC",
+				"required": false
+			},
+			{
+				"element": "header",
+				"title": "COM_EASYSOCIAL_FIELDS_PAGE_PERSONALIZATION",
+				"description": "COM_EASYSOCIAL_FIELDS_PAGE_PERSONALIZATION_DESC",
+				"visible_display": false
+			},
+			{
+				"element": "avatar",
+				"title": "COM_EASYSOCIAL_FIELDS_PAGE_AVATAR",
+				"description": "COM_EASYSOCIAL_FIELDS_PAGE_AVATAR_DESC",
+				"required": false
+			},
+			{
+				"element": "cover",
+				"title": "COM_EASYSOCIAL_FIELDS_PAGE_COVER",
+				"description": "COM_EASYSOCIAL_FIELDS_PAGE_COVER_DESC",
+				"required": false
+			}
+		]
+	}
+]

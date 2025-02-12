@@ -1,0 +1,54 @@
+
+{
+	"type": "friends",
+	"rules":
+		[
+			{
+				"core"			: true,
+				"command" 		: "view",
+				"description"	: "COM_EASYSOCIAL_PRIVACY_DESC_FRIENDS_VIEW",
+				"default"		: "public",
+				"options"		:
+				[
+					{
+						"name"	: "public"
+					},
+					{
+						"name"	: "member"
+					},
+					{
+						"name"	: "friends_of_friend"
+					},
+					{
+						"name"	: "friend"
+					},
+					{
+						"name" : "only_me"
+					},
+					{
+						"name" : "custom"
+					}
+				]
+			},
+
+			{
+				"core"			: true,
+				"command" 		: "request",
+				"description"	: "COM_EASYSOCIAL_PRIVACY_DESC_FRIENDS_REQUEST",
+				"default"		: "member",
+				"options"		:
+				[
+					{
+						"name"	: "public"
+					},
+					{
+						"name"	: "member"
+					},
+					{
+						"name"	: "friends_of_friend"
+					}
+				]
+			}
+
+		]
+}

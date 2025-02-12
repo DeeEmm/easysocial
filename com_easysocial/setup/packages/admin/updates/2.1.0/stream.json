@@ -1,0 +1,17 @@
+[
+	{
+		"table": "#__social_stream",
+		"column": "field_access",
+		"query": "ALTER TABLE `#__social_stream` ADD COLUMN `field_access` tinyint(3) default 0 after `custom_access`"
+	},
+	{
+		"table": "#__social_stream_history",
+		"column": "field_access",
+		"query": "ALTER TABLE `#__social_stream_history` ADD COLUMN `field_access` tinyint(3) default 0 after `custom_access`"
+	},
+	{
+		"table": "#__social_stream_filter",
+		"column": "global",
+		"query": "ALTER TABLE `#__social_stream_filter` ADD `global` TINYINT(3) NOT NULL DEFAULT '0' AFTER `user_id`;"
+	}
+]

@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__social_privacy_map",
+        "index"    : "idx_privacy_uid_type",
+        "query"     : "ALTER TABLE `#__social_privacy_map` ADD INDEX `idx_privacy_uid_type` (`privacy_id`, `uid`, `utype`);"
+    }
+]

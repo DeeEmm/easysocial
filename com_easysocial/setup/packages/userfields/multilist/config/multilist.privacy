@@ -1,0 +1,27 @@
+{
+    "type": "field",
+    "rules":
+    [
+        {
+            "core": false,
+            "command": "multilist",
+            "description": "FIELDS_USER_MULTILIST_PRIVACY_FIELD_DESC",
+            "default": "public",
+            "options":
+            [
+                {
+                    "name": "public"
+                },
+                {
+                    "name": "member"
+                },
+                {
+                    "name": "friend"
+                },
+                {
+                    "name": "only_me"
+                }
+            ]
+        }
+    ]
+}

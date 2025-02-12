@@ -1,0 +1,22 @@
+[
+	{
+		"title"			: "COM_ES_ACCESS_STORY_ALLOW_POSTING_USER_SCHEDULED_STORY",
+		"description"	: "COM_ES_ACCESS_STORY_ALLOW_POSTING_USER_SCHEDULED_STORY_TIPS",
+		"name"			: "scheduler.user.scheduled"
+	},
+	{
+		"title"			: "COM_ES_ACCESS_STORY_ALLOW_POSTING_GROUP_SCHEDULED_STORY",
+		"description"	: "COM_ES_ACCESS_STORY_ALLOW_POSTING_GROUP_SCHEDULED_STORY_TIPS",
+		"name"			: "scheduler.group.scheduled"
+	},
+	{
+		"title"			: "COM_ES_ACCESS_STORY_ALLOW_POSTING_PAGE_SCHEDULED_STORY",
+		"description"	: "COM_ES_ACCESS_STORY_ALLOW_POSTING_PAGE_SCHEDULED_STORY_TIPS",
+		"name"			: "scheduler.page.scheduled"
+	},
+	{
+		"title"			: "COM_ES_ACCESS_STORY_ALLOW_POSTING_EVENT_SCHEDULED_STORY",
+		"description"	: "COM_ES_ACCESS_STORY_ALLOW_POSTING_EVENT_SCHEDULED_STORY_TIPS",
+		"name"			: "scheduler.event.scheduled"
+	}
+]

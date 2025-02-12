@@ -1,0 +1,59 @@
+[
+	{
+		"title": "COM_EASYSOCIAL_APPS_SETTINGS_STREAM",
+		"desc": "COM_EASYSOCIAL_APPS_SETTINGS_STREAM_DESC",
+		"fields":
+		[
+			{
+				"label": "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER",
+				"tooltip": "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER_DESC",
+				"name": "stream_filter",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"label": "APP_MARKETPLACE_STREAM_DISPLAY_CREATE_LISTING",
+				"tooltip": "APP_MARKETPLACE_STREAM_DISPLAY_CREATE_LISTING_DESC",
+				"name": "stream_create",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"label": "APP_MARKETPLACE_STREAM_DISPLAY_UPDATE_LISTING",
+				"tooltip": "APP_MARKETPLACE_STREAM_DISPLAY_UPDATE_LISTING_DESC",
+				"name": "stream_update",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"label": "APP_MARKETPLACE_STREAM_DISPLAY_FEATURE_LISTING",
+				"tooltip": "APP_MARKETPLACE_STREAM_DISPLAY_FEATURE_LISTING_DESC",
+				"name": "stream_featured",
+				"type": "boolean",
+				"default": true
+			}
+		]
+	},
+	{
+		"title": "APP_USER_MARKETPLACES_SETTINGS_WIDGETS",
+		"desc": "APP_USER_MARKETPLACES_SETTINGS_WIDGETS_DESC",
+		"fields":
+		[
+			{
+				"label": "APP_USER_MARKETPLACES_SETTINGS_WIDGETS_PROFILE",
+				"tooltip": "APP_USER_MARKETPLACES_SETTINGS_WIDGETS_PROFILE_DESC",
+				"name": "widget_profile",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"label": "APP_USER_MARKETPLACES_SETTINGS_WIDGETS_PROFILE_TOTAL",
+				"tooltip": "APP_USER_MARKETPLACES_SETTINGS_WIDGETS_PROFILE_TOTAL_DESC",
+				"name": "widget_profile_total",
+				"type": "text",
+				"default": 5,
+				"class": "input-mini text-center"
+			}
+		]
+	}
+]

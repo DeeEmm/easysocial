@@ -1,0 +1,15 @@
+{
+    "title": {
+        "default": "FIELDS_EVENT_DESCRIPTION_DEFAULT_TITLE"
+    },
+
+    "description": {
+        "default": "FIELDS_EVENT_DESCRIPTION_DEFAULT_DESCRIPTION"
+    },
+
+    "editor": {
+        "label": "FIELDS_EVENT_DESCRIPTION_EDITOR_TITLE",
+        "type": "editors",
+        "default": "inherit"
+    }
+}

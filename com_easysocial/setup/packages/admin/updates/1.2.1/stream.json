@@ -1,0 +1,22 @@
+[
+	{
+		"table"		: "#__social_stream",
+		"column"	: "cluster_id",
+		"query"		: "ALTER TABLE `#__social_stream` ADD ( `cluster_id` int(11) default 0 null, `cluster_type` varchar(64) null, `cluster_access` tinyint(3) default 0 ), ADD INDEX `idx_cluster_access` ( `cluster_id`, `cluster_access` ), ADD INDEX `idx_clusterid` ( `cluster_id` ), ADD INDEX `idx_cluster_items` ( `cluster_id`, `cluster_type`, `modified` );"
+	},
+	{
+		"table"		: "#__social_stream_hide",
+		"column"	: "actor_id",
+		"query"		: "ALTER TABLE `#__social_stream_hide` ADD `actor_id` bigint(20) default 0, ADD INDEX `stream_hide_actorid` ( `actor_id` );"
+	},
+	{
+		"table"		: "#__social_stream_filter",
+		"column"	: "user_id",
+		"query"		: "ALTER TABLE `#__social_stream_filter` ADD `user_id` bigint(20) unsigned NOT NULL, ADD INDEX `streamfilter_cluster_user` ( `uid`, `utype`, `user_id` );"
+	},
+	{
+		"table"		: "#__social_stream",
+		"column"	: "mood_id",
+		"query"		: "ALTER TABLE `#__social_stream` ADD `mood_id` INT(11) NOT NULL AFTER `location_id`;"
+	}
+]

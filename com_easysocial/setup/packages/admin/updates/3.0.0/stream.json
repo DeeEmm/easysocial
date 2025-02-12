@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_stream",
+		"column": "background_id",
+		"query": "ALTER TABLE `#__social_stream` ADD `background_id` INT(11) NOT NULL AFTER `mood_id`;"
+	}
+]

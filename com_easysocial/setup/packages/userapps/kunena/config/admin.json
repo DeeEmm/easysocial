@@ -1,0 +1,51 @@
+[
+	{
+		"title"		: "COM_EASYSOCIAL_APPS_SETTINGS_STREAM",
+		"desc"		: "COM_EASYSOCIAL_APPS_SETTINGS_STREAM_DESC",
+		"fields"	:
+		[
+			{
+				"label"		: "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER",
+				"tooltip"		: "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER_DESC",
+				"name"		: "stream_filter",
+				"type" 		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_USER_KUNENA_SETTINGS_STREAM_CREATE",
+				"tooltip"	: "APP_USER_KUNENA_SETTINGS_STREAM_CREATE_DESC",
+				"name"		: "stream_create",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_USER_KUNENA_SETTINGS_STREAM_REPLY",
+				"tooltip"	: "APP_USER_KUNENA_SETTINGS_STREAM_REPLY_DESC",
+				"name"		: "stream_reply",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_USER_KUNENA_SETTINGS_STREAM_THANKED",
+				"tooltip"	: "APP_USER_KUNENA_SETTINGS_STREAM_THANKED_DESC",
+				"name"		: "stream_thanked",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_USER_KUNENA_SETTINGS_POST_LISTING_COUNT",
+				"tooltip"	: "APP_USER_KUNENA_SETTINGS_POST_LISTING_COUNT_DESC",
+				"name"		: "total_post_display",
+				"type"		: "text",
+				"default"	: 5
+			},			
+			{
+				"label"		: "APP_USER_KUNENA_STREAM_CONTENT_LENGTH",
+				"tooltip"	: "APP_USER_KUNENA_STREAM_CONTENT_LENGTH_DESC",
+				"name"		: "stream_content_length",
+				"type"		: "limit",
+				"default"	: 0
+			}
+		]
+	}
+]

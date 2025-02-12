@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_apps",
+		"column": "webview",
+		"query": "ALTER TABLE `#__social_apps` ADD COLUMN `webview` tinyint(1) NOT NULL DEFAULT '0' AFTER `installable`"
+	}
+]

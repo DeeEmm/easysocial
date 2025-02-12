@@ -1,0 +1,17 @@
+[
+    {
+        "title": "COM_EASYSOCIAL_ACCESS_USER_UPLOAD_FILES",
+        "description": "COM_EASYSOCIAL_ACCESS_USER_UPLOAD_FILES_DESC",
+        "group": "user",
+        "name": "files.upload"
+    },
+	{
+		"title": "COM_ES_ACCESS_FILES_MAX_SIZE",
+        "description": "COM_ES_ACCESS_FILES_MAX_SIZE_TIPS",
+		"name": "files.maxsize",
+		"type": "text",
+		"class": "form-control input-sm input-short text-center",
+		"default": 8,
+		"suffix": "MB"
+	}    
+]

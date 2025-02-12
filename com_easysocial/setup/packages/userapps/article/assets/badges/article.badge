@@ -1,0 +1,33 @@
+
+[
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_PUBLISHER",
+		"alias"			: "publisher",
+		"description"	: "COM_EASYSOCIAL_BADGES_PUBLISHER_DESC",
+		"howto" 		: "COM_EASYSOCIAL_BADGES_PUBLISHER_HOWTO",
+		"command"		: "create.article",
+		"extension"		: "com_content",
+		"avatar"		: "media/com_easysocial/apps/user/article/assets/badges/publisher.png",
+		"frequency"		: 50
+	},
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_PROOF_READING",
+		"alias"			: "proof-reading",
+		"description"	: "COM_EASYSOCIAL_BADGES_PROOF_READING_DESC",
+		"howto" 		: "COM_EASYSOCIAL_BADGES_PROOF_READING_HOWTO",
+		"command"		: "update.article",
+		"extension"		: "com_content",
+		"avatar"		: "media/com_easysocial/apps/user/article/assets/badges/proof-reading.png",
+		"frequency"		: 50
+	},
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_GREAT_READER",
+		"alias"			: "great-reader",
+		"description"	: "COM_EASYSOCIAL_BADGES_GREAT_READER_DESC",
+		"howto" 		: "COM_EASYSOCIAL_BADGES_GREAT_READER_HOWTO",
+		"command"		: "read.article",
+		"extension"		: "com_content",
+		"avatar"		: "media/com_easysocial/apps/user/article/assets/badges/great-reader.png",
+		"frequency"		: 100
+	}
+]

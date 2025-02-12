@@ -1,0 +1,9 @@
+
+{
+	"searchable": false,
+	"required": true,
+	"visible_edit": true,
+	"visible_registration": true,
+	"visible_display": true,
+	"default": false
+}

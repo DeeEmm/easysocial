@@ -1,0 +1,7 @@
+[
+	{
+		"table"		: "#__social_fields_options",
+		"column"	: "default",
+		"query"		: "ALTER TABLE `#__social_fields_options` ADD `default` TINYINT(1) NOT NULL DEFAULT '0'"
+	}
+]

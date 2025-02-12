@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="module" client="site" method="upgrade">
+	<name>QRCode For Mobile</name>
+	<author>Stack Ideas Sdn Bhd</author>
+	<creationDate>16th January 2024</creationDate>
+	<copyright>Copyright (C) Stack Ideas Sdn Bhd. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>http://stackideas.com</authorUrl>
+	<version>3.2.63</version>
+	<description><![CDATA[Generates the QRCode for mobile authentication]]></description>
+	<files>
+		<folder>tmpl</folder>
+		<filename module="mod_easysocial_mobile_qrcode">mod_easysocial_mobile_qrcode.php</filename>
+		<filename>mod_easysocial_mobile_qrcode.xml</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_easysocial_mobile_qrcode.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			<fieldset name="basic">
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="layout" default="card" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field name="total_columns" type="text" label="Columns (Horizontal Layout)" description="Set the total number of columns if you have selected a horizontal layout" default="3" />
+				<field name="moduleclass_sfx" type="textarea" rows="3" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="cache" type="list" default="0" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

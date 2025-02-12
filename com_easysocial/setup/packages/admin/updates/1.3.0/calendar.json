@@ -1,0 +1,13 @@
+[
+    {
+        "table"     : "#__social_apps_calendar",
+        "column"    : "uid",
+        "query"     : "ALTER TABLE  `#__social_apps_calendar` ADD `uid` int(11) NOT NULL"
+    },
+
+    {
+        "table"     : "#__social_apps_calendar",
+        "column"    : "type",
+        "query"     : "ALTER TABLE  `#__social_apps_calendar` ADD `type` varchar(255) NOT NULL"
+    }
+]

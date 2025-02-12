@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_profiles",
+		"column": "moderator_access",
+		"query": "ALTER TABLE `#__social_profiles` ADD `moderator_access` TINYINT(1) NOT NULL AFTER `privacy_fields`;"
+	}
+]

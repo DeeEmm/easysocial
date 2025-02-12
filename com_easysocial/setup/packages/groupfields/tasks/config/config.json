@@ -1,0 +1,21 @@
+{
+	"title": {
+		"default": "COM_ES_FIELDS_GROUP_TASKS"
+	},
+
+	"description": {
+		"default": "COM_ES_FIELDS_GROUP_TASKS_DESC"
+	},
+	"extends": "fields/user/boolean",
+	"privacy": false,
+	"searchable": false,
+	"visible_display"	: false,
+	
+	"allow_modification": {
+		"label": "PLG_FIELDS_GROUP_ALLOW_MODIFICATION_DESCRIPTION",
+		"tooltip": "PLG_FIELDS_GROUP_ALLOW_MODIFICATION_DESCRIPTION_DESC",
+		"type": "boolean",
+		"default": true,
+		"group": "view"
+	}
+}

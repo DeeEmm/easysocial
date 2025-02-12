@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_LOGIN_LAYOUT_DEFAULT">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_LOGIN_LAYOUT_DEFAULT_DESC]]>
+		</message>
+		<view>login</view>
+	</layout>
+
+	<fields name="request">
+		<fieldset name="request">
+			<field name="loginredirection" type="menuitem" disable="separator" label="COM_ES_LOGIN_LAYOUT_LOGIN_REDIRECTION" description="COM_ES_LOGIN_LAYOUT_LOGIN_REDIRECTION_DESC" >
+				<option value="">JDEFAULT</option>
+			</field>
+		</fieldset>
+	</fields>
+</metadata>

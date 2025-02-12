@@ -1,0 +1,118 @@
+{
+	"display_title":
+	{
+		"label"     : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_DISPLAY_TITLE",
+		"tooltip"   : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_DISPLAY_TITLE_DESC",
+		"type"      : "boolean",
+		"default"   : true,
+		"group"     : "core"
+	},
+
+	"title":
+	{
+		"label"     : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_TITLE",
+		"tooltip"   : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_TITLE_DESC",
+		"type"      : "text",
+		"default"   : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_TITLE_DEFAULT",
+		"group"     : "core"
+	},
+
+	"display_description":
+	{
+		"label"     : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_DISPLAY_DESCRIPTION",
+		"tooltip"   : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_DISPLAY_DESCRIPTION_DESC",
+		"type"      : "boolean",
+		"default"   : true,
+		"group"     : "core"
+	},
+
+	"description":
+	{
+		"label"     : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_DESCRIPTION",
+		"tooltip"   : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_DESCRIPTION_DESC",
+		"type"      : "text",
+		"default"   : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_DESCRIPTION_DEFAULT",
+		"group"     : "core"
+	},
+
+	"default":
+	{
+		"label"     : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_DEFAULT_VALUE",
+		"tooltip"   : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_DEFAULT_VALUE_DESC",
+		"type"      : "text",
+		"default"   : "",
+		"group"     : "core"
+	},
+
+	"required":
+	{
+		"label"     : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_REQUIRED",
+		"tooltip"   : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_REQUIRED_DESC",
+		"type"      : "boolean",
+		"default"   : false,
+		"group"     : "core"
+	},
+
+	"visible_registration":
+	{
+		"label"     : "COM_EASYSOCIAL_CLUSTERS_FORM_FIELDS_PARAMS_CORE_VIEW_EVENT_CREATION",
+		"tooltip"   : "COM_EASYSOCIAL_CLUSTERS_FORM_FIELDS_PARAMS_CORE_VIEW_EVENT_CREATION_DESC",
+		"type"      : "boolean",
+		"default"   : true,
+		"group"     : "view"
+	},
+
+	"visible_edit":
+	{
+		"label"     : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_VIEW_EDIT",
+		"tooltip"   : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_VIEW_EDIT_DESC",
+		"type"      : "boolean",
+		"default"   : true,
+		"group"     : "view"
+	},
+
+	"visible_display":
+	{
+		"label"     : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_VIEW_DISPLAY",
+		"tooltip"   : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_VIEW_DISPLAY_DESC",
+		"type"      : "boolean",
+		"default"   : true,
+		"group"     : "view"
+	},
+
+	"unique_key":
+	{
+		"label"     : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_UNIQUE_KEY",
+		"tooltip"   : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_UNIQUE_KEY_DESC",
+		"type"      : "text",
+		"default"   : "",
+		"group"     : "advance"
+	},
+
+	"searchable":
+	{
+		"label"     : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_SEARCHABLE",
+		"tooltip"   : "COM_EASYSOCIAL_PROFILES_FORM_FIELDS_PARAMS_CORE_SEARCHABLE_DESC",
+		"type"      : "boolean",
+		"default"   : true,
+		"group"     : "advance"
+	},
+
+	"conditions_criteria": {
+		"label": "COM_ES_CONDITIONAL_CRITERIA_LOGIC",
+		"tooltip": "COM_ES_CONDITIONAL_CRITERIA_LOGIC_DESC",
+		"group": "conditional",
+		"type": "select",
+		"default": "and",
+		"option": [
+			{
+				"label": "AND",
+				"value": "and"
+			},
+			{
+				"label": "OR",
+				"value": "or"
+			}
+		]
+	}
+}

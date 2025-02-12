@@ -1,0 +1,19 @@
+[
+	{
+		"title" 		: "Badge Title",
+
+		"description"	: "Some description of your badge",
+
+		"howto"			: "To unlock this badge, you need to do something.",
+
+		"alias"			: "socializer",
+
+		"extension"		: "com_easysocial",
+
+		"command"		: "conversation.create",
+
+		"avatar"		: "media/com_easysocial/badges/socializer.png",
+
+		"frequency"		: 15
+	}
+]

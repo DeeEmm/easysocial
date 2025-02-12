@@ -1,0 +1,14 @@
+{
+	"title"			: "COM_EASYSOCIAL_CORE_FIELD_TWOFACTOR",
+	"description"	: "COM_EASYSOCIAL_CORE_FIELD_TWOFACTOR_DESC",
+	"position"		: "",
+	"default"		: "",
+	"display_title"	: true,
+	"validation"	: "",
+	"registration"	: false,
+	"state"			: true,
+	"visibility"	: false,
+	"searchable"	: false,
+	"required"		: false,
+	"ordering"		: 1
+}

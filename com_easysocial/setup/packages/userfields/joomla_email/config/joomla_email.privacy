@@ -1,0 +1,27 @@
+{
+    "type": "field",
+    "rules":
+    [
+        {
+            "core": false,
+            "command": "joomla_email",
+            "description": "FIELDS_USER_JOOMLA_EMAIL_PRIVACY_FIELD_DESC",
+            "default": "public",
+            "options":
+            [
+                {
+                    "name": "public"
+                },
+                {
+                    "name": "member"
+                },
+                {
+                    "name": "friend"
+                },
+                {
+                    "name": "only_me"
+                }
+            ]
+        }
+    ]
+}

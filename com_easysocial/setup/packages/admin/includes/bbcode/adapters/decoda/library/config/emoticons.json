@@ -1,0 +1,22 @@
+{
+	"angry":	["(angry)"],
+	"cool":		["8)"],
+	"happy":	[":)"],
+	"heart":	["(heart)", "(love)"],
+	"kiss":		[":3"],
+	"zipper":	[":x", ":X"],
+	"sad":		[":("],
+	"cry":		[";(" , "(cry)"],
+	"tongue":	[":P", ":p"],
+	"surprised":[ ":o", "(surprised)" ],
+	"confuse":	[ "(confuse)" ],
+	"wink":		[ ";)", ";]", ";D", ":wink:" ],
+	"sweat":	["(:|", "(swt)"],
+	"angel":	["|:)" , "(angel)"],
+	"devil":	["(devil)"],
+	"blush": 	[":$"],
+	"think":	[ "(think)" ],
+	"lol":		[":D", "(lol)"],
+	"sleep": [":z", "(sleepy)"],
+	"nerd":		["(nerd)" ]
+}

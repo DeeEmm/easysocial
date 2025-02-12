@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="apps" group="user">
+	<name>Kunena Forum</name>
+	<element>kunena</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>18/10/2013</created>
+	<version>2.3.8</version>
+	<copyright>Copyright (C) 2010 - 2018 Stack Ideas Sdn Bhd</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<installable>true</installable>
+	<core>false</core>
+	<views>
+		<view type="embed">profile</view>
+	</views>
+	<widget>true</widget>
+	<description><![CDATA[APP_KUNENA_APP_DESCRIPTION]]></description>
+	<files>
+		<folder>adapters</folder>
+		<folder>assets</folder>
+		<folder>config</folder>
+		<folder>models</folder>
+		<folder>themes</folder>
+		<folder>views</folder>
+		<file>helper.php</file>
+		<file>kunena.php</file>
+		<file>kunena.xml</file>
+	</files>
+</social>

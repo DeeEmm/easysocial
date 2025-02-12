@@ -1,0 +1,52 @@
+[
+	{
+		"title" : "APP_USER_ALBUMS_SETTINGS_WIDGETS",
+		"desc" : "APP_USER_ALBUMS_SETTINGS_WIDGETS_DESC",
+		"fields" :
+		[
+			{
+				"label" : "APP_USER_ALBUMS_SETTINGS_WIDGETS_SHOW_RECENT_ALBUMS",
+				"tooltip" : "APP_USER_ALBUMS_SETTINGS_WIDGETS_SHOW_RECENT_ALBUMS_DESC",
+				"name" : "showalbums",
+				"type" : "boolean",
+				"default" : true
+			},
+			{
+				"label" : "APP_USER_ALBUMS_SETTINGS_WIDGETS_SHOW_FAVOURITE_ALBUMS",
+				"tooltip" : "APP_USER_ALBUMS_SETTINGS_WIDGETS_SHOW_FAVOURITE_ALBUMS_DESC",
+				"name" : "showfavourite",
+				"type" : "boolean",
+				"default" : true
+			},
+			{
+				"label" : "APP_USER_ALBUMS_SETTINGS_WIDGETS_ORDERING",
+				"tooltip" : "APP_USER_ALBUMS_SETTINGS_WIDGETS_ORDERING_DESC",
+				"name" : "ordering",
+				"type" : "select",
+				"default" : "latest",
+				"options" :
+				[
+					{
+						"title" : "APP_USER_ALBUMS_SETTINGS_WIDGETS_ORDERING_LATEST_FIRST",
+						"value" : "latest"
+					},
+					{
+						"title" : "APP_USER_ALBUMS_SETTINGS_WIDGETS_ORDERING_RANDOM",
+						"value" : "random"
+					},
+					{
+						"title" : "APP_USER_ALBUMS_SETTINGS_WIDGETS_OLDEST_FIRST",
+						"value" : "oldest"
+					}
+				]
+			},
+			{
+				"label" : "APP_USER_ALBUMS_SETTINGS_WIDGETS_LIMIT",
+				"tooltip" : "APP_USER_ALBUMS_SETTINGS_WIDGETS_LIMIT_DESC",
+				"name" : "limit",
+				"type" : "text",
+				"default" : 10
+			}
+		]
+	}
+]

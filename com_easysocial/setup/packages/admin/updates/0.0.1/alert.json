@@ -1,0 +1,12 @@
+[
+	{
+		"table"		: "#__social_alert",
+		"column"	: "field",
+		"query"		: "ALTER TABLE  `#__social_alert` ADD  `field` TINYINT( 3 ) NOT NULL COMMENT  'Determines if this alert rule is for field applications.' AFTER  `app`"
+	},
+	{
+		"table"		: "#__social_alert",
+		"column"	: "group",
+		"query"		: "ALTER TABLE  `#__social_alert` ADD  `group` VARCHAR( 255 ) NOT NULL COMMENT  'Determines the group for the app or field.' AFTER  `core`"
+	}
+]

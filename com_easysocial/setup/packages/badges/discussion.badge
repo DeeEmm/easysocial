@@ -1,0 +1,22 @@
+[
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_GROUP_DISCUSSION_POST_LIKE",
+		"alias"			: "group-discuss-like",
+		"description"	: "COM_EASYSOCIAL_BADGES_GROUP_DISCUSSION_POST_LIKE_DESC",
+		"howto" 		: "COM_EASYSOCIAL_BADGES_GROUP_DISCUSSION_POST_LIKE_HOWTO",
+		"command"		: "groups.discussion.liked",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/discussion-like.png",
+		"frequency"		: 50
+	},
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_GROUP_DISCUSSION_REPLY_LIKE",
+		"alias"			: "group-discuss-reply-like",
+		"description"	: "COM_EASYSOCIAL_BADGES_GROUP_DISCUSSION_REPLY_LIKE_DESC",
+		"howto" 		: "COM_EASYSOCIAL_BADGES_GROUP_DISCUSSION_REPLY_LIKE_HOWTO",
+		"command"		: "groups.discussion.reply.liked",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/discussion-reply-like.png",
+		"frequency"		: 100
+	}
+]

@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_files",
+		"column": "sub",
+		"query": "ALTER TABLE `#__social_files` ADD COLUMN `sub` varchar(255) NULL default '' AFTER `hash`;"
+	}
+]

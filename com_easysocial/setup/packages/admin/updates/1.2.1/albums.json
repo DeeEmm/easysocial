@@ -1,0 +1,17 @@
+[
+	{
+		"table"		: "#__social_albums",
+		"column"	: "user_id",
+		"query"		: "ALTER TABLE `#__social_albums` ADD `user_id` INT( 11 ) NOT NULL AFTER `type`, ADD INDEX ( `user_id` );"
+	},
+	{
+		"table"		: "#__social_photos",
+		"column"	: "user_id",
+		"query"		: "ALTER TABLE `#__social_photos` ADD `user_id` INT( 11 ) NOT NULL AFTER `type`, ADD INDEX ( `user_id` );"
+	},
+	{
+		"table"		: "#__social_albums",
+		"column"	: "hits",
+		"query"		: "ALTER TABLE  `#__social_albums` ADD  `hits` INT( 11 ) NOT NULL;"
+	}
+]

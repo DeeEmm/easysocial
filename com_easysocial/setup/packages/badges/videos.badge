@@ -1,0 +1,32 @@
+[
+	{
+		"title" 		: "COM_ES_BADGES_VIDEO_REACT_TITLE",
+		"alias"			: "video-react",
+		"description"	: "COM_ES_BADGES_VIDEO_REACT_DESC",
+		"howto"			: "COM_ES_BADGES_VIDEO_REACT_HOWTO",
+		"command"		: "videos.react",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/Video-React.png",
+		"frequency"		: 30
+	},
+	{
+		"title" 		: "COM_ES_BADGES_VIDEO_COMMENT_TITLE",
+		"alias"			: "video-comment",
+		"description"	: "COM_ES_BADGES_VIDEO_COMMENT_DESC",
+		"howto"			: "COM_ES_BADGES_VIDEO_COMMENT_HOWTO",
+		"command"		: "videos.comment",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/Video-Comment.png",
+		"frequency"		: 30
+	},
+	{
+		"title" 		: "COM_ES_BADGES_VIDEO_CREATE_TITLE",
+		"alias"			: "video-create",
+		"description"	: "COM_ES_BADGES_VIDEO_CREATE_DESC",
+		"howto"			: "COM_ES_BADGES_VIDEO_CREATE_HOWTO",
+		"command"		: "videos.create",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/Video-Create.png",
+		"frequency"		: 30
+	}
+]

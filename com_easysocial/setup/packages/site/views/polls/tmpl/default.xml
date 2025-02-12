@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_POLLS_LAYOUT_DEFAULT">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_POLLS_LAYOUT_DEFAULT_DESC]]>
+		</message>
+		<view>polls</view>
+	</layout>
+
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			<field name="filter" type="list" default="all" label="COM_EASYSOCIAL_SELECT_FILTER" description="COM_EASYSOCIAL_SELECT_FILTER_DESC">
+				<option value="all">COM_EASYSOCIAL_FILTER_ALL</option>
+				<option value="mine">COM_EASYSOCIAL_FILTER_MINE</option>
+			</field>
+		</fieldset>
+	</fields>
+</metadata>

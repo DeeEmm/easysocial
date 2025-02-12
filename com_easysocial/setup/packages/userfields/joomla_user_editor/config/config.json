@@ -1,0 +1,17 @@
+{
+	"searchable"	: false,
+
+	"privacy"		: false,
+
+	"visible_display": false,
+
+	"title": {
+		"default": "PLG_FIELDS_JOOMLA_EDITOR_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_JOOMLA_EDITOR_DEFAULT_DESCRIPTION"
+	},
+
+	"default": false
+}

@@ -1,0 +1,40 @@
+{
+	"title": {
+		"default": "PLG_FIELDS_JOOMLA_JOINDATE_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_JOOMLA_JOINDATE_DEFAULT_DESCRIPTION"
+	},
+
+    "date_format": {
+        "label"     : "PLG_FIELDS_DATETIME_CONFIG_DISPLAY_DATE_FORMAT",
+        "tooltip"   : "PLG_FIELDS_DATETIME_CONFIG_DISPLAT_DATE_FORMAT_DESC",
+        "type"      : "select",
+        "default"   : 1,
+        "option"    : [
+            {
+                "label"     : "PLG_FIELDS_DATETIME_CONFIG_DATE_FORMAT_DDMMYY",
+                "value"     : 1
+            },
+            {
+                "label"     : "PLG_FIELDS_DATETIME_CONFIG_DATE_FORMAT_MMDDYY",
+                "value"     : 2
+            },
+            {
+                "label"     : "PLG_FIELDS_DATETIME_CONFIG_DATE_FORMAT_YYDDMM",
+                "value"     : 3
+            },
+            {
+                "label"     : "PLG_FIELDS_DATETIME_CONFIG_DATE_FORMAT_YYMMDD",
+                "value"     : 4
+            }
+        ]
+    },
+
+	"required": false,
+	"default": false,
+	"privacy": false,
+    "visible_edit": false,
+    "visible_registration": false
+}

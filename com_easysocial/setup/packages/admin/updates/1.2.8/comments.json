@@ -1,0 +1,12 @@
+[
+    {
+        "table"     : "#__social_comments",
+        "index"     : "idx_comment_batch",
+        "query"     : "ALTER TABLE `#__social_comments` ADD INDEX `idx_comment_batch` (`stream_id`, `element`, `uid`);"
+    },
+    {
+        "table"     : "#__social_comments",
+        "index"     : "idx_comment_stream_id",
+        "query"     : "ALTER TABLE `#__social_comments` ADD INDEX `idx_comment_stream_id` (`stream_id`);"
+    }
+]

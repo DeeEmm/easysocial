@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="module" client="site" method="upgrade">
+	<name>EasySocial Profile Statistics</name>
+	<author>Stack Ideas Sdn Bhd</author>
+	<creationDate>16th January 2024</creationDate>
+	<copyright>Copyright (C) 2009 - 2016 Stack Ideas Sdn Bhd. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>http://stackideas.com</authorUrl>
+	<version>2.0.291</version>
+	<description><![CDATA[MOD_EASYSOCIAL_PROFILE_STATS_DESC]]></description>
+	<files>
+		<folder>tmpl</folder>
+		<filename module="mod_easysocial_profile_statistic">mod_easysocial_profile_statistic.php</filename>
+		<filename>mod_easysocial_profile_statistic.xml</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_easysocial_profile_statistic.ini</language>
+		<language tag="en-GB">en-GB.mod_easysocial_profile_statistic.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="show_conversation" type="radio" class="btn-group" default="0" label="MOD_EASYSOCIAL_PROFILE_STATS_SHOW_CONVERSATION" description="MOD_EASYSOCIAL_PROFILE_STATS_SHOW_CONVERSATION_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="show_photo" type="radio" class="btn-group" default="1" label="MOD_EASYSOCIAL_PROFILE_STATS_SHOW_PHOTO" description="MOD_EASYSOCIAL_PROFILE_STATS_SHOW_PHOTO_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="show_event" type="radio" class="btn-group" default="1" label="MOD_EASYSOCIAL_PROFILE_STATS_SHOW_EVENTS" description="MOD_EASYSOCIAL_PROFILE_STATS_SHOW_EVENTS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="show_group" type="radio" class="btn-group" default="1" label="MOD_EASYSOCIAL_PROFILE_STATS_SHOW_GROUPS" description="MOD_EASYSOCIAL_PROFILE_STATS_SHOW_GROUPS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="show_page" type="radio" class="btn-group" default="0" label="MOD_EASYSOCIAL_PROFILE_STATS_SHOW_PAGES" description="MOD_EASYSOCIAL_PROFILE_STATS_SHOW_PAGES_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="show_friend" type="radio" class="btn-group" default="0" label="MOD_EASYSOCIAL_PROFILE_STATS_SHOW_FRIENDS" description="MOD_EASYSOCIAL_PROFILE_STATS_SHOW_FRIENDS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="show_album" type="radio" class="btn-group" default="0" label="MOD_EASYSOCIAL_PROFILE_STATS_SHOW_ALBUMS" description="MOD_EASYSOCIAL_PROFILE_STATS_SHOW_ALBUMS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="show_video" type="radio" class="btn-group" default="1" label="MOD_EASYSOCIAL_PROFILE_STATS_SHOW_VIDEOS" description="MOD_EASYSOCIAL_PROFILE_STATS_SHOW_VIDEOS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="show_audio" type="radio" class="btn-group" default="1" label="MOD_EASYSOCIAL_PROFILE_STATS_SHOW_AUDIO" description="MOD_EASYSOCIAL_PROFILE_STATS_SHOW_AUDIO_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+			</fieldset>
+
+			<fieldset name="advanced">
+				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field name="moduleclass_sfx" type="textarea" rows="3" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="cache" type="list" default="0" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

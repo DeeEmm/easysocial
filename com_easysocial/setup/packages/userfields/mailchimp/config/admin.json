@@ -1,0 +1,30 @@
+[
+	{
+		"title": "PLG_FIELDS_MAILCHIMP_SECTION_MAILCHIMP",
+		"desc": "PLG_FIELDS_MAILCHIMP_SECTION_MAILCHIMP_DESC",
+		"fields":
+		[
+			{
+				"label": "PLG_FIELDS_MAILCHIMP_KEY",
+				"tooltip": "PLG_FIELDS_MAILCHIMP_KEY_DESC",
+				"name": "apikey",
+				"type": "text",
+				"default": ""
+			},
+			{
+				"label": "PLG_FIELDS_MAILCHIMP_LIST_ID",
+				"tooltip": "PLG_FIELDS_MAILCHIMP_LIST_ID_DESC",
+				"name": "listid",
+				"type": "text",
+				"default": ""
+			},
+			{
+				"label": "PLG_FIELDS_MAILCHIMP_DOUBLE_OPT_IN",
+				"tooltip": "PLG_FIELDS_MAILCHIMP_DOUBLE_OPT_IN_DESC",
+				"name": "double-opt-in",
+				"type": "boolean",
+				"default": true
+			}
+		]
+	}
+]

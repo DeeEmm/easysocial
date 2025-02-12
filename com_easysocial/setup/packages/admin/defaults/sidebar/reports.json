@@ -1,0 +1,10 @@
+{
+	"title"	: "COM_EASYSOCIAL_MENU_GROUP_REPORTS",
+	"link"	: "index.php?option=com_easysocial&view=reports",
+	"class"	: "fa fa-flag",
+	"access": "easysocial.access.reports",
+	"view"	: "reports",
+	"counter": "reports/getReportCount",	
+	"active": "layout",
+	"childs": []
+}

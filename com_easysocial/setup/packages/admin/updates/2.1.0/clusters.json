@@ -1,0 +1,27 @@
+[
+	{
+		"table": "#__social_clusters_categories",
+		"column": "parent_id",
+		"query": "ALTER TABLE `#__social_clusters_categories` ADD `parent_id` int(11) DEFAULT '0' AFTER `alias`;"
+	},
+	{
+		"table": "#__social_clusters_categories",
+		"column": "lft",
+		"query": "ALTER TABLE `#__social_clusters_categories` ADD `lft` int(11) unsigned DEFAULT '0';"
+	},
+	{
+		"table": "#__social_clusters_categories",
+		"column": "rgt",
+		"query": "ALTER TABLE `#__social_clusters_categories` ADD `rgt` int(11) unsigned DEFAULT '0';"
+	},
+	{
+		"table": "#__social_clusters_categories",
+		"index": "idx_parentid",
+		"query": "ALTER TABLE `#__social_clusters_categories` ADD INDEX `idx_parentid` (`parent_id`);"
+	},
+	{
+		"table": "#__social_clusters_categories",
+		"column": "container",
+		"query": "ALTER TABLE `#__social_clusters_categories` ADD `container` tinyint(3) NOT NULL DEFAULT 0;"
+	}
+]

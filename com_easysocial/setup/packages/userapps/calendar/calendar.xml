@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="apps" group="user">
+	<name>Calendar</name>
+	<element>calendar</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>19/08/2013</created>
+	<version>2.0.291</version>
+	<copyright>Copyright (C) 2010 - 2013 Stack Ideas Sdn Bhd</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<installable>true</installable>
+	<core>false</core>
+	<views>
+		<view type="canvas">dashboard</view>
+		<view type="canvas">profile</view>
+	</views>
+	<widget>false</widget>
+	<description><![CDATA[APP_CALENDAR_APP_DESCRIPTION]]></description>
+	<files>
+		<folder>assets</folder>
+		<folder>config</folder>
+		<folder>controllers</folder>
+		<folder>hooks</folder>
+		<folder>privacy</folder>
+		<folder>themes</folder>
+		<folder>views</folder>
+		<file>calendar.php</file>
+		<file>calendar.xml</file>
+	</files>
+</social>

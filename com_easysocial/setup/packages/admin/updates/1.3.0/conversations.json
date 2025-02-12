@@ -1,0 +1,12 @@
+[
+    {
+        "table"     : "#__social_conversations_message_maps",
+        "index"    : "idx_user_conversation",
+        "query"     : "alter table `#__social_conversations_message_maps` add index `idx_user_conversation` (`user_id`, `state`, `conversation_id`, `message_id`)"
+    },
+    {
+        "table"     : "#__social_conversations_message_maps",
+        "index"    : "idx_user_conversation_isread",
+        "query"     : "alter table `#__social_conversations_message_maps` add index `idx_user_conversation_isread` (`user_id`, `state`, `isread`, `conversation_id`, `message_id`)"
+    }
+]

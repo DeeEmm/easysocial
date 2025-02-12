@@ -1,0 +1,7 @@
+[
+	{
+		"table"		: "#__social_mailer",
+		"column"	: "language",
+		"query"		: "ALTER TABLE `#__social_mailer` ADD COLUMN `language` varchar(255) NOT NULL;"
+	}
+]

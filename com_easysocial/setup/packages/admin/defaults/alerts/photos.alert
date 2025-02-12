@@ -1,0 +1,17 @@
+[
+    {
+        "element"   : "photos",
+        "rule"      : "comment.add",
+        "core"      : true
+    },
+    {
+        "element"   : "photos",
+        "rule"      : "tagged",
+        "core"      : true
+    },
+    {
+        "element"   : "photos",
+        "rule"      : "likes",
+        "core"      : true
+    }
+]

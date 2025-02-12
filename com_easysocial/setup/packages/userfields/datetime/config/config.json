@@ -1,0 +1,133 @@
+{
+    "default": false,
+
+    "date_format": {
+        "label"     : "PLG_FIELDS_DATETIME_CONFIG_DATE_FORMAT",
+        "tooltip"   : "PLG_FIELDS_DATETIME_CONFIG_DATE_FORMAT_DESC",
+        "type"      : "select",
+        "default"   : 1,
+        "option"    : [
+            {
+                "label"     : "PLG_FIELDS_DATETIME_CONFIG_DATE_FORMAT_DDMMYY",
+                "value"     : 1
+            },
+            {
+                "label"     : "PLG_FIELDS_DATETIME_CONFIG_DATE_FORMAT_MMDDYY",
+                "value"     : 2
+            },
+            {
+                "label"     : "PLG_FIELDS_DATETIME_CONFIG_DATE_FORMAT_YYDDMM",
+                "value"     : 3
+            },
+            {
+                "label"     : "PLG_FIELDS_DATETIME_CONFIG_DATE_FORMAT_YYMMDD",
+                "value"     : 4
+            }
+        ]
+    },
+
+    "yearfrom": {
+        "label"     : "PLG_FILEDS_DATETIME_CONFIG_YEAR_RANGE_FROM",
+        "tooltip"   : "PLG_FILEDS_DATETIME_CONFIG_YEAR_RANGE_FROM_DESC",
+        "type"      : "text",
+        "default"   : "1930"
+    },
+
+    "yearto": {
+        "label"     : "PLG_FILEDS_DATETIME_CONFIG_YEAR_RANGE_TO",
+        "tooltip"   : "PLG_FILEDS_DATETIME_CONFIG_YEAR_RANGE_TO_DESC",
+        "type"      : "text",
+        "default"   : ""
+    },
+
+    "year_ordering": {
+        "label"     : "PLG_FILEDS_DATETIME_CONFIG_YEAR_ORDERING",
+        "tooltip"   : "PLG_FILEDS_DATETIME_CONFIG_YEAR_ORDERING_DESC",
+        "type"      : "select",
+        "default"   : "desc",
+        "option"    : [
+            {
+                "label": "FIELDS_USER_DATETIME_CONFIG_YEAR_ORDERING_DESCENDING",
+                "value": "desc"
+            },
+            {
+                "label": "FIELDS_USER_DATETIME_CONFIG_YEAR_ORDERING_ASCENDING",
+                "value": "asc"
+            }
+        ]
+    },    
+
+    "year_privacy": {
+        "label"     : "PLG_FIELDS_DATETIME_CONFIG_ALLOW_YEAR_PRIVACY",
+        "tooltip"   : "PLG_FIELDS_DATETIME_CONFIG_ALLOW_YEAR_PRIVACY_DESC",
+        "type"      : "boolean",
+        "default"   : true
+    },
+
+    "allow_time": {
+        "label"     : "FIELDS_USER_DATETIME_CONFIG_ALLOW_TIME",
+        "tooltip"   : "FIELDS_USER_DATETIME_CONFIG_ALLOW_TIME_DESC",
+        "type"      : "boolean",
+        "default"   : false
+     },
+
+    "time_format": {
+        "label"     : "FIELDS_USER_DATETIME_CONFIG_TIME_FORMAT",
+        "tooltip"   : "FIELDS_USER_DATETIME_CONFIG_TIME_FORMAT_DESC",
+        "type"      : "select",
+        "default"   : 2,
+        "option"    : [
+            {
+                "label": "FIELDS_USER_DATETIME_CONFIG_TIME_FORMAT_12",
+                "value": 1
+            },
+            {
+                "label": "FIELDS_USER_DATETIME_CONFIG_TIME_FORMAT_24",
+                "value": 2
+            }
+        ]
+    },
+
+    "allow_timezone": {
+        "label"     : "FIELDS_USER_DATETIME_CONFIG_ALLOW_TIMEZONE",
+        "tooltip"   : "FIELDS_USER_DATETIME_CONFIG_ALLOW_TIMEZONE_DESC",
+        "type"      : "boolean",
+        "default"   : false
+    },
+
+    "placeholder": {
+        "label"     : "FIELDS_USER_DATETIME_CONFIG_PLACEHOLDER",
+        "tooltip"   : "FIELDS_USER_DATETIME_CONFIG_PLACEHOLDER_DESC",
+        "type"      : "text",
+        "default"   : "FIELDS_USER_DATETIME_CONFIG_PLACEHOLDER_DEFAULT"
+    },
+
+    "title": {
+        "default"   : "FIELDS_USER_DATETIME_DEFAULT_TITLE"
+    },
+
+    "description": {
+        "default"   : "FIELDS_USER_DATETIME_DEFAULT_DESCRIPTION"
+    },
+
+    "calendar": {
+        "label"     : "FIELDS_USER_DATETIME_CONFIG_CALENDAR",
+        "tooltip"   : "FIELDS_USER_DATETIME_CONFIG_CALENDAR_DESC",
+        "type"      : "boolean",
+        "default"   : true
+    },
+
+    "calendar_language": {
+        "label": "FIELDS_USER_DATETIME_CONFIG_CALENDAR_LANGUAGE",
+        "tooltip": "FIELDS_USER_DATETIME_CONFIG_CALENDAR_LANGUAGE_DESC",
+        "type": "select",
+        "default": "english",
+        "option": [{
+            "label": "FIELDS_USER_DATETIME_CONFIG_CALENDAR_LANGUAGE_ENGLISH",
+            "value": "english"
+        }, {
+            "label": "FILEDS_USER_DATETIME_CONFIG_CALENDAR_LANGUAGE_SITE",
+            "value": "site"
+        }]
+    }
+}

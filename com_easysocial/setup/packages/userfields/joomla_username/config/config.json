@@ -1,0 +1,87 @@
+{
+	"check_username": {
+		"label": "PLG_FIELDS_JOOMLA_USERNAME_CONFIG_CHECK_USERNAME",
+		"tooltip": "PLG_FIELDS_JOOMLA_USERNAME_CONFIG_CHECK_USERNAME_DESC",
+		"default": true,
+		"type": "boolean"
+	},
+
+	"disallowed": {
+		"label": "PLG_FIELDS_JOOMLA_USERNAME_CONFIG_DISALLOWED",
+		"tooltip": "PLG_FIELDS_JOOMLA_USERNAME_CONFIG_DISALLOWED_DESC",
+		"default": "administrator,admin",
+		"type": "textarea"
+	},
+
+	"disallowed_type": {
+		"label": "PLG_FIELDS_JOOMLA_USERNAME_CONFIG_DISALLOWED_TYPE",
+		"tooltip": "PLG_FIELDS_JOOMLA_USERNAME_CONFIG_DISALLOWED_TYPE_DESC",
+		"type": "select",
+		"default": "equal",
+		"option": [{
+			"label": "Exact Word",
+			"value": "equal"
+		}, {
+			"label": "Contain Word",
+			"value": "contain"
+		}]
+	},
+
+	"regex_validate": {
+		"label": "PLG_FIELDS_JOOMLA_USERNAME_CONFIG_REGEX_VALIDATE",
+		"tooltip": "PLG_FIELDS_JOOMLA_USERNAME_CONFIG_REGEX_VALIDATE_DESC",
+		"default": false
+	},
+
+	"regex_format": {
+		"label": "PLG_FIELDS_JOOMLA_USERNAME_CONFIG_REGEX_FORMAT",
+		"tooltip": "PLG_FIELDS_JOOMLA_USERNAME_CONFIG_REGEX_FORMAT_DESC",
+		"type": "text",
+		"default": "[A-Za-z0-9_]"
+	},
+
+	"regex_modifier": {
+		"label": "PLG_FIELDS_JOOMLA_USERNAME_CONFIG_REGEX_MODIFIER",
+		"tooltip": "PLG_FIELDS_JOOMLA_USERNAME_CONFIG_REGEX_MODIFIER_DESC",
+		"type": "text"
+	},
+
+	"min": {
+		"label": "PLG_FIELDS_JOOMLA_USERNAME_CONFIG_MINIMUM_CHARACTER",
+		"tooltip": "PLG_FIELDS_JOOMLA_USERNAME_CONFIG_MINIMUM_CHARACTER_DESC",
+		"type": "text",
+		"default": 4
+	},
+
+	"max_change_days": {
+		"label": "Limit Username Change (Days)",
+		"tooltip": "If you wish to limit username changes to every 'X' days, you can set it here. If you do not want to add any limits, leave this value to 0",
+		"type": "text",
+		"default": 0
+	},
+
+	"required": true,
+
+	"default": false,
+
+	"visible_display": {
+		"default": false
+	},
+
+	"title": {
+		"default": "PLG_FIELDS_JOOMLA_USERNAME_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_JOOMLA_USERNAME_DEFAULT_DESCRIPTION"
+	},
+
+	"privacy": false,
+
+	"allow_edit_change": {
+		"label": "FIELDS_USER_JOOMLA_USERNAME_CONFIG_ALLOW_EDIT_CHANGE",
+		"tooltip": "FIELDS_USER_JOOMLA_USERNAME_CONFIG_ALLOW_EDIT_CHANGE_DESC",
+		"type": "boolean",
+		"default": false
+	}
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_FRIENDS_LAYOUT_DEFAULT">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_FRIENDS_LAYOUT_DEFAULT_DESC]]>
+		</message>
+		<view>friends</view>
+	</layout>
+
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="request">
+		<fieldset name="request">
+			<field name="filter" type="list" default="all" label="COM_EASYSOCIAL_FRIENDS_LAYOUT_SELECT_FILTER" description="COM_EASYSOCIAL_FRIENDS_LAYOUT_SELECT_FILTER_DESC">
+				<option value="all">COM_EASYSOCIAL_FRIENDS_LAYOUT_FILTER_ALL</option>
+				<option value="suggest">COM_EASYSOCIAL_FRIENDS_LAYOUT_FILTER_SUGGESTIONS</option>
+				<option value="pending">COM_EASYSOCIAL_FRIENDS_LAYOUT_FILTER_APPROVALS</option>
+				<option value="request">COM_EASYSOCIAL_FRIENDS_LAYOUT_FILTER_REQUESTS</option>
+			</field>
+		</fieldset>
+	</fields>
+
+</metadata>

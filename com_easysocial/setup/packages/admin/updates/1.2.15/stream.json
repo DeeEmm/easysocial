@@ -1,0 +1,17 @@
+[
+    {
+        "table"     : "#__social_stream_hide",
+        "index"    : "idx_stream_hide_context",
+        "query"     : "ALTER TABLE `#__social_stream_hide` ADD INDEX `idx_stream_hide_context` (`context`, `user_id`, `uid`, `actor_id`);"
+    },
+    {
+        "table"     : "#__social_stream_hide",
+        "index"    : "idx_stream_hide_actor",
+        "query"     : "ALTER TABLE `#__social_stream_hide` ADD INDEX `idx_stream_hide_actor` (`actor_id`, `user_id`, `uid`, `context`);"
+    },
+    {
+        "table"     : "#__social_stream_hide",
+        "index"    : "idx_stream_hide_uid",
+        "query"     : "ALTER TABLE `#__social_stream_hide` ADD INDEX `idx_stream_hide_uid` (`uid`, `user_id`, `type`);"
+    }
+]

@@ -1,0 +1,68 @@
+{
+	"title": {
+		"default": "FIELDS_PAGE_EVENTCREATE_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "FIELDS_PAGE_EVENTCREATE_DEFAULT_DESCRIPTION"
+	},
+
+	"visible_display": false,
+	"searchable": false,
+	"default": false,
+
+	"create_default": {
+		"label" : "FIELDS_PAGE_EVENTCREATE_DEFAULT_VALUE",
+		"tooltip" : "FIELDS_PAGE_EVENTCREATE_DEFAULT_VALUE_DESC",
+		"type": "checkbox",
+		"option":
+		[
+			{
+				"label": "FIELDS_PAGE_EVENTCREATE_OPTION_OWNER",
+				"value": "owner",
+				"default": true,
+				"disable": true,
+				"connect": false
+			},
+			{
+				"label": "FIELDS_PAGE_EVENTCREATE_OPTION_ADMIN",
+				"value": "admin",
+				"default": false,
+				"connect": false
+			},
+			{
+				"label": "FIELDS_PAGE_EVENTCREATE_OPTION_FOLLOWER",
+				"value": "follower",
+				"default": false,
+				"connect": false
+			}
+		]
+	},
+
+	"create_options": {
+		"label" : "FIELDS_PAGE_EVENTCREATE_CHECKBOX_OPTIONS",
+		"tooltip" : "FIELDS_PAGE_EVENTCREATE_CHECKBOX_OPTIONS_DESC",
+		"type" : "checkbox",
+		"option" : [
+			{
+				"label": "FIELDS_PAGE_EVENTCREATE_OPTION_OWNER",
+				"value": "owner",
+				"default": true,
+				"disable": true,
+				"connect": false
+			},
+			{
+				"label": "FIELDS_PAGE_EVENTCREATE_OPTION_ADMIN",
+				"value": "admin",
+				"default": true,
+				"connect": false
+			},
+			{
+				"label": "FIELDS_PAGE_EVENTCREATE_OPTION_FOLLOWER",
+				"value": "follower",
+				"default": true,
+				"connect": false
+			}
+		]
+	}
+}

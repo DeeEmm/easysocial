@@ -1,0 +1,22 @@
+[
+	{
+		"element"	: "relationship",
+		"rule"		: "request",
+		"group"		: "user",
+		"field"		: true
+	},
+
+	{
+		"element"	: "relationship",
+		"rule"		: "approve",
+		"group"		: "user",
+		"field"		: true
+	},
+
+	{
+		"element"	: "relationship",
+		"rule"		: "reject",
+		"group"		: "user",
+		"field"		: true
+	}
+]

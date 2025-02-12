@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_stream_filter",
+		"column": "global",
+		"query": "ALTER TABLE `#__social_stream_filter` ADD `global` TINYINT(3) NOT NULL DEFAULT '0' AFTER `user_id`"
+	}
+]

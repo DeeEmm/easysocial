@@ -1,0 +1,53 @@
+
+[
+	{
+		"title": "COM_EASYSOCIAL_POINTS_POST_NEW_UPDATE",
+		"alias": "story-create",
+		"description": "COM_EASYSOCIAL_POINTS_POST_NEW_UPDATE_DESC",
+		"command": "story.create",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 5
+	},
+	{
+		"title": "COM_ES_POINTS_POST_DELETE",
+		"alias": "story-delete",
+		"description": "COM_ES_POINTS_POST_DELETE_DESC",
+		"command": "story.delete",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -5
+	},
+	{
+		"title": "COM_ES_POINTS_POST_USER_REACTION_OWNER",
+		"alias": "story-reaction-add-owner",
+		"command": "story.reaction.add.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 1
+	},
+	{
+		"title": "COM_ES_POINTS_POST_USER_REMOVE_REACTION_OWNER",
+		"alias": "story-reaction-remove-owner",
+		"command": "story.reaction.remove.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -1
+	},
+	{
+		"title": "COM_ES_POINTS_POST_USER_COMMENT_OWNER",
+		"alias": "story-comment-add-owner",
+		"command": "story.comment.add.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 1
+	},
+	{
+		"title": "COM_ES_POINTS_POST_USER_REMOVE_COMMENT_OWNER",
+		"alias": "story-comment-remove-owner",
+		"command": "story.comment.remove.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -1
+	}
+]

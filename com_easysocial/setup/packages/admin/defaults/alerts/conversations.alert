@@ -1,0 +1,27 @@
+[
+    {
+        "element"   : "conversations",
+        "rule"      : "reply",
+        "core"      : true
+    },
+    {
+        "element"   : "conversations",
+        "rule"      : "invite",
+        "core"      : true
+    },
+    {
+        "element"   : "conversations",
+        "rule"      : "new",
+        "core"      : true
+    },
+    {
+        "element"   : "conversations",
+        "rule"      : "invited",
+        "core"      : true
+    },
+    {
+        "element"   : "conversations",
+        "rule"      : "leave",
+        "core"      : true
+    }
+]

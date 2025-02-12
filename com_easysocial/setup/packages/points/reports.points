@@ -1,0 +1,21 @@
+
+[
+	{
+		"title" 		: "COM_EASYSOCIAL_POINTS_REPORTS_ADD",
+		"alias"			: "reports-create",
+		"description"	: "COM_EASYSOCIAL_POINTS_REPORTS_ADD_DESC",
+		"command"		: "reports.create",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 5
+	},
+	{
+		"title" 		: "COM_EASYSOCIAL_POINTS_REPORTS_REMOVED",
+		"alias"			: "reports-removed",
+		"description"	: "COM_EASYSOCIAL_POINTS_REPORTS_REMOVED_DESC",
+		"command"		: "reports.delete",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: -5
+	}
+]

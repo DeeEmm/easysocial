@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_REGISTRATION_LAYOUT_DEFAULT">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_REGISTRATION_LAYOUT_DEFAULT_DESC]]>
+		</message>
+		<view>registration</view>
+	</layout>
+
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			<field name="profile_id" type="easysocial_profile" default="browse" label="COM_EASYSOCIAL_REGISTRATIONS_SELECT_PROFILE" description="COM_EASYSOCIAL_REGISTRATIONS_SELECT_PROFILE_DESC" />
+		</fieldset>
+	</fields>
+</metadata>

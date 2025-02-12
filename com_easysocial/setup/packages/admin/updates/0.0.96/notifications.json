@@ -1,0 +1,7 @@
+[
+	{
+		"table"		: "#__social_notifications",
+		"column"	: "context_ids",
+		"query"		: "ALTER TABLE  `#__social_notifications` ADD  `context_ids` TEXT AFTER  `type`"
+	}
+]

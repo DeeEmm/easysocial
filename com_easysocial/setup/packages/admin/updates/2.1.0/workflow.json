@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_fields_steps",
+		"column": "workflow_id",
+		"query": "ALTER TABLE `#__social_fields_steps` ADD COLUMN `workflow_id` bigint(20) NOT NULL AFTER `uid`"
+	}
+]

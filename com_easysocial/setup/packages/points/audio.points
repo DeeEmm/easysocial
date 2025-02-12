@@ -1,0 +1,107 @@
+
+[
+	{
+		"title": "COM_ES_POINTS_UPLOAD_AUDIO",
+		"alias": "upload-audio",
+		"description": "COM_ES_POINTS_UPLOAD_AUDIO_DESC",
+		"command": "audio.upload",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 5
+	},
+	{
+		"title": "COM_ES_POINTS_REMOVE_AUDIO",
+		"alias": "remove-audio",
+		"description": "COM_ES_POINTS_REMOVE_AUDIO_DESC",
+		"command": "audio.remove",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -5
+	},
+	{
+		"title": "COM_ES_POINTS_LIKE_AUDIO",
+		"alias": "like-audio",
+		"description": "COM_ES_POINTS_LIKE_AUDIO_DESC",
+		"command": "audio.like",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 1
+	},
+	{
+		"title": "COM_ES_POINTS_UNLIKE_AUDIO",
+		"alias": "unlike-audio",
+		"description": "COM_ES_POINTS_UNLIKE_AUDIO_DESC",
+		"command": "audio.unlike",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -1
+	},
+	{
+		"title": "COM_ES_POINTS_COMMENT_ON_AUDIO",
+		"alias": "comment-audio",
+		"description": "COM_ES_POINTS_COMMENT_ON_AUDIO_DESC",
+		"command": "audio.comment.add",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 1
+	},
+	{
+		"title": "COM_ES_POINTS_COMMENT_REMOVE_FROM_AUDIO",
+		"alias": "comment-audio-removed",
+		"description": "COM_ES_POINTS_COMMENT_REMOVE_FROM_AUDIO_DESC",
+		"command": "audio.comment.remove",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -1
+	},
+	{
+		"title": "COM_ES_POINTS_AUDIO_FEATURED",
+		"alias": "audio-featured",
+		"description": "COM_ES_POINTS_AUDIO_FEATURED_DESC",
+		"command": "audio.featured",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 2
+	},
+	{
+		"title": "COM_ES_POINTS_AUDIO_UNFEATURED",
+		"alias": "audio-unfeatured",
+		"description": "COM_ES_POINTS_AUDIO_UNFEATURED_DESC",
+		"command": "audio.unfeatured",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -2
+	},
+	{
+		"title": "COM_ES_POINTS_POST_AUDIO_REACTION_OWNER",
+		"alias": "audio-reaction-add-owner",
+		"command": "audio.reaction.add.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 1
+	},
+	{
+		"title": "COM_ES_POINTS_POST_AUDIO_REMOVE_REACTION_OWNER",
+		"alias": "audio-reaction-remove-owner",
+		"command": "audio.reaction.remove.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -1
+	},
+	{
+		"title": "COM_ES_POINTS_AUDIO_COMMENT_OWNER",
+		"alias": "audio-comment-add-owner",
+		"command": "audio.comment.add.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 1
+	},
+	{
+		"title": "COM_ES_POINTS_AUDIO_REMOVE_COMMENT_OWNER",
+		"alias": "audio-comment-remove-owner",
+		"command": "audio.comment.remove.owner",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": -1
+	}
+]

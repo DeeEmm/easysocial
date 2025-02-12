@@ -1,0 +1,57 @@
+[
+    {
+        "table"     : "#__social_alert",
+        "index"    : "idx_alert_field",
+        "query"     : "ALTER TABLE `#__social_alert` ADD INDEX `idx_alert_field` (`field`)"
+    },
+    {
+        "table"     : "#__social_alert",
+        "index"    : "idx_alert_published",
+        "query"     : "ALTER TABLE `#__social_alert` ADD INDEX `idx_alert_published` (`published`)"
+    },
+    {
+        "table"     : "#__social_alert",
+        "index"    : "idx_alert_element",
+        "query"     : "ALTER TABLE `#__social_alert` ADD INDEX `idx_alert_element` (`element`)"
+    },
+    {
+        "table"     : "#__social_alert",
+        "index"    : "idx_alert_rule",
+        "query"     : "ALTER TABLE `#__social_alert` ADD INDEX `idx_alert_rule` (`rule`)"
+    },
+    {
+        "table"     : "#__social_alert",
+        "index"    : "idx_alert_published_field",
+        "query"     : "ALTER TABLE `#__social_alert` ADD INDEX `idx_alert_published_field` (`published`, `field`)"
+    },
+    {
+        "table"     : "#__social_alert",
+        "index"    : "idx_alert_isfield",
+        "query"     : "ALTER TABLE `#__social_alert` ADD INDEX `idx_alert_isfield` (`published`, `field`, `element` (64), `rule` (64))"
+    },
+    {
+        "table"     : "#__social_alert_map",
+        "index"    : "idx_alertmap_alertid",
+        "query"     : "ALTER TABLE `#__social_alert_map` ADD INDEX `idx_alertmap_alertid` (`alert_id`)"
+    },
+    {
+        "table"     : "#__social_alert_map",
+        "index"    : "idx_alertmap_userid",
+        "query"     : "ALTER TABLE `#__social_alert_map` ADD INDEX `idx_alertmap_userid` (`user_id`)"
+    },
+    {
+        "table"     : "#__social_alert_map",
+        "index"    : "idx_alertmap_alertuser",
+        "query"     : "ALTER TABLE `#__social_alert_map` ADD INDEX `idx_alertmap_alertuser` (`alert_id`,`user_id`)"
+    },
+    {
+        "table"     : "#__social_apps",
+        "index"    : "idx_apps_element",
+        "query"     : "ALTER TABLE `#__social_apps` ADD INDEX `idx_apps_element` (`element`)"
+    },
+    {
+        "table"     : "#__social_apps",
+        "index"    : "idx_apps_type_group",
+        "query"     : "ALTER TABLE `#__social_apps` ADD INDEX `idx_apps_type_group` (`type` (64),`group` (64))"
+    }
+]

@@ -1,0 +1,66 @@
+{
+	"title"	: "COM_EASYSOCIAL_MENU_GROUP_PAGES",
+	"link"	: "index.php?option=com_easysocial&view=pages",
+	"access": "easysocial.access.pages",
+	"class"	: "fa fa-briefcase",
+	"view"	: "pages",
+	"counter": "pages/getPendingCount",
+	"active": "layout",
+	"childs":
+	[
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_PAGES_PAGES",
+			"url": {
+				"view"	: "pages",
+				"layout": ""
+			},
+			"activeLayouts": [
+				"form"
+			]
+		},
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_PENDING",
+			"url"	:
+			{
+				"view"	: "pages",
+				"layout": "pending"
+			},
+			"counter"	: "pages/getPendingCount"
+		},
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_PAGES_CATEGORIES",
+			"url": {
+				"view"	: "pages",
+				"layout": "categories"
+			},
+			"activeLayouts": [
+				"categoryForm"
+			]
+		},
+		{
+			"title": "Page Form Builder",
+			"url": {
+				"view": "pages",
+				"layout": "workflows"
+			}
+		},
+		{
+			"title": "COM_ES_MENU_CUSTOM_FIELDS",
+			"url": {
+				"view": "pages",
+				"layout": "fields"
+			},
+			"activeLayouts": [
+				"fieldsform"
+			]
+		},
+		{
+			"title": "COM_ES_VERIFICATION_REQUESTS",
+			"url": {
+				"view": "pages",
+				"layout": "verifications"
+			},
+			"counter": "pages/getVerificationCount"
+		}
+	]
+}

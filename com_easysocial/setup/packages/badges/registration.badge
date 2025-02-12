@@ -1,0 +1,13 @@
+
+[
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_NEWBIE_TITLE",
+		"alias"			: "newbie",
+		"description"	: "COM_EASYSOCIAL_BADGES_NEWBIE_DESC",
+		"howto" 		: "COM_EASYSOCIAL_BADGES_NEWBIE_HOWTO",
+		"command"		: "registration.create",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/newbie.png",
+		"frequency"		: 1
+	}
+]

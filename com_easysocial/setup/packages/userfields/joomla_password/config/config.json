@@ -1,0 +1,83 @@
+{
+	"reconfirm_password":
+	{
+		"label"		: "PLG_FIELDS_JOOMLA_PASSWORD_CONFIG_RECONFIRM_PASSWORD",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_PASSWORD_CONFIG_RECONFIRM_PASSWORD_DESC",
+		"type"		: "boolean",
+		"default"	: true
+	},
+
+	"mini_reconfirm_password":
+	{
+		"label"		: "PLG_FIELDS_JOOMLA_PASSWORD_CONFIG_MINI_RECONFIRM_PASSWORD",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_PASSWORD_CONFIG_MINI_RECONFIRM_PASSWORD_DESC",
+		"type"		: "boolean",
+		"default"	: false
+	},
+
+	"password_strength":
+	{
+		"label"		: "PLG_FIELDS_JOOMLA_PASSWORD_CONFIG_PASSWORD_STRENGTH",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_PASSWORD_CONFIG_PASSWORD_STRENGTH_DESC",
+		"type"		: "boolean",
+		"default"	: true
+	},
+
+	"min": {
+		"label"		: "PLG_FIELDS_JOOMLA_PASSWORD_CONFIG_MINIMUM_CHARACTER",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_PASSWORD_CONFIG_MINIMUM_CHARACTER_DESC",
+		"type"		: "text",
+		"default"	: 4
+	},
+	"max": {
+		"label"		: "PLG_FIELDS_JOOMLA_PASSWORD_CONFIG_MAXIMUM_CHARACTER",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_PASSWORD_CONFIG_MAXIMUM_CHARACTER_DESC",
+		"type"		: "text",
+		"default"	: 0
+	},
+	"min_uppercase": {
+		"label"		: "PLG_FIELDS_JOOMLA_PASSWORD_CONFIG_MIN_UPPERCASE",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_PASSWORD_CONFIG_MIN_UPPERCASE_DESC",
+		"type"		: "text",
+		"default"	: 0
+	},
+	"min_integer": {
+		"label"		: "PLG_FIELDS_JOOMLA_PASSWORD_CONFIG_MIN_INTEGER",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_PASSWORD_CONFIG_MIN_INTEGER_DESC",
+		"type"		: "text",
+		"default"	: 0
+	},
+	"min_symbols": {
+		"label": "PLG_FIELDS_JOOMLA_PASSWORD_CONFIG_MIN_SYMBOLS",
+		"tooltip" : "PLG_FIELDS_JOOMLA_PASSWORD_CONFIG_MIN_SYMBOLS_DESC",
+		"type": "text",
+		"default": 0
+	},
+	"require_original_password":
+	{
+		"label"		: "PLG_FIELDS_JOOMLA_PASSWORD_CONFIG_REQUIRE_ORIGINAL_PASSWORD",
+		"tooltip"	: "PLG_FIELDS_JOOMLA_PASSWORD_CONFIG_REQUIRE_ORIGINAL_PASSWORD_DESC",
+		"type"		: "boolean",
+		"default"	: true
+	},
+
+	"title":
+	{
+		"default": "PLG_FIELDS_JOOMLA_PASSWORD_DEFAULT_TITLE"
+	},
+
+	"description":
+	{
+		"default": "PLG_FIELDS_JOOMLA_PASSWORD_DEFAULT_DESCRIPTION"
+	},
+
+	"required":
+	{
+		"default": true
+	},
+
+	"searchable"	: false,
+	"privacy"		: false,
+	"visible_display": false,
+	"default"		: false
+}

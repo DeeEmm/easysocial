@@ -1,0 +1,21 @@
+{
+	"title": "",
+	"description": {},
+	"default": false,
+	"searchable": false,
+	"privacy": false,
+	"custom_list_id": {
+		"label": "PLG_FIELDS_MAILCHIMP_CUSTOM_LIST_ID",
+		"tooltip": "PLG_FIELDS_MAILCHIMP_CUSTOM_LIST_ID_DESC",
+		"type": "text",
+		"default": "",
+		"group": "core"
+	},
+	"default_value": {
+		"label": "COM_ES_CHECKED_BY_DEFAULT",
+		"tooltip": "COM_ES_CHECKED_BY_DEFAULT_DESC",
+		"type": "boolean",
+		"default": false,
+		"group": "core"
+	}
+}

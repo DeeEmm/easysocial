@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_stream",
+		"alter": "background_id",
+		"query": "ALTER TABLE `#__social_stream` CHANGE `background_id` `background_id` INT(11) NOT NULL DEFAULT '0';"
+	}
+]

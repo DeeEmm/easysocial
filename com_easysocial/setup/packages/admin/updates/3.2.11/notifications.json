@@ -1,0 +1,12 @@
+[
+	{
+		"table": "#__social_notifications",
+		"index": "idx_url",
+		"query": "ALTER TABLE `#__social_notifications` ADD INDEX `idx_url` (`url`(128))"
+	},
+	{
+		"table": "#__social_notifications",
+		"index": "idx_state_created",
+		"query": "ALTER TABLE `#__social_notifications` ADD INDEX `idx_state_created` (`state`, `created`)"
+	}
+]

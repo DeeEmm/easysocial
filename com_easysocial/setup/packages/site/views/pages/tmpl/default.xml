@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_PAGES_LAYOUT_DEFAULT">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_PAGES_LAYOUT_DEFAULT_DESC]]>
+		</message>
+		<view>pages</view>
+	</layout>
+	<fields name="request">
+		<fieldset name="request">
+			<field name="filter" type="list" default="browse" label="COM_EASYSOCIAL_PAGES_LAYOUT_SELECT_FILTER" description="COM_EASYSOCIAL_PAGES_LAYOUT_SELECT_FILTER_DESC">
+				<option value="all">COM_EASYSOCIAL_PAGES_LAYOUT_SELECT_FILTER_ALL</option>
+				<option value="featured">COM_EASYSOCIAL_PAGES_LAYOUT_SELECT_FILTER_FEATURED</option>
+				<option value="mine">COM_EASYSOCIAL_PAGES_LAYOUT_SELECT_FILTER_MYPAGES</option>
+				<option value="invited">COM_EASYSOCIAL_PAGES_LAYOUT_SELECT_FILTER_INVITED</option>
+			</field>
+		</fieldset>
+	</fields>
+</metadata>

@@ -1,0 +1,13 @@
+{
+	"extends": "fields/user/cover",
+    "searchable": false,
+	"title":
+	{
+		"default": "PLG_FIELDS_GROUP_COVER_DEFAULT_TITLE"
+	},
+
+	"description":
+	{
+		"default": "PLG_FIELDS_GROUP_COVER_DEFAULT_DESCRIPTION"
+	}
+}

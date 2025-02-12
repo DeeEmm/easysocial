@@ -1,0 +1,12 @@
+[
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_POLLS_CREATE",
+		"description"	: "COM_EASYSOCIAL_ACCESS_POLLS_CREATE_TIPS",
+		"name"			: "polls.create"
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_POLLS_VOTE",
+		"description"	: "COM_EASYSOCIAL_ACCESS_POLLS_VOTE_TIPS",
+		"name"			: "polls.vote"
+	}
+]

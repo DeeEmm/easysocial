@@ -1,0 +1,12 @@
+[
+    {
+        "element"   : "friends",
+        "rule"      : "approve",
+        "core"      : true
+    },
+    {
+        "element"   : "friends",
+        "rule"      : "request",
+        "core"      : true
+    }
+]

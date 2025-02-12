@@ -1,0 +1,22 @@
+{
+	"title": {
+		"default": "PLG_FIELDS_USER_AUTOCOMPLETE_DEFAULT_FIELD_LABEL"
+	},
+	"description": {
+		"default": "PLG_FIELDS_USER_AUTOCOMPLETE_DEFAULT_FIELD_DESC"
+	},	
+    "placeholder": {
+        "label": "PLG_FIELDS_USER_AUTOCOMPLETE_PLACEHOLDER",
+        "tooltip": "PLG_FIELDS_TEXTAREA_CONFIG_PLACEHOLDER_DESC",
+        "type": "text",
+        "default": "PLG_FIELDS_TEXTAREA_CONFIG_PLACEHOLDER_DEFAULT"
+    },
+    "items": {
+        "label"     : "PLG_FIELDS_DROPDOWN_CONFIG_CHOICE",
+        "tooltip"   : "PLG_FIELDS_DROPDOWN_CONFIG_CHOICE_DESC",
+        "type"      : "choices",
+        "unique"    : true
+    },
+
+	"default": false
+}

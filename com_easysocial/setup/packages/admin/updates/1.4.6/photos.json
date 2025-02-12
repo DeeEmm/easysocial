@@ -1,0 +1,12 @@
+[
+    {
+        "table": "#__social_photos",
+        "index": "idx_state_created",
+        "query": "ALTER TABLE `#__social_photos` ADD INDEX `idx_state_created` (`state`, `created`);"
+    },
+    {
+        "table": "#__social_albums",
+        "index": "idx_core",
+        "query": "ALTER TABLE `#__social_albums` ADD INDEX `idx_core` (`core`);"
+    }
+]

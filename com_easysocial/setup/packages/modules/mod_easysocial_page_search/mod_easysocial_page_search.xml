@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="module" client="site" method="upgrade">
+	<name>EasySocial Operation Hour Page Search</name>
+	<author>Stack Ideas Sdn Bhd</author>
+	<creationDate>16th January 2024</creationDate>
+	<copyright>Copyright (C) 2009 - 2018 Stack Ideas Sdn Bhd. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>http://stackideas.com</authorUrl>
+	<version>2.1.137</version>
+	<description><![CDATA[MOD_EASYSOCIAL_PAGE_SEARCH_DESC]]></description>
+	<files>
+		<folder>scripts</folder>
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>
+		<filename module="mod_easysocial_page_search">mod_easysocial_page_search.php</filename>
+		<filename>mod_easysocial_page_search.xml</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_easysocial_page_search.ini</language>
+		<language tag="en-GB">en-GB.mod_easysocial_page_search.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			<fieldset name="basic">
+				<field
+					name="category"
+					type="sql"
+					multiple="true"
+					query="SELECT id AS value, title AS category FROM #__social_clusters_categories WHERE type = 'page' AND state = 1"
+					label="MOD_EASYSOCIAL_PAGE_SEARCH_CATEGORY_FILTER"
+					description="MOD_EASYSOCIAL_PAGE_SEARCH_CATEGORY_FILTER_DESC"
+					required="true"
+				/>
+				<field
+					name="author"
+					type="sql"
+					multiple="true"
+					query="select distinct b.id AS value, b.name AS author from `#__social_clusters` as a inner join `#__users` as b on a.`creator_uid` = b.`id` and a.`creator_type` = 'user' where a.`cluster_type` = 'page' and a.`state` = 1 and b.`block` = 0"
+					label="MOD_EASYSOCIAL_PAGE_SEARCH_AUTHOR_FILTER"
+					description="MOD_EASYSOCIAL_PAGE_SEARCH_AUTHOR_FILTER_DESC"
+				/>
+				<field name="ordering" type="list" default="latest" label="MOD_EASYSOCIAL_PAGE_SEARCH_ORDERING" description="MOD_EASYSOCIAL_PAGE_SEARCH_ORDERING_DESC">
+					<option value="latest">MOD_EASYSOCIAL_PAGE_SEARCH_ORDERING_LATEST</option>
+					<option value="name">MOD_EASYSOCIAL_PAGE_SEARCH_ORDERING_NAME</option>
+				</field>
+				<field name="display_page_author" type="radio" class="btn-group" default="1" label="Display Page Creator Search Field" description="This option determines if the page creator field should be visible in the module">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field name="moduleclass_sfx" type="textarea" rows="3" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="cache" type="list" default="0" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

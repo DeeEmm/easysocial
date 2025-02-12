@@ -1,0 +1,43 @@
+
+[
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_PHOTOGENIC_TITLE",
+		"alias"			: "photogenic",
+		"description"	: "COM_EASYSOCIAL_BADGES_PHOTOGENIC_DESC",
+		"howto"			: "COM_EASYSOCIAL_BADGES_PHOTOGENIC_HOWTO",
+		"command"		: "photos.create",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/photogenic.png",
+		"frequency"		: 30
+	},
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_JOURNALIST_TITLE",
+		"alias"			: "journalist",
+		"description"	: "COM_EASYSOCIAL_BADGES_JOURNALIST_DESC",
+		"howto"			: "COM_EASYSOCIAL_BADGES_JOURNALIST_HOWTO",
+		"command"		: "photos.browse",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/journalist.png",
+		"frequency"		: 150
+	},
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_PHOTO_TAGGER_TITLE",
+		"alias"			: "photo-tagger",
+		"description"	: "COM_EASYSOCIAL_BADGES_PHOTO_TAGGER_DESC",
+		"howto"			: "COM_EASYSOCIAL_BADGES_PHOTO_TAGGER_HOWTO",
+		"command"		: "photos.tag",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/photo-tagger.png",
+		"frequency"		: 50
+	},
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_SUPER_STAR_TITLE",
+		"alias"			: "super-star",
+		"description"	: "COM_EASYSOCIAL_BADGES_SUPER_STAR_DESC",
+		"howto"			: "COM_EASYSOCIAL_BADGES_SUPER_STAR_HOWTO",
+		"command"		: "photos.superstar",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/super-star.png",
+		"frequency"		: 50
+	}
+]

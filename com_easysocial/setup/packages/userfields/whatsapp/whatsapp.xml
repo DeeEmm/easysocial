@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="user">
+	<name>Whatsapp</name>
+	<element>whatsapp</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>https://stackideas.com</url>
+	<created>2nd August 2020</created>
+	<version>3.3.33</version>
+	<copyright>Copyright (c) Stack Ideas Sdn Bhd.</copyright>
+	<description><![CDATA[WhatsApp custom field for EasySocial allows users to add their Whatsapp telephone number]]></description>
+	<core>false</core>
+	<unique>true</unique>
+	<files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<file>whatsapp.php</file>
+		<file>whatsapp.xml</file>
+	</files>
+</social>

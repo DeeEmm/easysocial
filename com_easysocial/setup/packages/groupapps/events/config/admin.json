@@ -1,0 +1,60 @@
+[
+    {
+        "title": "APP_GROUP_EVENTS_SETTINGS_STREAM",
+        "desc": "APP_GROUP_EVENTS_SETTINGS_STREAM_DESC",
+        "fields":
+        [
+            {
+                "label": "APP_GROUP_EVENTS_SETTINGS_STREAM_FILTER",
+                "tooltip": "APP_GROUP_EVENTS_SETTINGS_STREAM_FILTER_DESC",
+                "name": "stream_filter",
+                "type": "boolean",
+                "default": true
+            }
+        ]
+    },
+    {
+        "title": "APP_GROUP_EVENTS_SETTINGS_STORY",
+        "desc": "APP_GROUP_EVENTS_SETTINGS_STORY_DESC",
+        "fields":
+        [
+            {
+                "label": "APP_GROUP_EVENTS_SETTINGS_STORY_CREATE_EVENT",
+                "tooltip": "APP_GROUP_EVENTS_SETTINGS_STORY_CREATE_EVENT_DESC",
+                "name": "story_event",
+                "type": "boolean",
+                "default": true
+            }
+        ]
+    },
+    {
+        "title": "APP_GROUP_EVENTS_SETTINGS_WIDGETS",
+        "desc": "APP_GROUP_EVENTS_SETTINGS_WIDGETS_DESC",
+        "fields":
+        [
+            {
+                "label": "APP_GROUP_EVENTS_SETTINGS_WIDGETS",
+                "tooltip": "APP_GROUP_EVENTS_SETTINGS_WIDGETS_DESC",
+                "name": "widget",
+                "type": "boolean",
+                "default": true
+            },
+            {
+                "label": "APP_GROUP_EVENTS_SETTINGS_WIDGETS_DAYS",
+                "tooltip": "APP_GROUP_EVENTS_SETTINGS_WIDGETS_DAYS_DESC",
+                "name": "widget_days",
+                "type": "text",
+                "default": 7,
+                "class": "input-mini text-center"
+            },
+            {
+                "label": "APP_GROUP_EVENTS_SETTINGS_WIDGETS_TOTAL",
+                "tooltip": "APP_GROUP_EVENTS_SETTINGS_WIDGETS_TOTAL_DESC",
+                "name": "widget_total",
+                "type": "text",
+                "default": 5,
+                "class": "input-mini text-center"
+            }
+        ]
+    }
+]

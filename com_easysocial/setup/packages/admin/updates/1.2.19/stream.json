@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__social_stream",
+        "index"    : "idx_stream_total_cluster",
+        "query"     : "ALTER TABLE `#__social_stream` ADD INDEX `idx_stream_total_cluster` (`cluster_id`, `cluster_access`, `context_type`, `id`, `actor_id`);"
+    }
+]

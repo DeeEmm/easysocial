@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__social_points_history",
+        "index"    : "user_points",
+        "query"     : "ALTER TABLE `#__social_points_history` ADD INDEX `user_points` (`user_id`, `points`)"
+    }
+]

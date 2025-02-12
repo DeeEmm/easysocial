@@ -1,0 +1,48 @@
+
+[
+	{
+		"title" 		: "COM_EASYSOCIAL_POINTS_START_CONVERSATION",
+		"alias"			: "conversation-starter",
+		"description"	: "COM_EASYSOCIAL_POINTS_START_CONVERSATION_DESC",
+		"command"		: "conversation.create",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 5
+	},
+	{
+		"title" 		: "COM_EASYSOCIAL_POINTS_START_CONVERSATION_GROUP",
+		"alias"			: "conversation-group-starter",
+		"description"	: "COM_EASYSOCIAL_POINTS_START_CONVERSATION_GROUP_DESC",
+		"command"		: "conversation.create.group",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 10
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_REPLY_CONVERSATION",
+		"alias"			: "conversation-reply",
+		"description"	: "COM_EASYSOCIAL_POINTS_REPLY_CONVERSATION_DESC",
+		"command"		: "conversation.reply",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 2
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_INVITE_TO_CONVERSATION",
+		"alias"			: "invite-user-conversation",
+		"description"	: "COM_EASYSOCIAL_POINTS_INVITE_TO_CONVERSATION_DESC",
+		"command"		: "conversation.invite",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 5
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_READ_CONVERSATION",
+		"alias"			: "conversation.read",
+		"description"	: "COM_EASYSOCIAL_POINTS_READ_CONVERSATION_DESC",
+		"command"		: "conversation.read",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 1
+	}
+]

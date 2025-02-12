@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="user">
+	<name>Skype</name>
+	<element>skype</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>25th May 2011</created>
+	<version>2.0.291</version>
+	<copyright>Copyright (c) 2009 - 2014 Stack Ideas Sdn Bhd.</copyright>
+	<description><![CDATA[APP_FIELDS_USER_SKYPE_INFO]]></description>
+	<core>false</core>
+	<unique>true</unique>
+	<files>
+		<folder>assets</folder>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<file>skype.php</file>
+		<file>skype.xml</file>
+	</files>
+	
+</social>

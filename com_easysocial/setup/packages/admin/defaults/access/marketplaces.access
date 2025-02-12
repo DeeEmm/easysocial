@@ -1,0 +1,63 @@
+[
+	{
+		"name": "marketplaces.sell",
+		"type": "boolean",
+		"title": "COM_ES_ACCESS_MARKETPLACES_UPLOAD"
+	},
+	{
+		"name": "marketplaces.daily",
+		"type": "limit",
+		"default": 50,
+		"suffix": "Items",
+		"title": "COM_ES_ACCESS_MARKETPLACES_TOTAL_DAILY"
+	},
+	{
+		"title": "COM_ES_ACCESS_MARKETPLACES_CREATE_LISTING_MODERATION",
+		"description": "COM_ES_ACCESS_MARKETPLACES_CREATE_LISTING_MODERATION_TOOLTIP",
+		"group": "user",
+		"name": "marketplaces.moderate"
+	},
+	{
+		"title": "COM_ES_ACCESS_MARKETPLACES_CREATE_LISTING_TOTAL",
+		"description": "COM_ES_ACCESS_MARKETPLACES_CREATE_LISTING_TOTAL_TOOLTIP",
+		"name": "marketplaces.limit",
+		"type": "limitinterval",
+		"group": "user",
+		"default": {
+			"value": 0,
+			"interval": 0
+		}
+	},
+	{
+		"title" : "COM_ES_ACCESS_MARKETPLACES_ALLOW_GROUP_LISTING",
+		"description" : "COM_ES_ACCESS_MARKETPLACES_ALLOW_GROUP_LISTING_TOOLTIP",
+		"group" : "group",
+		"name" : "marketplaces.grouplisting",
+		"type" : "boolean",
+		"default" : 1
+	},
+	{
+		"title" : "COM_ES_ACCESS_MARKETPLACES_ALLOW_PAGE_LISTING",
+		"description" : "COM_ES_ACCESS_MARKETPLACES_ALLOW_PAGE_LISTING_TOOLTIP",
+		"group" : "page",
+		"name" : "marketplaces.pagelisting",
+		"type" : "boolean",
+		"default" : 1
+	},
+	{
+		"title": "COM_ES_ACCESS_MARKETPLACES_ALLOW_CREATE",
+		"description" : "COM_ES_ACCESS_MARKETPLACES_ALLOW_CREATE_TOOLTIP",
+		"group": "page",
+		"name": "marketplaces.pagecreate",
+		"type": "clusteraccess",
+		"default": "members"
+	},
+	{
+		"title": "COM_ES_ACCESS_MARKETPLACES_ALLOW_CREATE",
+		"description" : "COM_ES_ACCESS_MARKETPLACES_ALLOW_CREATE_TOOLTIP",
+		"group": "group",
+		"name": "marketplaces.groupcreate",
+		"type": "clusteraccess",
+		"default": "members"
+	}
+]

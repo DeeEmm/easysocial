@@ -1,0 +1,90 @@
+[
+	{
+		"title"     : "APP_GROUP_MEMBERS_GROUPS_VIEW",
+		"desc"      : "APP_GROUP_MEMBERS_GROUPS_VIEW_DESC",
+		"fields"    :
+		[
+			{
+				"label"     : "APP_GROUP_MEMBERS_LIMIT_COUNT",
+				"tooltip"   : "APP_GROUP_MEMBERS_LIMIT_COUNT_DESC",
+				"name"      : "member.limit",
+				"class"     : "input-mini center",
+				"type"      : "text",
+				"default"   : 10
+			},
+			{
+				"label"     : "APP_GROUP_MEMBERS_SORTING",
+				"tooltip"   : "APP_GROUP_MEMBERS_SORTING_DESC",
+				"name"      : "member.sorting",
+				"class"     : "center",
+				"type"      : "select",
+				"default"   : "name",
+				"options"    : [
+					{
+						"title" : "APP_GROUP_MEMBERS_SORTING_REALNAME",
+						"value" : "name"
+					},
+					{
+						"title" : "APP_GROUP_MEMBERS_SORTING_USERNAME",
+						"value" : "username"
+					}
+				]
+			},
+			{
+				"label"     : "APP_GROUP_MEMBERS_ORDERING",
+				"tooltip"   : "APP_GROUP_MEMBERS_ORDERING_DESC",
+				"name"      : "member.ordering",
+				"class"     : "center",
+				"type"      : "select",
+				"default"   : "asc",
+				"options"    : [
+					{
+						"title" : "APP_GROUP_MEMBERS_ORDERING_ASCEND",
+						"value" : "asc"
+					},
+					{
+						"title" : "APP_GROUP_MEMBERS_ORDERING_DESCEND",
+						"value" : "desc"
+					}
+				]
+			},
+			{
+				"label": "Pin Group Admins",
+				"tooltip": "When this option is enabled, group admins are pinned to the top of the members listing",
+				"name": "member.pinadmins",
+				"type": "boolean",
+				"default": false
+			},
+			{
+				"label": "Exclude Group Owner",
+				"tooltip": "When this option is enabled, group owner is excluded from the members listing",
+				"name": "member.excludeowner",
+				"type": "boolean",
+				"default": false
+			}
+		]
+	},
+
+	{
+		"title": "APP_GROUP_MEMBERS_SETTINGS_WIDGETS",
+		"desc": "APP_GROUP_MEMBERS_SETTINGS_WIDGETS_DESC",
+		"fields":
+		[
+			{
+				"label": "APP_GROUP_MEMBERS_SETTINGS_WIDGETS_SHOW_MEMBERS",
+				"tooltip": "APP_GROUP_MEMBERS_SETTINGS_WIDGETS_SHOW_MEMBERS_DESC",
+				"name": "show_members",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"label": "APP_GROUP_MEMBERS_SETTINGS_WIDGETS_LIMIT",
+				"tooltip": "APP_GROUP_MEMBERS_SETTINGS_WIDGETS_LIMIT_DESC",
+				"name": "limit",
+				"type": "text",
+				"class": "input-mini text-center",
+				"default"   : 10
+			}
+		]
+	}
+]

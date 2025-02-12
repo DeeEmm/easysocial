@@ -1,0 +1,66 @@
+{
+	"title"	: "COM_EASYSOCIAL_MENU_GROUP_GROUPS",
+	"link"	: "index.php?option=com_easysocial&view=groups",
+	"access": "easysocial.access.groups",
+	"class"	: "fa fa-users",
+	"view"	: "groups",
+	"counter"	: "groups/getPendingCount",
+	"active": "layout",
+	"childs":
+	[
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_GROUPS_GROUPS",
+			"url": {
+				"view": "groups",
+				"layout": ""
+			},
+			"activeLayouts": [
+				"",
+				"form"
+			]
+		},
+		{
+			"title": "COM_EASYSOCIAL_MENU_ITEM_PENDING",
+			"url": {
+				"view"	: "groups",
+				"layout": "pending"
+			},
+			"counter"	: "groups/getPendingCount"
+		},
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_GROUPS_CATEGORIES",
+			"url": {
+				"view"	: "groups",
+				"layout": "categories"
+			},
+			"activeLayouts": [
+				"categoryForm"
+			]
+		},
+		{
+			"title": "Group Form Builder",
+			"url": {
+				"view": "groups",
+				"layout": "workflows"
+			}
+		},
+		{
+			"title": "COM_ES_MENU_CUSTOM_FIELDS",
+			"url": {
+				"view": "groups",
+				"layout": "fields"
+			},
+			"activeLayouts": [
+				"fieldsform"
+			]
+		},
+		{
+			"title": "COM_ES_VERIFICATION_REQUESTS",
+			"url": {
+				"view": "groups",
+				"layout": "verifications"
+			},
+			"counter": "groups/getVerificationCount"
+		}
+	]
+}

@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_reports",
+		"column": "actor_id",
+		"query": "ALTER TABLE `#__social_reports` ADD `actor_id` int(11) NOT NULL DEFAULT '0' AFTER `created_by`;"
+	}
+]

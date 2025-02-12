@@ -1,0 +1,187 @@
+[
+	{
+		"title": "COM_EASYSOCIAL_FIELDS_EVENT_INFO",
+		"description": "COM_EASYSOCIAL_FIELDS_EVENT_INFO_DESC",
+		"fields":
+		[
+			{
+				"element": "header",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_ACCOUNT_INFO",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_ACCOUNT_INFO_DESC",
+				"visible_display": false
+			},
+			{
+				"element": "title",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_TITLE",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_TITLE_DESC",
+				"required": true
+			},
+			{
+				"element": "startend",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_TIME",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_TIME_DESC",
+				"required": true,
+				"searchable": true,
+				"visible_display": true,
+				"allow_time": true,
+				"allow_timezone": true
+			},
+			{
+				"element": "allday",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_ALLDAY",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_ALLDAY_DESC"
+			},
+			{
+				"element": "recurring",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_RECURRING",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_RECURRING_DESC",
+				"required": false
+			},
+			{
+				"element": "description",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_DESCRIPTION",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_DESCRIPTION_DESC"
+			},
+			{
+				"element": "type",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_TYPE",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_TYPE_DESC",
+				"required": true,
+				"searchable": false,
+				"visible_display": false
+			},
+			{
+				"element": "url",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_WEBSITE",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_WEBSITE_DESC",
+				"required": false
+			},
+			{
+				"element": "header",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_CONFIGURATION",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_CONFIGURATION_DESC",
+				"visible_display": false
+			},
+			{
+				"element": "configAllowMaybe",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_CONFIG_ALLOW_MAYBE",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_CONFIG_ALLOW_MAYBE_DESC",
+				"visible_display": false
+			},
+			{
+				"element": "configNotGoingGuest",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_CONFIG_NOT_GOING_GUEST",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_CONFIG_NOT_GOING_GUEST_DESC",
+				"visible_display": false
+			},
+			{
+				"element": "guestLimit",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_CONFIG_GUEST_LIMIT",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_CONFIG_GUEST_LIMIT_DESC",
+				"visible_display": false
+			},
+			{
+				"element": "header",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_FEATURES",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_FEATURES_DESC",
+				"visible_display": false
+			},
+			{
+				"element": "photos",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_PHOTO",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_PHOTO_DESC",
+				"required": false,
+				"default": true
+			},
+			{
+				"element": "videos",
+				"title": "COM_EASYSOCIAL_EVENT_FIELDS_ALLOW_VIDEOS",
+				"description": "COM_EASYSOCIAL_EVENT_FIELDS_ALLOW_VIDEOS_DESC",
+				"required": false,
+				"default": true,
+				"display_title" : true,
+				"display_description" : true
+			},
+			{
+				"element" : "audios",
+				"title" : "COM_ES_CLUSTER_FIELDS_ENABLE_AUDIO",
+				"description" : "COM_ES_CLUSTER_FIELDS_ENABLE_AUDIO_DESC",
+				"required" : false,
+				"default" : true,
+				"display_title" : true,
+				"display_description" : true
+			},
+			{
+				"element" : "files",
+				"title" : "COM_ES_FIELDS_EVENT_FILES",
+				"description" : "COM_ES_FIELDS_EVENT_FILES_DESC",
+				"required" : false,
+				"default" : true,
+				"display_title" : true,
+				"display_description" : true
+			},
+			{
+				"element" : "polls",
+				"title" : "COM_ES_FIELDS_EVENT_POLLS",
+				"description" : "COM_ES_FIELDS_EVENT_POLLS",
+				"required" : false,
+				"default" : true,
+				"display_title" : true,
+				"display_description" : true
+			},
+			{
+				"element" : "tasks",
+				"title" : "COM_ES_FIELDS_EVENT_TASKS",
+				"description" : "COM_ES_FIELDS_EVENT_TASKS",
+				"required" : false,
+				"default" : true,
+				"display_title" : true,
+				"display_description" : true
+			},
+			{
+				"element": "news",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_NEWS",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_NEWS_DESC",
+				"required": false,
+				"default": true
+			},
+			{
+				"element": "discussions",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_DISCUSSIONS",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_DISCUSSIONS_DESC",
+				"required": false,
+				"default": true
+			},
+			{
+				"element": "header",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_DETAILS",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_DETAILS_DESC",
+				"visible_display": false
+			},
+			{
+				"element": "address",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_ADDRESS",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_ADDRESS_DESC",
+				"required": true
+			},
+			{
+				"element": "header",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_PERSONALIZATION",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_PERSONALIZATION_DESC",
+				"visible_display": false
+			},
+			{
+				"element": "avatar",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_AVATAR",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_AVATAR_DESC",
+				"required": false
+			},
+			{
+				"element": "cover",
+				"title": "COM_EASYSOCIAL_FIELDS_EVENT_COVER",
+				"description": "COM_EASYSOCIAL_FIELDS_EVENT_COVER_DESC",
+				"required": false
+			}
+		]
+	}
+]

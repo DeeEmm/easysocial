@@ -1,0 +1,21 @@
+[
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_FRIENDS_CREATE_LIST",
+		"description"	: "COM_EASYSOCIAL_ACCESS_FRIENDS_CREATE_LIST_TOOLTIP",
+		"name"			: "friends.list.enabled"
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_FRIENDS_LIST_LIMIT",
+		"description"	: "COM_EASYSOCIAL_ACCESS_FRIENDS_LIST_LIMIT_TOOLTIP",
+		"name"			: "friends.list.limit",
+		"type"			: "limit",
+		"default"		: 0
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_ACCESS_FRIENDS_LIMIT",
+		"description"	: "COM_EASYSOCIAL_ACCESS_FRIENDS_LIMIT_TOOLTIP",
+		"name"			: "friends.limit",
+		"type"			: "limit",
+		"default"		: 0
+	}
+]

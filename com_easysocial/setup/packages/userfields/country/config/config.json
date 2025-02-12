@@ -1,0 +1,78 @@
+{
+    "title": {
+        "default": "PLG_FIELDS_COUNTRY_DEFAULT_TITLE"
+    },
+
+    "description": {
+        "default": "PLG_FIELDS_COUNTRY_DEFAULT_DESCRIPTION"
+    },
+
+    "select_type": {
+        "label"     : "PLG_FIELDS_COUNTRY_CONFIG_SELECT_TYPE",
+        "tooltip"   : "PLG_FIELDS_COUNTRY_CONFIG_SELECT_TYPE_DESC",
+        "type"      : "select",
+        "default"   : "textboxlist",
+        "option"    : [
+            {
+                "label" : "PLG_FIELDS_COUNTRY_CONFIG_SELECT_TYPE_TEXTBOXLIST",
+                "value" : "textboxlist"
+            },
+            {
+                "label" : "PLG_FIELDS_COUNTRY_CONFIG_SELECT_TYPE_MULTILIST",
+                "value" : "multilist"
+            },
+            {
+                "label" : "PLG_FIELDS_COUNTRY_CONFIG_SELECT_TYPE_CHECKBOX",
+                "value" : "checkbox"
+            },
+            {
+                "label" : "PLG_FIELDS_COUNTRY_CONFIG_SELECT_TYPE_DROPDOWN",
+                "value" : "dropdown"
+            }
+        ]
+    },
+
+    "min": {
+        "label"     : "PLG_FIELDS_COUNTRY_CONFIG_MIN",
+        "tooltip"   : "PLG_FIELDS_COUNTRY_CONFIG_MIN_DESC",
+        "type"      : "text",
+        "default"   : 0
+    },
+
+    "max": {
+        "label"     : "PLG_FIELDS_COUNTRY_CONFIG_MAX",
+        "tooltip"   : "PLG_FIELDS_COUNTRY_CONFIG_MAX_DESC",
+        "type"      : "text",
+        "default"   : 0
+    },
+
+    "multilist_size": {
+        "label"     : "PLG_FIELDS_COUNTRY_CONFIG_MULTILIST_SIZE",
+        "tooltip"   : "PLG_FIELDS_COUNTRY_CONFIG_MULTILIST_SIZE_DESC",
+        "type"      : "text",
+        "default"   : 5
+    },
+
+    "show_max_message": {
+        "label"     : "PLG_FIELDS_COUNTRY_CONFIG_SHOW_MAX_MESSAGE",
+        "tooltip"   : "PLG_FIELDS_COUNTRY_CONFIG_SHOW_MAX_MESSAGE_DESC",
+        "default"   : true
+    },
+
+    "data_source": {
+        "label"     : "FIELDS_USER_COUNTRY_CONFIG_DATA_SOURCE",
+        "tooltip"   : "FIELDS_USER_COUNTRY_CONFIG_DATA_SOURCE_DESC",
+        "type"      : "select",
+        "default"   : "regions",
+        "option"    : [
+            {
+                "label" : "FIELDS_USER_COUNTRY_CONFIG_DATA_SOURCE_REGIONS",
+                "value" : "regions"
+            },
+            {
+                "label" : "FIELDS_USER_COUNTRY_CONFIG_DATA_SOURCE_FILE",
+                "value" : "file"
+            }
+        ]
+    }
+}

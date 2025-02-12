@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__social_users",
+        "column"    : "auth",
+        "query"     : "ALTER TABLE `#__social_users` ADD `auth` VARCHAR(255) NOT NULL COMMENT 'Used in conjunction with the REST api';"
+    }
+]

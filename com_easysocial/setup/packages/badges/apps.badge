@@ -1,0 +1,12 @@
+[
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_APPLICANT_TITLE",
+		"alias"			: "applicant",
+		"description"	: "COM_EASYSOCIAL_BADGES_APPLICANT_DESC",
+		"howto" 		: "COM_EASYSOCIAL_BADGES_APPLICANT_HOWTO",
+		"command"		: "apps.install",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/applicant.png",
+		"frequency"		: 10
+	}
+]

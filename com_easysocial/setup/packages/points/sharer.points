@@ -1,0 +1,12 @@
+
+[
+	{
+		"title": "COM_ES_POINTS_SHARER_SHARED",
+		"alias": "sharer-shared",
+		"description": "COM_ES_POINTS_SHARER_SHARED_DESC",
+		"command": "sharer.shared",
+		"extension": "com_easysocial",
+		"state": true,
+		"points": 2
+	}
+]

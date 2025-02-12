@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="page">
+	<name>Radio</name>
+	<element>radio</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>09/03/2021</created>
+	<version>2.0.291</version>
+	<copyright>Copyright (c) 2009 - 2013 Stack Ideas Sdn. Bhd.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description><![CDATA[PLG_FIELDS_PAGE_RADIO_INFO]]></description>
+	<core>false</core>
+	<unique>false</unique>
+	<files>
+		<folder>config</folder>
+		<file>radio.php</file>
+		<file>radio.xml</file>
+	</files>
+	
+</social>

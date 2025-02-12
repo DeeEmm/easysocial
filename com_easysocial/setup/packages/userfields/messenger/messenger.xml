@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="user">
+	<name>Facebook Messenger</name>
+	<element>messenger</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>https://stackideas.com</url>
+	<created>2nd August 2020</created>
+	<version>3.3.33</version>
+	<copyright>Copyright (c) Stack Ideas Sdn Bhd.</copyright>
+	<description><![CDATA[Facebook Messenger custom field for EasySocial allows users to add their Facebook Messenger handle]]></description>
+	<core>false</core>
+	<unique>true</unique>
+	<files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<file>messenger.php</file>
+		<file>messenger.xml</file>
+	</files>
+
+</social>

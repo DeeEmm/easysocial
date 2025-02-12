@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_ES_PROFILE_LAYOUT_SUBMITVERIFICATION">
+		<message>
+			<![CDATA[COM_ES_PROFILE_LAYOUT_SUBMITVERIFICATION_DESC]]>
+		</message>
+		<view>profile</view>
+		<layout>submitVerification</layout>
+	</layout>
+</metadata>

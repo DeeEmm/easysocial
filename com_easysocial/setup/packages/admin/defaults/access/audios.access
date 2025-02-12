@@ -1,0 +1,44 @@
+[
+	{
+		"name": "audios.upload",
+		"type": "boolean",
+		"title": "COM_EASYSOCIAL_ACCESS_AUDIO_UPLOAD"
+	},
+	{
+		"name": "audios.total",
+		"type": "limit",
+		"default": 0,
+		"title": "COM_EASYSOCIAL_ACCESS_AUDIO_TOTAL"
+	},
+	{
+		"name": "audios.maxsize",
+		"type": "text",
+		"class": "form-control input-sm input-short text-center",
+		"default": 8,
+		"suffix": "MB",
+		"title": "COM_EASYSOCIAL_ACCESS_AUDIO_MAX_SIZE"
+	},
+	{
+		"name": "audios.daily",
+		"type": "limit",
+		"default": 50,
+		"title": "COM_EASYSOCIAL_ACCESS_AUDIO_TOTAL_DAILY"
+	},
+	{
+		"name": "audios.link",
+		"type": "boolean",
+		"title": "COM_EASYSOCIAL_ACCESS_AUDIO_LINK"
+	},
+	{
+		"title": "COM_EASYSOCIAL_ACCESS_AUDIO_CREATE_PLAYLIST",
+		"description": "COM_EASYSOCIAL_ACCESS_AUDIO_CREATE_PLAYLIST_TOOLTIP",
+		"name": "audios.playlist.enabled"
+	},
+	{
+		"title": "COM_EASYSOCIAL_ACCESS_AUDIO_PLAYLIST_LIMIT",
+		"description": "COM_EASYSOCIAL_ACCESS_AUDIO_PLAYLIST_LIMIT_TOOLTIP",
+		"name": "audios.playlist.limit",
+		"type": "limit",
+		"default": 0
+	}
+]

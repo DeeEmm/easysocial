@@ -1,0 +1,103 @@
+{
+	"key"	: "feeling",
+	"verb"	: "COM_EASYSOCIAL_MOOD_VERB_FEELING",
+	"moods"	:
+	[
+		{
+			"icon"		: "es-emoji-happy",
+			"key"		: "happy",
+			"text"		: "COM_EASYSOCIAL_MOOD_FEELING_HAPPY",
+			"subject"	: "COM_EASYSOCIAL_MOOD_SUBJECT_HAPPY"
+		},
+		{
+			"icon"		: "es-emoji-great",
+			"key"		: "great",
+			"text"		: "COM_EASYSOCIAL_MOOD_FEELING_GREAT",
+			"subject"	: "COM_EASYSOCIAL_MOOD_SUBJECT_GREAT"
+		},
+		{
+			"icon"		: "es-emoji-sad",
+			"key"		: "sad",
+			"text"		: "COM_EASYSOCIAL_MOOD_FEELING_SAD",
+			"subject"	: "COM_EASYSOCIAL_MOOD_SUBJECT_SAD"
+		},
+		{
+			"icon"		: "es-emoji-bored",
+			"key"		: "bored",
+			"text"		: "COM_EASYSOCIAL_MOOD_FEELING_BORED",
+			"subject"	: "COM_EASYSOCIAL_MOOD_SUBJECT_BORED"
+		},
+		{
+			"icon"		: "es-emoji-irritated",
+			"key"		: "irritated",
+			"text"		: "COM_EASYSOCIAL_MOOD_FEELING_IRRITATED",
+			"subject"	: "COM_EASYSOCIAL_MOOD_SUBJECT_IRRITATED"
+		},
+		{
+			"icon"		: "es-emoji-sweat",
+			"key"		: "sweat",
+			"text"		: "COM_EASYSOCIAL_MOOD_FEELING_SWEAT",
+			"subject"	: "COM_EASYSOCIAL_MOOD_SUBJECT_SWEAT"
+		},
+		{
+			"icon"		: "es-emoji-pretty",
+			"key"		: "pretty",
+			"text"		: "COM_EASYSOCIAL_MOOD_FEELING_PRETTY",
+			"subject"	: "COM_EASYSOCIAL_MOOD_SUBJECT_PRETTY"
+		},
+		{
+			"icon"		: "es-emoji-shocked",
+			"key"		: "shocked",
+			"text"		: "COM_EASYSOCIAL_MOOD_FEELING_SHOCKED",
+			"subject"	: "COM_EASYSOCIAL_MOOD_SUBJECT_SHOCKED"
+		},
+		{
+			"icon"		: "es-emoji-annoyed",
+			"key"		: "annoyed",
+			"text"		: "COM_EASYSOCIAL_MOOD_FEELING_ANNOYED",
+			"subject"	: "COM_EASYSOCIAL_MOOD_SUBJECT_ANNOYED"
+		},
+		{
+			"icon"		: "es-emoji-angry",
+			"key"		: "angry",
+			"text"		: "COM_EASYSOCIAL_MOOD_FEELING_ANGRY",
+			"subject"	: "COM_EASYSOCIAL_MOOD_SUBJECT_ANGRY"
+		},
+		{
+			"icon"		: "es-emoji-sick",
+			"key"		: "sick",
+			"text"		: "COM_EASYSOCIAL_MOOD_FEELING_SICK",
+			"subject"	: "COM_EASYSOCIAL_MOOD_SUBJECT_SICK"
+		},
+		{
+			"icon"		: "es-emoji-special",
+			"key"		: "special",
+			"text"		: "COM_EASYSOCIAL_MOOD_FEELING_SPECIAL",
+			"subject"	: "COM_EASYSOCIAL_MOOD_SUBJECT_SPECIAL"
+		},
+		{
+			"icon"		: "es-emoji-tired",
+			"key"		: "tired",
+			"text"		: "COM_EASYSOCIAL_MOOD_FEELING_TIRED",
+			"subject"	: "COM_EASYSOCIAL_MOOD_SUBJECT_TIRED"
+		},
+		{
+			"icon"		: "es-emoji-speechless",
+			"key"		: "speechless",
+			"text"		: "COM_EASYSOCIAL_MOOD_FEELING_SPEECHLESS",
+			"subject"	: "COM_EASYSOCIAL_MOOD_SUBJECT_SPEECHLESS"
+		},
+		{
+			"icon"		: "es-emoji-blessed",
+			"key"		: "blessed",
+			"text"		: "COM_EASYSOCIAL_MOOD_FEELING_BLESSED",
+			"subject"	: "COM_EASYSOCIAL_MOOD_SUBJECT_BLESSED"
+		},
+		{
+			"icon"		: "es-emoji-loved",
+			"key"		: "loved",
+			"text"		: "COM_EASYSOCIAL_MOOD_FEELING_LOVED",
+			"subject"	: "COM_EASYSOCIAL_MOOD_SUBJECT_LOVED"
+		}
+	]
+}

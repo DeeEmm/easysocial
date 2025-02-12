@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="marketplace">
+    <name>URL</name>
+    <element>url</element>
+    <author>Stack Ideas Sdn Bhd</author>
+    <url>http://stackideas.com</url>
+    <created>13/09/2022</created>
+    <version>4.0.17</version>
+    <copyright>Copyright (c) Stack Ideas Sdn. Bhd.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <description><![CDATA[PLG_FIELDS_MARKETPLACE_URL_INFO]]></description>
+    <core>false</core>
+    <unique>false</unique>
+    <files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<file>url.php</file>
+		<file>url.xml</file>
+	</files>
+    
+</social>

@@ -1,0 +1,31 @@
+
+{
+	"type": "points",
+	"rules":
+		[
+			{
+				"core"			: true,
+				"command" 		: "view.history",
+				"description"	: "COM_EASYSOCIAL_PRIVACY_DESC_POINTS_HISTORY_VIEW",
+				"default"		: "public",
+				"options"		:
+				[
+					{
+						"name"	: "public"
+					},
+					{
+						"name"	: "member"
+					},
+					{
+						"name"	: "friend"
+					},
+					{
+						"name"	: "only_me"
+					},
+					{
+						"name" : "custom"
+					}
+				]
+			}
+		]
+}

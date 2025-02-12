@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_stream_item",
+		"index": "idx_context_type_id",
+		"query": "ALTER TABLE `#__social_stream_item` ADD INDEX `idx_context_type_id` (`context_type`, `context_id`);"
+	}
+]

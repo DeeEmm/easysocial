@@ -1,0 +1,17 @@
+[
+    {
+        "table": "#__social_profiles",
+        "column": "community_access",
+        "query": "ALTER TABLE `#__social_profiles` ADD `community_access` TINYINT(3) NOT NULL DEFAULT '1';"
+    },
+    {
+        "table": "#__social_profiles",
+        "index": "profile_esad",
+        "query": "ALTER TABLE `#__social_profiles` ADD INDEX `profile_esad` (`community_access`);"
+    },
+    {
+        "table": "#__social_profiles",
+        "index": "idx_profile_access",
+        "query": "ALTER TABLE `#__social_profiles` ADD INDEX `idx_profile_access` (`id`, `community_access`);"
+    }
+]

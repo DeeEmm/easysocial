@@ -1,0 +1,10 @@
+[
+	{
+		"name": "storage.media.maxsize",
+		"type": "text",
+		"class": "form-control input-sm input-short text-center",
+		"default": 0,
+		"suffix": "MB",
+		"title": "COM_ES_ACCESS_STORAGE_MEDIA_MAX_SIZE"
+	}
+]

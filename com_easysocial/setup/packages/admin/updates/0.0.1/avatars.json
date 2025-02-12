@@ -1,0 +1,12 @@
+[
+	{
+		"table"		: "#__social_avatars",
+		"column"	: "photo_id",
+		"query"		: "ALTER TABLE  `#__social_avatars` ADD  `photo_id` INT( 11 ) NOT NULL AFTER  `avatar_id`"
+	},
+	{
+		"table"		: "#__social_avatars",
+		"column"	: "storage",
+		"query"		: "ALTER TABLE  `#__social_avatars` ADD  `storage` VARCHAR( 255 ) NOT NULL DEFAULT 'joomla'"
+	}
+]

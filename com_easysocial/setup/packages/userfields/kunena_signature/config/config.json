@@ -1,0 +1,11 @@
+{
+	"extends": "fields/user/textarea",
+
+	"title": {
+		"default": "PLG_FIELDS_KUNENA_SIGNATURE_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_KUNENA_SIGNATURE_DEFAULT_DESCRIPTION"
+	}
+}

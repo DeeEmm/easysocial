@@ -1,0 +1,22 @@
+{
+	"title": {
+		"default": "COM_EASYSOCIAL_FIELDS_GROUP_DISCUSSIONS"
+	},
+
+	"description": {
+		"default": "COM_EASYSOCIAL_FIELDS_GROUP_DISCUSSIONS_DESC"
+	},
+	"extends": "fields/user/boolean",
+	"privacy": false,
+    "searchable": false,
+	"visible_display"	: false,
+
+	"allow_modification":
+	{
+		"label": "PLG_FIELDS_GROUP_ALLOW_MODIFICATION_DESCRIPTION",
+		"tooltip": "PLG_FIELDS_GROUP_ALLOW_MODIFICATION_DESCRIPTION_DESC",
+		"type": "boolean",
+		"default": true,
+		"group": "view"
+	}
+}

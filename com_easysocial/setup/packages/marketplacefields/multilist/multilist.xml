@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="marketplace">
+	<name>Multilist</name>
+	<element>multilist</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>06/12/2013</created>
+	<version>3.3.33</version>
+	<copyright>Copyright (c) 2009 - 2020 Stack Ideas Sdn. Bhd.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description><![CDATA[This custom field allows you to add a multilist field in EasySocial.]]></description>
+	<core>false</core>
+	<unique>false</unique>
+	<files>
+		<folder>config</folder>
+		<file>multilist.php</file>
+		<file>multilist.xml</file>
+	</files>
+</social>

@@ -1,0 +1,17 @@
+[
+	{
+		"table"		: "#__social_apps",
+		"column"	: "unique",
+		"query"		: "ALTER TABLE  `#__social_apps` ADD  `unique` TINYINT( 3 ) NOT NULL;"
+	},
+	{
+		"table"		: "#__social_apps",
+		"column"	: "installable",
+		"query"		: "ALTER TABLE  `#__social_apps` ADD  `installable` TINYINT( 3 ) NOT NULL;"
+	},
+	{
+		"table"		: "#__social_apps",
+		"column"	: "system",
+		"query"		: "ALTER TABLE  `#__social_apps` ADD  `system` TINYINT( 3 ) NOT NULL;"
+	}
+]

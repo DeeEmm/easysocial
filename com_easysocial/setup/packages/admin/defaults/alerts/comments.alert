@@ -1,0 +1,27 @@
+[
+    {
+        "element"   : "comments",
+        "rule"      : "item",
+        "core"      : true
+    },
+    {
+        "element"   : "comments",
+        "rule"      : "involved",
+        "core"      : true
+    },
+    {
+        "element"   : "comments",
+        "rule"      : "tagged",
+        "core"      : true
+    },
+    {
+        "element"   : "comments",
+        "rule"      : "like",
+        "core"      : true
+    },
+    {
+        "element"   : "comments",
+        "rule"      : "replied",
+        "core"      : true
+    }
+]

@@ -1,0 +1,15 @@
+{
+    "extends": "fields/user/boolean",
+
+    "default": {
+        "default": false
+    },
+
+    "title": {
+        "default": "FIELDS_EVENT_ALLDAY_DEFAULT_TITLE"
+    },
+
+    "description": {
+        "default": "FIELDS_EVENT_ALLDAY_DEFAULT_DESCRIPTION"
+    }
+}

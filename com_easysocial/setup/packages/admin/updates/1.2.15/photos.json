@@ -1,0 +1,12 @@
+[
+    {
+        "table"     : "#__social_photos",
+        "index"    : "idx_photos_user_photos",
+        "query"     : "ALTER TABLE `#__social_photos` ADD INDEX `idx_photos_user_photos` (`state`, `uid`, `type`, `ordering`);"
+    },
+    {
+        "table"     : "#__social_albums",
+        "index"    : "idx_albums_user_assigned",
+        "query"     : "ALTER TABLE `#__social_albums` ADD INDEX `idx_albums_user_assigned` (`uid`, `type`, `assigned_date`);"
+    }
+]

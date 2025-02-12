@@ -1,0 +1,18 @@
+{
+	"style": [
+		"generic",
+		"objects",
+		"elements",
+		"component",
+		"layout",
+		"blocks",
+		"workflows",
+		"modules",
+		"patch",
+		"custom",
+		"responsive",
+		"migrators",
+		"states",
+		"trumps"
+	]
+}

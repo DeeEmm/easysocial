@@ -1,0 +1,94 @@
+{
+	"title"	: "COM_EASYSOCIAL_MENU_GROUP_USERS",
+	"link"	: "index.php?option=com_easysocial&view=users",
+	"access": "easysocial.access.users",
+	"class"	: "fa fa-user-friends",
+	"view"	: "users",
+	"active": "layout",
+	"childs":
+	[
+		{
+			"title" : "COM_EASYSOCIAL_MENU_GROUP_USERS",
+			"url": {
+				"view"  : "users",
+				"layout": ""
+			},
+			"activeLayouts": [
+				"",
+				"form"
+			]
+		},
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_USERS_VIEW_PENDING",
+			"url": {
+				"view": "users",
+				"layout": "pending"
+			},
+			"counter": "users/getPendingUsersCount"
+		},
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_GROUP_PROFILES",
+			"url": {
+				"view": "profiles",
+				"layout": ""
+			},
+			"activeLayouts": [
+				"",
+				"form"
+			]
+		},
+		{
+			"title": "Profile Form Builder",
+			"url": {
+				"view": "users",
+				"layout": "workflows"
+			}
+		},
+		{
+			"title": "COM_ES_MENU_CUSTOM_FIELDS",
+			"url": {
+				"view": "users",
+				"layout": "fields"
+			},
+			"activeLayouts": [
+				"fieldsform"
+			]
+		},
+		{
+			"title": "COM_ES_BANNED",
+			"url": {
+				"view": "users",
+				"layout": "banned"
+			}
+		},
+		{
+			"title": "COM_ES_VERIFICATION_REQUESTS",
+			"url": {
+				"view": "users",
+				"layout": "verifications"
+			},
+			"counter": "users/getVerificationCount"
+		},
+		{
+			"title"	: "COM_ES_DOWNLOAD_REQUESTS",
+			"url": {
+				"view": "users",
+				"layout": "downloads"
+			}
+		},
+		{
+			"title"	: "COM_EASYSOCIAL_MENU_ITEM_USERS_EXPORT",
+			"url": {
+				"view": "users",
+				"layout": "export"
+			}
+		},
+		{
+			"title" : "COM_ES_MENU_ITEM_USERS_IMPORT",
+			"url": {
+				"view": "users",
+				"layout": "import"
+			}
+		}
+	]
+}

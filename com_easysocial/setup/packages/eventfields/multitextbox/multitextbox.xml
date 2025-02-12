@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="event">
+    <name>Multi Textbox</name>
+    <element>multitextbox</element>
+    <author>Stack Ideas Sdn Bhd</author>
+    <url>http://stackideas.com</url>
+    <created>1/5/2014</created>
+    <version>2.0.291</version>
+    <copyright>Copyright (c) 2009 - 2014 Stack Ideas Sdn. Bhd.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <description>
+        <![CDATA[FIELDS_EVENT_MULTITEXTBOX_INFO]]>
+    </description>
+    <core>false</core>
+    <unique>false</unique>
+    <files>
+		<folder>config</folder>
+		<file>multitextbox.php</file>
+		<file>multitextbox.xml</file>
+	</files>
+    
+</social>

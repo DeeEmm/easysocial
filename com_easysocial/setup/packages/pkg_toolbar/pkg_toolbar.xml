@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension version="3.1" type="package" method="upgrade">
+	<name>StackIdeas Toolbar Package</name>
+	<packagename>toolbar</packagename>
+	<version>1.0.20</version>
+	<description>This package consists of a Stackideas Toolbar Module and a Foundry Package that would automatically installed and enabled on your site</description>
+	<creationDate>1st November 2022</creationDate>
+	<copyright>Copyright (C) StackIdeas Sdn Bhd</copyright>
+	<license>GNU General Public License</license>
+	<author>StackIdeas Sdn Bhd</author>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>https://stackideas.com</authorUrl>
+	<files folder="packages">
+		<file type="module" id="stackideas_toolbar" client="site">mod_stackideas_toolbar.zip</file>
+	</files>
+	<folder>foundry</folder>
+	<scriptfile>pkg_toolbar.php</scriptfile>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Toolbar Update Site">https://stackideas.com/apps/updater/manifest?id=3466</server>
+	</updateservers>
+</extension>

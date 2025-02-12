@@ -1,0 +1,22 @@
+[
+	{
+		"table": "#__social_clusters_categories",
+		"alter": "ordering",
+		"query": "ALTER TABLE `#__social_clusters_categories` MODIFY COLUMN `ordering` INT(11) NOT NULL DEFAULT 0;"
+	},
+	{
+		"table": "#__social_marketplaces_categories",
+		"alter": "ordering",
+		"query": "ALTER TABLE `#__social_marketplaces_categories` MODIFY COLUMN `ordering` INT(11) NOT NULL DEFAULT 0;"
+	},
+	{
+		"table": "#__social_albums",
+		"alter": "ordering",
+		"query": "ALTER TABLE `#__social_albums` MODIFY COLUMN `ordering` INT(11) NOT NULL DEFAULT 0;"
+	},
+	{
+		"table": "#__social_apps_calendar",
+		"alter": "all_day",
+		"query": "ALTER TABLE `#__social_apps_calendar` MODIFY COLUMN `all_day` tinyint(3) NOT NULL DEFAULT 0;"
+	}
+]

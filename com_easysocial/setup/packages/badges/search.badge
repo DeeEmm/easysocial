@@ -1,0 +1,13 @@
+
+[
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_SEARCH_ENGINE_TITLE",
+		"alias"			: "search-engine",
+		"description"	: "COM_EASYSOCIAL_BADGES_SEARCH_ENGINE_DESC",
+		"howto"			: "COM_EASYSOCIAL_BADGES_SEARCH_ENGINE_HOWTO",
+		"command"		: "search.create",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/search-engine.png",
+		"frequency"		: 50
+	}
+]

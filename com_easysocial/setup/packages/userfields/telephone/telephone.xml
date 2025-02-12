@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="user">
+	<name>Telephone</name>
+	<element>telephone</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>https://stackideas.com</url>
+	<created>2nd August 2020</created>
+	<version>3.3.33</version>
+	<copyright>Copyright (c) Stack Ideas Sdn Bhd.</copyright>
+	<description><![CDATA[Telephone custom field for EasySocial allows users to add their telephone number for calls or sms]]></description>
+	<core>false</core>
+	<unique>false</unique>
+	<files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<file>telephone.php</file>
+		<file>telephone.xml</file>
+	</files>
+</social>

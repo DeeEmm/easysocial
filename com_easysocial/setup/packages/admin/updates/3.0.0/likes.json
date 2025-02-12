@@ -1,0 +1,12 @@
+[
+	{
+		"table": "#__social_likes",
+		"column": "react_as",
+		"query": "ALTER TABLE `#__social_likes` ADD `react_as` VARCHAR(64) DEFAULT 'user' AFTER `created_by`;"
+	},
+	{
+		"table": "#__social_likes",
+		"column": "params",
+		"query": "ALTER TABLE `#__social_likes` ADD `params` text NOT NULL;"
+	}
+]

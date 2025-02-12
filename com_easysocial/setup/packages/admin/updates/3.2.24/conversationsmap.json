@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_conversations_message_maps",
+		"index": "idx_newmsg_count",
+		"query": "ALTER TABLE `#__social_conversations_message_maps` ADD INDEX `idx_newmsg_count` (`conversation_id`, `isread`, `user_id`)"
+	}
+]

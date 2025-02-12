@@ -1,0 +1,99 @@
+[
+	{
+		"title": "COM_EASYSOCIAL_APPS_SETTINGS_STREAM",
+		"desc": "COM_EASYSOCIAL_APPS_SETTINGS_STREAM_DESC",
+		"fields":
+		[
+			{
+				"label"		: "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER",
+				"tooltip"		: "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER_DESC",
+				"name"		: "stream_filter",
+				"type" 		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_VIDEOS_USER_STREAM_UPLOAD_VIDEOS",
+				"tooltip"	: "APP_VIDEOS_USER_STREAM_UPLOAD_VIDEOS_DESC",
+				"name"		: "uploadVideos",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_VIDEOS_USER_STREAM_FEATURED_VIDEOS",
+				"tooltip"	: "APP_VIDEOS_USER_STREAM_FEATURED_VIDEOS_DESC",
+				"name"		: "featuredVideos",
+				"type"		: "boolean",
+				"default"	: true
+			}
+		]
+	},
+	{
+		"title"		: "APP_USER_VIDEOS_SETTINGS_WIDGETS",
+		"desc"		: "APP_USER_VIDEOS_SETTINGS_WIDGETS_DESC",
+		"fields"	:
+		[
+			{
+				"label"		: "APP_USER_VIDEOS_SETTINGS_WIDGETS_PROFILE",
+				"tooltip"	: "APP_USER_VIDEOS_SETTINGS_WIDGETS_PROFILE_DESC",
+				"name"		: "showvideos",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_USER_VIDEOS_SETTINGS_WIDGETS_PROFILE_COUNTER",
+				"tooltip"	: "APP_USER_VIDEOS_SETTINGS_WIDGETS_PROFILE_COUNTER_DESC",
+				"name"		: "showcount",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_USER_VIDEOS_SETTINGS_WIDGETS_VIDEOS_LISTING_TOTAL",
+				"tooltip"	: "APP_USER_VIDEOS_SETTINGS_WIDGETS_VIDEOS_LISTING_TOTAL_DESC",
+				"name"		: "video_widget_listing_total",
+				"type"		: "text",
+				"default"	: 5,
+				"class"		: "input-mini text-center"
+			},
+			{
+				"label"		: "APP_USER_VIDEOS_SETTINGS_WIDGETS_PROFILE_ORDERING",
+				"tooltip"	: "APP_USER_VIDEOS_SETTINGS_WIDGETS_PROFILE_ORDERING_DESC",
+				"name"		: "ordering",
+				"type"		: "select",
+				"default"	: "latest",
+				"options"	:
+				[
+					{
+						"title"	: "APP_USER_VIDEOS_SETTINGS_WIDGETS_PROFILE_ORDERING_LATEST",
+						"value"	: "latest"
+					},
+					{
+						"title"	: "APP_USER_VIDEOS_SETTINGS_WIDGETS_PROFILE_ORDERING_POPULAR",
+						"value"	: "popular"
+					},
+					{
+						"title"	: "APP_USER_VIDEOS_SETTINGS_WIDGETS_PROFILE_ORDERING_RANDOM",
+						"value"	: "random"
+					}
+				]
+			},
+			{
+				"label": "Widget Layout",
+				"tooltip": "This option determines the layout that is used in the widget",
+				"name": "layout",
+				"type": "select",
+				"default": "card",
+				"options":
+				[
+					{
+						"title"	: "Classic Layout",
+						"value"	: "classic"
+					},
+					{
+						"title"	: "Card Layout",
+						"value"	: "card"
+					}
+				]
+			}
+		]
+	}
+]

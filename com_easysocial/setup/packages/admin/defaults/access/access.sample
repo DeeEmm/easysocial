@@ -1,0 +1,33 @@
+[
+	{
+		// The title of this rule
+		"title"			: "COM_EASYSOCIAL_ACCESS_COMMENTS_ADD",
+
+		// The description of this rule
+		"description"	: "COM_EASYSOCIAL_ACCESS_COMMENTS_ADD_TOOLTIP",
+
+		// The rule name of the access
+		"name"			: "comments.add",
+
+		// Optional, the extension name of this rule's source, defaults to "com_easysocial"
+		"extension"		: "com_easysocial"
+
+		// Optional, the element of this rule, used for grouping rules into tabs, defaults to first segment of the name splitted by ., or "" if no . is found and will be thrown in Misc tabs
+		"element"		: "comments",
+
+		 // Optional, the group of this rule, defaults to "user"
+		"group"			: "user",
+
+		// Optional, the input type of this rule, defaults to "boolean"
+		"type"			: "boolean",
+
+		// Optional, the default value of this rule, defaults to true or 0, depending on type
+		"default"		: true,
+
+		// Optional, additional class to apply to the generated input
+		"class"			: "",
+
+		// Optional, suffix text to add to the input
+		"suffix"		: ""
+	}
+]

@@ -1,0 +1,14 @@
+{
+	"name"		: "Vortex",
+	"element"	: "vortex",
+	"desc"		: "This is the original wireframe theme that was shipped along with EasySocial from version 1.x up till 1.x",
+	"author"	: "Stack Ideas Sdn Bhd",
+	"email"		: "support@stackideas.com",
+	"website"	: "http://stackideas.com",
+	"created"	: "6th August 2015",
+	"version"	: "1.0.0",
+	"servers"	:  {
+		"update"	: "http://stackideas.com/",
+		"version"	: "http://stackideas.com"
+	}
+}

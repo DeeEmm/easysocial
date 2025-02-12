@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="user">
+	<name>Multilist</name>
+	<element>multilist</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>23/08/2013</created>
+	<version>2.0.291</version>
+	<copyright>Copyright (c) 2009 - 2013 Stack Ideas Sdn. Bhd.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description><![CDATA[PLG_FIELDS_MULTILIST_INFO]]></description>
+	<core>false</core>
+	<unique>false</unique>
+	<validations>
+		<validate title="Alphabets only"><![CDATA[[a-zA-Z]]]></validate>
+		<validate title="Numeric only"><![CDATA[[0-9]]]></validate>
+		<validate title="Alphanumeric only"><![CDATA[[0-9a-zA-Z]]]></validate>
+	</validations>
+	<files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<file>multilist.php</file>
+		<file>multilist.xml</file>
+	</files>
+	
+</social>

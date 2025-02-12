@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="COM_EASYSOCIAL_EVENTS_LAYOUT_CREATE">
+        <message>
+            <![CDATA[COM_EASYSOCIAL_EVENTS_LAYOUT_CREATE_DESC]]>
+        </message>
+        <view>events</view>
+        <layout>create</layout>
+    </layout>
+</metadata>

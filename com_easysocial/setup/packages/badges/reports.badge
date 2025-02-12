@@ -1,0 +1,13 @@
+
+[
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_REPORTER_TITLE",
+		"alias"			: "reporter",
+		"description"	: "COM_EASYSOCIAL_BADGES_REPORTER_DESC",
+		"howto"			: "COM_EASYSOCIAL_BADGES_REPORTER_HOWTO",
+		"command"		: "reports.create",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/reporter.png",
+		"frequency"		: 20
+	}
+]

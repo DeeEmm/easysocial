@@ -1,0 +1,12 @@
+[
+	{
+		"table": "#__social_marketplaces",
+		"alter": "longitude",
+		"query": "ALTER TABLE `#__social_marketplaces` ALTER `longitude` SET DEFAULT '';"
+	},
+	{
+		"table": "#__social_marketplaces",
+		"alter": "latitude",
+		"query": "ALTER TABLE `#__social_marketplaces`ALTER `latitude` SET DEFAULT '';"
+	}
+]

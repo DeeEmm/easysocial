@@ -1,0 +1,16 @@
+{
+    "extends": "fields/user/boolean",
+    "privacy": false,
+    "searchable": false,
+    "title": {
+        "default": "FIELDS_EVENT_CONFIGALLOWMAYBE_DEFAULT_TITLE"
+    },
+
+    "description": {
+        "default": "FIELDS_EVENT_CONFIGALLOWMAYBE_DEFAULT_DESCRIPTION"
+    },
+
+    "default": {
+        "type": "boolean"
+    }
+}

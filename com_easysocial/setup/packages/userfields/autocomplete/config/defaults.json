@@ -1,0 +1,16 @@
+{
+
+	"title": "PLG_FIELDS_USER_AUTOCOMPLETE_DEFAULT_FIELD_LABEL",
+	"description": "PLG_FIELDS_USER_AUTOCOMPLETE_DEFAULT_FIELD_DESC",
+	"position": "",
+	"default": "",
+	"display_title": true,
+	"validation": "",
+	"registration": true,
+	"state": true,
+	"visibility": false,
+	"searchable": false,
+	"required": true,
+	"params": "",
+	"ordering": 5
+}

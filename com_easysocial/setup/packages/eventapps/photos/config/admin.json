@@ -1,0 +1,59 @@
+[
+	{
+		"title"        : "APP_EVENT_PHOTOS_SETTINGS_STREAM",
+		"desc"        : "APP_EVENT_PHOTOS_SETTINGS_STREAM_DESC",
+		"fields"    :
+		[
+			{
+				"label"        : "APP_EVENT_PHOTOS_SETTINGS_STREAM_SHARE",
+				"tooltip"    : "APP_EVENT_PHOTOS_SETTINGS_STREAM_SHARE_DESC",
+				"name"        : "stream_share",
+				"type"        : "boolean",
+				"default"    : true
+			},
+			{
+				"label"        : "APP_EVENT_PHOTOS_SETTINGS_STREAM_SHARE_UPLOAD_IN_ALBUM",
+				"tooltip"    : "APP_EVENT_PHOTOS_SETTINGS_STREAM_SHARE_UPLOAD_IN_ALBUM_DESC",
+				"name"        : "stream_upload",
+				"type"        : "boolean",
+				"default"    : true
+			},
+			{
+				"label"        : "APP_EVENT_PHOTOS_SETTINGS_STREAM_UPDATE_AVATAR",
+				"tooltip"    : "APP_EVENT_PHOTOS_SETTINGS_STREAM_UPDATE_AVATAR_DESC",
+				"name"        : "stream_avatar",
+				"type"        : "boolean",
+				"default"    : true
+			},
+			{
+				"label"        : "APP_EVENT_PHOTOS_SETTINGS_STREAM_UPDATE_COVER",
+				"tooltip"    : "APP_EVENT_PHOTOS_SETTINGS_STREAM_UPDATE_COVER_DESC",
+				"name"        : "stream_cover",
+				"type"        : "boolean",
+				"default"    : true
+			}
+		]
+	},
+	{
+		"title": "APP_EVENT_PHOTOS_SETTINGS_WIDGET",
+		"desc": "APP_EVENT_PHOTOS_SETTINGS_WIDGET_DESC",
+		"fields":
+		[
+			{
+				"label": "Display Recent Photos",
+				"tooltip": "Determines if the recent photos widget should be visible on the page",
+				"name": "widgets_album",
+				"type": "boolean",
+				"default": true
+			},
+			{
+				"label": "Recent Photos Limit",
+				"tooltip": "Determines the total number of photos that should appear on the page",
+				"name": "widgets_album_limit",
+				"type": "text",
+				"default": 5,
+				"class": "input-mini text-center"
+			}
+		]
+	}
+]

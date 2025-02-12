@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_profiles",
+		"column": "privacy_fields",
+		"query": "ALTER TABLE `#__social_profiles` ADD COLUMN `privacy_fields` text NULL;"
+	}
+]

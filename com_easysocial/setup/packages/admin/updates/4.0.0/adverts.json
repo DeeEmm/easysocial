@@ -1,0 +1,12 @@
+[
+	{
+		"table": "#__social_advertisers",
+		"column": "user_id",
+		"query": "ALTER TABLE `#__social_advertisers` ADD `user_id` INT(11) NOT NULL AFTER `created`;"
+	},
+	{
+		"table": "#__social_ads",
+		"column": "params",
+		"query": "ALTER TABLE `#__social_ads` ADD `params` TEXT NOT NULL AFTER `end_date`;"
+	}
+]

@@ -1,0 +1,43 @@
+[
+	{
+		"table"		: "#__social_comments",
+		"column"	: "depth",
+		"query"		: "ALTER TABLE `#__social_comments` ADD COLUMN `depth` BIGINT(10) DEFAULT 0;"
+	},
+
+	{
+		"table"		: "#__social_comments",
+		"column"	: "parent",
+		"query"		: "ALTER TABLE `#__social_comments` ADD COLUMN `parent` BIGINT(20) DEFAULT 0;"
+	},
+
+	{
+		"table"		: "#__social_comments",
+		"column"	: "child",
+		"query"		: "ALTER TABLE `#__social_comments` ADD COLUMN `child` BIGINT(20) DEFAULT 0;"
+	},
+
+	{
+		"table"		: "#__social_comments",
+		"column"	: "lft",
+		"query"		: "ALTER TABLE `#__social_comments` ADD COLUMN `lft` BIGINT(20) DEFAULT 0;"
+	},
+
+	{
+		"table"		: "#__social_comments",
+		"column"	: "rgt",
+		"query"		: "ALTER TABLE `#__social_comments` ADD COLUMN `rgt` BIGINT(20) DEFAULT 0;"
+	},
+
+	{
+		"table"		: "#__social_comments",
+		"column"	: "stream_id",
+		"query"		: "ALTER TABLE `#__social_comments` ADD COLUMN `stream_id` BIGINT(20) NULL DEFAULT 0;"
+	},
+
+	{
+		"table"		: "#__social_comments",
+		"index"		: "social_comments_content_parent",
+		"query"		: "ALTER TABLE `#__social_comments` ADD INDEX `social_comments_content_parent` (`element`,`uid`,`parent`);"
+	}
+]

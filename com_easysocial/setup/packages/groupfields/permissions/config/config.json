@@ -1,0 +1,55 @@
+{
+	"title": {
+		"default": "COM_EASYSOCIAL_APP_GROUP_PERMISSIONS_TITLE"
+	},
+	"description": {
+		"default": "COM_EASYSOCIAL_APP_GROUP_PERMISSIONS_DESC"
+	},
+
+	"visible_display": false,
+
+	"searchable": false,
+
+	"default": false,
+
+	"create_default": {
+		"label" : "COM_EASYSOCIAL_APP_PERMISSION_DEFAULT_VALUE",
+		"tooltip" : "COM_EASYSOCIAL_APP_PERMISSION_DEFAULT_VALUE_DESC",
+		"type": "checkbox",
+		"option":
+		[
+			{
+				"label": "COM_EASYSOCIAL_APP_GROUP_PERMISSIONS_ADMINS",
+				"value": "admin",
+				"default": true,
+				"connect": false
+			},
+			{
+				"label": "COM_EASYSOCIAL_APP_GROUP_PERMISSIONS_MEMBERS",
+				"value": "member",
+				"default": false,
+				"connect": false
+			}
+		]
+	},
+
+	"create_options": {
+		"label" : "COM_EASYSOCIAL_APP_PERMISSION_CHECKBOX_OPTIONS",
+		"tooltip" : "COM_EASYSOCIAL_APP_PERMISSION_CHECKBOX_OPTIONS_DESC",
+		"type" : "checkbox",
+		"option" : [
+			{
+				"label": "COM_EASYSOCIAL_APP_GROUP_PERMISSIONS_ADMINS",
+				"value": "admin",
+				"default": true,
+				"connect": false
+			},
+			{
+				"label": "COM_EASYSOCIAL_APP_GROUP_PERMISSIONS_MEMBERS",
+				"value": "member",
+				"default": true,
+				"connect": false
+			}
+		]
+	}
+}

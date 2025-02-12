@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_comments",
+		"column": "post_as",
+		"query": "ALTER TABLE `#__social_comments` ADD `post_as` VARCHAR(64) DEFAULT 'user' AFTER `created_by`;"
+	}
+]

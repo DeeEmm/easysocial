@@ -1,0 +1,11 @@
+{
+	"title": {
+		"default": "PLG_FIELDS_PRICE_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_PRICE_DEFAULT_DESCRIPTION"
+	},
+
+	"default": false
+}

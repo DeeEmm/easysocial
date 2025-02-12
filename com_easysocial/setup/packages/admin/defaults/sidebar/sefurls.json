@@ -1,0 +1,9 @@
+{
+	"title" : "COM_ES_MENU_GROUP_SEFURLS",
+	"link" : "index.php?option=com_easysocial&view=sefurls",
+	"access" : "easysocial.access.sefurls",
+	"class" : "fas fa-code-branch",
+	"view" : "sefurls",
+	"active" : "layout",
+	"childs":[]
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "element"   : "likes",
+        "rule"      : "item",
+        "core"      : true
+    },
+    {
+        "element"   : "likes",
+        "rule"      : "involved",
+        "core"      : true
+    }
+]

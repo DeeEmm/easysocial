@@ -1,0 +1,38 @@
+[
+	{
+		"element": "ads",
+		"rule": "approved",
+		"core": true,
+		"value": {
+			"email": true,
+			"system": false
+		}
+	},
+	{
+		"element": "ads",
+		"rule": "rejected",
+		"core": true,
+		"value": {
+			"email": true,
+			"system": false
+		}
+	},
+	{
+		"element": "ads",
+		"rule": "advertiser.approved",
+		"core": true,
+		"value": {
+			"email": true,
+			"system": false
+		}
+	},
+	{
+		"element": "ads",
+		"rule": "advertiser.rejected",
+		"core": true,
+		"value": {
+			"email": true,
+			"system": false
+		}
+	}
+]

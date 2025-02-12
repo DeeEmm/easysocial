@@ -1,0 +1,13 @@
+
+[
+	{
+		"title" 		: "COM_EASYSOCIAL_BADGES_EXPLORER_TITLE",
+		"alias"			: "explorer",
+		"description"	: "COM_EASYSOCIAL_BADGES_EXPLORER_DESC",
+		"howto" 		: "COM_EASYSOCIAL_BADGES_EXPLORER_HOWTO",
+		"command"		: "profile.view",
+		"extension"		: "com_easysocial",
+		"avatar"		: "media/com_easysocial/badges/explorer.png",
+		"frequency"		: 50
+	}
+]

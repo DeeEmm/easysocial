@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="apps" group="user">
+	<name>Polls</name>
+	<element>polls</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>02/04/2017</created>
+	<version>2.0.291</version>
+	<copyright>Copyright (C) 2010 - 2017 Stack Ideas Sdn Bhd</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<core>true</core>
+	<installable>false</installable>
+	<default>true</default>
+	<widget>false</widget>
+	<description><![CDATA[APP_POLLS_APP_DESCRIPTION]]></description>
+	<files>
+		<folder>config</folder>
+		<folder>hooks</folder>
+		<folder>themes</folder>
+		<file>polls.php</file>
+		<file>polls.xml</file>
+	</files>
+	<updates>
+		<version>2.0.291</version>
+		<patch>http://stackideas.com/updater/easysocial/apps/patch</patch>
+	</updates>
+</social>

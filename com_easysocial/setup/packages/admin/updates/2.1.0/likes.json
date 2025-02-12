@@ -1,0 +1,12 @@
+[
+	{
+		"table": "#__social_likes",
+		"column": "reaction",
+		"query": "ALTER TABLE `#__social_likes` ADD `reaction` VARCHAR(255) NULL DEFAULT 'like' AFTER `id`;"
+	},
+	{
+		"table": "#__social_likes",
+		"column": "uri",
+		"query": "ALTER TABLE `#__social_likes` ADD `uri` TEXT NOT NULL AFTER `stream_id`;"
+	}
+]

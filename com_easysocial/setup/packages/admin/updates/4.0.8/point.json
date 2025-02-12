@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_points_history",
+		"alter": "message",
+		"query": "ALTER TABLE `#__social_points_history` MODIFY `message` text NULL;"
+	}
+]

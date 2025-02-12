@@ -1,0 +1,78 @@
+[
+	{
+		"label"	: "Facebook ID",
+		"key"	: "id"
+	},
+	{
+		"label"	: "Full Name",
+		"key"	: "name"
+	},
+	{
+		"label"	: "First Name",
+		"key"	: "first_name"
+	},
+	{
+		"label"	: "Middle Name",
+		"key"	: "middle_name"
+	},
+	{
+		"label"	: "Last Name",
+		"key"	: "last_name"
+	},
+	{
+		"label"	: "Gender",
+		"key"	: "gender"
+	},
+	{
+		"label"	: "Locale",
+		"key"	: "locale"
+	},
+	{
+		"label"	: "Languages",
+		"key"	: "languages"
+	},
+	{
+		"label"	: "Profile Link",
+		"key"	: "link"
+	},
+	{
+		"label"	: "Facebook Username",
+		"key"	: "username"
+	},
+	{
+		"label"	: "Timezone",
+		"key"	: "timezone"
+	},
+	{
+		"label"	: "Birthday",
+		"key"	: "birthday"
+	},
+	{
+		"label"	: "Biography",
+		"key"	: "bio"
+	},
+	{
+		"label"	: "Education",
+		"key"	: "education"
+	},
+	{
+		"label"	: "Email",
+		"key"	: "email"
+	},
+	{
+		"label"	: "Location",
+		"key"	: "location"
+	},
+	{
+		"label"	: "Profile Picture",
+		"key"	: "picture"
+	},
+	{
+		"label"	: "Website",
+		"key"	: "website"
+	},
+	{
+		"label"	: "Work",
+		"key"	: "work"
+	}
+]

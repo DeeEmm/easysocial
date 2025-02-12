@@ -1,0 +1,30 @@
+{
+	"title" : "COM_EASYSOCIAL_MENU_GROUP_VIDEOS",
+	"link"  : "index.php?option=com_easysocial&view=videos",
+	"class" : "fab fa-youtube",
+	"access": "easysocial.access.videos",
+	"view"  : "videos",
+	"active": "layout",
+	"childs": [
+		{
+			"title": "COM_EASYSOCIAL_MENU_ITEM_VIDEOS",
+			"url": {
+				"view": "videos",
+				"layout": ""
+			},
+			"activeLayouts": [
+				"form"
+			]
+		},
+		{
+			"title": "COM_EASYSOCIAL_MENU_ITEM_VIDEOS_CATEGORIES",
+			"url": {
+				"view": "videocategories",
+				"layout": ""
+			},
+			"activeLayouts": [
+				"form"
+			]
+		}
+	]
+}

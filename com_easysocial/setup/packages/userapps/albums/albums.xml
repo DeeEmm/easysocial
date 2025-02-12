@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="apps" group="user">
+	<name>Albums</name>
+	<element>albums</element>
+	<author>Stack Ideas Sdn Bhd</author>
+	<url>http://stackideas.com</url>
+	<created>19/08/2013</created>
+	<version>2.0.291</version>
+	<copyright>Copyright (C) 2010 - 2014 Stack Ideas Sdn Bhd</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<installable>true</installable>
+	<core>true</core>
+	<widget>true</widget>
+	<description><![CDATA[APP_ALBUMS_APP_DESCRIPTION]]></description>
+	<files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<folder>widgets</folder>
+		<file>albums.php</file>
+		<file>albums.xml</file>
+	</files>
+</social>

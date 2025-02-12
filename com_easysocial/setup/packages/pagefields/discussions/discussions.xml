@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="page">
+    <name>Discussions</name>
+    <element>discussions</element>
+    <author>Stack Ideas Sdn Bhd</author>
+    <url>http://stackideas.com</url>
+    <created>6th Feb 2017</created>
+    <version>2.0.291</version>
+    <copyright>Copyright (c) 2009 - 2017 Stack Ideas Sdn. Bhd.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <description><![CDATA[PLG_FIELDS_PAGE_DISCUSSIONS_INFO]]></description>
+    <core>true</core>
+    <unique>true</unique>
+    <files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<file>discussions.php</file>
+		<file>discussions.xml</file>
+	</files>
+    
+</social>

@@ -1,0 +1,222 @@
+<?php
+/**
+* @package      ConverseKit
+* @copyright    Copyright (C) 2010 - 2017 Stack Ideas Sdn Bhd. All rights reserved.
+* @license      GNU/GPL, see LICENSE.php
+* ConverseKit is free software. This version may have been modified pursuant
+* to the GNU General Public License, and as distributed it includes or
+* is derivative of works licensed under the GNU General Public License or
+* other free or open source software licenses.
+* See COPYRIGHT.php for copyright notices and details.
+*/
+defined('_JEXEC') or die('Unauthorized Access');
+
+jimport('joomla.filesystem.file');
+
+// Since conversekit is dependent on EasySocial currently, we'll need the library from EasySocial
+$library = JPATH_ADMINISTRATOR . '/components/com_easysocial/includes/plugins.php';
+
+if (!JFile::exists($library)) {
+	return;
+}
+
+// Include dependencies
+require_once($library);
+require_once(__DIR__ . '/libraries/helper.php');
+
+class plgSystemConversekit extends EasySocialPlugins
+{
+	/**
+	 * Load the language file on instantiation. Note this is only available in Joomla 3.1 and higher.
+	 * If you want to support 3.0 series you must override the constructor
+	 *
+	 * @var    boolean
+	 * @since  3.1
+	 */
+	protected $autoloadLanguage = true;
+
+	/**
+	 * Determines if ConverseKit should really be enabled for the user
+	 *
+	 * @since	1.0.4
+	 * @access	public
+	 */
+	public function enabled()
+	{
+		// Need to ensure that conversekit is enabled
+		if (!$this->config->get('conversations.enabled')) {
+			return false;
+		}
+
+		return true;
+	}
+
+	/**
+	 * Determines if we should exclude certain item from triggering this plugin.
+	 *
+	 * @since   1.0.0
+	 * @access  public
+	 */
+	public function exclude()
+	{
+		$option = $this->input->get('option', '', 'string');
+
+		// To fix drag and drop image issue in tinymce in joomla 3.5.
+		if ($option == 'com_media') {
+			return true;
+		}
+
+		$tmpl = $this->input->get('tmpl', false, 'default');
+
+		if ($tmpl == 'component') {
+			return true;
+		}
+
+		// Guests shouldn't see conversekit
+		if (!$this->enabled() || $this->app->isAdmin()) {
+			return true;
+		}
+
+		// Only display button when enabled
+		if (!$this->params->get('display_login', true) && !$this->my->id) {
+			return true;
+		}
+
+		return false;
+	}
+
+	/**
+	 * Triggered after the site has been rendered
+	 *
+	 * @since 	1.0
+	 * @access 	public
+	 */
+	public function onAfterRender()
+	{
+		$doc = JFactory::getDocument();
+		if ($this->exclude() || $doc->getType() != 'html') {
+			return;
+		}
+
+		$model = CK::model('conversekit');
+		$initialCounter = $model->getTotalUnReadConversations($this->my->id);
+
+		$fileType = getType($this->config->get('conversations.attachments.types'));
+		$file = $this->config->get('conversations.attachments.types');
+		$array = array();
+
+		//some pc will have array value for this, therefore normalise to array before pass as json_encode
+		if ($fileType == 'string') {
+			$array = explode(',', $file);
+		}
+
+		$fileType = json_encode($array);
+
+		// Normalize sound & submit setting
+		$setting = $model->getSettings($this->my->id, $this->params);
+
+		$soundSettings = $setting['sound'];
+		$submitSettings = $setting['submit'];
+
+		// Retrieve the login return url from EasySocial
+		$return = CK::getLoginReturnUrl();
+
+		// Facebook integrations
+		$facebook = ES::oauth('Facebook');
+
+		// check for es mobile integration.
+		$esmobileInstalled = JPluginHelper::getPlugin('system', 'easysocialmobile');
+		$esmobileEnabled = JPluginHelper::isEnabled('system', 'easysocialmobile');
+		$hideButton = ($esmobileInstalled && $esmobileEnabled && !CK::isDesktop()) ? true : false;
+
+		$conversation = ES::conversation();
+
+		$emoji = ES::smileys()->getEmojis();
+
+		$token = ES::token();
+		$path = SOCIAL_JOOMLA_URI;
+		$options = array(
+						'my' => $this->my,
+						'createConversation' => $conversation->canCreate(),
+						'userId' => $this->my->id,
+						'initialCounter' => $initialCounter,
+						'soundSettings' => $soundSettings,
+						'submitSettings' => $submitSettings,
+						'contactLimit' => $this->params->get('contact_limit', 20),
+						'listLimit' => $this->params->get('conversation_limit', 20),
+						'path' => $path,
+						'location' => $this->config->get('conversations.location'),
+						'attachment' => $this->config->get('conversations.attachments.enabled'),
+						'googleapi' => $this->config->get('location.maps.api'),
+						'fileType'=> $fileType,
+						'fileSize'=> $this->config->get('conversations.attachments.maxsize'),
+						'esToken' => $token,
+						'esConfig' => $this->config,
+						'monitorInterval' => $this->params->get('monitor_interval', 4),
+						'remember' => $this->params->get('remember_state', false),
+						'params' => $this->params,
+						'showOnlineUsers' => $this->config->get('conversations.nonfriend'),
+						'isIOS' => CK::isIOS(),
+						'logo' => CK::getLogo($this->params),
+						'sso' => ES::sso(),
+						'returnUrl' => $return,
+						'facebook' => $facebook,
+						'hideButton' => $hideButton,
+						'smileys' => $emoji
+					);
+
+		$templateContents = CK::getTemplateContents('default', $options);
+
+		$body = $this->app->getBody();
+
+		$body = preg_replace('/\<(\s*?)\/(\s*?)body\>/is', $templateContents . '</body>', $body);
+
+		$this->app->setBody($body);
+	}
+
+	/**
+	 * The main entry point for conversekit to attach itself
+	 *
+	 * @since	1.0
+	 * @access	public
+	 */
+	public function onAfterDispatch()
+	{
+		$doc = JFactory::getDocument();
+		if ($this->exclude() || $doc->getType() != 'html') {
+			return;
+		}
+
+		// Headers would need to be loaded after application is loaded
+		CK::initialize($this->params);
+	}
+
+	/**
+	 * Intercepts ajax requests for conversekit
+	 *
+	 * @since	1.0.0
+	 * @access	public
+	 */
+	public function onAfterRoute()
+	{
+		$ajax = $this->input->get('conversekit', false, 'bool');
+		$format = $this->input->get('format', '', 'default');
+
+		if ($this->exclude() || $format !== 'json' || !$ajax) {
+			return;
+		}
+		// Include the main abstract file
+		require_once(__DIR__ . '/libraries/easysocial.php');
+
+		$method = $this->input->get('namespace', null, 'default');
+
+		$lib = new ConversekitEasySocial($this->params);
+
+		if (!method_exists($lib, $method)) {
+			die('Invalid request');
+		}
+
+		$lib->$method();
+		exit;
+	}
+}

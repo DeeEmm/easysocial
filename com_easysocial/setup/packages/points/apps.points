@@ -1,0 +1,21 @@
+
+[
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_INSTALL_APPLICATIONS",
+		"alias"			: "install-apps",
+		"description"	: "COM_EASYSOCIAL_POINTS_INSTALL_APPLICATIONS_DESC",
+		"command"		: "apps.install",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: 5
+	},
+	{
+		"title"			: "COM_EASYSOCIAL_POINTS_UNINSTALL_APPLICATIONS",
+		"alias"			: "uninstall-apps",
+		"description"	: "COM_EASYSOCIAL_POINTS_UNINSTALL_APPLICATIONS_DESC",
+		"command"		: "apps.uninstall",
+		"extension"		: "com_easysocial",
+		"state"			: true,
+		"points"		: -5
+	}
+]

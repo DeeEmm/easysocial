@@ -1,0 +1,30 @@
+{
+    "type": "apps",
+    "rules":
+    [
+        {
+            "core": false,
+            "command": "calendar",
+            "description": "APPS_USER_CALENDAR_PRIVACY_FIELD_DESC",
+            "default": "public",
+            "options":
+            [
+                {
+                    "name": "public"
+                },
+                {
+                    "name": "member"
+                },
+                {
+                    "name": "friend"
+                },
+                {
+                    "name": "only_me"
+                },
+                {
+                    "name": "custom"
+                }
+            ]
+        }
+    ]
+}

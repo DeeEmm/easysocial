@@ -1,0 +1,57 @@
+{
+	"title": "COM_ES_MENU_GROUP_MARKETPLACES",
+	"link": "index.php?option=com_easysocial&view=marketplaces",
+	"access": "easysocial.access.marketplaces",
+	"class": "fa fa-store",
+	"view": "marketplaces",
+	"active": "layout",
+	"childs":
+	[
+		{
+			"title": "COM_ES_MENU_ITEM_MARKETPLACES_ITEMS",
+			"url": {
+				"view": "marketplaces",
+				"layout": ""
+			},
+			"activeLayouts": [
+				"",
+				"form"
+			]
+		},
+		{
+			"title": "COM_EASYSOCIAL_MENU_ITEM_PENDING",
+			"url": {
+				"view": "marketplaces",
+				"layout": "pending"
+			},
+			"counter": "marketplaces/getPendingCount"
+		},
+		{
+			"title": "COM_ES_MENU_ITEM_MARKETPLACES_CATEGORIES",
+			"url": {
+				"view": "marketplaces",
+				"layout": "categories"
+			},
+			"activeLayouts": [
+				"categoryForm"
+			]
+		},
+		{
+			"title": "COM_ES_MENU_ITEM_MARKETPLACES_WORKFLOW",
+			"url": {
+				"view": "marketplaces",
+				"layout": "workflows"
+			}
+		},
+		{
+			"title": "COM_ES_MENU_CUSTOM_FIELDS",
+			"url": {
+				"view": "marketplaces",
+				"layout": "fields"
+			},
+			"activeLayouts": [
+				"fieldsform"
+			]
+		}
+	]
+}

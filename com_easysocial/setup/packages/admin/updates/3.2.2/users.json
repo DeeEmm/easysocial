@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_users",
+		"column": "robots",
+		"query": "ALTER TABLE `#__social_users` ADD COLUMN `robots` VARCHAR(16) DEFAULT 'inherit';"
+	}
+]

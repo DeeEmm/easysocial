@@ -1,0 +1,11 @@
+{
+	"title"	: "COM_EASYSOCIAL_MENU_GROUP_ALBUMS",
+	"link"	: "index.php?option=com_easysocial&view=albums",
+	"class"	: "fa fa-image",
+	"access": "easysocial.access.albums",
+	"view"	: "albums",
+	"active": "layout",
+	"childs":
+	[
+	]
+}

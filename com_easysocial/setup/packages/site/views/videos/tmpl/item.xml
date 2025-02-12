@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_VIDEOS_LAYOUT_ITEM">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_VIDEOS_LAYOUT_ITEM]]>
+		</message>
+		<view>videos</view>
+		<layout>item</layout>
+	</layout>
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			<field name="id" type="easysocial_video" label="COM_EASYSOCIAL_SELECT_VIDEO" description="COM_EASYSOCIAL_SELECT_VIDEO_DESC" required="true" />
+		</fieldset>
+	</fields>
+</metadata>

@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__social_apps_store",
+		"column": "stackideas",
+		"query": "ALTER TABLE `#__social_apps_store` ADD `stackideas` TINYINT(3) NOT NULL DEFAULT '0' AFTER `featured`;"
+	}
+]

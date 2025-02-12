@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="module" client="site" method="upgrade">
+	<name>EasySocial Sidebar</name>
+	<author>Stack Ideas Sdn Bhd</author>
+	<creationDate>16th January 2024</creationDate>
+	<copyright>Copyright (C) 2009 - 2018 Stack Ideas Sdn Bhd. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>https://stackideas.com</authorUrl>
+	<version>3.0.109</version>
+	<description><![CDATA[This module allows you to place the sidebar of a profile, group, page or event anywhere on your template]]></description>
+	<files>
+		<folder>adapters</folder>
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>
+		<filename module="mod_easysocial_sidebar">mod_easysocial_sidebar.php</filename>
+		<filename>mod_easysocial_sidebar.xml</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="moduleclass_sfx" type="textarea" rows="3" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

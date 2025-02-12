@@ -1,0 +1,7 @@
+[
+    {
+        "table": "#__social_events_meta",
+        "column": "page_id",
+        "query": "ALTER TABLE `#__social_events_meta` ADD `page_id` int(11) NOT NULL COMMENT 'The page id if this is a page event';"
+    }
+]

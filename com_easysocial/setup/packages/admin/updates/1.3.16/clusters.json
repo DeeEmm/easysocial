@@ -1,0 +1,7 @@
+[
+    {
+        "table": "#__social_clusters_categories",
+        "column": "site_id",
+        "query": "ALTER TABLE `#__social_clusters_categories` ADD `site_id` VARCHAR(255) NULL;"
+    }
+]

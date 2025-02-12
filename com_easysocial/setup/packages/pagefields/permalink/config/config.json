@@ -1,0 +1,42 @@
+{
+	"check_permalink":
+	{
+		"label"		: "PLG_FIELDS_PAGE_PERMALINK_CONFIG_CHECK_PERMALINK",
+		"tooltip"	: "PLG_FIELDS_PAGE_PERMALINK_CONFIG_CHECK_PERMALINK_DESC",
+		"default"	: true,
+		"type"		: "boolean"
+	},
+
+	"max": {
+		"label"		: "PLG_FIELDS_PAGE_PERMALINK_CONFIG_MAX_CHARACTER",
+		"tooltip"	: "PLG_FIELDS_PAGE_PERMALINK_CONFIG_MAX_CHARACTER_DESC",
+		"default"	: "100",
+		"type"		: "text"
+	},
+
+	"forbidden": {
+		"label"		: "PLG_FIELDS_PAGE_PERMALINK_CONFIG_FORBIDDEN_WORDS",
+		"tooltip"	: "PLG_FIELDS_PAGE_PERMALINK_CONFIG_FORBIDDEN_WORDS_DESC",
+		"type"		: "textarea"
+	},
+
+	"title": {
+		"default": "PLG_FIELDS_PAGE_PERMALINK_DEFAULT_TITLE"
+	},
+
+	"description": {
+		"default": "PLG_FIELDS_PAGE_PERMALINK_DEFAULT_DESCRIPTION"
+	},
+
+	"searchable"	: false,
+
+	"privacy"		: false,
+
+	"default"		: false,
+
+	"visible_display": false,
+
+	"required": {
+		"default": false
+	}
+}

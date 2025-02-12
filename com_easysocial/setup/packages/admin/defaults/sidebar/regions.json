@@ -1,0 +1,30 @@
+{
+	"title"  : "COM_EASYSOCIAL_MENU_GROUP_REGIONS",
+	"link"   : "index.php?option=com_easysocial&view=regions",
+	"access" : "easysocial.access.regions",
+	"class"  : "fa fa-globe-americas",
+	"view"   : "regions",
+	"active" : "layout",
+	"childs" :
+	[
+		{
+			"title" : "COM_EASYSOCIAL_MENU_ITEM_REGIONS_COUNTRIES",
+			"url": {
+				"view"  : "regions",
+				"layout": ""
+			},
+			"activeLayouts": [
+				"form"
+			]
+		},
+		{
+			"title" : "COM_EASYSOCIAL_MENU_ITEM_REGIONS_STATES",
+			"url"   :
+			{
+				"view"  : "regions",
+				"layout": "state"
+			},
+			"childs": []
+		}
+	]
+}

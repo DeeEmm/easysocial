@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYSOCIAL_GROUPS_LAYOUT_CATEGORY">
+		<message>
+			<![CDATA[COM_EASYSOCIAL_GROUPS_LAYOUT_CATEGORY_DESC]]>
+		</message>
+		<view>groups</view>
+		<layout>category</layout>
+	</layout>
+
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easysocial/models/fields">
+			<field name="id" type="easysocial_groupcategory" label="COM_EASYSOCIAL_GROUPS_ITEM_SELECT_CATEGORY" description="COM_EASYSOCIAL_GROUPS_ITEM_SELECT_CATEGORY_DESC" required="true" message="COM_EASYSOCIAL_GROUPS_ITEM_SELECT_CATEGORY_REQUIRED" />
+		</fieldset>
+	</fields>
+
+</metadata>

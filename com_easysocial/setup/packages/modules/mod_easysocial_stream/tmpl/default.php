@@ -1,0 +1,24 @@
+<?php
+/**
+* @package		EasySocial
+* @copyright	Copyright (C) Stack Ideas Sdn Bhd. All rights reserved.
+* @license		GNU/GPL, see LICENSE.php
+* EasySocial is free software. This version may have been modified pursuant
+* to the GNU General Public License, and as distributed it includes or
+* is derivative of works licensed under the GNU General Public License or
+* other free or open source software licenses.
+* See COPYRIGHT.php for copyright notices and details.
+*/
+defined('_JEXEC') or die('Unauthorized Access');
+?>
+<div id="es" class="mod-es mod-es-stream <?php echo $lib->getSuffix();?><?php echo ES::responsive()->isMobile() ? ' is-mobile' : ' is-desktop';?>">
+	<div class="active" data-filter-item data-type="<?php echo (!$filter || $filter == 'public') ? 'module' : $filter; ?>" data-id="<?php echo $category; ?>" data-stream-identifier="<?php echo $stream->getIdentifier(); ?>"></div>
+
+	<?php echo $stream->html(false, '', array('forceAutoLoadOff' => true));?>
+
+	<?php if ($params->get('footer')) { ?>
+	<div class="t-lg-mt--xl t-lg-mb--xl">
+		<a href="<?php echo $readmoreURL; ?>"><?php echo JText::_($readmoreText); ?></a>
+	</div>
+	<?php } ?>
+</div>

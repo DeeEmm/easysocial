@@ -1,0 +1,45 @@
+[
+    {
+        "title"     : "COM_EASYSOCIAL_APPS_SETTINGS_STORY",
+        "desc"      : "COM_EASYSOCIAL_APPS_SETTINGS_STORY_DESC",
+        "fields"    :
+        [
+            {
+                "label": "APPS_USER_FILES_ALLOW_USER_UPLOADS",
+                "tooltip": "APPS_USER_FILES_ALLOW_USER_UPLOADS_DESC",
+                "name": "enable_uploads",
+                "type": "boolean",
+                "default": true
+            },
+            {
+                "label": "APPS_USER_FILES_ALLOW_EXTENSIONS",
+                "tooltip": "APPS_USER_FILES_ALLOW_EXTENSIONS_DESC",
+                "name": "allowed_extensions",
+                "type": "text",
+                "default": "zip,txt,pdf,gz,php,doc,docx,ppt,xls"
+            }
+        ]
+    },
+	{
+		"title"		: "APP_GROUP_FILES_SETTINGS_WIDGET",
+		"desc"		: "APP_GROUP_FILES_SETTINGS_WIDGET_DESC",
+		"fields"	:
+		[
+			{
+				"label"		: "APP_GROUP_FILES_SETTINGS_WIDGET_ENABLE",
+				"tooltip"	: "APP_GROUP_FILES_SETTINGS_WIDGET_ENABLE_DESC",
+				"name"		: "widget",
+				"type"		: "boolean",
+				"default"	: true
+			},
+			{
+				"label"		: "APP_GROUP_FILES_SETTINGS_WIDGET_TOTAL_FILES",
+				"tooltip"	: "APP_GROUP_FILES_SETTINGS_WIDGET_TOTAL_FILES_DESC",
+				"name"		: "widget_total",
+				"class"		: "input-mini center",
+				"type"		: "text",
+				"default"	: 5
+			}
+		]
+	}
+]

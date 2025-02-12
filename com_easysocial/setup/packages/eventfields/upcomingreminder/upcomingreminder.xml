@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<social type="fields" group="event">
+    <name>Upcoming Event Reminder</name>
+    <element>upcomingreminder</element>
+    <author>Stack Ideas Sdn Bhd</author>
+    <url>http://stackideas.com</url>
+    <created>18/05/2015</created>
+    <version>2.0.291</version>
+    <copyright>Copyright (c) 2009 - 2014 Stack Ideas Sdn. Bhd.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <description>
+        <![CDATA[FIELDS_EVENT_UPCOMINGREMINDER_INFO]]>
+    </description>
+    <core>false</core>
+    <unique>true</unique>
+    <files>
+		<folder>config</folder>
+		<folder>themes</folder>
+		<file>upcomingreminder.php</file>
+		<file>upcomingreminder.xml</file>
+	</files>
+    
+</social>

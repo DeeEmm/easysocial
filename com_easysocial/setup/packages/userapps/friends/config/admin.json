@@ -1,0 +1,52 @@
+[
+	{
+		"title" : "COM_EASYSOCIAL_APPS_SETTINGS_STREAM",
+		"desc" : "COM_EASYSOCIAL_APPS_SETTINGS_STREAM_DESC",
+		"fields" :
+		[
+			{
+				"label" : "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER",
+				"tooltip" : "COM_EASYSOCIAL_APPS_SETTINGS_DISPLAY_STREAM_FILTER_DESC",
+				"name" : "stream_filter",
+				"type" : "boolean",
+				"default" : true
+			},
+			{
+				"label" : "APP_USER_FRIENDS_SETTINGS_STREAM_FRIENDS",
+				"tooltip" : "APP_USER_FRIENDS_SETTINGS_STREAM_FRIENDS_DESC",
+				"name" : "stream_friends",
+				"type" : "boolean",
+				"default" : true
+			}
+		]
+	},
+	{
+		"title" : "APP_FRIENDS_PARAMS_PROFILE_GROUP",
+		"desc" : "APP_FRIENDS_PARAMS_PROFILE_GROUP_DESC",
+		"fields" :
+		[
+			{
+				"label" : "APP_FRIENDS_PARAMS_PROFILE_GROUP_SHOW_FRIENDS",
+				"tooltip" : "APP_FRIENDS_PARAMS_PROFILE_GROUP_SHOW_FRIENDS_DESC",
+				"name" : "profile_show_friends",
+				"type" : "boolean",
+				"default" : true
+			},
+			{
+				"label" : "APP_FRIENDS_PARAMS_PROFILE_GROUP_SHOW_MUTUAL_FRIENDS",
+				"tooltip" : "APP_FRIENDS_PARAMS_PROFILE_GROUP_SHOW_MUTUAL_FRIENDS_DESC",
+				"name" : "profile_show_mutual",
+				"type" : "boolean",
+				"default" : true
+			},
+			{
+				"label" : "APP_FRIENDS_PARAMS_PROFILE_GROUP_LIMIT",
+				"tooltip" : "APP_FRIENDS_PARAMS_PROFILE_GROUP_LIMIT_DESC",
+				"name" : "profile_show_limit",
+				"type" : "text",
+				"class" : "input-short text-center",
+				"default" : 10
+			}
+		]
+	}
+]

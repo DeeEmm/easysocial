@@ -1,0 +1,12 @@
+[
+    {
+        "table"     : "#__social_users",
+        "column"    : "completed_fields",
+        "query"     : "ALTER TABLE  `#__social_users` ADD `completed_fields` int(11) NOT NULL DEFAULT 0"
+    },
+    {
+        "table"     : "#__social_users",
+        "index"    : "idx_types",
+        "query"     : "alter table `#__social_users` add index `idx_types` (`user_id`,`type`)"
+    }
+]
