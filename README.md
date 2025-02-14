@@ -29,9 +29,20 @@ https://www.gnu.org/licenses/old-licenses/gpl-2.0-faq.html
 
 To install the component download the zip file from the main page of the repository or the releases section. Upload the package file to your Joomla installation as normal. Then follow the onscreen prompts to install.
 
+## Support
+
+If you need help you can find support by visiting the following channels
+
+Dedicated forums over at juser.org - http://juser.org/forum/categories/easysocial
+Dedicated Discord channel - https://discord.com/channels/1324678065124675697/1324679221825769513
+
+Or by right here in the repo by visiting the WIKI or for bug reporting by raising a ticket.
+
 ## Contributing
 
-Contributing to the project is easy. You do not need to be a programmer or tech-savant. Discovering and raising issues, testing, helping out with forum support, documentation and WIKI contributions are all different and valuable ways that you can help the project. As a community we stand together and can provide help to each other. We can all draw on different skills. Sharing those skills within the community to help others is what this project is all about. Hopefully together we stand strong and can carry this project long into the future.
+Contributing to the project is easy. You do not need to be a programmer or tech-savant. Discovering and raising issues, testing, helping out with community support, documentation and WIKI contributions are all different and valuable ways that you can help the project without nbeeding to code. 
+
+As a community we stand together and can provide help to each other. We can all draw on different skills. Sharing those skills within the community to help others is what this project is all about. Hopefully together we stand strong and can carry this project long into the future.
 
 ## Other Projects
 
