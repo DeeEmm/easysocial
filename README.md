@@ -1,7 +1,7 @@
 
 Welcome to the EasySocial community support repository.
 
-This repository is managed by the the Open Source community and aims to provide support, bugfixes and compatibility updates to allow EasySocial users to maintain websites that use EasySocial and related StackIdeas products
+This repository is managed by the the J!User community and aims to provide support, bugfixes and compatibility updates to allow EasySocial users to maintain websites that use EasySocial and related StackIdeas products
 
 This repository was created in response to the lack of proper support and updates provided by StackIdeas under thier subscription plans. The general consensus within the community is that subscription costs are not worth the money as they no longer release updates to their products. This leaves users that have made considerable investments into integrating StackIdeas products into their community websites with an uncertain future.
 
@@ -25,9 +25,11 @@ For further information on the application and interpretation of the GPL2 licens
 
 https://www.gnu.org/licenses/old-licenses/gpl-2.0-faq.html
 
+Further information on the J!User community can be found over on the J!User website - http://juser.org/about
+
 ## Usage
 
-To install the component download the zip file from the main page of the repository or the releases section. Upload the package file to your Joomla installation as normal. Then follow the onscreen prompts to install.
+To install the component download the zip file from the main page of the repository or the releases section. Upload the package file to your Joomla installation via the system dashboard as normal. Then follow the onscreen prompts to install.
 
 ## Support
 
